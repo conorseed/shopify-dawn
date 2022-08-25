@@ -42,3 +42,8 @@
   width: 1.4rem;
   margin-right: 1rem;
 }
+
+.product-media-modal__content>img {
+  max-height: 90vh;
+  object-fit: contain;
+}
