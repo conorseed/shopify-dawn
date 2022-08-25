@@ -1,1 +1,84 @@
-{"sections":{"banner":{"type":"main-collection-banner","settings":{"show_collection_description":true,"show_collection_image":false,"color_scheme":"background-1"}},"product-grid":{"type":"main-collection-product-grid","settings":{"products_per_page":16,"columns_desktop":4,"image_ratio":"adapt","show_secondary_image":false,"show_vendor":false,"show_rating":false,"enable_quick_add":false,"enable_filtering":true,"filter_type":"horizontal","enable_sorting":true,"columns_mobile":"2","padding_top":36,"padding_bottom":36}},"16613934324260c45d":{"type":"image-banner","blocks":{"166139343229263e64-0":{"type":"heading","settings":{"heading":"Needing a Complete Office Fitout?","heading_size":"h1"}},"166139343229263e64-1":{"type":"text","settings":{"text":"Get in touch for an obligation free quotation!","text_style":"body"}},"166139343229263e64-2":{"type":"buttons","settings":{"button_label_1":"Get In Touch","button_link_1":"shopify:\/\/pages\/contact","button_style_secondary_1":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["166139343229263e64-0","166139343229263e64-1","166139343229263e64-2"],"settings":{"image":"shopify:\/\/shop_images\/office-desk-in-window-light.jpg","image_2":"shopify:\/\/shop_images\/smiling-office-presentation.jpg","image_overlay_opacity":0,"image_height":"large","adapt_height_first_image":false,"desktop_content_position":"middle-center","show_text_box":true,"desktop_content_alignment":"center","color_scheme":"background-1","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true}}},"order":["banner","product-grid","16613934324260c45d"]}
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "image_ratio": "portrait",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16613934324260c45d": {
+      "type": "image-banner",
+      "blocks": {
+        "166139343229263e64-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Needing a Complete Office Fitout?",
+            "heading_size": "h1"
+          }
+        },
+        "166139343229263e64-1": {
+          "type": "text",
+          "settings": {
+            "text": "Get in touch for an obligation free quotation!",
+            "text_style": "body"
+          }
+        },
+        "166139343229263e64-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Get In Touch",
+            "button_link_1": "shopify:\/\/pages\/contact",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "166139343229263e64-0",
+        "166139343229263e64-1",
+        "166139343229263e64-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/office-desk-in-window-light.jpg",
+        "image_2": "shopify:\/\/shop_images\/smiling-office-presentation.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "16613934324260c45d"
+  ]
+}
