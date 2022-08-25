@@ -889,6 +889,8 @@ a.product__text {
 
 .product-popup-modal__content img {
   max-width: 100%;
+  max-height: 90vh;
+  object-fit: contain;
 }
 
 @media screen and (max-width: 749px) {
