@@ -100,7 +100,7 @@
         "da697b1b-03f8-4b06-a625-47e1967ee379": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\"background-color: var(--gradient-base-accent-1); color: #fff; padding: 1.5rem;\">\n<b>🚚 DELIVERED FREE:<\/b> To all Ground Floor CBD Premises both North and South Islands of New Zealand. Additional charges apply to above ground floor, rural and residential deliveries.\n<\/div>"
+            "custom_liquid": "<div style=\"background-color: var(--gradient-base-accent-1); color: #fff; padding: 1.5rem;\">\n<b>🚚 DELIVERED FREE:<\/b> To all Ground Floor CBD Premises both North and South Islands of New Zealand. Additional charges may apply to above ground floor, rural and residential deliveries.\n<\/div>"
           }
         }
       },
@@ -122,6 +122,7 @@
       ],
       "settings": {
         "enable_sticky_info": true,
+        "media_position": "left",
         "gallery_layout": "thumbnail_slider",
         "media_size": "small",
         "mobile_thumbnails": "show",
