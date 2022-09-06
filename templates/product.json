@@ -155,6 +155,7 @@
         },
         "1a2ef7a1-43de-425d-bf23-d2cbb9692b00": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Ideal For",
             "text": "<p>• Offices<\/p><p>• Schools<\/p><p>• Teachers<\/p>",
@@ -173,7 +174,7 @@
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 2,
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "",
