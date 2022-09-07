@@ -96,7 +96,12 @@
                       {{ content[0] }}
                     {% elsif block.settings.text contains '%SPECS%' %}
                       {% assign content = product.content | split: '<hr>' %}
-                      {{ content[1] }}
+                      {% if content[1] %}
+                        {{ content[1] }}
+                      {% else %}
+                        No specifications
+                      {% endif %}
+                      
                     {% else %}
                       {{ block.settings.text }}
                     {% endif %}
