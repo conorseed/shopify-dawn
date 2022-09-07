@@ -92,10 +92,10 @@
                 {%- if block.settings.text != blank -%}
                   <div class="rte">
                     {% if block.settings.text contains '%DESCRIPTION%' %}
-                      {% assign content = product.content | split: '<hr>' %}
+                      {% assign content = product.content | replace:' data-mce-selected="1"','' | split: '<hr>' %}
                       {{ content[0] }}
                     {% elsif block.settings.text contains '%SPECS%' %}
-                      {% assign content = product.content | split: '<hr>' %}
+                      {% assign content = product.content | replace:' data-mce-selected="1"','' | split: '<hr>' %}
                       {% if content[1] %}
                         {{ content[1] }}
                       {% else %}
