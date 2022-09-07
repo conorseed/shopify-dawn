@@ -91,10 +91,9 @@
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="rte">
-                    {% if block.settings.text contains '{DESCRIPTION}' %}
+                    {% if block.settings.text contains 'DESCRIPTION' %}
                       yooo
                     {% else %}
-                      cc
                       {{ block.settings.text }}
                     {% endif %}
                   
