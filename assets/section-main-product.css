@@ -1211,3 +1211,13 @@ a.product__text {
   margin-left: 1.2rem;
   flex-shrink: 0;
 }
+
+.product variant-selects{
+    display:flex;
+    flex-wrap: wrap;
+}
+.product  variant-selects > * {
+    flex: 1 1 45%;
+    min-width: 0;
+    margin: 5px;
+}
