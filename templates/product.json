@@ -139,7 +139,7 @@
           "type": "column",
           "settings": {
             "title": "Description",
-            "text": "<p>• Architectural High Lift with adjustable chrome foot-ring<\/p><p>• GreenGuard Certified low chemical emmissions in production.<\/p><p>• AFRDI certified components and gaslift<\/p><p>• Black Mesh back with ratchet height adjust<\/p><p>• Black fabric seat<\/p><p>• AFRDI certified polyurethane moulded foam<\/p><p>• Depth Adjustable Seat Back<\/p><p>• AFRDI certified 60mm twin wheel castors.<\/p><p>• Optional soft wheel castors & floor glides available<\/p>",
+            "text": "<p>%DESCRIPTION%<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -148,7 +148,7 @@
           "type": "column",
           "settings": {
             "title": "Specifications",
-            "text": "<p>• Dimensions: Adjustable Seat<\/p><p>• Height = 675mm - 945mm, Seat Size = 520mmW x 490mmD, Seat Back = 430mmW x 460mmH, Overall Height = 920mmH<\/p><p>• 150kg weight rating with 6-8 hour comfort rating<\/p><p>• 10 year Warranty (excluding upholstery)<\/p><p>• Dispatched flat pack - assembly required. Fully assembled delivery available for an additional fee. See Available Options above.<\/p><p><\/p><p>{{ product.metafields.sof.specifications | metafield_tag }}<\/p>",
+            "text": "<p>%SPECS%<\/p>",
             "link_label": "",
             "link": ""
           }
