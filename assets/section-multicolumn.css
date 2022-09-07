@@ -226,3 +226,12 @@
     display: list-item;
   }
 }
+
+#MainContent .multicolumn.background-primary .multicolumn-card {
+    background: #fff;
+}
+
+#MainContent .rte img {
+    box-shadow: none !important;
+    border: none !important;
+}
