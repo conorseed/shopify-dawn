@@ -90,9 +90,10 @@
                   <h3>{{ block.settings.title | escape }}</h3>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
+                  {% assign content = product.content | split: '<hr>' %}
                   <div class="rte">
                     {% if block.settings.text contains '%DESCRIPTION%' %}
-                      yooo
+                      {{ content[0] }}
                     {% else %}
                       {{ block.settings.text }}
                     {% endif %}
