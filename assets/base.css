@@ -2954,3 +2954,6 @@ details-disclosure > details {
     outline: transparent solid 1px;
   }
 }
+header.page-width {
+    max-width: none !important;
+}
