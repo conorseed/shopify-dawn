@@ -100,7 +100,7 @@
         "da697b1b-03f8-4b06-a625-47e1967ee379": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\"background-color: var(--gradient-base-accent-1); color: #fff; padding: 1.5rem;\">\n<b>🚚 DELIVERED FREE:<\/b> To all Ground Floor CBD Premises both North and South Islands of New Zealand. Additional charges may apply to above ground floor, rural and residential deliveries.\n<\/div>"
+            "custom_liquid": "{% if product.metafields.sof.shipping.value == true %}\n<div style=\"background-color: var(--gradient-base-accent-1); color: #fff; padding: 1.5rem;\">\n<b>🚚 DELIVERY NOT INCLUDED:<\/b> Due to the size and irregularity of this product we cannot provide a standard freight charge. Please contact us for a quote on delivery.\n<\/div>\n{% else %}\n<div style=\"background-color: var(--gradient-base-accent-1); color: #fff; padding: 1.5rem;\">\n<b>🚚 DELIVERED FREE:<\/b> To all Ground Floor CBD Premises both North and South Islands of New Zealand. Additional charges may apply to above ground floor, rural and residential deliveries.\n<\/div>\n{% endif %}"
           }
         }
       },
