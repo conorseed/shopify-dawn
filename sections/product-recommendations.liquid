@@ -51,7 +51,7 @@
         observer.unobserve(this);
 
         fetch(this.dataset.url)
-          .then(response => {console.warn('yooo', response); return response.text()})
+          .then(response => {console.warn('thing', response); return response.text()})
           .then(text => {
             const html = document.createElement('div');
             html.innerHTML = text;
