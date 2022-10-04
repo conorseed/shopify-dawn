@@ -51,9 +51,8 @@
         observer.unobserve(this);
 
         fetch(this.dataset.url)
-          .then(response => response.text())
+          .then(response => {console.warn('yooo', response); return response.text()})
           .then(text => {
-            console.warn('yooo', text)
             const html = document.createElement('div');
             html.innerHTML = text;
             const recommendations = html.querySelector('product-recommendations');
