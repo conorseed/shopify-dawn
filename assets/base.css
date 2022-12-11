@@ -155,7 +155,8 @@
   --color-icon: rgb(var(--color-base-outline-button-labels));
 }
 
-.product-card-wrapper .card {
+.product-card-wrapper .card,
+.contains-card--product {
   --border-radius: var(--product-card-corner-radius);
   --border-width: var(--product-card-border-width);
   --border-opacity: var(--product-card-border-opacity);
@@ -168,7 +169,8 @@
   --text-alignment: var(--product-card-text-alignment);
 }
 
-.collection-card-wrapper .card {
+.collection-card-wrapper .card,
+.contains-card--collection {
   --border-radius: var(--collection-card-corner-radius);
   --border-width: var(--collection-card-border-width);
   --border-opacity: var(--collection-card-border-opacity);
@@ -181,7 +183,8 @@
   --text-alignment: var(--collection-card-text-alignment);
 }
 
-.article-card-wrapper .card {
+.article-card-wrapper .card,
+.contains-card--article {
   --border-radius: var(--blog-card-corner-radius);
   --border-width: var(--blog-card-border-width);
   --border-opacity: var(--blog-card-border-opacity);
@@ -1489,11 +1492,11 @@ button.shopify-payment-button__button--unbranded {
 .share-button__button {
   font-size: 1.4rem;
   display: flex;
-  min-height: 2.4rem;
   align-items: center;
   color: rgb(var(--color-link));
   margin-left: 0;
   padding-left: 0;
+  min-height: 4.4rem;
 }
 
 details[open] > .share-button__fallback {
@@ -1515,7 +1518,7 @@ details[open] > .share-button__fallback {
 .share-button__button .icon-share {
   height: 1.2rem;
   margin-right: 1rem;
-  width: 1.3rem;
+  min-width: 1.3rem;
 }
 
 .share-button__fallback {
@@ -2279,7 +2282,7 @@ input[type='checkbox'] {
       'navigation navigation navigation';
   }
 
-  .header:not(.header--middle-left) .header__inline-menu {
+  .header:not(.header--middle-left, .header--middle-center) .header__inline-menu {
     margin-top: 1.05rem;
   }
 }

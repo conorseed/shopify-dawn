@@ -51,7 +51,8 @@
     "slider": {
       "of": "av",
       "next_slide": "Bild till höger",
-      "previous_slide": "Bild till vänster"
+      "previous_slide": "Bild till vänster",
+      "name": "Bild"
     }
   },
   "newsletter": {
@@ -74,7 +75,8 @@
     "skip_to_product_info": "Gå vidare till produktinformation",
     "total_reviews": "totalt antal recensioner",
     "star_reviews_info": "{{ rating_value }} av {{ rating_max }} stjärnor",
-    "collapsible_content_title": "Innehåll som kan döljas"
+    "collapsible_content_title": "Innehåll som kan döljas",
+    "complementary_products": "Kompletterande produkter"
   },
   "blogs": {
     "article": {
@@ -148,7 +150,16 @@
       "include_taxes": "Skatt ingår.",
       "shipping_policy_html": "<a href=\"{{ link }}\">Frakt</a> beräknas i kassan.",
       "choose_options": "Välj alternativ",
-      "choose_product_options": "Välj alternativ för {{ product_name }}"
+      "choose_product_options": "Välj alternativ för {{ product_name }}",
+      "value_unavailable": "{{ option_value }} – inte tillgängligt",
+      "variant_sold_out_or_unavailable": "Varianten är slutsåld eller inte tillgänglig",
+      "inventory_in_stock": "I lager",
+      "inventory_in_stock_show_count": "{{ quantity }} i lager",
+      "inventory_low_stock": "Låg lagernivå",
+      "inventory_low_stock_show_count": "Låg lagernivå: {{ quantity }} kvar",
+      "inventory_out_of_stock": "Slut i lager",
+      "inventory_out_of_stock_continue_selling": "I lager",
+      "sku": "Lagerhållningsenhet"
     },
     "modal": {
       "label": "Mediagalleri"
@@ -267,8 +278,7 @@
     },
     "featured_collection": {
       "view_all": "Visa alla",
-      "view_all_label": "Visa alla produkter i produktserien {{ collection_name }}",
-      "slider": "Bild"
+      "view_all_label": "Visa alla produkter i produktserien {{ collection_name }}"
     },
     "collection_list": {
       "view_all": "Visa alla"

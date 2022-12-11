@@ -782,7 +782,7 @@
           "content": "Sélecteur de pays/région"
         },
         "header__4": {
-          "info": "Pour ajouter un pays/une région, allez à vos [paramètres de paiement.](/admin/settings/payments)"
+          "info": "Pour ajouter un pays/une région, accédez à vos [paramètres de marché.](/admin/settings/markets)"
         },
         "enable_country_selector": {
           "label": "Activer le sélecteur de pays/région"
@@ -1720,6 +1720,139 @@
               "content": "Pour afficher une note, ajoutez une application d'évaluation de produits. [En savoir plus](https://help.shopify.com/manual/online-store/themes/theme-structure/page-types#product-rating-block)"
             }
           }
+        },
+        "complementary_products": {
+          "name": "Produits complémentaires",
+          "settings": {
+            "paragraph": {
+              "content": "Pour sélectionner des produits complémentaires, ajoutez l'application Search & Discovery. [En savoir plus](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+            },
+            "heading": {
+              "label": "En-tête"
+            },
+            "make_collapsible_row": {
+              "label": "Afficher sous forme de ligne réductible"
+            },
+            "icon": {
+              "info": "Visible lorsque la ligne réductible est affichée."
+            },
+            "product_list_limit": {
+              "label": "Quantité maximale de produits à afficher"
+            },
+            "products_per_page": {
+              "label": "Nombre de produits par page"
+            },
+            "pagination_style": {
+              "label": "Style de pagination",
+              "options": {
+                "option_1": "Points",
+                "option_2": "Compteur",
+                "option_3": "Numéros"
+              }
+            },
+            "product_card": {
+              "heading": "Carte de produit"
+            },
+            "image_ratio": {
+              "label": "Rapport d’aspect de l’image",
+              "options": {
+                "option_1": "Portrait",
+                "option_2": "Carrés"
+              }
+            },
+            "enable_quick_add": {
+              "label": "Activer le bouton d'ajout rapide"
+            }
+          }
+        },
+        "icon_with_text": {
+          "name": "Icône avec texte",
+          "settings": {
+            "layout": {
+              "label": "Mise en page",
+              "options__1": {
+                "label": "Horizontale"
+              },
+              "options__2": {
+                "label": "Verticale"
+              }
+            },
+            "content": {
+              "label": "Contenu",
+              "info": "Choisissez une icône ou ajoutez une image pour chaque colonne ou rangée."
+            },
+            "heading": {
+              "info": "Laissez l'intitulé du titre vide pour masquer la colonne de l'icône."
+            },
+            "icon_1": {
+              "label": "Première icône"
+            },
+            "image_1": {
+              "label": "Première image"
+            },
+            "heading_1": {
+              "label": "Premier titre"
+            },
+            "icon_2": {
+              "label": "Deuxième icône"
+            },
+            "image_2": {
+              "label": "Deuxième image"
+            },
+            "heading_2": {
+              "label": "Deuxième titre"
+            },
+            "icon_3": {
+              "label": "Troisième icône"
+            },
+            "image_3": {
+              "label": "Troisième image"
+            },
+            "heading_3": {
+              "label": "Troisième titre"
+            }
+          }
+        },
+        "sku": {
+          "name": "SKU",
+          "settings": {
+            "text_style": {
+              "label": "Style de texte",
+              "options__1": {
+                "label": "Corps"
+              },
+              "options__2": {
+                "label": "Sous‑titre"
+              },
+              "options__3": {
+                "label": "Majuscule"
+              }
+            }
+          }
+        },
+        "inventory": {
+          "name": "État des stocks",
+          "settings": {
+            "text_style": {
+              "label": "Style de texte",
+              "options__1": {
+                "label": "Corps"
+              },
+              "options__2": {
+                "label": "Sous‑titre"
+              },
+              "options__3": {
+                "label": "Majuscule"
+              }
+            },
+            "inventory_threshold": {
+              "label": "Seuil de stock faible",
+              "info": "Sélectionnez 0 pour toujours indiquer la quantité en stock, si disponible."
+            },
+            "show_inventory_quantity": {
+              "label": "Afficher l'inventaire"
+            }
+          }
         }
       },
       "settings": {
@@ -1742,14 +1875,17 @@
             "label": "Empilé"
           },
           "options__2": {
-            "label": "Vignettes"
+            "label": "2 colonnes"
           },
           "options__3": {
+            "label": "Vignettes"
+          },
+          "options__4": {
             "label": "Carrousel de vignettes"
           }
         },
         "media_size": {
-          "label": "Taille du support de bureau",
+          "label": "Largeur des supports multimédias sur ordinateur",
           "info": "Les médias sont automatiquement optimisés pour les mobiles.",
           "options__1": {
             "label": "Petit"
@@ -1764,9 +1900,12 @@
         "mobile_thumbnails": {
           "label": "Mise en page sur mobile",
           "options__1": {
-            "label": "Afficher les vignettes"
+            "label": "2 colonnes"
           },
           "options__2": {
+            "label": "Afficher les vignettes"
+          },
+          "options__3": {
             "label": "Masquer les vignettes"
           }
         },
@@ -1778,6 +1917,31 @@
           },
           "options__2": {
             "label": "Droite"
+          }
+        },
+        "image_zoom": {
+          "label": "Le zoom sur image",
+          "info": "Cliquez et passez la souris sur les éléments par défaut pour ouvrir lightbox sur mobile.",
+          "options__1": {
+            "label": "Ouvrir lightbox"
+          },
+          "options__2": {
+            "label": "Cliquer et passer la souris"
+          },
+          "options__3": {
+            "label": "Pas de zoom"
+          }
+        },
+        "constrain_to_viewport": {
+          "label": "Limiter les supports multimédias à la hauteur de l’écran"
+        },
+        "media_fit": {
+          "label": "Taille des supports multimédias",
+          "options__1": {
+            "label": "Taille d’origine"
+          },
+          "options__2": {
+            "label": "Remplir"
           }
         }
       },
@@ -2274,6 +2438,23 @@
           "settings": {
             "paragraph": {
               "content": "Pour afficher une évaluation, ajoutez une application d'évaluation de produits. [En savoir plus](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#featured-product-rating)"
+            }
+          }
+        },
+        "sku": {
+          "name": "SKU",
+          "settings": {
+            "text_style": {
+              "label": "Style de texte",
+              "options__1": {
+                "label": "Corps"
+              },
+              "options__2": {
+                "label": "Sous‑titre"
+              },
+              "options__3": {
+                "label": "Majuscule"
+              }
             }
           }
         }

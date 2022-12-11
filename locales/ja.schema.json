@@ -782,7 +782,7 @@
           "content": "国/地域セレクター"
         },
         "header__4": {
-          "info": "国/地域を追加するには、[決済設定](/admin/settings/payments) に移動します"
+          "info": "国/地域を追加するには、[マーケット設定](/admin/settings/markets)に移動します"
         },
         "enable_country_selector": {
           "label": "国/地域セレクターを有効にする"
@@ -1721,6 +1721,139 @@
               "content": "評価を表示するには、商品評価アプリを追加します。[詳しくはこちら](https://help.shopify.com/manual/online-store/themes/theme-structure/page-types#product-rating-block)"
             }
           }
+        },
+        "complementary_products": {
+          "name": "付属商品",
+          "settings": {
+            "paragraph": {
+              "content": "補完する商品を選択するには、Search & Discoveryアプリを追加してください。[詳しくはこちら](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+            },
+            "heading": {
+              "label": "見出し"
+            },
+            "make_collapsible_row": {
+              "label": "折りたたみ可能な行として表示する"
+            },
+            "icon": {
+              "info": "折りたたみ可能な行を表示しているときに表示されます。"
+            },
+            "product_list_limit": {
+              "label": "表示する商品の最大数"
+            },
+            "products_per_page": {
+              "label": "1ページあたりの商品数"
+            },
+            "pagination_style": {
+              "label": "ページネーションのスタイル",
+              "options": {
+                "option_1": "ドット",
+                "option_2": "カウンター",
+                "option_3": "数字"
+              }
+            },
+            "product_card": {
+              "heading": "商品カード"
+            },
+            "image_ratio": {
+              "label": "画像比",
+              "options": {
+                "option_1": "縦長",
+                "option_2": "正方形"
+              }
+            },
+            "enable_quick_add": {
+              "label": "「クイック追加」ボタンを有効にする"
+            }
+          }
+        },
+        "icon_with_text": {
+          "name": "テキスト付きアイコン",
+          "settings": {
+            "layout": {
+              "label": "レイアウト",
+              "options__1": {
+                "label": "水平"
+              },
+              "options__2": {
+                "label": "垂直"
+              }
+            },
+            "content": {
+              "label": "コンテンツ",
+              "info": "アイコンを選択するか、列または行ごとに画像を追加します。"
+            },
+            "heading": {
+              "info": "アイコンの列を非表示にするには、見出しラベルを空白にします。"
+            },
+            "icon_1": {
+              "label": "最初のアイコン"
+            },
+            "image_1": {
+              "label": "最初の画像"
+            },
+            "heading_1": {
+              "label": "最初の見出し"
+            },
+            "icon_2": {
+              "label": "2番目のアイコン"
+            },
+            "image_2": {
+              "label": "2番目の画像"
+            },
+            "heading_2": {
+              "label": "2番目の見出し"
+            },
+            "icon_3": {
+              "label": "3番目のアイコン"
+            },
+            "image_3": {
+              "label": "3番目の画像"
+            },
+            "heading_3": {
+              "label": "3番目の見出し"
+            }
+          }
+        },
+        "sku": {
+          "name": "SKU",
+          "settings": {
+            "text_style": {
+              "label": "テキストスタイル",
+              "options__1": {
+                "label": "本文"
+              },
+              "options__2": {
+                "label": "サブタイトル"
+              },
+              "options__3": {
+                "label": "大文字"
+              }
+            }
+          }
+        },
+        "inventory": {
+          "name": "在庫ステータス",
+          "settings": {
+            "text_style": {
+              "label": "テキストスタイル",
+              "options__1": {
+                "label": "本文"
+              },
+              "options__2": {
+                "label": "サブタイトル"
+              },
+              "options__3": {
+                "label": "大文字"
+              }
+            },
+            "inventory_threshold": {
+              "label": "低在庫基準値",
+              "info": "0を選択すると、在庫がある場合は常に表示されます。"
+            },
+            "show_inventory_quantity": {
+              "label": "在庫数を表示"
+            }
+          }
         }
       },
       "settings": {
@@ -1743,14 +1876,17 @@
             "label": "スタックされました"
           },
           "options__2": {
-            "label": "サムネイル"
+            "label": "2列"
           },
           "options__3": {
+            "label": "サムネイル"
+          },
+          "options__4": {
             "label": "サムネイルカルーセル"
           }
         },
         "media_size": {
-          "label": "デスクトップのメディアサイズ",
+          "label": "デスクトップメディアの幅",
           "options__1": {
             "label": "小"
           },
@@ -1765,9 +1901,12 @@
         "mobile_thumbnails": {
           "label": "モバイルのレイアウト",
           "options__1": {
-            "label": "サムネイルを表示する"
+            "label": "2列"
           },
           "options__2": {
+            "label": "サムネイルを表示する"
+          },
+          "options__3": {
             "label": "サムネイルを非表示にする"
           }
         },
@@ -1779,6 +1918,31 @@
           },
           "options__2": {
             "label": "右"
+          }
+        },
+        "image_zoom": {
+          "label": "画像ズーム",
+          "info": "デフォルト設定では、クリックしてカーソルを合わせると、モバイルのLightboxが開きます。",
+          "options__1": {
+            "label": "Lightboxを開く"
+          },
+          "options__2": {
+            "label": "クリックしてカーソルを合わせる"
+          },
+          "options__3": {
+            "label": "ズームなし"
+          }
+        },
+        "constrain_to_viewport": {
+          "label": "メディアを画面の高さに制限する"
+        },
+        "media_fit": {
+          "label": "適合したメディア",
+          "options__1": {
+            "label": "オリジナル"
+          },
+          "options__2": {
+            "label": "塗りつぶし"
           }
         }
       }
@@ -2274,6 +2438,23 @@
           "settings": {
             "paragraph": {
               "content": "評価を表示するには、商品評価アプリを追加します。[詳しくはこちら](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#featured-product-rating)"
+            }
+          }
+        },
+        "sku": {
+          "name": "SKU",
+          "settings": {
+            "text_style": {
+              "label": "テキストスタイル",
+              "options__1": {
+                "label": "本文"
+              },
+              "options__2": {
+                "label": "サブタイトル"
+              },
+              "options__3": {
+                "label": "大文字"
+              }
             }
           }
         }
