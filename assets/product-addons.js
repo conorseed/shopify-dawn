@@ -4,7 +4,7 @@ var gallery = document.querySelector('media-gallery')
 gallery.elements.thumbnails.addEventListener('click', (e)=>{
   // ignore everything but thumbnail clicks
   if(!e.target.classList.contains('thumbnail')){
-    return
+     return true
   }
 
   let mediaId = gallery.elements.viewer.querySelector('.is-active .product__media-toggle').getAttribute("data-media-id")
@@ -13,7 +13,7 @@ gallery.elements.thumbnails.addEventListener('click', (e)=>{
   })
   
   if(!filteredVariants.length){
-    return;
+    return true
   }
   filteredVariants = filteredVariants[0]
   console.log(filteredVariants)
