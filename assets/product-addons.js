@@ -3,6 +3,7 @@ var gallery = document.querySelector('media-gallery')
 
 gallery.elements.thumbnails.addEventListener('click', e=>{
   console.log(e)
+  console.log(gallery.elements.viewer.querySelector('.is-active .product__media-toggle').getAttribute("data-media-id"))
   /*let mediaId = e.detail.mediaId
   let filteredVariants = variants.getVariantData().filter(variant=>{
     return mediaId.includes(variant.featured_media.id)
