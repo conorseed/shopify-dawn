@@ -53,7 +53,7 @@ if (!customElements.get('media-gallery')) {
       const activeThumbnail = this.elements.thumbnails.querySelector(`[data-target="${ mediaId }"]`);
       this.setActiveThumbnail(activeThumbnail);
       this.announceLiveRegion(activeMedia, activeThumbnail.dataset.mediaPosition);
-      this.dispatchEvent(new CustomEvent('sliderUpdated', { mediaId: mediaId }));
+      document.dispatchEvent(new CustomEvent('sliderUpdated', { mediaId: mediaId }));
     }
 
     setActiveThumbnail(thumbnail) {
