@@ -549,7 +549,7 @@ class SliderComponent extends HTMLElement {
     this.nextButton.addEventListener('click', this.onButtonClick.bind(this));
   }
 
-  initPages() {
+  initPages() {console.log('initing')
     this.sliderItemsToShow = Array.from(this.sliderItems).filter(element => element.clientWidth > 0);
     if (this.sliderItemsToShow.length < 2) return;
     this.sliderItemOffset = this.sliderItemsToShow[1].offsetLeft - this.sliderItemsToShow[0].offsetLeft;
@@ -605,7 +605,6 @@ class SliderComponent extends HTMLElement {
 
   onButtonClick(event) {
     event.preventDefault();
-    console.log('tooooo')
     const step = event.currentTarget.dataset.step || 1;
     this.slideScrollPosition = event.currentTarget.name === 'next' ? this.slider.scrollLeft + (step * this.sliderItemOffset) : this.slider.scrollLeft - (step * this.sliderItemOffset);
     this.slider.scrollTo({
