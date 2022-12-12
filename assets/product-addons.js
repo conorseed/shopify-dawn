@@ -1,7 +1,11 @@
 var variants = document.querySelector('variant-selects')
 var gallery = document.querySelector('media-gallery')
 
-gallery.elements.thumbnails.addEventListener('click', ()=>{
+gallery.elements.thumbnails.addEventListener('click', (e)=>{
+  // ignore everything but thumbnail clicks
+  if(!e.target.classList.contains('thumbnail')){
+    return
+  }
 
   let mediaId = gallery.elements.viewer.querySelector('.is-active .product__media-toggle').getAttribute("data-media-id")
   let filteredVariants = variants.getVariantData().filter(variant=>{
