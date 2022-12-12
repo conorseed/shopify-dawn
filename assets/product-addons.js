@@ -2,6 +2,7 @@ var variants = JSON.parse(document.querySelector('variant-selects [type="applica
 console.log(variants)
 
 let test = customElements.get('variant-selects')
+console.log('what this?', test)
 console.log('testing', test.getVariantData())
 
 document.addEventListener('sliderUpdated', e=>{
