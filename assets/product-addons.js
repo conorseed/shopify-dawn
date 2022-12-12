@@ -1,8 +1,9 @@
 var variants = document.querySelector('variant-selects')
+var gallery = document.querySelector('media-gallery')
 
-document.addEventListener('sliderUpdated', e=>{
+gallery.elements.thumbnails.addEventListener('click', e=>{
   console.log(e)
-  let mediaId = e.detail.mediaId
+  /*let mediaId = e.detail.mediaId
   let filteredVariants = variants.getVariantData().filter(variant=>{
     return mediaId.includes(variant.featured_media.id)
   })
@@ -16,5 +17,5 @@ document.addEventListener('sliderUpdated', e=>{
   selects.forEach((select, i)=>{
     select.value = filteredVariants.options[i]
   })
-  variants.onVariantChange()
+  variants.onVariantChange()*/
 });
