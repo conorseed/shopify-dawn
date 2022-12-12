@@ -3,6 +3,6 @@ console.log(data)
 
 let gallery = document.querySelector('[id^="GalleryViewer"]')
 console.log(gallery)
-gallery.addEventListener('slideChanged', e=>{
+document.addEventListener('slideChanged', e=>{
   console.log('yo', e)
 });
