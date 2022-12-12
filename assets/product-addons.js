@@ -1,2 +1,2 @@
-let data = JSON.parse(this.querySelector('variant-selects [type="application/json"]').textContent)
+let data = JSON.parse(document.querySelector('variant-selects [type="application/json"]').textContent)
 console.log(data)
