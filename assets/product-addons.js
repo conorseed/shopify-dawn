@@ -10,7 +10,11 @@ document.addEventListener('sliderUpdated', e=>{
   if(!filteredVariants.length){
     return;
   }
-
+  filteredVariants = filteredVariants[0]
   console.log(filteredVariants)
-  
+  let selects = variants.querySelectorAll('select')
+  selects.forEach((select, i)=>{
+    select.value = filteredVariants.options[i]
+  })
+  variants.onVariantChange()
 });
