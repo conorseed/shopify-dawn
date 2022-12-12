@@ -1,7 +1,7 @@
 var variants = JSON.parse(document.querySelector('variant-selects [type="application/json"]').textContent)
 console.log(variants)
 
-let test = customElements.get('variant-selects')
+let test = document.querySelector('variant-selects')
 console.log('what this?', test)
 console.log('testing', test.getVariantData())
 
