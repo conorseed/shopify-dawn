@@ -1,5 +1,4 @@
 var variants = document.querySelector('variant-selects')
-console.log(variants)
 
 document.addEventListener('sliderUpdated', e=>{
   console.log(e)
@@ -12,5 +11,6 @@ document.addEventListener('sliderUpdated', e=>{
     return;
   }
 
+  console.log(filteredVariants)
   
 });
