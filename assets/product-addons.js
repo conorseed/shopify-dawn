@@ -3,6 +3,7 @@ var gallery = document.querySelector('media-gallery')
 
 gallery.elements.thumbnails.addEventListener('click', (e)=>{
   // ignore everything but thumbnail clicks
+  console.log(e.target.classList)
   if(!e.target.classList.contains('thumbnail')){
      return true
   }
