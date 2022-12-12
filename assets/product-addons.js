@@ -1,5 +1,5 @@
 let data = JSON.parse(document.querySelector('variant-selects [type="application/json"]').textContent)
 console.log(data)
 
-let gallery = customElements.get('media-gallery')
+let gallery = document.querySelector('[id^="GalleryViewer"]')
 console.log(gallery)
