@@ -10,6 +10,9 @@ gallery.elements.thumbnails.addEventListener('click', (e)=>{
   // get mediaId of current image
   let mediaId = gallery.elements.viewer.querySelector('.is-active .product__media-toggle').getAttribute("data-media-id")
 
+  updateVariants(mediaId)
+});
+function updateVariants(mediaId){
   // search for variant linked to mediaId
   let filteredVariants = variants.getVariantData().filter(variant=>{
     return mediaId.includes(variant.featured_media.id)
@@ -30,4 +33,4 @@ gallery.elements.thumbnails.addEventListener('click', (e)=>{
   })
   // tell things to update
   variants.onVariantChange()
-});
+}
