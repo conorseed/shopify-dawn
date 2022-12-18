@@ -410,6 +410,7 @@ section[id*="MainProduct-template"] {
     width: 100% !important;
     flex: 1 1 100% !important;
     max-height: 320px;
+  scroll-snap-type: both mandatory;
 }
 .product__media-wrapper media-gallery > slider-component[id*="GalleryThumbnails-template"] ul li{
     width: 100% !important
