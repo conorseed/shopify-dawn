@@ -19,7 +19,7 @@ if (!customElements.get('media-gallery')) {
 
     onSlideChanged(event) {
       const thumbnail = this.elements.thumbnails.querySelector(`[data-target="${ event.detail.currentElement.dataset.mediaId }"]`);
-      this.setActiveThumbnail(thumbnail);
+      //this.setActiveThumbnail(thumbnail);
     }
 
     setActiveMedia(mediaId, prepend) {
