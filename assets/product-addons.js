@@ -1,6 +1,7 @@
 var variants = document.querySelector('variant-selects')
 var gallery = document.querySelector('media-gallery')
 
+// Update variants on Thumbnail click
 gallery.elements.thumbnails.addEventListener('click', (e)=>{
   // ignore everything but thumbnail clicks
   if(!e.target.classList.contains('thumbnail')){
@@ -9,17 +10,21 @@ gallery.elements.thumbnails.addEventListener('click', (e)=>{
   updateVariants()
 });
 
+// Update variants on slider button click
 gallery.elements.thumbnails.querySelector('.slider-button--prev').addEventListener('click', event=>{
   let media = gallery.elements.thumbnails.querySelector('[aria-current="true"]').parentNode.previousSibling;
   gallery.setActiveMedia(media.dataset.target, false)
   updateVariants()
+  slideVertical(false)
 })
 gallery.elements.thumbnails.querySelector('.slider-button--next').addEventListener('click', event=>{
   let media = gallery.elements.thumbnails.querySelector('[aria-current="true"]').parentNode.nextSibling
   gallery.setActiveMedia(media.dataset.target, false)
   updateVariants()
+  slideVertical(true)
 })
 
+// Function to update variants
 function updateVariants(){
 
   // get mediaId of current image
@@ -46,3 +51,12 @@ function updateVariants(){
   // tell things to update
   variants.onVariantChange()
 }
+
+
+function slideVertical(next){
+  gallery.elements.thumbnails.slideScrollPosition = next === true ? gallery.elements.thumbnails.slider.scrollTop + gallery.elements.thumbnails.sliderItemOffset : gallery.elements.thumbnails.slider.scrollTop - (gallery.elements.thumbnails.sliderItemOffset;
+  gallery.elements.thumbnails.slider.scrollTo({
+      top: gallery.elements.thumbnails.slideScrollPosition
+  });
+}
+    
