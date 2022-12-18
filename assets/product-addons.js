@@ -11,13 +11,13 @@ gallery.elements.thumbnails.addEventListener('click', (e)=>{
 });
 
 // Update variants on slider button click
-gallery.elements.thumbnails.querySelector('.slider-button--prev').addEventListener('click', event=>{
+gallery.elements.thumbnails.prevButton.addEventListener('click', event=>{
   let media = gallery.elements.thumbnails.querySelector('[aria-current="true"]').parentNode.previousSibling;
   gallery.setActiveMedia(media.dataset.target, false)
   updateVariants()
   slideVertical(false)
 })
-gallery.elements.thumbnails.querySelector('.slider-button--next').addEventListener('click', event=>{
+gallery.elements.thumbnails.nextButton.addEventListener('click', event=>{
   let media = gallery.elements.thumbnails.querySelector('[aria-current="true"]').parentNode.nextSibling
   gallery.setActiveMedia(media.dataset.target, false)
   updateVariants()
@@ -63,4 +63,17 @@ function slideVertical(next){
       top: gallery.elements.thumbnails.slideScrollPosition
   });
 }
-    
+
+gallery.elements.thumbnails.slider.addEventListener('scroll', event=>{
+  if (gallery.elements.thumbnails.isSlideVisible(gallery.elements.thumbnails.sliderItemsToShow[0]) && gallery.elements.thumbnails.slider.scrollTop === 0) {
+    gallery.elements.thumbnails.prevButton.setAttribute('disabled', 'disabled');
+  } else {
+    gallery.elements.thumbnails.prevButton.removeAttribute('disabled');
+  }
+
+  if (gallery.elements.thumbnails.querySelector('[aria-current="true"]').parentNode.scrollTop >= gallery.elements.thumbnails.slider.scrollTop) {
+    gallery.elements.thumbnails.nextButton.setAttribute('disabled', 'disabled');
+  } else {
+    gallery.elements.thumbnails.nextButton.removeAttribute('disabled');
+  }
+});
