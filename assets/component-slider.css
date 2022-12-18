@@ -401,8 +401,7 @@ section[id*="MainProduct-template"] {
 }
 .product__media-wrapper media-gallery > slider-component[id*="GalleryThumbnails-template"]{
     flex: 0 1 80px;
-    flex-direction: column !important;
-    height: 340px; 
+    flex-direction: column !important; 
 }
 .product__media-wrapper media-gallery > slider-component[id*="GalleryThumbnails-template"] ul{
     display:grid !important;
@@ -410,6 +409,7 @@ section[id*="MainProduct-template"] {
     grid-template-rows: auto !important;
     width: 100% !important;
     flex: 1 1 100% !important;
+    height: 340px;
 }
 .product__media-wrapper media-gallery > slider-component[id*="GalleryThumbnails-template"] ul li{
     width: 100% !important
