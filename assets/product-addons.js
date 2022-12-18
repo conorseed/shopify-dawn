@@ -6,13 +6,25 @@ gallery.elements.thumbnails.addEventListener('click', (e)=>{
   if(!e.target.classList.contains('thumbnail')){
      return true
   }
+  updateVariants()
+});
+
+gallery.elements.thumbnails.querySelector('.slider-button--prev').addEventListener('click', event=>{
+  let media = gallery.elements.thumbnails.querySelector('[aria-current="true"]').parentNode.previousSibling;
+  gallery.setActiveMedia(media.dataset.target, false)
+  updateVariants()
+})
+gallery.elements.thumbnails.querySelector('.slider-button--next').addEventListener('click', event=>{
+  let media = gallery.elements.thumbnails.querySelector('[aria-current="true"]').parentNode.nextSibling
+  gallery.setActiveMedia(media.dataset.target, false)
+  updateVariants()
+})
+
+function updateVariants(){
 
   // get mediaId of current image
   let mediaId = gallery.elements.viewer.querySelector('.is-active .product__media-toggle').getAttribute("data-media-id")
-
-  updateVariants(mediaId)
-});
-function updateVariants(mediaId){
+  
   // search for variant linked to mediaId
   let filteredVariants = variants.getVariantData().filter(variant=>{
     return mediaId.includes(variant.featured_media.id)
