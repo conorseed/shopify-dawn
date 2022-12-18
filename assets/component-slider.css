@@ -414,7 +414,7 @@ section[id*="MainProduct-template"] {
 .product__media-wrapper media-gallery > slider-component[id*="GalleryThumbnails-template"] ul li{
     width: 100% !important
 }
-.product__media-wrapper media-gallery > slider-component[id*="GalleryThumbnails-template"] .slider-button{
+/*.product__media-wrapper media-gallery > slider-component[id*="GalleryThumbnails-template"] .slider-button{
     display:none
 }
 .product__media-wrapper media-gallery > slider-component[id*="GalleryThumbnails-template"] ul li:nth-child(5):before{
@@ -431,4 +431,4 @@ section[id*="MainProduct-template"] {
     align-items: flex-end;
     pointer-events:none;
     font-size: 12px
-}
+}*/
