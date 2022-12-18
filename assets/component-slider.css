@@ -409,7 +409,7 @@ section[id*="MainProduct-template"] {
     grid-template-rows: auto !important;
     width: 100% !important;
     flex: 1 1 100% !important;
-    height: 340px;
+    max-height: 320px;
 }
 .product__media-wrapper media-gallery > slider-component[id*="GalleryThumbnails-template"] ul li{
     width: 100% !important
