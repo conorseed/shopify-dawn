@@ -54,8 +54,8 @@ function updateVariants(){
 
 
 function slideVertical(next){
-  console.log('yo')
   gallery.elements.thumbnails.slideScrollPosition = next === true ? gallery.elements.thumbnails.slider.scrollTop + gallery.elements.thumbnails.sliderItemOffset : gallery.elements.thumbnails.slider.scrollTop - gallery.elements.thumbnails.sliderItemOffset;
+  console.log(gallery.elements.thumbnails.slideScrollPosition)
   gallery.elements.thumbnails.slider.scrollTo({
       top: gallery.elements.thumbnails.slideScrollPosition
   });
