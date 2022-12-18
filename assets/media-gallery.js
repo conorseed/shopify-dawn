@@ -15,6 +15,12 @@ if (!customElements.get('media-gallery')) {
         mediaToSwitch.querySelector('button').addEventListener('click', this.setActiveMedia.bind(this, mediaToSwitch.dataset.target, false));
       });
       if (this.dataset.desktopLayout.includes('thumbnail') && this.mql.matches) this.removeListSemantic();
+      this.elements.thumbnails.querySelector('.slider-button--prev').addEventListener('click', event=>{
+        this.setActiveMedia(this.elements.thumbnails.querySelector('[aria-current="true"]').parentNode.previousSibling.dataset.target, false)
+      })
+      this.elements.thumbnails.querySelector('.slider-button--next').addEventListener('click', event=>{
+        this.setActiveMedia(this.elements.thumbnails.querySelector('[aria-current="true"]').parentNode.nextSibling.dataset.target, false)
+      })
     }
 
     onSlideChanged(event) {
