@@ -593,7 +593,7 @@ class SliderComponent extends HTMLElement {
 
     //if (this.isSlideVisible(this.sliderItemsToShow[this.sliderItemsToShow.length - 1])) {
     console.log('page', this.currentPage)
-    console.log('itemstoshow', this.sliderItemsToShow)
+    console.log('itemstoshow', this.slidesPerPage)
     if (this.currentPage >= this.sliderItems.length){ 
       this.nextButton.setAttribute('disabled', 'disabled');
     } else {
