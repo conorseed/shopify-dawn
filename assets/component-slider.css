@@ -387,3 +387,48 @@ slider-component.slider-component-full-width {
 .slider-button--prev:not([disabled]):hover .icon {
   transform: rotate(90deg) scale(1.1);
 }
+
+
+section[id*="MainProduct-template"] {
+    max-width: 1400px;
+}
+.product__media-wrapper media-gallery{
+    display:flex;
+    flex-direction: row-reverse;
+}
+.product__media-wrapper media-gallery > slider-component[id*="GalleryViewer-template"]{
+    flex: 1 1 auto;
+}
+.product__media-wrapper media-gallery > slider-component[id*="GalleryThumbnails-template"]{
+    flex: 0 1 80px;
+    flex-direction: column !important;
+    height: 340px; 
+}
+.product__media-wrapper media-gallery > slider-component[id*="GalleryThumbnails-template"] ul{
+    display:grid !important;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: auto !important;
+    width: 100% !important;
+    flex: 1 1 100% !important;
+}
+.product__media-wrapper media-gallery > slider-component[id*="GalleryThumbnails-template"] ul li{
+    width: 100% !important
+}
+.product__media-wrapper media-gallery > slider-component[id*="GalleryThumbnails-template"] .slider-button{
+    display:none
+}
+.product__media-wrapper media-gallery > slider-component[id*="GalleryThumbnails-template"] ul li:nth-child(5):before{
+    content: "SCROLL ↓";
+    position: absolute;
+    bottom: -20px;
+    padding-bottom: 5px;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
+    color: black;
+    height: 80px;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    pointer-events:none;
+    font-size: 12px
+}
