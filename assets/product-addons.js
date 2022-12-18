@@ -65,15 +65,17 @@ function slideVertical(next){
 }
 
 gallery.elements.thumbnails.slider.addEventListener('scroll', event=>{
-  if (gallery.elements.thumbnails.isSlideVisible(gallery.elements.thumbnails.sliderItemsToShow[0]) && gallery.elements.thumbnails.slider.scrollTop === 0) {
-    gallery.elements.thumbnails.prevButton.setAttribute('disabled', 'disabled');
-  } else {
-    gallery.elements.thumbnails.prevButton.removeAttribute('disabled');
-  }
-
-  if (gallery.elements.thumbnails.querySelector('[aria-current="true"]').parentNode.scrollTop >= gallery.elements.thumbnails.slider.scrollTop) {
-    gallery.elements.thumbnails.nextButton.setAttribute('disabled', 'disabled');
-  } else {
-    gallery.elements.thumbnails.nextButton.removeAttribute('disabled');
-  }
+  setTimeout(()=>{
+    if (gallery.elements.thumbnails.isSlideVisible(gallery.elements.thumbnails.sliderItemsToShow[0]) && gallery.elements.thumbnails.slider.scrollTop === 0) {
+      gallery.elements.thumbnails.prevButton.setAttribute('disabled', 'disabled');
+    } else {
+      gallery.elements.thumbnails.prevButton.removeAttribute('disabled');
+    }
+  
+    if (gallery.elements.thumbnails.querySelector('[aria-current="true"]').parentNode.scrollTop >= gallery.elements.thumbnails.slider.scrollTop) {
+      gallery.elements.thumbnails.nextButton.setAttribute('disabled', 'disabled');
+    } else {
+      gallery.elements.thumbnails.nextButton.removeAttribute('disabled');
+    }
+  }, 10)
 });
