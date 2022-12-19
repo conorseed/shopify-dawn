@@ -82,5 +82,5 @@ function checkVertical(){
     } else {
       gallery.elements.thumbnails.nextButton.removeAttribute('disabled');
     }
-  }, 10)
+  }, 5)
 }
