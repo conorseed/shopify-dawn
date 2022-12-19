@@ -77,7 +77,7 @@ function checkVertical(){
       gallery.elements.thumbnails.prevButton.removeAttribute('disabled');
     }
   
-    if (gallery.elements.thumbnails.sliderItemsToShow[gallery.elements.thumbnails.sliderItemsToShow - 1].querySelector('[aria-current="true"]')) {
+    if (gallery.elements.thumbnails.sliderItemsToShow[gallery.elements.thumbnails.sliderItemsToShow.length - 1].querySelector('[aria-current="true"]')) {
       gallery.elements.thumbnails.nextButton.setAttribute('disabled', 'disabled');
     } else {
       gallery.elements.thumbnails.nextButton.removeAttribute('disabled');
