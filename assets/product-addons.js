@@ -65,6 +65,11 @@ function slideVertical(next){
 }
 
 gallery.elements.thumbnails.slider.addEventListener('scroll', event=>{
+  checkVertical()
+});
+checkVertical()
+
+function checkVertical(){
   setTimeout(()=>{
     if (gallery.elements.thumbnails.sliderItemsToShow[0].querySelector('[aria-current="true"]')) {
       gallery.elements.thumbnails.prevButton.setAttribute('disabled', 'disabled');
@@ -78,4 +83,4 @@ gallery.elements.thumbnails.slider.addEventListener('scroll', event=>{
       gallery.elements.thumbnails.nextButton.removeAttribute('disabled');
     }
   }, 10)
-});
+}
