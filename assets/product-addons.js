@@ -66,13 +66,13 @@ function slideVertical(next){
 
 gallery.elements.thumbnails.slider.addEventListener('scroll', event=>{
   setTimeout(()=>{
-    if (gallery.elements.thumbnails.isSlideVisible(gallery.elements.thumbnails.sliderItemsToShow[0]) && gallery.elements.thumbnails.slider.scrollTop === 0) {
+    if (gallery.elements.thumbnails.sliderItemsToShow[0].querySelector('[aria-current="true"]')) {
       gallery.elements.thumbnails.prevButton.setAttribute('disabled', 'disabled');
     } else {
       gallery.elements.thumbnails.prevButton.removeAttribute('disabled');
     }
   
-    if (gallery.elements.thumbnails.querySelector('[aria-current="true"]').parentNode.scrollTop >= gallery.elements.thumbnails.slider.scrollTop) {
+    if (gallery.elements.thumbnails.sliderItemsToShow[gallery.elements.thumbnails.sliderItemsToShow - 1].querySelector('[aria-current="true"]')) {
       gallery.elements.thumbnails.nextButton.setAttribute('disabled', 'disabled');
     } else {
       gallery.elements.thumbnails.nextButton.removeAttribute('disabled');
