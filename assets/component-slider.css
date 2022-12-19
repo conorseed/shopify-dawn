@@ -390,7 +390,7 @@ slider-component.slider-component-full-width {
 
 
 section[id*="MainProduct-template"] {
-    max-width: 1400px;
+    max-width: 1500px;
 }
 .product__media-wrapper media-gallery{
     display:flex;
