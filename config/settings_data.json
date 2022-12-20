@@ -111,7 +111,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "We'll be having our holidays from the 23rd of December.  See you back here on the 9th of January.",
+              "text": "We'll be having our holidays from the 23rd of December to the 9th of January.",
               "text_alignment": "center",
               "color_scheme": "accent-1",
               "link": ""
