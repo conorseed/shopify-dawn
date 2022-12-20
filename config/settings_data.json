@@ -111,7 +111,8 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
+              "text": "We'll be having our holidays from the 23rd of December.  See you back here on the 9th of January.",
+              "text_alignment": "center",
               "color_scheme": "accent-1",
               "link": ""
             }
@@ -134,6 +135,7 @@
           "menu_type_desktop": "dropdown",
           "show_line_separator": true,
           "enable_sticky_header": true,
+          "mobile_logo_position": "center",
           "margin_bottom": 0,
           "padding_top": 20,
           "padding_bottom": 20
