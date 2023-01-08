@@ -111,7 +111,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "We'll be having our holidays from the 23rd of December to the 9th of January.",
+              "text": "Welcome to SmartOffice Furniture. Thank you for visiting our website.",
               "text_alignment": "center",
               "color_scheme": "accent-1",
               "link": ""
@@ -120,7 +120,7 @@
           "4c434076-5597-4458-ab2b-394df8a9421e": {
             "type": "announcement",
             "settings": {
-              "text": "Orders placed between the 23rd and the 9th will be processed after the 9th.",
+              "text": "",
               "text_alignment": "center",
               "color_scheme": "accent-1",
               "link": ""
@@ -129,7 +129,7 @@
           "d637dcf3-49b8-4032-87b9-555c3dee9ce8": {
             "type": "announcement",
             "settings": {
-              "text": "Have a safe and happy holiday !",
+              "text": "",
               "text_alignment": "center",
               "color_scheme": "accent-1",
               "link": ""
