@@ -85,7 +85,6 @@
         "16315799045056d243-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/clock_9092da65-c5d1-4c16-8114-b8f19420a57d.png",
             "title": "Shop Online 24\/7",
             "text": "",
             "link_label": "",
@@ -95,7 +94,6 @@
         "16315799045056d243-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/onlineshopping_e0e0d4fb-c724-4fb7-81c9-bb0d4e86dde8.png",
             "title": "Easy, Quick Ordering",
             "text": "",
             "link_label": "",
@@ -105,7 +103,6 @@
         "16315799045056d243-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/creditcard_697b1b10-0f94-4379-8f31-988be26f78d5.png",
             "title": "Secure Payment",
             "text": "",
             "link_label": "",
@@ -115,7 +112,6 @@
         "5e1d16ff-2172-4a19-a6ec-404321f1c0af": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/kiwi_d3c771a9-2fa9-4ef8-8c2b-e920f29fcc79.png",
             "title": "NZ Owned & Operated",
             "text": "",
             "link_label": "",
