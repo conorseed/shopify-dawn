@@ -36,8 +36,8 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/raj-rana-zCQsBI7ZltQ-unsplash.jpg",
-        "image_overlay_opacity": 70,
-        "image_height": "medium",
+        "image_overlay_opacity": 60,
+        "image_height": "small",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
         "show_text_box": false,
