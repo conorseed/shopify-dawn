@@ -1,6 +1,11 @@
 html {
     scroll-behavior: smooth;
 }
+.price-item:after {
+    content: "exc GST";
+    font-size: 0.7em;
+    letter-spacing: 0;
+}
 /* Color custom properties */
 #admin-bar-iframe{display:none}
 :root,
