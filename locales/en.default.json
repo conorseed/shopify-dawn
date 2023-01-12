@@ -433,5 +433,14 @@
       "copy_code_success": "Code copied successfully",
       "print_gift_card": "Print"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "order_summary": {
+        "shipping_label": "Shipping (if required)",
+        "estimated_taxes_label": "Estimated GST",
+        "information_estimated_taxes_label": "GST (estimated)"
+      }
+    }
   }
 }
