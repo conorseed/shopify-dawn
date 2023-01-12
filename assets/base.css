@@ -1,7 +1,8 @@
 html {
     scroll-behavior: smooth;
 }
-.price-item:after {
+.price-item:after,
+.cart-drawer__footer .totals__subtotal-value:after{
     content: "exc GST";
     font-size: 0.7em;
     letter-spacing: 0;
