@@ -91,19 +91,19 @@
             "link": ""
           }
         },
-        "16315799045056d243-1": {
+        "16315799045056d243-2": {
           "type": "column",
           "settings": {
-            "title": "Easy, Quick Ordering",
+            "title": "Secure Payment",
             "text": "",
             "link_label": "",
             "link": ""
           }
         },
-        "16315799045056d243-2": {
+        "16315799045056d243-1": {
           "type": "column",
           "settings": {
-            "title": "Secure Payment",
+            "title": "Easy, Quick Ordering",
             "text": "",
             "link_label": "",
             "link": ""
@@ -121,8 +121,8 @@
       },
       "block_order": [
         "5e1d16ff-2172-4a19-a6ec-404321f1c0af",
-        "16315799045056d243-1",
         "16315799045056d243-2",
+        "16315799045056d243-1",
         "16315799045056d243-0"
       ],
       "settings": {
