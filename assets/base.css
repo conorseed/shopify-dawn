@@ -1,6 +1,9 @@
 html {
     scroll-behavior: smooth;
 }
+header nav ul li a {
+    font-weight: 700;
+}
 .price-item:after,
 .cart-drawer__footer .totals__subtotal-value:after{
     content: "exc GST";
