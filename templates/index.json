@@ -187,6 +187,12 @@
             "collection": "office-furniture-chairs-executive-chairs"
           }
         },
+        "b36cb990-392e-4097-a9b6-60680f268b28": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office-furniture-chairs-architectural-chairs"
+          }
+        },
         "84b84fbd-1a87-458d-baf6-c3eb47627332": {
           "type": "featured_collection",
           "settings": {
@@ -198,12 +204,6 @@
           "settings": {
             "collection": "office-furniture-tables-flip-folding-tables"
           }
-        },
-        "b36cb990-392e-4097-a9b6-60680f268b28": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "office-furniture-chairs-architectural-chairs"
-          }
         }
       },
       "block_order": [
@@ -214,9 +214,9 @@
         "1047cd53-fe8b-4425-bb75-e25c21116077",
         "1631576674bf289ea9-1",
         "169f0aa5-7cf3-4fe0-acdf-af711a9f2fcc",
+        "b36cb990-392e-4097-a9b6-60680f268b28",
         "84b84fbd-1a87-458d-baf6-c3eb47627332",
-        "1631576674bf289ea9-2",
-        "b36cb990-392e-4097-a9b6-60680f268b28"
+        "1631576674bf289ea9-2"
       ],
       "settings": {
         "title": "",
