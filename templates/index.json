@@ -151,10 +151,16 @@
             "collection": "office-furniture-desks-sit-stand-desks"
           }
         },
-        "1631576674bf289ea9-1": {
+        "61df3893-1174-41bd-8219-66ede825e4e8": {
           "type": "featured_collection",
           "settings": {
-            "collection": "office-furniture-chairs-task-chairs"
+            "collection": "office-furniture-desks-fixed-height-desks"
+          }
+        },
+        "ca8d9526-c9fa-49ac-92c6-1f86b53c42b5": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office-furniture-desks-workstations"
           }
         },
         "1047cd53-fe8b-4425-bb75-e25c21116077": {
@@ -163,16 +169,29 @@
             "collection": "office-furniture-storage-lockers-cupboards-credenzas"
           }
         },
-        "36cac800-480d-46cb-81f8-6a91841d697b": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "office-furniture-other-accessories-partition-screens"
-          }
-        },
         "1631576674bf289ea9-2": {
           "type": "featured_collection",
           "settings": {
             "collection": "office-furniture-tables-flip-folding-tables"
+          }
+        },
+        "36cac800-480d-46cb-81f8-6a91841d697b": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": "office-furniture-other-accessories-partition-screens"
+          }
+        },
+        "1631576674bf289ea9-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office-furniture-chairs-task-chairs"
+          }
+        },
+        "169f0aa5-7cf3-4fe0-acdf-af711a9f2fcc": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office-furniture-chairs-executive-chairs"
           }
         },
         "84b84fbd-1a87-458d-baf6-c3eb47627332": {
@@ -180,39 +199,18 @@
           "settings": {
             "collection": "office-furniture-seating-conference-seating"
           }
-        },
-        "61df3893-1174-41bd-8219-66ede825e4e8": {
-          "type": "featured_collection",
-          "disabled": true,
-          "settings": {
-            "collection": "office-furniture-desks-fixed-height-desks"
-          }
-        },
-        "ca8d9526-c9fa-49ac-92c6-1f86b53c42b5": {
-          "type": "featured_collection",
-          "disabled": true,
-          "settings": {
-            "collection": ""
-          }
-        },
-        "169f0aa5-7cf3-4fe0-acdf-af711a9f2fcc": {
-          "type": "featured_collection",
-          "disabled": true,
-          "settings": {
-            "collection": ""
-          }
         }
       },
       "block_order": [
         "1631576674bf289ea9-0",
-        "1631576674bf289ea9-1",
-        "1047cd53-fe8b-4425-bb75-e25c21116077",
-        "36cac800-480d-46cb-81f8-6a91841d697b",
-        "1631576674bf289ea9-2",
-        "84b84fbd-1a87-458d-baf6-c3eb47627332",
         "61df3893-1174-41bd-8219-66ede825e4e8",
         "ca8d9526-c9fa-49ac-92c6-1f86b53c42b5",
-        "169f0aa5-7cf3-4fe0-acdf-af711a9f2fcc"
+        "1047cd53-fe8b-4425-bb75-e25c21116077",
+        "1631576674bf289ea9-2",
+        "36cac800-480d-46cb-81f8-6a91841d697b",
+        "1631576674bf289ea9-1",
+        "169f0aa5-7cf3-4fe0-acdf-af711a9f2fcc",
+        "84b84fbd-1a87-458d-baf6-c3eb47627332"
       ],
       "settings": {
         "title": "",
