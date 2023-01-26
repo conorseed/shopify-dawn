@@ -157,18 +157,6 @@
             "collection": "office-furniture-chairs-task-chairs"
           }
         },
-        "1631576674bf289ea9-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "office-furniture-tables-flip-folding-tables"
-          }
-        },
-        "84b84fbd-1a87-458d-baf6-c3eb47627332": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "office-furniture-seating-conference-seating"
-          }
-        },
         "1047cd53-fe8b-4425-bb75-e25c21116077": {
           "type": "featured_collection",
           "settings": {
@@ -179,6 +167,18 @@
           "type": "featured_collection",
           "settings": {
             "collection": "office-furniture-other-accessories-partition-screens"
+          }
+        },
+        "1631576674bf289ea9-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office-furniture-tables-flip-folding-tables"
+          }
+        },
+        "84b84fbd-1a87-458d-baf6-c3eb47627332": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office-furniture-seating-conference-seating"
           }
         },
         "61df3893-1174-41bd-8219-66ede825e4e8": {
@@ -206,10 +206,10 @@
       "block_order": [
         "1631576674bf289ea9-0",
         "1631576674bf289ea9-1",
-        "1631576674bf289ea9-2",
-        "84b84fbd-1a87-458d-baf6-c3eb47627332",
         "1047cd53-fe8b-4425-bb75-e25c21116077",
         "36cac800-480d-46cb-81f8-6a91841d697b",
+        "1631576674bf289ea9-2",
+        "84b84fbd-1a87-458d-baf6-c3eb47627332",
         "61df3893-1174-41bd-8219-66ede825e4e8",
         "ca8d9526-c9fa-49ac-92c6-1f86b53c42b5",
         "169f0aa5-7cf3-4fe0-acdf-af711a9f2fcc"
