@@ -4,9 +4,9 @@ html {
 header nav ul li a {
     font-weight: 700;
 }
-.price-item:after,
+/*.price-item:after,*/
 .cart-drawer__footer .totals__subtotal-value:after{
-    content: "exc GST";
+    content: " +GST";
     font-size: 0.7em;
     letter-spacing: 0;
 }
