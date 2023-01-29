@@ -25,6 +25,11 @@
     assign money_price = price | money_with_currency
   endif
 
+   assign money_price_tax = price | times 1.15 | money
+  if settings.currency_code_enabled
+    assign money_price = price | times 1.15 | money_with_currency
+  endif
+
   if target == product and product.price_varies
     assign money_price = 'products.product.price.from_price_html' | t: price: money_price
   endif
@@ -65,13 +70,13 @@
       {%- endunless -%}
       <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.sale_price' | t }}</span>
       <span class="price-item price-item--sale price-item--last">
-        {{ money_price }}
+        {{ money_price_tax }}
       </span>
     </div>
     <div class="price__withtax">
       <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
       <span class="price-item price-item--withtax">
-        {{ money_price * 1.15 }} incl. GST
+        {{ money_price_tax }} incl. GST
       </span>
     </div>
     <small class="unit-price caption{% if product.selected_or_first_available_variant.unit_price_measurement == nil %} hidden{% endif %}">
