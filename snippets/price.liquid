@@ -25,7 +25,7 @@
     assign money_price = price | money_with_currency
   endif
 
-   assign money_price_tax = price | times 1.15
+   assign money_price_tax = price | times: 1.15
   if settings.currency_code_enabled
     assign money_price = money_price_tax | money_with_currency
   else
