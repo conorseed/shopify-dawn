@@ -10,6 +10,9 @@ header nav ul li a {
     font-size: 0.7em;
     letter-spacing: 0;
 }
+.price__withtax {
+    font-size: 13px;
+}
 /* Color custom properties */
 #admin-bar-iframe{display:none}
 :root,
