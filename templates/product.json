@@ -100,7 +100,7 @@
         "da697b1b-03f8-4b06-a625-47e1967ee379": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.metafields.sof.shipping.value == true %}\n<div style=\"background-color: var(--gradient-base-accent-1); color: #fff; padding: 1.5rem;\">\n<b>🚚 DELIVERY NOT INCLUDED:<\/b> Due to the size and irregularity of this product we cannot provide a standard freight charge. <a title=\"Contact Us\" href=\"\/pages\/contact\">Please contact us for a quote on delivery.<\/a>\n<\/div>\n{% else %}\n<div style=\"background-color: var(--gradient-base-accent-1); color: #fff; padding: 1.5rem;\">\n<b>🚚 DELIVERED FREE:<\/b> To all Ground Floor CBD Premises both North and South Islands of New Zealand. Additional charges may apply to above ground floor, rural and residential deliveries.\n<\/div>\n{% endif %}"
+            "custom_liquid": "{% if product.metafields.sof.shipping.value == true %}\n<div style=\"background-color: var(--gradient-base-accent-1); color: #fff; padding: 1.5rem;\">\n<b>🚚 DELIVERY NOT INCLUDED:<\/b> Due to the size and irregularity of this product we cannot provide a standard freight charge. <a title=\"Contact Us\" href=\"\/pages\/contact\">Please contact us for a quote on delivery.<\/a>\n<\/div>\n{% else %}\n<div style=\"background-color: var(--gradient-base-accent-1); color: #fff; padding: 1.5rem;\">\n<b>🚚 DELIVERED FREE:<\/b> To all Ground Floor CBD Premises both North and South Islands of New Zealand. Additional charges <em>may<\/em> apply to above ground floor, rural and residential deliveries. <a href=\"https:\/\/www.smartofficefurniture.co.nz\/policies\/shipping-policy\">See Shipping Policy here<\/a>.\n<\/div>\n{% endif %}"
           }
         }
       },
