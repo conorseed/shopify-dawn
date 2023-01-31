@@ -4,6 +4,12 @@ html {
 header nav ul li a {
     font-weight: 700;
 }
+.announcement-bar.color-accent-1.gradient {
+    padding: 2rem 0;
+}
+.announcement-bar.color-accent-1.gradient .h5 {
+    font-size: 1.7rem !important;
+}
 /*.price-item:after,*/
 .cart-drawer__footer .totals__subtotal-value:after{
     content: " +GST";
