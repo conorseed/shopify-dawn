@@ -417,5 +417,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".product-form__submit {background-color: #2b4546 !important;}"
+    ]
   }
 }
