@@ -420,7 +420,9 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".product-form__submit {background-color: #2b4546 !important;}"
+      ".product-form__submit {background-color: #2b4546 !important;}",
+      ".product-form__submit:hover {background-color: #fff !important;}",
+      ".product-form__submit:hover span {color: #2b4546 !important;}"
     ]
   }
 }
