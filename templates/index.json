@@ -208,31 +208,31 @@
         "aeeb40c5-504f-4bc3-ad8b-ae2143faf147": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
-          }
-        },
-        "f8ac1d30-1e0c-45a0-a502-0ee699abd3ff": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
+            "collection": "office-furniture-seating-boardroom-seating"
           }
         },
         "6ed3c262-4c3c-4234-ae20-676310fbdafb": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
-          }
-        },
-        "a4ada6e5-60c0-4312-ad5a-9e40f885d627": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
+            "collection": "office-furniture-tables-boardroom-tables"
           }
         },
         "6eaf31b4-2304-4b97-8174-dc8de6100c6b": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "office-furniture-seating-barstools-cafe-seating"
+          }
+        },
+        "a4ada6e5-60c0-4312-ad5a-9e40f885d627": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office-furniture-tables-bar-leaners"
+          }
+        },
+        "f8ac1d30-1e0c-45a0-a502-0ee699abd3ff": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office-furniture-tables-coffee-tables"
           }
         }
       },
@@ -248,10 +248,10 @@
         "84b84fbd-1a87-458d-baf6-c3eb47627332",
         "1631576674bf289ea9-2",
         "aeeb40c5-504f-4bc3-ad8b-ae2143faf147",
-        "f8ac1d30-1e0c-45a0-a502-0ee699abd3ff",
         "6ed3c262-4c3c-4234-ae20-676310fbdafb",
+        "6eaf31b4-2304-4b97-8174-dc8de6100c6b",
         "a4ada6e5-60c0-4312-ad5a-9e40f885d627",
-        "6eaf31b4-2304-4b97-8174-dc8de6100c6b"
+        "f8ac1d30-1e0c-45a0-a502-0ee699abd3ff"
       ],
       "settings": {
         "title": "",
