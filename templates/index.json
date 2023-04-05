@@ -151,6 +151,12 @@
             "collection": "office-furniture-desks-sit-stand-desks"
           }
         },
+        "0824393f-0d19-4d85-ad50-22d8eee5f77f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cubit-office-suite"
+          }
+        },
         "61df3893-1174-41bd-8219-66ede825e4e8": {
           "type": "featured_collection",
           "settings": {
@@ -238,6 +244,7 @@
       },
       "block_order": [
         "1631576674bf289ea9-0",
+        "0824393f-0d19-4d85-ad50-22d8eee5f77f",
         "61df3893-1174-41bd-8219-66ede825e4e8",
         "ca8d9526-c9fa-49ac-92c6-1f86b53c42b5",
         "36cac800-480d-46cb-81f8-6a91841d697b",
