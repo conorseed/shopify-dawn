@@ -10,6 +10,10 @@ header nav ul li a {
 .announcement-bar.color-accent-1.gradient .h5 {
     font-size: 2rem !important;
 }
+.product-form__input .form__label {
+    font-weight: bold;
+    text-transform: uppercase;
+}
 /*.price-item:after,*/
 .cart-drawer__footer .totals__subtotal-value:after{
     content: " +GST";
