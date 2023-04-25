@@ -14,6 +14,10 @@ header nav ul li a {
     font-weight: bold;
     text-transform: uppercase;
 }
+.price__regular .price-item--regular {
+    color: #2B4444;
+    font-weight: bold;
+}
 /*.price-item:after,*/
 .cart-drawer__footer .totals__subtotal-value:after{
     content: " +GST";
