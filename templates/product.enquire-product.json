@@ -22,25 +22,35 @@
             "text_style": "subtitle"
           }
         },
+        "2fa8b229-1c78-4341-b5fd-f579015be673": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {
           }
         },
         "8ab39296-398c-4c19-9b12-f40342aaad01": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "{% if product.metafields.sof.shipping.value == true %}\n<div style=\"background-color: var(--gradient-base-accent-1); color: #fff; padding: 1.5rem;\">\n<b>🚚 DELIVERY NOT INCLUDED:<\/b> Due to the size and irregularity of this product we cannot provide a standard freight charge. <a title=\"Contact Us\" href=\"\/pages\/contact\">Please contact us for a quote on delivery.<\/a>\n<\/div>\n{% else %}\n<div style=\"background-color: var(--gradient-base-accent-1); color: #fff; padding: 1.5rem; display: inline; font-size: 1.2rem;\">\n<b>FREE DELIVERY<\/b><\/div>\n{% endif %}"
           }
         },
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "picker_type": "dropdown"
           }
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {
           }
         },
@@ -115,6 +125,7 @@
         "vendor",
         "title",
         "caption",
+        "2fa8b229-1c78-4341-b5fd-f579015be673",
         "price",
         "8ab39296-398c-4c19-9b12-f40342aaad01",
         "variant_picker",
