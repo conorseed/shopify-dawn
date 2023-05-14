@@ -22,16 +22,15 @@
             "text_style": "subtitle"
           }
         },
-        "2fa8b229-1c78-4341-b5fd-f579015be673": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "<p class=\"price\">\n<span class=\"price__regular\">\n<span class=\"price-item price-item--regular\">\n<b>\nPOA\n<\/b><\/span><\/span><\/p>\n\n<a title=\"Enquire Now\" class=\"product-form__submit button button--full-width button--primary\" href=\"\/pages\/contact\/\">Enquire Now<\/a>"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
+          }
+        },
+        "2fa8b229-1c78-4341-b5fd-f579015be673": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<a title=\"Enquire Now\" class=\"product-form__submit button button--full-width button--primary\" href=\"\/pages\/contact\/\">Enquire Now<\/a>"
           }
         },
         "8ab39296-398c-4c19-9b12-f40342aaad01": {
@@ -126,8 +125,8 @@
         "vendor",
         "title",
         "caption",
-        "2fa8b229-1c78-4341-b5fd-f579015be673",
         "price",
+        "2fa8b229-1c78-4341-b5fd-f579015be673",
         "8ab39296-398c-4c19-9b12-f40342aaad01",
         "variant_picker",
         "quantity_selector",
