@@ -163,6 +163,12 @@
             "collection": "ergoplan-office-suite"
           }
         },
+        "5864bede-285e-4652-bf1f-e0db8146249b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "pulse-office-collection"
+          }
+        },
         "61df3893-1174-41bd-8219-66ede825e4e8": {
           "type": "featured_collection",
           "settings": {
@@ -252,6 +258,7 @@
         "1631576674bf289ea9-0",
         "0824393f-0d19-4d85-ad50-22d8eee5f77f",
         "a2fc47ae-5b1c-4864-bd05-f7e7f5106017",
+        "5864bede-285e-4652-bf1f-e0db8146249b",
         "61df3893-1174-41bd-8219-66ede825e4e8",
         "ca8d9526-c9fa-49ac-92c6-1f86b53c42b5",
         "36cac800-480d-46cb-81f8-6a91841d697b",
