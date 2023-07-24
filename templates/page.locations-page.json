@@ -6,9 +6,114 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "70b88c64-11fc-43ae-8d58-49c2dde45b99": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16273051025607__70b88c64-11fc-43ae-8d58-49c2dde45b99-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Quality Office Furniture at Affordable Prices since 1996.     If you're looking for something specific that doesn't appear on our website, please contact us so we can source it for you from our extensive range of suppliers.",
+            "text_style": "body"
+          }
+        },
+        "template--16273051025607__70b88c64-11fc-43ae-8d58-49c2dde45b99-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16273051025607__70b88c64-11fc-43ae-8d58-49c2dde45b99-text-1",
+        "template--16273051025607__70b88c64-11fc-43ae-8d58-49c2dde45b99-buttons-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/raj-rana-zCQsBI7ZltQ-unsplash.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "5c67ca3a-aa44-454d-8c35-5d62451d72d4": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16273051025607__5c67ca3a-aa44-454d-8c35-5d62451d72d4-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "NZ Owned & Operated",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16273051025607__5c67ca3a-aa44-454d-8c35-5d62451d72d4-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Secure Payment",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16273051025607__5c67ca3a-aa44-454d-8c35-5d62451d72d4-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "Easy, Quick Ordering",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "7f2250d2-9d0e-4d88-a6da-6d3965df0bbb": {
+          "type": "column",
+          "settings": {
+            "title": "Shop Online 24\/7",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16273051025607__5c67ca3a-aa44-454d-8c35-5d62451d72d4-column-1",
+        "template--16273051025607__5c67ca3a-aa44-454d-8c35-5d62451d72d4-column-2",
+        "template--16273051025607__5c67ca3a-aa44-454d-8c35-5d62451d72d4-column-3",
+        "7f2250d2-9d0e-4d88-a6da-6d3965df0bbb"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "70b88c64-11fc-43ae-8d58-49c2dde45b99",
+    "5c67ca3a-aa44-454d-8c35-5d62451d72d4"
   ]
 }
