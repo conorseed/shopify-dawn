@@ -152,14 +152,119 @@
         "template--16273051025607__f1c8b05a-1816-4783-a20f-839d4df18176-featured_collection-3": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "ergoplan-office-suite"
+          }
+        },
+        "6e9688c2-47d9-47dd-8b4f-58290040afc6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "pulse-office-collection"
+          }
+        },
+        "0263dd23-c104-4903-aad8-009ee64a995d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office-furniture-desks-fixed-height-desks"
+          }
+        },
+        "6040a924-9893-4763-b2b2-3d5e6ea2b173": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office-furniture-desks-workstations"
+          }
+        },
+        "cc34ce60-579e-4eb3-ba9b-c2a05ba856a1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office-furniture-storage-lockers-mobiles"
+          }
+        },
+        "4259bbac-f9e6-40c1-8700-245c2392bc1d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office-furniture-storage-lockers-cupboards-credenzas"
+          }
+        },
+        "ce0672b6-c87e-442f-9423-24490abb9057": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office-furniture-chairs-task-chairs"
+          }
+        },
+        "44c96d36-2bb3-447b-b5d5-d727f01fc350": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office-furniture-chairs-executive-chairs"
+          }
+        },
+        "fb2e2ece-954a-480d-995a-4b026c7db7be": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office-furniture-chairs-architectural-chairs"
+          }
+        },
+        "f2bac0a9-4245-42cd-8ec4-e48304955cd8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office-furniture-seating-conference-seating"
+          }
+        },
+        "bab22cd5-9dd1-4fb0-b8db-8017a03501d4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office-furniture-seating-boardroom-seating"
+          }
+        },
+        "679d6ab6-f2c5-4066-9437-b5d048b8df37": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office-furniture-tables-boardroom-tables"
+          }
+        },
+        "f0cb9b9c-3b92-483c-82c9-1b82cb9a1ebf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office-furniture-seating-barstools-cafe-seating"
+          }
+        },
+        "d29c0ab6-172d-4c67-86cf-d5eb0473f597": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office-furniture-tables-bar-leaners"
+          }
+        },
+        "45cfcb8e-2e65-44c1-a30b-c8214d3da036": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office-furniture-tables-coffee-tables"
+          }
+        },
+        "e5087010-b1aa-4e9e-8179-e66cd5ea348a": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office-furniture-tables-flip-folding-tables"
           }
         }
       },
       "block_order": [
         "template--16273051025607__f1c8b05a-1816-4783-a20f-839d4df18176-featured_collection-1",
         "template--16273051025607__f1c8b05a-1816-4783-a20f-839d4df18176-featured_collection-2",
-        "template--16273051025607__f1c8b05a-1816-4783-a20f-839d4df18176-featured_collection-3"
+        "template--16273051025607__f1c8b05a-1816-4783-a20f-839d4df18176-featured_collection-3",
+        "6e9688c2-47d9-47dd-8b4f-58290040afc6",
+        "0263dd23-c104-4903-aad8-009ee64a995d",
+        "6040a924-9893-4763-b2b2-3d5e6ea2b173",
+        "cc34ce60-579e-4eb3-ba9b-c2a05ba856a1",
+        "4259bbac-f9e6-40c1-8700-245c2392bc1d",
+        "ce0672b6-c87e-442f-9423-24490abb9057",
+        "44c96d36-2bb3-447b-b5d5-d727f01fc350",
+        "fb2e2ece-954a-480d-995a-4b026c7db7be",
+        "f2bac0a9-4245-42cd-8ec4-e48304955cd8",
+        "bab22cd5-9dd1-4fb0-b8db-8017a03501d4",
+        "679d6ab6-f2c5-4066-9437-b5d048b8df37",
+        "f0cb9b9c-3b92-483c-82c9-1b82cb9a1ebf",
+        "d29c0ab6-172d-4c67-86cf-d5eb0473f597",
+        "45cfcb8e-2e65-44c1-a30b-c8214d3da036",
+        "e5087010-b1aa-4e9e-8179-e66cd5ea348a"
       ],
       "settings": {
         "title": "",
@@ -179,6 +284,33 @@
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
+      }
+    },
+    "11acdf4a-f970-4ea6-96ae-2cf14c4e0e90": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Most Popular",
+        "heading_size": "h2",
+        "description": "<p>Our most popular selling products, lined up here for easy access to ordering.<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "most-popular",
+        "products_to_show": 10,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "69faa1f7-132d-4a31-b5b8-65b5de68b5bf": {
@@ -237,6 +369,7 @@
     "5c67ca3a-aa44-454d-8c35-5d62451d72d4",
     "f1c8b05a-1816-4783-a20f-839d4df18176",
     "main",
+    "11acdf4a-f970-4ea6-96ae-2cf14c4e0e90",
     "69faa1f7-132d-4a31-b5b8-65b5de68b5bf"
   ]
 }
