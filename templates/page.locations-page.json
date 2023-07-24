@@ -71,13 +71,6 @@
         "padding_bottom": 52
       }
     },
-    "main": {
-      "type": "main-page",
-      "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
-      }
-    },
     "5c67ca3a-aa44-454d-8c35-5d62451d72d4": {
       "type": "multicolumn",
       "blocks": {
@@ -181,6 +174,13 @@
         "padding_bottom": 36
       }
     },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
     "69faa1f7-132d-4a31-b5b8-65b5de68b5bf": {
       "type": "image-banner",
       "blocks": {
@@ -234,9 +234,9 @@
   "order": [
     "70b88c64-11fc-43ae-8d58-49c2dde45b99",
     "252834fa-c75e-4808-933a-7afbd3ac1a9b",
-    "main",
     "5c67ca3a-aa44-454d-8c35-5d62451d72d4",
     "f1c8b05a-1816-4783-a20f-839d4df18176",
+    "main",
     "69faa1f7-132d-4a31-b5b8-65b5de68b5bf"
   ]
 }
