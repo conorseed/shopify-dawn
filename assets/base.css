@@ -3030,6 +3030,7 @@ header.page-width {
 }
 
 .kk-footer {
+    padding: 50px 0px 0px;
 	display: flex;
 	justify-content: space-between;
 	margin: 0 auto;
