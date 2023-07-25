@@ -3065,6 +3065,7 @@ header.page-width {
 
 @media (max-width: 750px) {
 	.kk-footer {
+        padding: 0px;
 		text-align: left;
 		display:block;
 	}
