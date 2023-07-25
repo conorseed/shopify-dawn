@@ -3027,6 +3027,7 @@ header.page-width {
 
 .kk-footer a {
     font-size: 1.4rem;
+    text-decoration: none;
 	color: rgba(var(--color-foreground),.75);
 	text-transform: capitalize;
 	-webkit-transition: all 0.4s ease-in-out;
