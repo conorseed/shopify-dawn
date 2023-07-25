@@ -2989,3 +2989,71 @@ details-disclosure > details {
 header.page-width {
     max-width: none !important;
 }
+
+/* KK Custom CSS */
+#read-more, #popular-searches, #hide-links {display:none;}
+
+#read-more a {
+	color :#202020!important;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+#read-more a:hover {
+	color: #ed2d16!important;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+#show-more, a#hide-less {
+	color: #ff2a13!important;
+}
+
+.kk-footer-container {
+	display: block;
+	width: 100%;
+}
+
+.kk-footer {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	max-width: 1180px;
+	padding: 50px 10px;
+	width: 95%;
+}
+
+.kk-footer a {
+	color: rgba(var(--color-foreground),.75);
+	text-transform: capitalize;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+.kk-footer ul {
+	list-style: outside none none;
+	margin: 0;
+	padding: 0 5px;
+}
+
+.kk-footer a:hover {
+	color: rgb(var(--color-foreground));
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+@media (max-width: 799px) {
+	.kk-footer {
+		padding: 20px 10px 0;
+		text-align: center;
+		display:block;
+	}
+}
