@@ -3063,10 +3063,9 @@ header.page-width {
 	transition: all 0.2s ease-in-out;
 }
 
-@media (max-width: 799px) {
+@media (max-width: 750px) {
 	.kk-footer {
-		padding: 20px 10px 0;
-		text-align: center;
+		text-align: left;
 		display:block;
 	}
 }
