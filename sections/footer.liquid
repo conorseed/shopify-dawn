@@ -376,33 +376,6 @@
   </div>
 </footer>
 
-<script>
-(function($) {
-	$('#show-more').click(function(e) {
-		e.preventDefault();
-		$('#read-more').toggle();
-		$('#show-more').toggle();
-	});
-	$('#hide-less').click(function(e) {
-		e.preventDefault();
-		$('#read-more').toggle();
-		$('#show-more').toggle();
-	});
-	$('#show-links').click(function(e) {
-		e.preventDefault();
-		$('#popular-searches').toggle();
-		$('.kk-show-links').toggle();
-		$('.kk-hide-links').toggle();
-	});
-	$('#hide-links').click(function(e) {
-		e.preventDefault();
-		$('#popular-searches').toggle();
-		$('.kk-show-links').toggle();
-		$('.kk-hide-links').toggle();
-	});
-})( jQuery );
-</script>
-
 {% javascript %}
   class LocalizationForm extends HTMLElement {
     constructor() {
