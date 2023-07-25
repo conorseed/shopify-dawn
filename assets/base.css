@@ -3001,6 +3001,7 @@ header.page-width {
 
 #hide-links:hover, #show-links:hover {
 	text-decoration: underline;
+    color: rgba(var(--color-foreground));
 }
 
 #read-more a {
