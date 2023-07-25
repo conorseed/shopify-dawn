@@ -3004,6 +3004,10 @@ header.page-width {
     color: rgba(var(--color-foreground));
 }
 
+.kk-show-links, .kk-hide-links {
+	padding: 1rem 0;
+}
+
 #read-more a {
 	color :#202020!important;
 	-webkit-transition: all 0.4s ease-in-out;
