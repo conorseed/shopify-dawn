@@ -3043,6 +3043,7 @@ header.page-width {
 }
 
 .kk-footer a:hover {
+    text-decoration: underline;
 	color: rgb(var(--color-foreground));
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
