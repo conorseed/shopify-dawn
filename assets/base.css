@@ -3051,7 +3051,7 @@ header.page-width {
 .kk-footer ul {
 	list-style: outside none none;
 	margin: 0;
-	padding: 0 5px;
+	padding: 0px;
 }
 
 .kk-footer a:hover {
