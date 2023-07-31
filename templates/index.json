@@ -255,6 +255,7 @@
         },
         "7c690c16-1b60-4dfd-ae4e-b24010850534": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "sale-items"
           }
