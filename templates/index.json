@@ -252,6 +252,19 @@
           "settings": {
             "collection": "office-furniture-tables-flip-folding-tables"
           }
+        },
+        "7c690c16-1b60-4dfd-ae4e-b24010850534": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sale-items"
+          }
+        },
+        "396c3a53-ba59-4299-9b0f-68bcce36968c": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": ""
+          }
         }
       },
       "block_order": [
@@ -272,7 +285,9 @@
         "6eaf31b4-2304-4b97-8174-dc8de6100c6b",
         "a4ada6e5-60c0-4312-ad5a-9e40f885d627",
         "f8ac1d30-1e0c-45a0-a502-0ee699abd3ff",
-        "1631576674bf289ea9-2"
+        "1631576674bf289ea9-2",
+        "7c690c16-1b60-4dfd-ae4e-b24010850534",
+        "396c3a53-ba59-4299-9b0f-68bcce36968c"
       ],
       "settings": {
         "title": "",
