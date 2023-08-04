@@ -8,7 +8,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "FREE delivery NZ wide on orders over $400",
             "link": ""
           }
         }
@@ -30,7 +30,7 @@
       "type": "header",
       "settings": {
         "logo_position": "middle-left",
-        "menu": "main-menu",
+        "menu": "2023-main",
         "menu_type_desktop": "mega",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
