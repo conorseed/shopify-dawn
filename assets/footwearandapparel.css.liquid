@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'ombudsman';
+    src: url('{{ 'ombudsmanstencil-webfont.woff2' | asset_url }}') format('woff2'),
+         url('{{ 'ombudsmanstencil-webfont.woff' | asset_url }}') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'lexend';
+    src: url('{{ 'lexend-bold-webfont.woff2' | asset_url }}') format('woff2'),
+         url('{{ 'lexend-bold-webfont.woff' | asset_url }}') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'lexend';
+    src: url('{{ 'lexend-regular-webfont.woff2' | asset_url }}') format('woff2'),
+         url('{{ 'lexend-regular-webfont.woff' | asset_url }}') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1, h2, h3, .h0, .h1, .h2, .h3 {
+    --font-heading-family: ombudsman, monospace
+}
+:root{
+    --font-body-family: lexend, sans-serif
+}
