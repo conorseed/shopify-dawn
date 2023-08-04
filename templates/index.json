@@ -171,6 +171,80 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "a906c273-a8eb-416e-ade7-04155872f8f7": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14388672135243__a906c273-a8eb-416e-ade7-04155872f8f7-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/home-screen.jpg",
+            "heading": "Screenprinting & Embroidery",
+            "heading_size": "h2",
+            "subheading": "At Footwear and Apparel, we take pride in offering top-notch screenprinting and embroidery services. Whether you want to promote your brand or create personalised apparel, our skilled team can add your logo or design to any garment. With our meticulous attention to detail and high-quality materials, we ensure that your message stands out in style. Don't miss out on this opportunity to make a lasting impression.",
+            "button_label": "Find out more",
+            "link": "#",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--14388672135243__a906c273-a8eb-416e-ade7-04155872f8f7-slide-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/home-sizing.jpg",
+            "heading": "Sizing Charts",
+            "heading_size": "h2",
+            "subheading": "Ensuring the perfect fit for your footwear and apparel is paramount to us.That's why we source our sizing charts directly from our suppliers, guaranteeing accurate measurements for all our products. Our meticulous approach ensures that you can confidently choose the right size and experience unparalleled comfort every time you shop with us. Say farewell to guesswork and make informed decisions with our comprehensive and detailed sizing charts.",
+            "button_label": "Find your ideal fit",
+            "link": "#",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "61ed6fc5-1c7e-42cf-98dc-66406f546419": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/home-team.jpg",
+            "heading": "Meet the team",
+            "heading_size": "h2",
+            "subheading": "We're proud to introduce you to our incredible team. Behind every successful company, there are dedicated individuals who work tirelessly to bring you the best products and service. Each member of our team plays a crucial role in delivering a seamless experience for you. Meet our exceptional team members and learn more about the people who make Footwear and Apparel thrive.",
+            "button_label": "Meet the team",
+            "link": "shopify:\/\/pages\/about-us",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14388672135243__a906c273-a8eb-416e-ade7-04155872f8f7-slide-1",
+        "template--14388672135243__a906c273-a8eb-416e-ade7-04155872f8f7-slide-2",
+        "61ed6fc5-1c7e-42cf-98dc-66406f546419"
+      ],
+      "settings": {
+        "layout": "grid",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": true,
+        "change_slides_speed": 7,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our services"
+      }
     }
   },
   "order": [
@@ -178,6 +252,7 @@
     "multicolumn",
     "4349b2d9-e677-45a3-8bcc-f51abcefea3f",
     "f3573369-b700-41e3-a655-fe7dd523eaac",
-    "117a4c3d-e815-419b-ad91-b9f1bd44030d"
+    "117a4c3d-e815-419b-ad91-b9f1bd44030d",
+    "a906c273-a8eb-416e-ade7-04155872f8f7"
   ]
 }
