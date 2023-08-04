@@ -133,12 +133,51 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
+    },
+    "117a4c3d-e815-419b-ad91-b9f1bd44030d": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14388672135243__117a4c3d-e815-419b-ad91-b9f1bd44030d-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Catalogue 2023: Discover the perfect items to elevate your lifestyle and meet your diverse needs",
+            "heading_size": "h1"
+          }
+        },
+        "template--14388672135243__117a4c3d-e815-419b-ad91-b9f1bd44030d-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Download",
+            "button_link": "https:\/\/www.w3.org\/WAI\/ER\/tests\/xhtml\/testfiles\/resources\/pdf\/dummy.pdf",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14388672135243__117a4c3d-e815-419b-ad91-b9f1bd44030d-heading-1",
+        "template--14388672135243__117a4c3d-e815-419b-ad91-b9f1bd44030d-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/home-catalog.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner",
     "multicolumn",
     "4349b2d9-e677-45a3-8bcc-f51abcefea3f",
-    "f3573369-b700-41e3-a655-fe7dd523eaac"
+    "f3573369-b700-41e3-a655-fe7dd523eaac",
+    "117a4c3d-e815-419b-ad91-b9f1bd44030d"
   ]
 }
