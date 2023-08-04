@@ -29,7 +29,8 @@ h1, h2, h3, .h0, .h1, .h2, .h3 {
     --font-heading-family: ombudsman, monospace
 }
 :root{
-    --font-body-family: lexend, sans-serif
+    --font-body-family: lexend, sans-serif;
+    --fa-orange: #F26722;
 }
 
 /*
@@ -37,4 +38,12 @@ h1, h2, h3, .h0, .h1, .h2, .h3 {
  */
 .multicolumn-list p {
     margin: 0 0 1em !important;
+}
+
+/*
+ * Home
+ */
+section#shopify-section-template--14388672135243__multicolumn h3 {
+    font-size: calc(var(--font-heading-scale) * 4rem);
+    color: var(--fa-orange);
 }
