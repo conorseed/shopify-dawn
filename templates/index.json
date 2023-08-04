@@ -23,7 +23,8 @@
         "text"
       ],
       "settings": {
-        "image_overlay_opacity": 60,
+        "image": "shopify:\/\/shop_images\/home-hero_274d4ee1-3813-4bb6-9150-152a10864533.jpg",
+        "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-left",
         "show_text_box": false,
