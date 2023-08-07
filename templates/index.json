@@ -273,6 +273,128 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our services"
       }
+    },
+    "09f64e08-0e21-446c-bd5c-c68252f87ec9": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14388672135243__09f64e08-0e21-446c-bd5c-c68252f87ec9-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-3m.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14388672135243__09f64e08-0e21-446c-bd5c-c68252f87ec9-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-syzmik.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14388672135243__09f64e08-0e21-446c-bd5c-c68252f87ec9-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-norsewear.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "e01f7a7d-54bc-445b-bd8a-799667020ed7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-kaiwaka.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "503ca77c-f318-4ae8-964a-c25ef5116ff1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-fxd.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "7f705433-70b2-449b-9ea1-8c3d63fd2940": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-grisport.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "73c49367-2185-4da8-b3a8-04565c107321": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-bison.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "c8f9c19b-5245-4864-b241-acccd702a421": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-steelblue.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "eb4ec6f9-f1ad-4189-9c41-b5e43198130f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-swanndri.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14388672135243__09f64e08-0e21-446c-bd5c-c68252f87ec9-column-1",
+        "template--14388672135243__09f64e08-0e21-446c-bd5c-c68252f87ec9-column-2",
+        "template--14388672135243__09f64e08-0e21-446c-bd5c-c68252f87ec9-column-3",
+        "e01f7a7d-54bc-445b-bd8a-799667020ed7",
+        "503ca77c-f318-4ae8-964a-c25ef5116ff1",
+        "7f705433-70b2-449b-9ea1-8c3d63fd2940",
+        "73c49367-2185-4da8-b3a8-04565c107321",
+        "c8f9c19b-5245-4864-b241-acccd702a421",
+        "eb4ec6f9-f1ad-4189-9c41-b5e43198130f"
+      ],
+      "settings": {
+        "title": "Brands We Love",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "Explore our brands",
+        "button_link": "shopify:\/\/collections",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
@@ -281,6 +403,7 @@
     "4349b2d9-e677-45a3-8bcc-f51abcefea3f",
     "2377cec9-f09c-4e08-bd02-72f854c16dce",
     "117a4c3d-e815-419b-ad91-b9f1bd44030d",
-    "a906c273-a8eb-416e-ade7-04155872f8f7"
+    "a906c273-a8eb-416e-ade7-04155872f8f7",
+    "09f64e08-0e21-446c-bd5c-c68252f87ec9"
   ]
 }
