@@ -95,32 +95,59 @@
         "show_text_below": true
       }
     },
-    "f3573369-b700-41e3-a655-fe7dd523eaac": {
-      "type": "collection-list",
+    "2377cec9-f09c-4e08-bd02-72f854c16dce": {
+      "type": "collection-list-fa",
       "blocks": {
-        "template--14388672135243__f3573369-b700-41e3-a655-fe7dd523eaac-featured_collection-1": {
+        "template--14388672135243__2377cec9-f09c-4e08-bd02-72f854c16dce-featured_collection-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "footwear"
+            "collection": "footwear",
+            "collection_image": "shopify:\/\/shop_images\/collection-footwear.jpg"
           }
         },
-        "template--14388672135243__f3573369-b700-41e3-a655-fe7dd523eaac-featured_collection-2": {
+        "template--14388672135243__2377cec9-f09c-4e08-bd02-72f854c16dce-featured_collection-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "apparel"
+            "collection": "apparel",
+            "collection_image": "shopify:\/\/shop_images\/collection-apparel.jpg"
           }
         },
-        "template--14388672135243__f3573369-b700-41e3-a655-fe7dd523eaac-featured_collection-3": {
+        "template--14388672135243__2377cec9-f09c-4e08-bd02-72f854c16dce-featured_collection-3": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "safety-equipment",
+            "collection_image": "shopify:\/\/shop_images\/collection-safety-equipment.jpg"
+          }
+        },
+        "bb0bf01b-96c4-418b-b1e0-ef38e13ffcf5": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "height-safety",
+            "collection_image": "shopify:\/\/shop_images\/collection-height-safety.jpg"
+          }
+        },
+        "5a5b1e68-7c36-4d18-bfc0-3eef46faaa1c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hand-protection",
+            "collection_image": "shopify:\/\/shop_images\/collection-hand-protection.jpg"
+          }
+        },
+        "735e6dc0-dfdc-4923-b34d-b557a14db84d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "medical-misc",
+            "collection_image": "shopify:\/\/shop_images\/collection-medical.jpg"
           }
         }
       },
       "block_order": [
-        "template--14388672135243__f3573369-b700-41e3-a655-fe7dd523eaac-featured_collection-1",
-        "template--14388672135243__f3573369-b700-41e3-a655-fe7dd523eaac-featured_collection-2",
-        "template--14388672135243__f3573369-b700-41e3-a655-fe7dd523eaac-featured_collection-3"
+        "template--14388672135243__2377cec9-f09c-4e08-bd02-72f854c16dce-featured_collection-1",
+        "template--14388672135243__2377cec9-f09c-4e08-bd02-72f854c16dce-featured_collection-2",
+        "template--14388672135243__2377cec9-f09c-4e08-bd02-72f854c16dce-featured_collection-3",
+        "bb0bf01b-96c4-418b-b1e0-ef38e13ffcf5",
+        "5a5b1e68-7c36-4d18-bfc0-3eef46faaa1c",
+        "735e6dc0-dfdc-4923-b34d-b557a14db84d"
       ],
       "settings": {
         "title": "",
@@ -132,7 +159,7 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 80,
-        "padding_bottom": 80
+        "padding_bottom": 40
       }
     },
     "117a4c3d-e815-419b-ad91-b9f1bd44030d": {
@@ -252,7 +279,7 @@
     "image_banner",
     "multicolumn",
     "4349b2d9-e677-45a3-8bcc-f51abcefea3f",
-    "f3573369-b700-41e3-a655-fe7dd523eaac",
+    "2377cec9-f09c-4e08-bd02-72f854c16dce",
     "117a4c3d-e815-419b-ad91-b9f1bd44030d",
     "a906c273-a8eb-416e-ade7-04155872f8f7"
   ]
