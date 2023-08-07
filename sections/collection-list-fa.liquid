@@ -72,16 +72,16 @@
           >
             {%- assign placeholder_image_index = forloop.index0 | modulo: 4 | plus: 1 -%}
             {%- assign placeholder_image = 'collection-apparel-' | append: placeholder_image_index -%}
-            {% assign card_image = block.settings.collection.featured_image %}
+            {% assign card_media = block.settings.collection.featured_image %}
             {% if block.settings.collection_image %}
-              {% assign card_image = block.settings.collection_image %}
+              {% assign card_media = block.settings.collection_image %}
             {% endif %}
             {% render 'card-collection-fa',
               card_collection: block.settings.collection,
               media_aspect_ratio: section.settings.image_ratio,
               columns: columns,
               placeholder_image: placeholder_image,
-              card_image: card_image
+              card_media: card_media
             %}
           </li>
         {%- endfor -%}
