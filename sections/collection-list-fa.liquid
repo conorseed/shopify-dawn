@@ -76,7 +76,6 @@
             {% if block.settings.collection_image %}
               {% assign card_image = block.settings.collection_image %}
             {% endif %}
-          {{ card_image }}
             {% render 'card-collection-fa',
               card_collection: block.settings.collection,
               media_aspect_ratio: section.settings.image_ratio,
