@@ -46,6 +46,32 @@ h1, h2, h3, .h0, .h1, .h2, .h3 {
     border-left: none;
 }
 
+/* 
+ * HEADER 
+ */
+header.page-width,
+ul.mega-menu__list.page-width{
+    max-width: none;
+}
+header .mega-menu__list {
+    grid-template-columns: repeat(8,minmax(0,1fr));
+    gap: 4rem 1rem;
+}
+@media(max-width: 1100px){
+    header .mega-menu__list {
+        grid-template-columns: repeat(4,minmax(0,1fr));
+    }
+}
+/* NAVIGATION */
+ul.mega-menu__list.page-width > li {
+    border-top: 1px solid #000;
+    padding-top: 1rem;
+}
+.mega-menu__link--level-2.link{
+    margin-bottom: 1rem;
+}
+
+
 /*
  * COLLECTION LIST FA
  */
