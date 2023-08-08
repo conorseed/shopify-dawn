@@ -53,8 +53,8 @@
           "settings": {
             "title": "",
             "text": "<p>Welcome to Footwear & Apparel NZ Ltd - your source for a wide range of superb products, sourced from around the world.<\/p><p>As an independent business owned by Stuart and Rebecca Williams, we pride ourselves on providing friendly, professional customer service and offering an alternate range of products to give you more choice.<\/p><p>Our extensive range includes safety and outdoor footwear, apparel, and safety equipment, with a particular passion for importing and distributing excellent ranges from Italy.<\/p><p>Additionally, we specialise in providing customised branding and corporate clothing options to uphold your company image.<\/p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections"
           }
         }
       },
