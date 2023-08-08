@@ -82,7 +82,20 @@ ul.mega-menu__list.page-width > li {
 footer .list-social__item .icon {
     width: 4rem;
     height: 4rem;
-} 
+}
+@media(min-width: 850px){
+    footer .footer__content-top.page-width {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+    footer .footer-block--newsletter.scroll-trigger.animate--slide-in {
+        margin-top: 0;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+}
 
 /*
  * COLLECTION LIST FA
