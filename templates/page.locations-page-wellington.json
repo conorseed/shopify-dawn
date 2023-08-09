@@ -309,7 +309,7 @@
         "template--16282906886343__35067454-8586-4e9d-90f3-54bd47fc7fc3-text-1"
       ],
       "custom_css": [
-        ".rich-text__wrapper {display: block;}"
+        ".rich-text__wrapper {display: block!important;}"
       ],
       "settings": {
         "desktop_content_position": "center",
