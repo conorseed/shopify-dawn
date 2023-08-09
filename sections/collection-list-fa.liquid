@@ -60,6 +60,7 @@
             assign columns = 3
           endif
         -%}
+        {{ collection.metafields }}
         {% for sc in collection.metafields.custom.sub_collections %}
           <li
             id="Slide-{{ section.id }}-{{ forloop.index }}-custom"
