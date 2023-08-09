@@ -60,6 +60,7 @@
             assign columns = 3
           endif
         -%}
+        {% if section.settings.use_sub_collection %}
         {% for sc in collection.metafields.custom.sub_collections.value %}
           <li
             id="Slide-{{ section.id }}-{{ forloop.index }}-custom"
@@ -81,6 +82,7 @@
             %}
           </li>
         {% endfor %}
+        {% endif %}
         {%- for block in section.blocks -%}
           <li
             id="Slide-{{ section.id }}-{{ forloop.index }}"
