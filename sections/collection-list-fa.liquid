@@ -60,8 +60,8 @@
             assign columns = 3
           endif
         -%}
-        {{ collection.metafields.custom.sub_collections }}
-        {% for sc in collection.metafields.custom.sub_collections %}
+        {% for gid in collection.metafields.custom.sub_collections %}
+          {% assign sc = gid.value %}
           <li
             id="Slide-{{ section.id }}-{{ forloop.index }}-custom"
             class="collection-list__item grid__item{% if show_mobile_slider %} slider__slide{% endif %}{% if sc.featured_image == nil %} collection-list__item--no-media{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
