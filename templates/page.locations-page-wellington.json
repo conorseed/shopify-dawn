@@ -289,9 +289,32 @@
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
+      }
+    },
+    "35067454-8586-4e9d-90f3-54bd47fc7fc3": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16282906886343__35067454-8586-4e9d-90f3-54bd47fc7fc3-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Quality Office Furniture in Wellington, Guaranteed!<\/h2><p>Are you seeking premium <strong>office furniture in Wellington<\/strong> that seamlessly blends style, comfort, and functionality? Well, look no further! Our wide range of office furniture is tailored to meet the diverse needs of businesses and individuals in the capital city of New Zealand. Whether you are furnishing a corporate office or creating a productive home workspace, we have the perfect solutions to transform your office environment.<\/p><p>As a trusted supplier of <a href=\"\/\">online office furniture in New Zealand<\/a>, we take pride in offering a comprehensive collection that caters to various office settings and design preferences. Our exquisite range includes office chairs, desks, storage solutions, and more, so you are sure to find everything you need in our collections.<\/p><h2>A Comprehensive Selection of Desks, Storage Solutions and Office Chairs in Wellington<\/h2><p>Our selection includes:<\/p><p><em>Ergonomic office chairs<\/em><\/p><p>A crucial element of any office is the chair you sit on. Our ergonomic <strong>office chairs in Wellington<\/strong> are thoughtfully designed to provide exceptional comfort and support, promoting a healthy posture and reducing the strain associated with extended periods of sitting. With adjustable features and premium materials, our office chairs not only complement your workspace but also enhance your overall well-being. Whatever style you find most comfortable, you’ll find in our range.<\/p><p><em>Durable office desks<\/em><\/p><p>Your office desk serves as the foundation of your workspace, and we offer an impressive selection of <a href=\"\/collections\/office-desks-tables\">office desks and tables<\/a> to suit every need and preference. Whether you require a spacious executive desk to command your office or a sleek, space-saving desk for your home office, you’re sure to find an <strong>office desk in Wellington<\/strong> that caters to your needs. Embrace efficiency and style as you create a productive and inspiring work environment.<\/p><p><em>Space-saving storage solutions<\/em><\/p><p>We offer both efficient and stylish office storage solutions in Wellington to keep your workspace organised and clutter-free. Whether you need filing cabinets, shelving units, or <a href=\"\/collections\/steel-cabinets\">steel storage cabinets<\/a>, our collection offers versatile options to suit any office layout. From compact solutions for small and home offices to expansive storage for larger workspaces, we have the perfect storage solutions to meet your needs.;<\/p><h2>Commercial and Home Office Furniture in Wellington That Fits Space<\/h2><p>With the flexibility of modern working, a functional home workspace can often be as important as an office. We understand this here at Smart Office Furniture and cater to all needs. Rest assured that whether you are shopping for commercial or <strong>home office furniture in Wellington<\/strong>, we have you covered.<\/p><p>Get in touch with our expert team to discuss your requirements and discover the items in our range that will elevate your workspace. With timely delivery to locations all over Wellington, your workspace will be set up and ready for productivity without delay. And our commitment to quality ensures that our furniture is not only aesthetically pleasing but also durable and built to withstand the demands of daily use.;<\/p><h2>Browse Our Collections of Office Furniture Delivered to Wellington Today<\/h2><p>So what are you waiting for? Browse our collections of <a href=\"\/\">office furniture online<\/a> to get started.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16282906886343__35067454-8586-4e9d-90f3-54bd47fc7fc3-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "11acdf4a-f970-4ea6-96ae-2cf14c4e0e90": {
@@ -377,6 +400,7 @@
     "5c67ca3a-aa44-454d-8c35-5d62451d72d4",
     "f1c8b05a-1816-4783-a20f-839d4df18176",
     "main",
+    "35067454-8586-4e9d-90f3-54bd47fc7fc3",
     "11acdf4a-f970-4ea6-96ae-2cf14c4e0e90",
     "69faa1f7-132d-4a31-b5b8-65b5de68b5bf"
   ]
