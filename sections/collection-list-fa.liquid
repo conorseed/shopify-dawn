@@ -61,8 +61,8 @@
           endif
         -%}
         {% for gid in collection.metafields.custom.sub_collections %}
-          {% assign sc = gid.title %}
-          {{ sc.title }}
+          {% assign sc = gid.value %}
+          {{ sc.title }} {{ gid }}
           <li
             id="Slide-{{ section.id }}-{{ forloop.index }}-custom"
             class="collection-list__item grid__item{% if show_mobile_slider %} slider__slide{% endif %}{% if sc.featured_image == nil %} collection-list__item--no-media{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
