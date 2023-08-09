@@ -349,8 +349,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
-(function($) {
-    $(".kk-location-content").prependTo("#shopify-section-template--16282956267719__11acdf4a-f970-4ea6-96ae-2cf14c4e0e90 > div > div > div");
+jQuery(document).ready(function($) {
     $(".kk-show-links").appendTo("#shopify-section-footer > footer > div.footer__content-top.page-width > div.footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet > div.footer-block.grid__item.footer-block--menu > ul");
 	$(".kk-hide-links").appendTo("#shopify-section-footer > footer > div.footer__content-top.page-width > div.footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet > div.footer-block.grid__item.footer-block--menu > ul");
 	$('#show-more').click(function(e) {
@@ -375,7 +374,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		$('.kk-show-links').toggle();
 		$('.kk-hide-links').toggle();
 	});
-})(jQuery);
+});
 </script>
 
   </body>
