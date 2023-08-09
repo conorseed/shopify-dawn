@@ -60,6 +60,27 @@
             assign columns = 3
           endif
         -%}
+        {% for sc in collection.metafields.custom.sub_collections %}
+          <li
+            id="Slide-{{ section.id }}-{{ forloop.index }}-custom"
+            class="collection-list__item grid__item{% if show_mobile_slider %} slider__slide{% endif %}{% if sc.featured_image == nil %} collection-list__item--no-media{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            {% if settings.animations_reveal_on_scroll %}
+              data-cascade
+              style="--animation-order: {{ forloop.index }};"
+            {% endif %}
+          >
+            {%- assign placeholder_image_index = forloop.index0 | modulo: 4 | plus: 1 -%}
+            {%- assign placeholder_image = 'collection-apparel-' | append: placeholder_image_index -%}
+
+            {% render 'card-collection-fa',
+              card_collection: block.settings.collection,
+              media_aspect_ratio: section.settings.image_ratio,
+              columns: columns,
+              placeholder_image: placeholder_image,
+              card_media: sc.featured_image
+            %}
+          </li>
+        {% endfor %}
         {%- for block in section.blocks -%}
           <li
             id="Slide-{{ section.id }}-{{ forloop.index }}"
