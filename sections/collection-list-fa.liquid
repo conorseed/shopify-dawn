@@ -61,8 +61,8 @@
           endif
         -%}
         {{ collection.metafields.custom.sub_collections.value }}
-        {% for gid in collection.metafields.custom.sub_collections %}
-          {% assign sc = gid.value %}
+        {% for gid in collection.metafields.custom.sub_collections.value %}
+          {% assign sc = gid %}
           {{ sc.title }} {{ gid }}
           <li
             id="Slide-{{ section.id }}-{{ forloop.index }}-custom"
