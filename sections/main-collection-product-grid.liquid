@@ -135,7 +135,9 @@
         {%- endif -%}
       {%- endpaginate -%}
     </div>
-    test
+   {%- if section.settings.show_collection_description -%}
+        <div class="collection-hero__description rte">{{collection.decription | split:'<!--SPLIT-->' | last }}</div>
+      {%- endif -%}
   </div>
 </div>
 
