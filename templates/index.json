@@ -34,6 +34,9 @@
         "16425377969542c221-1",
         "16425377969542c221-2"
       ],
+      "custom_css": [
+        ".banner__text.body {color: #fff;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/raj-rana-zCQsBI7ZltQ-unsplash.jpg",
         "image_overlay_opacity": 40,
