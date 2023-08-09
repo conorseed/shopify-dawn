@@ -16,23 +16,14 @@
             "text": "Quality Office Furniture at Affordable Prices since 1996.     If you're looking for something specific that doesn't appear on our website, please contact us so we can source it for you from our extensive range of suppliers.",
             "text_style": "body"
           }
-        },
-        "template--16273051025607__70b88c64-11fc-43ae-8d58-49c2dde45b99-buttons-1": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Now",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "f08d1c56-d760-4486-b4fe-0ab779067489",
-        "template--16273051025607__70b88c64-11fc-43ae-8d58-49c2dde45b99-text-1",
-        "template--16273051025607__70b88c64-11fc-43ae-8d58-49c2dde45b99-buttons-1"
+        "template--16273051025607__70b88c64-11fc-43ae-8d58-49c2dde45b99-text-1"
+      ],
+      "custom_css": [
+        ".banner__text.body {color: #fff;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/raj-rana-zCQsBI7ZltQ-unsplash.jpg",
