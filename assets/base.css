@@ -3076,5 +3076,5 @@ header.page-width {
 .kk-location-content {
     padding: 0 5rem;
     margin: 0 auto;
-    max-width: var(--page-width);
+    max-width: 1200px;
 }
