@@ -3,6 +3,13 @@
     "70b88c64-11fc-43ae-8d58-49c2dde45b99": {
       "type": "image-banner",
       "blocks": {
+        "f08d1c56-d760-4486-b4fe-0ab779067489": {
+          "type": "heading",
+          "settings": {
+            "heading": "Office Furniture Store in Auckland",
+            "heading_size": "h0"
+          }
+        },
         "template--16273051025607__70b88c64-11fc-43ae-8d58-49c2dde45b99-text-1": {
           "type": "text",
           "settings": {
@@ -23,6 +30,7 @@
         }
       },
       "block_order": [
+        "f08d1c56-d760-4486-b4fe-0ab779067489",
         "template--16273051025607__70b88c64-11fc-43ae-8d58-49c2dde45b99-text-1",
         "template--16273051025607__70b88c64-11fc-43ae-8d58-49c2dde45b99-buttons-1"
       ],
