@@ -60,6 +60,7 @@
             assign columns = 3
           endif
         -%}
+        {{ collection.metafields.custom.sub_collections }}
         {% for gid in collection.metafields.custom.sub_collections %}
           {% assign sc = gid.value %}
           {{ sc.title }} {{ gid }}
