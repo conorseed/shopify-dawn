@@ -34,6 +34,10 @@
         "template--16273051025607__70b88c64-11fc-43ae-8d58-49c2dde45b99-text-1",
         "template--16273051025607__70b88c64-11fc-43ae-8d58-49c2dde45b99-buttons-1"
       ],
+      "custom_css": [
+        ".banner__text.body {color: #fff;}",
+        ".button {background-color: #fff;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/raj-rana-zCQsBI7ZltQ-unsplash.jpg",
         "image_overlay_opacity": 40,
