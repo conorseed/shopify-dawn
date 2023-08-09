@@ -303,6 +303,15 @@
         "padding_bottom": 36
       }
     },
+    "45fcffb0-2743-4ab4-bac9-0cb61cbffced": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "featured_products": {
       "type": "featured-collection",
       "settings": {
@@ -402,6 +411,7 @@
     "rich_text",
     "16315799045056d243",
     "1631576674bf289ea9",
+    "45fcffb0-2743-4ab4-bac9-0cb61cbffced",
     "featured_products",
     "image_banner",
     "d62d3caa-47d6-4652-a176-1e0fcdeddea9"
