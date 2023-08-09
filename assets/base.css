@@ -3007,7 +3007,7 @@ header.page-width {
 }
 
 #read-more a {
-	color :#81BBB5!important;
+	color :#202020!important;
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
 	-o-transition: all 0.4s ease-in-out;
@@ -3023,7 +3023,7 @@ header.page-width {
 }
 
 #show-more, a#hide-less {
-	color: #ff2a13!important;
+	color: #81BBB5!important;
 }
 
 .kk-footer-container {
