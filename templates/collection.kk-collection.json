@@ -30,7 +30,7 @@
       "type": "kk-collection-content",
       "custom_css": [
         "h2 {text-align: center;}",
-        ".collection-hero__description {max-width: 100%;}"
+        ".collection-hero__description {max-width: 100%; padding-bottom: 36px;}"
       ],
       "settings": {
         "show_collection_description": true,
