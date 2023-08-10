@@ -28,6 +28,10 @@
     },
     "kk-banner": {
       "type": "kk-collection-content",
+      "custom_css": [
+        "h2 {text-align: center;}",
+        ".collection-hero__description {max-width: 100%;}"
+      ],
       "settings": {
         "show_collection_description": true,
         "color_scheme": "background-1"
