@@ -26,15 +26,6 @@
         "padding_bottom": 36
       }
     },
-    "74ec3c3c-f59c-464b-879c-65b593f61a32": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<p>You and your staff are going to be spending a lot of time on your new <strong>workplace chairs,<\/strong> so you’ll want to make sure you’re getting high-quality products which is what we offer at a variety of price points. If you have staff with extra needs we have options with more back support, or up to three lever adjustments for a true custom chair. We also offer ergonomic choices such as backless <a href=\"\/products\/buro-kneel-chair\">kneeling chairs<\/a> which are proven to help posture due to spreading out body weight. <a id=\"show-more\" href=\"#read-more\">Read More<\/a><\/p>\n<div id=\"read-more\">\n<p>As we’re the best choice for all your office furniture needs we also offer desks to go with your new chairs, both fixed-height and adjustable standing desks. Whatever you need to add to your office we can help.<\/p>\n\n<h2>Keep it Simple or Make a Statement With our Range of Office Chairs in NZ<\/h2>\n<p>Why choose between comfort and style when you can have both? We have a huge range of colours and styles for <strong>office chairs in NZ<\/strong> and we’re always updating our collection. In fact, we have the largest online seating range in New Zealand. This means that whatever décor you have in your office, we’re sure you’ll find something to suit from us. Too much choice can be overwhelming though, especially while you’re already running a business. So, if you’re struggling to choose between orange or grey, low or high back, fabric or <a href=\"\/collections\/executive-leather-office-chairs\">leather office chairs<\/a>, we can help. Our brilliant sales team know our catalogue like the backs of their hands and are ready to make recommendations to suit your office and its style. If you need more than just a new <strong>desk chair<\/strong> and in fact need a full office fitout, they can also provide a no-obligation quotation for that.<\/p>\n\n<h2>When you Need Workplace Chairs Fast Choose Smart Office<\/h2>\n<p>We have a large team of suppliers which helps us keep our choice high without having an unreasonably large warehouse space ourselves. These brilliant suppliers will ship your new <strong>desk chairs in NZ<\/strong> directly, and most of our <a href=\"\/\">office furniture online<\/a> qualifies for free delivery. Assuming your item is not a pre-order it should reach you within 10 working days so you can get on with your office set-up or extension as soon as possible. Getting started with your office furniture order is as easy as browsing and ordering now. If you need help reach out to our brilliant team at sales@smartofficenz.co.nz or 0800 376 373.<\/p> <a id=\"hide-less\" href=\"#read-more\">Read Less<\/a>\n\n<\/div>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "16613934324260c45d": {
       "type": "image-banner",
       "blocks": {
@@ -88,7 +79,6 @@
   "order": [
     "banner",
     "product-grid",
-    "74ec3c3c-f59c-464b-879c-65b593f61a32",
     "16613934324260c45d"
   ]
 }
