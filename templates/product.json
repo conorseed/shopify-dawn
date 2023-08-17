@@ -61,7 +61,7 @@
         "46b38823-1b17-4e7a-a288-4889c3b7cde8": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class=\"fa-single-product-links\">\n<a href=\"#\" title=\"Delivery & Shipping\">Delivery & Shipping<\/a>\n<a href=\"\" title=\"Return Policy\">Return Policy<\/a>\n<a href=\"\" title=\"Need Help?\">Need Help?<\/a>\n<a href=\"\" title=\"Need a Quote?\">Need a Quote?<\/a>\n<\/div>"
+            "custom_liquid": "<div class=\"fa-single-product-links\">\n<a href=\"\" title=\"Need Help?\">Need Help?<\/a>\n<a href=\"\" title=\"Need a Quote?\">Need a Quote?<\/a>\n<\/div>\n<div class=\"fa-single-product-links\">\n<a href=\"#\" title=\"Delivery & Shipping\">Delivery & Shipping<\/a>\n<a href=\"\" title=\"Return Policy\">Return Policy<\/a>\n<\/div>"
           }
         },
         "share": {
