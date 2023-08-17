@@ -24,6 +24,11 @@
     font-style: normal;
 
 }
+:root{
+    --font-body-family: lexend, sans-serif;
+    --fa-orange: 242 103 34;
+    --fa-green: 0 118 118;
+}
 
 h1, h2, h3, .h0, .h1, .h2, .h3 {
   --font-heading-family: ombudsman, monospace
@@ -32,11 +37,10 @@ h4, h5, h6, .h4, .h5, .h6{
   --font-heading-family: lexend, sans-serif;
   --font-heading-weight: 700;
 }
-:root{
-    --font-body-family: lexend, sans-serif;
-    --fa-orange: 242 103 34;
-    --fa-green: 0 118 118;
+h1, .h1{
+  color: rgb(var(--fa-orange))
 }
+
 @media screen and (min-width: 750px){
   body {
     font-size: 1.55rem;
