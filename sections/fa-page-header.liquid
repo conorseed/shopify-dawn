@@ -1,7 +1,35 @@
+<div style="background: red">
+  <div class="page-width">
+    {% liquid 
+       assign title = page.title
+        if section.settings.title != ''
+          assign title = section.settings.title
+        endif
+    %}
+      <h1>{{ title }}</h1>
+  </div>
+</div>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Page Header Custom",
+    "tag": "section",
+    "class": "section section-fa-page-header",
+    "disabled_on": {
+      "groups": ["header", "footer"]
+    },
+    "settings": [
+      {
+        "type": "inline_richtext",
+        "id": "title",
+        "label": "t:sections.collection-list.settings.title.label"
+      },
+      {
+        "type": "image_picker",
+        "id": "header_image",
+        "label": "Custom Image"
+      }
+    ]
   }
 {% endschema %}
 
