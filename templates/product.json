@@ -3,11 +3,10 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
+        "7fe18e28-da74-4cc1-94ae-094e7d78b483": {
+          "type": "sku",
           "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
+            "text_style": "subtitle"
           }
         },
         "title": {
@@ -94,7 +93,7 @@
         }
       },
       "block_order": [
-        "vendor",
+        "7fe18e28-da74-4cc1-94ae-094e7d78b483",
         "title",
         "caption",
         "price",
