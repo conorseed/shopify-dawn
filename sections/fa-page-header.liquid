@@ -13,17 +13,25 @@
 {% schema %}
   {
     "name": "Page Header Custom",
+    "tag": "section",
+    "class": "section section-fa-page-header",
+    "disabled_on": {
+      "groups": ["header", "footer"]
+    },
     "settings": [
       {
         "type": "inline_richtext",
         "id": "title",
-        "label": "Title"
+        "label": "t:sections.collection-list.settings.title.label"
       },
       {
         "type": "image_picker",
         "id": "header_image",
         "label": "Custom Image"
       }
-    ]
+    ],
+    "presets": [{
+      "name": "Page Header Custom"
+    }]
   }
 {% endschema %}
