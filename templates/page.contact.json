@@ -63,12 +63,58 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "de23102b-5267-4682-a93f-8db3ca571657": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14388672397387__de23102b-5267-4682-a93f-8db3ca571657-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--14388672397387__de23102b-5267-4682-a93f-8db3ca571657-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14388672397387__de23102b-5267-4682-a93f-8db3ca571657-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14388672397387__de23102b-5267-4682-a93f-8db3ca571657-heading-1",
+        "template--14388672397387__de23102b-5267-4682-a93f-8db3ca571657-text-1",
+        "template--14388672397387__de23102b-5267-4682-a93f-8db3ca571657-button-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "b92ab1b5-b086-4c1a-bd32-00b89721f679",
     "d1b2201b-6255-4a16-b1f0-7086ad9f7191",
-    "e29787c4-e86b-4f89-878f-4cb0b2b9f645"
+    "e29787c4-e86b-4f89-878f-4cb0b2b9f645",
+    "de23102b-5267-4682-a93f-8db3ca571657"
   ]
 }
