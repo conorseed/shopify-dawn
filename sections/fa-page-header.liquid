@@ -1,11 +1,7 @@
 {% if section.settings.header_image != nil %}
 <div class="scroll-trigger animate--fade-in">
   <figure class="animate--ambient scroll-trigger animate--fade-in">
-    <img 
-      src="{{ section.settings.header_image | image_url: width: 2500 | image_tag }}"
-      alt="{{ section.settings.image.alt }}" loading="lazy" 
-      width="{{ section.settings.image.width }}"
-      height="{{ section.settings.image.height }}" />
+    {{ section.settings.header_image | image_url: width: 2500 | image_tag }}
   </figure>
   <div class="page-width section-content">
     {% liquid 
