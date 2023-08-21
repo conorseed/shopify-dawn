@@ -11,7 +11,8 @@
     "b92ab1b5-b086-4c1a-bd32-00b89721f679": {
       "type": "fa-page-header",
       "settings": {
-        "title": "",
+        "title": "Get in touch",
+        "header_image": "shopify:\/\/shop_images\/contact-hero.jpg",
         "image_overlay": true
       }
     },
@@ -28,7 +29,7 @@
         "form_richtext": "<h3>Please pop us a message if you have any questions, concerns or just general feedback. We appreciate customer communication and strive to provide the best service possible.<\/h3>",
         "richtext": "<h3>Our Physical Store Address:<\/h3><p>2\/110 Whakatiki St,<br\/>Upper Hutt Wellington, <br\/>New Zealand<\/p><p><a href=\"https:\/\/www.footwearandapparel.co.nz\/\" title=\"https:\/\/www.footwearandapparel.co.nz\/\">footwearandapparel.co.nz<\/a><\/p><h3>Opening hours:<\/h3><p>Monday - Thursday: 7:30am - 5:00pm<br\/>Friday: 7:30am - 4:30pm<\/p><h3>Call us:<\/h3><p>Freephone ~ <a href=\"tel:0800 826 826\" title=\"tel:0800 826 826\">0800 826 826<\/a><br\/>Phone: <a href=\"tel:045279163\" title=\"tel:045279163\">(04) 527 9163<\/a><br\/>Email: <a href=\"mailto:sales@faanz.co.nz\" title=\"mailto:sales@faanz.co.nz\">sales@faanz.co.nz<\/a><\/p>",
         "color_scheme": "",
-        "padding_top": 40,
+        "padding_top": 80,
         "padding_bottom": 80
       }
     }
