@@ -1,5 +1,12 @@
 {
   "sections": {
+    "b92ab1b5-b086-4c1a-bd32-00b89721f679": {
+      "type": "fa-page-header",
+      "settings": {
+        "title": "",
+        "header_image": "shopify:\/\/shop_images\/home-about_0c9fa9fd-2a3f-40bc-91a0-721dd70d9d1d.jpg"
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -19,6 +26,7 @@
     }
   },
   "order": [
+    "b92ab1b5-b086-4c1a-bd32-00b89721f679",
     "main",
     "form"
   ]
