@@ -15,7 +15,7 @@
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
-  <div class="contact page-width section-{{ section.id }}-padding">
+  <div class="contact page-width section-{{ section.id }}-padding grid grid--1-col-tablet-down grid--2-col-desktop">
     {%- if section.settings.heading != blank -%}
       <h2 class="title title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         {{ section.settings.heading }}
@@ -29,8 +29,8 @@
         assign contact_form_class = 'isolate scroll-trigger animate--slide-in'
       endif
     -%}
-    <div class="grid grid--1-col-tablet-down grid--2-col-desktop">Yo</div>
-    <div class="grid grid--1-col-tablet-down grid--2-col-desktop">
+    <div class="">Yo</div>
+    <div class="">
     {%- form 'contact', id: 'ContactForm', class: contact_form_class -%}
       {%- if form.posted_successfully? -%}
         <h2 class="form-status form-status-list form__message" tabindex="-1" autofocus>
@@ -138,7 +138,7 @@
 
 {% schema %}
 {
-  "name": "t:sections.contact-form.name",
+  "name": "2 Column Contact Form",
   "tag": "section",
   "class": "section",
   "disabled_on": {
@@ -204,7 +204,7 @@
   ],
   "presets": [
     {
-      "name": "t:sections.contact-form.presets.name"
+      "name": "2 Column Contact Form"
     }
   ]
 }
