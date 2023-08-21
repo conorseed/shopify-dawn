@@ -1,6 +1,6 @@
 {% if section.settings.header_image != nil %}
 <div class="scroll-trigger animate--fade-in" style="background: red">
-  <figure class="banner__media media animate--ambient scroll-trigger animate--fade-in">
+  <figure class="animate--ambient scroll-trigger animate--fade-in">
     <img 
       src="{{ section.settings.header_image | image_url: width: 2500 | image_tag }}"
       alt="{{ section.settings.image.alt }}" loading="lazy" 
@@ -17,6 +17,14 @@
       <h1>{{ title }}</h1>
   </div>
 </div>
+<style>
+  .section-fa-page-header .figure{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0; left: 0
+  }
+</style>
 {% endif; %}
 
 {% schema %}
