@@ -30,11 +30,11 @@
         assign contact_form_class = 'isolate scroll-trigger animate--slide-in'
       endif
     -%}
-    <div class="grid__item">
+    <div class="grid__item scroll-trigger animate--slide-in">
       {{ section.settings.richtext }}
     </div>
     <div class="grid__item">
-      <div>
+      <div class="scroll-trigger animate--slide-in">
         {{ section.settings.form_richtext }}
       </div>
     {%- form 'contact', id: 'ContactForm', class: contact_form_class -%}
