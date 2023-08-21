@@ -1,5 +1,5 @@
 {% if section.settings.header_image != nil %}
-<div class="scroll-trigger animate--fade-in">
+<div class="scroll-trigger animate--fade-in with_media">
   <figure class="animate--ambient scroll-trigger animate--fade-in{% if section.settings.image_overlay %} with_overlay{% endif %}">
     {{ section.settings.header_image | image_url: width: 2500 | image_tag }}
   </figure>
@@ -41,7 +41,7 @@
     top: 0;
     left: 0;
   }
-  .section-fa-page-header .section-content{
+  .section-fa-page-header .with_media .section-content{
     min-height: 45vh;
     padding-top: 100px;
     padding-bottom: 100px;
