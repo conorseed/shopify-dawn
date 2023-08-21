@@ -32,11 +32,40 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
+    },
+    "e29787c4-e86b-4f89-878f-4cb0b2b9f645": {
+      "type": "image-banner",
+      "blocks": {
+        "template--14388672397387__e29787c4-e86b-4f89-878f-4cb0b2b9f645-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Choose Footwear & Apparel, you could not be in better hands.",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--14388672397387__e29787c4-e86b-4f89-878f-4cb0b2b9f645-heading-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/contact-boots.jpg",
+        "image_overlay_opacity": 60,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "main",
     "b92ab1b5-b086-4c1a-bd32-00b89721f679",
-    "d1b2201b-6255-4a16-b1f0-7086ad9f7191"
+    "d1b2201b-6255-4a16-b1f0-7086ad9f7191",
+    "e29787c4-e86b-4f89-878f-4cb0b2b9f645"
   ]
 }
