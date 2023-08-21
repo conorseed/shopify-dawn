@@ -48,11 +48,11 @@
         "template--14388672397387__e29787c4-e86b-4f89-878f-4cb0b2b9f645-heading-1"
       ],
       "custom_css": [
-        ".banner:after, .banner__media:after{background: var(--fa-overlay); }"
+        ".banner:after,.banner__media:after {background: var(--fa-overlay);}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/contact-boots.jpg",
-        "image_overlay_opacity": 60,
+        "image_overlay_opacity": 100,
         "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
