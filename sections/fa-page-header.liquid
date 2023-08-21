@@ -1,6 +1,6 @@
 {% if section.settings.header_image != nil %}
 <div class="scroll-trigger animate--fade-in">
-  <figure class="animate--ambient scroll-trigger animate--fade-in{% if section.settings.use_image_overlay %} with_overlay{% endif %}">
+  <figure class="animate--ambient scroll-trigger animate--fade-in{% if section.settings.use_image_overlay == true %} with_overlay{% endif %}">
     {{ section.settings.header_image | image_url: width: 2500 | image_tag }}
   </figure>
   <div class="page-width section-content">
