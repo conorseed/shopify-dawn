@@ -1,15 +1,16 @@
+{% liquid 
+   assign title = page.title
+    if section.settings.title != ''
+      assign title = section.settings.title
+    endif
+%}
+    
 {% if section.settings.header_image != nil %}
 <div class="scroll-trigger animate--fade-in with_media">
   <figure class="animate--ambient scroll-trigger animate--fade-in{% if section.settings.image_overlay %} with_overlay{% endif %}">
     {{ section.settings.header_image | image_url: width: 2500 | image_tag }}
   </figure>
-  <div class="page-width section-content">
-    {% liquid 
-       assign title = page.title
-        if section.settings.title != ''
-          assign title = section.settings.title
-        endif
-    %}
+  <div class="page-width section-content scroll-trigger animate--fade-in">
       <h1 class="h0">{{ title }}</h1>
   </div>
 </div>
@@ -50,6 +51,13 @@
     color: #fff !important;
   }
 </style>
+{% else %}
+<div class="scroll-trigger animate--fade-in">
+  <div class="page-width section-content scroll-trigger animate--fade-in">
+      <h1 class="h0">{{ title }}</h1>
+      {% render 'fa-line' %}
+  </div>
+</div>
 {% endif; %}
 
 {% schema %}
