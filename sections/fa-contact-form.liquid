@@ -30,7 +30,9 @@
         assign contact_form_class = 'isolate scroll-trigger animate--slide-in'
       endif
     -%}
-    <div class="grid__item">Yo</div>
+    <div class="grid__item">
+      {{ section.settings.richtext }}
+    </div>
     <div class="grid__item">
     {%- form 'contact', id: 'ContactForm', class: contact_form_class -%}
       {%- if form.posted_successfully? -%}
@@ -171,6 +173,11 @@
       ],
       "default": "h1",
       "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "richtext",
+      "id": "richtext",
+      "label": "Left Column Text"
     },
     {
       "type": "color_scheme",
