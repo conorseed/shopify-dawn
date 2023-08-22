@@ -184,7 +184,7 @@
             "link": ""
           }
         },
-        "e8c796be-e8cb-46bc-81a5-8cad3455effca": {
+        "e8c796be-e8cb-46bc-81a5-8cad3455effa": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/brands-logos-17.png",
@@ -194,7 +194,7 @@
             "link": ""
           }
         },
-        "e8c796be-e8cb-46bc-81a5-8cad3455effcb": {
+        "e8c796be-e8cb-46bc-81a5-8cad3455effb": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/brands-logos-18.png",
@@ -204,7 +204,7 @@
             "link": ""
           }
         },
-        "e8c796be-e8cb-46bc-81a5-8cad3455effcc": {
+        "e8c796be-e8cb-46bc-81a5-8cad3455effd": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/brands-logos-19.png",
@@ -214,7 +214,7 @@
             "link": ""
           }
         },
-        "e8c796be-e8cb-46bc-81a5-8cad3455effcd": {
+        "e8c796be-e8cb-46bc-81a5-8cad3455effe": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/brands-logos-20.png",
@@ -224,7 +224,7 @@
             "link": ""
           }
         },
-        "e8c796be-e8cb-46bc-81a5-8cad3455effce": {
+        "e8c796be-e8cb-46bc-81a5-8cad3455efff": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/brands-logos-21.png",
@@ -234,7 +234,7 @@
             "link": ""
           }
         },
-        "e8c796be-e8cb-46bc-81a5-8cad3455effcf": {
+        "e8c796be-e8cb-46bc-81a5-8cad3455effg": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/brands-logos-22.png",
@@ -244,7 +244,7 @@
             "link": ""
           }
         },
-        "628b885a-87d4-4c59-bbed-08e7f8e9cb65": {
+        "628b885a-87d4-4c59-bbed-08e7f8e9cb6": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/brands-logos-23.png",
@@ -254,7 +254,7 @@
             "link": ""
           }
         },
-        "628b885a-87d4-4c59-bbed-08e7f8e9cb66": {
+        "628b885a-87d4-4c59-bbed-08e7f8e9cb7": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/brands-logos-24.png",
@@ -264,7 +264,7 @@
             "link": ""
           }
         },
-        "628b885a-87d4-4c59-bbed-08e7f8e9cb67": {
+        "628b885a-87d4-4c59-bbed-08e7f8e9cb8": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/brands-logos-25.png",
@@ -274,7 +274,7 @@
             "link": ""
           }
         },
-        "628b885a-87d4-4c59-bbed-08e7f8e9cb68": {
+        "628b885a-87d4-4c59-bbed-08e7f8e9cb9": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/brands-logos-26.png",
@@ -300,8 +300,7 @@
         "cd263baa-532c-48fb-a203-0d00f046979e",
         "32ac709c-a27b-4f52-ad57-47c8a8df575f",
         "b393b1d6-ff00-42a1-9269-8bd93b61b4de",
-        "e8c796be-e8cb-46bc-81a5-8cad3455effc",
-        "628b885a-87d4-4c59-bbed-08e7f8e9cb65"
+        "e8c796be-e8cb-46bc-81a5-8cad3455effc"
       ],
       "custom_css": [
         ".multicolumn-card__image-wrapper {padding-top: 0;}"
