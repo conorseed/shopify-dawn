@@ -335,5 +335,11 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+
+    {% if page.handle contains 'policies' %}
+      <script>
+        console.log('hello')
+      </script>
+    {% endif %}
   </body>
 </html>
