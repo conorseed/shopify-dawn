@@ -336,7 +336,7 @@
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
 
-    {% if page.handle contains 'policies' %}
+    {% if request.path contains 'policies' %}
       <script>
         console.log('hello')
       </script>
