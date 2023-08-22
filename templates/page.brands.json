@@ -17,16 +17,84 @@
 
       ],
       "settings": {
-        "title": "",
-        "image_overlay": false
+        "title": "Explore our brands",
+        "header_image": "shopify:\/\/shop_images\/brands-hero.jpg",
+        "image_overlay": true
       }
     },
     "75e581bc-2a5d-46f9-ac89-4afa307d3115": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width rte scroll-trigger animate--slide-in\">\n{{ page.content }}\n<\/div>",
+        "custom_liquid": "<div class=\"page-width rte scroll-trigger animate--slide-in\">\n<h2 class=\"h1\">Discover Exceptional Brands - Your Source for\nQuality Footwear and Apparel<\/h2>\n{% render 'fa-line' %}\n<div>\nWe take pride in offering an alternative range of footwear and apparel that goes beyond the generic options commonly\nfound in New Zealand. With our extensive knowledge and passion for quality, we strive to bring you the finest footwear,\nincluding safety and outdoor varieties, as well as a vast array of apparel and safety equipment.\n<\/div>\n<\/div>",
         "color_scheme": "",
-        "padding_top": 20,
+        "padding_top": 80,
+        "padding_bottom": 0
+      }
+    },
+    "ed9a48b3-e3ff-43e6-bde9-b7d7533f8993": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14393573081163__ed9a48b3-e3ff-43e6-bde9-b7d7533f8993-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brands-logos-2.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14393573081163__ed9a48b3-e3ff-43e6-bde9-b7d7533f8993-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brands-logos-3.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14393573081163__ed9a48b3-e3ff-43e6-bde9-b7d7533f8993-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brands-logos-4.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "d22bec76-65b0-49a0-8794-e68f2e9f54f3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brands-logos-5.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14393573081163__ed9a48b3-e3ff-43e6-bde9-b7d7533f8993-column-1",
+        "template--14393573081163__ed9a48b3-e3ff-43e6-bde9-b7d7533f8993-column-2",
+        "template--14393573081163__ed9a48b3-e3ff-43e6-bde9-b7d7533f8993-column-3",
+        "d22bec76-65b0-49a0-8794-e68f2e9f54f3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 48,
         "padding_bottom": 80
       }
     }
@@ -34,6 +102,7 @@
   "order": [
     "main",
     "1e90bbd7-ab89-43d7-9045-9e87a22c927f",
-    "75e581bc-2a5d-46f9-ac89-4afa307d3115"
+    "75e581bc-2a5d-46f9-ac89-4afa307d3115",
+    "ed9a48b3-e3ff-43e6-bde9-b7d7533f8993"
   ]
 }
