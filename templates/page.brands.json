@@ -177,8 +177,69 @@
         "e8c796be-e8cb-46bc-81a5-8cad3455effc": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/brands-logos-16.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "e8c796be-e8cb-46bc-81a5-8cad3455effca": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brands-logos-17.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "e8c796be-e8cb-46bc-81a5-8cad3455effcb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brands-logos-18.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "e8c796be-e8cb-46bc-81a5-8cad3455effcc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brands-logos-19.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "e8c796be-e8cb-46bc-81a5-8cad3455effcd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brands-logos-20.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "e8c796be-e8cb-46bc-81a5-8cad3455effce": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brands-logos-21.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "e8c796be-e8cb-46bc-81a5-8cad3455effcf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brands-logos-22.png",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -186,8 +247,39 @@
         "628b885a-87d4-4c59-bbed-08e7f8e9cb65": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/brands-logos-23.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "628b885a-87d4-4c59-bbed-08e7f8e9cb66": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brands-logos-24.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "628b885a-87d4-4c59-bbed-08e7f8e9cb67": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brands-logos-25.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "628b885a-87d4-4c59-bbed-08e7f8e9cb68": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brands-logos-26.png",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
