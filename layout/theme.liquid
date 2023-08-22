@@ -338,7 +338,10 @@
 
     {% if request.path contains 'policies' %}
       <script>
-        console.log('hello')
+        document.addEventListener("DOMContentLoaded", function(){
+          const el = document.querySelector('.shopify-policy__container')
+          el.classList.add('page-width')
+        })
       </script>
     {% endif %}
   </body>
