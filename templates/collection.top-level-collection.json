@@ -55,7 +55,7 @@
       }
     },
     "21de335a-4219-45af-9de5-1b6f4c56c20e": {
-      "type": "collection-list-fa",
+      "type": "fa-collection-list",
       "settings": {
         "title": "",
         "heading_size": "h1",
