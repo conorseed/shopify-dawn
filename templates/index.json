@@ -159,7 +159,8 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 80,
-        "padding_bottom": 40
+        "padding_bottom": 40,
+        "use_sub_collection": false
       }
     },
     "117a4c3d-e815-419b-ad91-b9f1bd44030d": {
