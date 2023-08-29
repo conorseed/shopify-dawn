@@ -48,15 +48,17 @@ async function fetchCart() {
 
 async function requestQuote({cart, nonce}) {
   try {
+    const body = {
+      cart,
+      nonce
+    }
+    console.log('body',body)
     const res = await fetch('https://quote.footwearandapparel.co.nz/quote', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify({
-        cart,
-        nonce
-      }),
+      body: JSON.stringify(body),
       credentials: 'include' // Send cookies
     })
     const data = await res.json()
