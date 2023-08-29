@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', async function() {
 
   // 3. send cart info to api with nonce
   try {
+    console.log('requesting email')
     console.log('cart',cart);
     const res = await fetch('https://quote.footwearandapparel.co.nz/quote', {
       method: 'POST',
