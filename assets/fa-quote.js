@@ -20,7 +20,7 @@ async function fetchNonce() {
     const res = await fetch('https://quote.footwearandapparel.co.nz/nonce')
     const data = await res.json()
     const nonce = data.nonce
-    console.log(nonce)
+    console.log(data)
   } catch (e) {
     console.warn('error fetching nonce',e)
     return e
