@@ -21,7 +21,10 @@ document.addEventListener('DOMContentLoaded', async function() {
 
 async function fetchNonce() {
   try {
-    const res = await fetch('https://quote.footwearandapparel.co.nz/nonce')
+    const res = await fetch('https://quote.footwearandapparel.co.nz/nonce'{
+      method: 'GET',
+      credentials: 'include' // Send cookies
+    })
     const data = await res.json()
     const nonce = data.nonce
     console.log(nonce)
@@ -53,7 +56,8 @@ async function requestQuote({cart, nonce}) {
       body: JSON.stringify({
         cart,
         nonce
-      })
+      }),
+      credentials: 'include' // Send cookies
     })
     const data = await res.json()
     const quote = data.quote
@@ -66,7 +70,10 @@ async function requestQuote({cart, nonce}) {
 
 async function checkHome(){
   try {
-    const res = await fetch('https://quote.footwearandapparel.co.nz/')
+    const res = await fetch('https://quote.footwearandapparel.co.nz/'{
+      method: 'GET',
+      credentials: 'include' // Send cookies
+    })
     const data = await res.json()
     console.log(data)
   } catch (e) {
