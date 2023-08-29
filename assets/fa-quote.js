@@ -12,6 +12,8 @@ document.addEventListener('DOMContentLoaded', async function() {
   if (cart instanceof Error) return
 
   // 3. send cart info to api with nonce
+  const data = {cart, nonce}
+  console.log('before function', data)
   const res = await requestQuote({cart, nonce});
   if (res instanceof Error) return
 
