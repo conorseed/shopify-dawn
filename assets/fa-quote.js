@@ -3,6 +3,10 @@ document.addEventListener('DOMContentLoaded', async function() {
   const nonce = await fetchNonce();
   if (nonce instanceof Error) return
 
+  // check home
+  const home = await checkHome();
+  if (home instanceof Error) return
+
   // 2. fetch cart info from shopify
   const cart = await fetchCart();
   if (cart instanceof Error) return
@@ -20,7 +24,7 @@ async function fetchNonce() {
     const res = await fetch('https://quote.footwearandapparel.co.nz/nonce')
     const data = await res.json()
     const nonce = data.nonce
-    console.log(data)
+    console.log(nonce)
   } catch (e) {
     console.warn('error fetching nonce',e)
     return e
@@ -57,5 +61,16 @@ async function requestQuote({cart, nonce}) {
   } catch (e) {
     console.warn('error sending email',e)
     return e
+  }
+
+  async function checkHome(){
+    try {
+      const res = await fetch('https://quote.footwearandapparel.co.nz/')
+      const data = await res.json()
+      console.log(data)
+    } catch (e) {
+      console.warn('error fetching home',e)
+      return e
+    }
   }
 }
