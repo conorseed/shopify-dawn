@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', async function() {
   if (cart instanceof Error) return
 
   // 3. send cart info to api with nonce
-  const res = await requestQuote();
+  const res = await requestQuote({cart, nonce});
   if (res instanceof Error) return
 
   alert('Quote request sent!')
@@ -39,9 +39,8 @@ async function fetchCart() {
   }
 }
 
-async function requestQuote() {
+async function requestQuote({cart, nonce}) {
   try {
-    console.log('cart',cart);
     const res = await fetch('https://quote.footwearandapparel.co.nz/quote', {
       method: 'POST',
       headers: {
