@@ -60,8 +60,7 @@ async function requestQuote({cart, nonce}) {
       credentials: 'include' // Send cookies
     })
     const data = await res.json()
-    const quote = data.quote
-    console.log(quote)
+    console.log(data)
   } catch (e) {
     console.warn('error sending email',e)
     return e
