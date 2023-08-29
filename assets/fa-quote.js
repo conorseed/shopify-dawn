@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     console.log(nonce)
   } catch (e) {
     console.warn('error fetching nonce',e)
+    return
   }
 
   // 2. fetch cart info from shopify
@@ -17,6 +18,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     console.log(cart)
   } catch (e) {
     console.warn('error fetching cart',e)
+    return
   }
 
   // 3. send cart info to api with nonce
@@ -36,6 +38,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     console.log(quote)
   } catch (e) {
     console.warn('error sending email',e)
+    return
   }
 
 })
