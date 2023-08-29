@@ -62,15 +62,15 @@ async function requestQuote({cart, nonce}) {
     console.warn('error sending email',e)
     return e
   }
+}
 
-  async function checkHome(){
-    try {
-      const res = await fetch('https://quote.footwearandapparel.co.nz/')
-      const data = await res.json()
-      console.log(data)
-    } catch (e) {
-      console.warn('error fetching home',e)
-      return e
-    }
+async function checkHome(){
+  try {
+    const res = await fetch('https://quote.footwearandapparel.co.nz/')
+    const data = await res.json()
+    console.log(data)
+  } catch (e) {
+    console.warn('error fetching home',e)
+    return e
   }
 }
