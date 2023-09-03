@@ -38,7 +38,7 @@
         "29208501-7e9d-4dc7-8d88-84470b9eb65d": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.has_only_default_variant == false %}\n<style>\nproduct-info variant-radios,\nproduct-info .product-form__input,\nproduct-info form{\n    display:none;\n}\n<\/style>\n\n<a class=\"button\" style=\"margin-bottom:0\" href=\"#fa-order\">Order Now<\/a>\n{% endif %}"
+            "custom_liquid": "{% if product.has_only_default_variant == false %}\n<style>\nproduct-info variant-radios,\nproduct-info .product-form__input,\nproduct-info form{\n    display:none;\n}\n<\/style>\n\n<a class=\"button\" style=\"margin-bottom:0\" href=\"#shopify-section-template--14388672528459__1693778538c2ea073c\">Order Now<\/a>\n{% endif %}"
           }
         },
         "variant_picker": {
@@ -105,15 +105,6 @@
         "padding_bottom": 80
       }
     },
-    "7cf3e2bb-9d2d-4757-bf84-8976b8475bfa": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "{% comment %}{% endcomment %}\n<div id=\"fa-order\">&nbsp;<\/div>",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "1693778538c2ea073c": {
       "type": "apps",
       "blocks": {
@@ -162,7 +153,6 @@
   "order": [
     "118179d1-5d1c-4b50-8c5c-a697028f5e9f",
     "main",
-    "7cf3e2bb-9d2d-4757-bf84-8976b8475bfa",
     "1693778538c2ea073c",
     "522cf1ed-ae3e-4408-999d-a6c1fc8602d4",
     "related-products"
