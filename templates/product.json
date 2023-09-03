@@ -3,7 +3,7 @@
     "118179d1-5d1c-4b50-8c5c-a697028f5e9f": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width\">\n {% render 'fa-line' %}\n<\/div>\n\n{% if product.has_only_default_variant == false %}\n<style>\n\n<\/style>\n{% endif %}",
+        "custom_liquid": "<div class=\"page-width\">\n {% render 'fa-line' %}\n<\/div>\n\n{% if product.has_only_default_variant == false %}\n<style>\nproduct-info variant-radios,\nproduct-info .product-form__input,\nproduct-info form{\n    display:none;\n}\n<\/style>\n{% endif %}",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 0
