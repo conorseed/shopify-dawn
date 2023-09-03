@@ -108,7 +108,7 @@
     "7cf3e2bb-9d2d-4757-bf84-8976b8475bfa": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div id=\"order\"><\/div>",
+        "custom_liquid": "<div id=\"fa-order\"><\/div>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
