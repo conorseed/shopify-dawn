@@ -98,6 +98,23 @@
         "padding_bottom": 80
       }
     },
+    "1693778538c2ea073c": {
+      "type": "apps",
+      "blocks": {
+        "12ae51da-6cc0-4855-9ebd-d8e9a62d7745": {
+          "type": "shopify:\/\/apps\/multivariants-bulk-order\/blocks\/app-block-product\/e556349f-fd26-4006-9dd9-dcbf70aa55b3",
+          "settings": {
+            "multivariants_custom_css": ".multivariants_block_prc_holder{\n  justify-content: center;\n}\n.multivariants_block_prc_label{\n  display:none;\n}\n.multivariants_block_prc_total{\n  color: rgb(var(--fa-orange));\n}\n\n.multivariants_block_subtotal_h{\n  color: rgb(var(--fa-orange));\n  padding: 1rem;\n}"
+          }
+        }
+      },
+      "block_order": [
+        "12ae51da-6cc0-4855-9ebd-d8e9a62d7745"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "522cf1ed-ae3e-4408-999d-a6c1fc8602d4": {
       "type": "custom-liquid",
       "settings": {
@@ -129,6 +146,7 @@
   "order": [
     "118179d1-5d1c-4b50-8c5c-a697028f5e9f",
     "main",
+    "1693778538c2ea073c",
     "522cf1ed-ae3e-4408-999d-a6c1fc8602d4",
     "related-products"
   ]
