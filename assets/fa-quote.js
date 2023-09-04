@@ -35,7 +35,6 @@ document.addEventListener('DOMContentLoaded', async function() {
     loadingSpinner.style.display = 'inline-block';
 
     var messageReturn = '';
-    
     try {
       // 1. fetch nonce from api
       const nonce = await fetchNonce();
@@ -52,6 +51,13 @@ document.addEventListener('DOMContentLoaded', async function() {
       console.error('Fetch error:', error);
       messageReturn = `<div class="error">Something went wrong. Please try again.</div>`;
     }
+
+    // hide the loading spinner
+    loadingSpinner.style.display = 'none';
+    // show the message
+    message.innerHTML = messageReturn;
+    // enable the submit input
+    submitInput.disabled = false;
   });
 })
 
