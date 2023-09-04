@@ -7,6 +7,15 @@
         "padding_bottom": 36
       }
     },
+    "06ae153b-fac3-4500-ad3c-45b5ae03014b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if cart.empty? == false %}\n<div class=\"page-width\">\n{% render 'fa-cart-quote' %}\n<\/div>\n{% endif %}",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "cart-footer": {
       "type": "main-cart-footer",
       "blocks": {
@@ -28,15 +37,6 @@
       "settings": {
         "padding_top": 40,
         "padding_bottom": 40
-      }
-    },
-    "06ae153b-fac3-4500-ad3c-45b5ae03014b": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "{% if cart.empty? == false %}\n<div class=\"page-width\">\n{% render 'fa-cart-quote' %}\n<\/div>\n{% endif %}",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "featured-collection": {
@@ -71,8 +71,8 @@
   },
   "order": [
     "cart-items",
-    "cart-footer",
     "06ae153b-fac3-4500-ad3c-45b5ae03014b",
+    "cart-footer",
     "featured-collection"
   ]
 }
