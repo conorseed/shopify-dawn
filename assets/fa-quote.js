@@ -1,50 +1,79 @@
 document.addEventListener('DOMContentLoaded', async function() {
-  // 1. fetch nonce from api
-  const nonce = await fetchNonce();
-  if (nonce instanceof Error) return
+  var quoteButton = document.getElementById('fa_quote_btn');
+  var quoteDialog = document.getElementById('fa_quote_modal');
+  var quoteDialogClose = document.getElementById(
+    'fa_quote_modal_close'
+  );
+  var quoteDialogForm = document.getElementById('fa_quote_form');
 
-  // 2. fetch cart info from shopify
-  const cart = await fetchCart();
-  if (cart instanceof Error) return
+  // open dialog on button click
+  quoteButton.addEventListener('click', function (e) {
+    e.preventDefault();
+    quoteDialog.showModal();
+  });
 
-  // 3. send cart info to api with nonce
-  const res = await requestQuote({cart, nonce});
-  if (res instanceof Error) return
+  // close dialog on close button click
+  quoteDialogClose.addEventListener('click', function (e) {
+    e.preventDefault();
+    quoteDialog.close();
+  });
 
-  alert('Quote request sent!')
+  // handle form submission
+  quoteDialogForm.addEventListener('submit', async function (e) {
+    e.preventDefault();
 
+    // disable the submit input
+    var submitInput = document.getElementById('fa_quote_submit');
+    submitInput.disabled = true;
+
+    // clear any previous messages
+    var message = document.getElementById('fa_quote_message');
+    message.innerHTML = '';
+
+    // show the loading spinner
+    var loadingSpinner = document.getElementById('fa_quote_loading');
+    loadingSpinner.style.display = 'inline-block';
+
+    var messageReturn = '';
+    
+    try {
+      // 1. fetch nonce from api
+      const nonce = await fetchNonce();
+    
+      // 2. fetch cart info from shopify
+      const cart = await fetchCart();
+    
+      // 3. send cart info to api with nonce
+      const res = await requestQuote({cart, nonce});
+
+      // update message
+      messageReturn = `<div class="success">Quote sent successfully</div>`;
+    } catch (error) {
+      console.error('Fetch error:', error);
+      messageReturn = `<div class="error">Something went wrong. Please try again.</div>`;
+    }
+  });
 })
 
 async function fetchNonce() {
-  try {
-    const res = await fetch('https://quote.footwearandapparel.co.nz/nonce',{
+  const res = await fetch('https://quote.footwearandapparel.co.nz/nonce',{
       method: 'GET',
       credentials: 'include' // Send cookies
     })
     const data = await res.json()
     const nonce = data.nonce
     return nonce
-  } catch (e) {
-    console.warn('error fetching nonce',e)
-    return e
-  }
 }
 
 async function fetchCart() {
-  try {
-    const res = await fetch(window.location.origin + '/cart.json')
+  const res = await fetch(window.location.origin + '/cart.json')
     const data = await res.json()
     const cart = data
     return cart
-  } catch (e) {
-    console.warn('error fetching cart',e)
-    return e
-  }
 }
 
 async function requestQuote({cart, nonce}) {
-  try {
-    const body = {
+  const body = {
       cart,
       nonce
     }
@@ -59,8 +88,4 @@ async function requestQuote({cart, nonce}) {
     })
     const data = await res.json()
     console.log(data)
-  } catch (e) {
-    console.warn('error sending email',e)
-    return e
-  }
 }
