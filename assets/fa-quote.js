@@ -87,7 +87,7 @@ async function requestQuote({cart, nonce}) {
   const body = {
       cart,
       nonce,
-      email: document.getElementById('fa_quote_email')
+      email: document.getElementById('fa_quote_email').value
     }
     const res = await fetch('https://quote.footwearandapparel.co.nz/quote', {
       method: 'POST',
