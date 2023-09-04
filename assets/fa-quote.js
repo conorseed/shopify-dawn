@@ -44,7 +44,6 @@ document.addEventListener('DOMContentLoaded', async function() {
     
       // 3. send cart info to api with nonce
       const email = document.getElementById('fa_quote_email').value
-      console.log(email)
       const res = await requestQuote({cart, nonce, email});
 
       // check error
