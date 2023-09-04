@@ -1,0 +1,21 @@
+<button type="button" class="button">Email This Cart As Quote</button>
+<dialog id="fa_quote_modal">
+  <form method="dialog" class="claim-councillor-modal__form" id="claim-councillor-form">
+      <header>
+        <h3>
+          Send Cart As Quote 
+        </h3>
+        <a id="fa_quote_modal_close" href="#">
+          X
+        </a>
+      </header>
+      <p>Please enter your email address:</p>
+      <input style="width:100%; margin-bottom: 10px" type="email" name="email" id="fa_quote_email" placeholder="Email Address" required>
+      <div>
+        <input type="submit" id="fa_quote_submit" value="Claim Profile">
+        <div id="fa_quote_loading" class="loader"></div>
+      </div>
+    </form>
+    <div id="fa_quote_message"></div>
+</dialog>
+<script src="{{ 'fa-quote.js' | asset_url }}" defer="defer"></script>
