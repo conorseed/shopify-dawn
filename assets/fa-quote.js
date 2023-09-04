@@ -100,5 +100,5 @@ async function requestQuote({cart, nonce, email}) {
       credentials: 'include' // Send cookies
     })
     const data = await res.json()
-    console.log(data)
+    return data
 }
