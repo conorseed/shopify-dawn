@@ -75,7 +75,8 @@ async function fetchCart() {
 async function requestQuote({cart, nonce}) {
   const body = {
       cart,
-      nonce
+      nonce,
+      email: document.getElementById('fa_quote_email')
     }
     console.log('body',body)
     const res = await fetch('https://quote.footwearandapparel.co.nz/quote', {
