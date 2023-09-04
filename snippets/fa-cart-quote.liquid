@@ -19,3 +19,18 @@
     <div id="fa_quote_message"></div>
 </dialog>
 <script src="{{ 'fa-quote.js' | asset_url }}" defer="defer"></script>
+<style>
+dialog::backdrop {
+  background-color: rgba(250, 251, 253, 0.9);
+}
+div.loader {
+  width: 20px;
+  height: 20px;
+  border: 3px solid rgb(var(--fa-orange));
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: none;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+</style>
