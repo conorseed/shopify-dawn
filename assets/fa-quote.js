@@ -45,6 +45,11 @@ document.addEventListener('DOMContentLoaded', async function() {
       // 3. send cart info to api with nonce
       const res = await requestQuote({cart, nonce});
 
+      // check error
+      if('error' in res){
+        throw new Error(res.error)
+      }
+
       // update message
       messageReturn = `<div class="success">Quote sent successfully</div>`;
     } catch (error) {
@@ -84,7 +89,6 @@ async function requestQuote({cart, nonce}) {
       nonce,
       email: document.getElementById('fa_quote_email')
     }
-    console.log('body',body)
     const res = await fetch('https://quote.footwearandapparel.co.nz/quote', {
       method: 'POST',
       headers: {
