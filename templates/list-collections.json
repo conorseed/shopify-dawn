@@ -64,7 +64,26 @@
           }
         }
       },
+      "block_order": [
+        "template--14388672135243__2377cec9-f09c-4e08-bd02-72f854c16dce-featured_collection-1",
+        "template--14388672135243__2377cec9-f09c-4e08-bd02-72f854c16dce-featured_collection-2",
+        "template--14388672135243__2377cec9-f09c-4e08-bd02-72f854c16dce-featured_collection-3",
+        "bb0bf01b-96c4-418b-b1e0-ef38e13ffcf5",
+        "5a5b1e68-7c36-4d18-bfc0-3eef46faaa1c",
+        "735e6dc0-dfdc-4923-b34d-b557a14db84d"
+      ],
       "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 40,
+        "use_sub_collection": false
       }
     }
   },
