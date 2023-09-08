@@ -2,14 +2,25 @@
   "sections": {
     "main": {
       "type": "main-list-collections",
+      "disabled": true,
       "settings": {
         "title": "Collections",
         "sort": "alphabetical",
-        "image_ratio": "square"
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "columns_mobile": "2"
+      }
+    },
+    "f5b502aa-27f6-4ec6-9f0a-f7c6760dbd49": {
+      "type": "fa-page-header",
+      "settings": {
+        "title": "Shop now",
+        "image_overlay": false
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "f5b502aa-27f6-4ec6-9f0a-f7c6760dbd49"
   ]
 }
