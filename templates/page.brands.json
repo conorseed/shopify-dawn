@@ -80,8 +80,8 @@
             "image": "shopify:\/\/shop_images\/brands-logos-6.png",
             "title": "",
             "text": "",
-            "link_label": "",
-            "link": ""
+            "link_label": "View",
+            "link": "shopify:\/\/collections\/grisport"
           }
         },
         "66b9684a-b2c5-4314-89c2-03c629814c44": {
@@ -91,7 +91,7 @@
             "title": "",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "shopify:\/\/collections\/kaiwaka"
           }
         },
         "af4bfb7a-2f24-4d52-9880-9d84e25bfd41": {
