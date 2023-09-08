@@ -17,10 +17,60 @@
         "title": "Shop now",
         "image_overlay": false
       }
+    },
+    "2377cec9-f09c-4e08-bd02-72f854c16dce": {
+      "type": "fa-collection-list",
+      "blocks": {
+        "template--14388672135243__2377cec9-f09c-4e08-bd02-72f854c16dce-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "footwear",
+            "collection_image": "shopify:\/\/shop_images\/collection-footwear.jpg"
+          }
+        },
+        "template--14388672135243__2377cec9-f09c-4e08-bd02-72f854c16dce-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "apparel",
+            "collection_image": "shopify:\/\/shop_images\/collection-apparel.jpg"
+          }
+        },
+        "template--14388672135243__2377cec9-f09c-4e08-bd02-72f854c16dce-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "safety-equipment",
+            "collection_image": "shopify:\/\/shop_images\/collection-safety-equipment.jpg"
+          }
+        },
+        "bb0bf01b-96c4-418b-b1e0-ef38e13ffcf5": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "height-safety",
+            "collection_image": "shopify:\/\/shop_images\/collection-height-safety.jpg"
+          }
+        },
+        "5a5b1e68-7c36-4d18-bfc0-3eef46faaa1c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hand-protection",
+            "collection_image": "shopify:\/\/shop_images\/collection-hand-protection.jpg"
+          }
+        },
+        "735e6dc0-dfdc-4923-b34d-b557a14db84d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "medical-misc",
+            "collection_image": "shopify:\/\/shop_images\/collection-medical.jpg"
+          }
+        }
+      },
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
-    "f5b502aa-27f6-4ec6-9f0a-f7c6760dbd49"
+    "f5b502aa-27f6-4ec6-9f0a-f7c6760dbd49",
+    "2377cec9-f09c-4e08-bd02-72f854c16dce"
   ]
 }
