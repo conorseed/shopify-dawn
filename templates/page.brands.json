@@ -150,7 +150,7 @@
             "image": "shopify:\/\/shop_images\/brands-logos-13.png",
             "title": "",
             "text": "",
-            "link_label": "",
+            "link_label": "View",
             "link": ""
           }
         },
@@ -160,7 +160,7 @@
             "image": "shopify:\/\/shop_images\/brands-logos-14.png",
             "title": "",
             "text": "",
-            "link_label": "",
+            "link_label": "View",
             "link": ""
           }
         },
@@ -200,8 +200,8 @@
             "image": "shopify:\/\/shop_images\/brands-logos-18.png",
             "title": "",
             "text": "",
-            "link_label": "",
-            "link": ""
+            "link_label": "View",
+            "link": "shopify:\/\/collections\/outback"
           }
         },
         "e8c796be-e8cb-46bc-81a5-8cad3455effd": {
