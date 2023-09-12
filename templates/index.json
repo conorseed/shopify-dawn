@@ -52,7 +52,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Welcome to Footwear & Apparel NZ Ltd - your source for a wide range of superb products, sourced from around the world.<\/p><p>As an independent business owned by Stuart and Rebecca Williams, we pride ourselves on providing friendly, professional customer service and offering an alternate range of products to give you more choice.<\/p><p>Our extensive range includes safety and outdoor footwear, apparel, and safety equipment, with a particular passion for importing and distributing excellent ranges from Italy.<\/p><p>Additionally, we specialise in providing customised branding and corporate clothing options to uphold your company image.<\/p>",
+            "text": "<p>Welcome to Footwear & Apparel NZ Ltd - your source for a wide range of quality and stylish products sourced from around the globe.<\/p><p>As an independent business owned by Stuart and Rebecca Williams, we pride ourselves on providing friendly, professional customer service and offer an up to date vast range of products to give our customers more choice.<\/p><p>Our extensive range includes Safety and Outdoor Footwear, Safety Equipment, Apparel and we have a particular passion for supporting NZ made products where possible.<\/p><p>Additionally, we specialise in providing customised branding and corporate clothing options to uphold your company image.<\/p>",
             "link_label": "Shop Now",
             "link": "shopify:\/\/collections"
           }
@@ -169,7 +169,7 @@
         "template--14388672135243__117a4c3d-e815-419b-ad91-b9f1bd44030d-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Catalogue 2023: Discover the perfect items to elevate your lifestyle and meet your diverse needs",
+            "heading": "Catalogue 2023: Discover the perfect items to elevate your lifestyle and meet your needs",
             "heading_size": "h1"
           }
         },
@@ -208,7 +208,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/home-screen.jpg",
-            "heading": "Screenprinting & Embroidery",
+            "heading": "Digital Transfer & Embroidery",
             "heading_size": "h2",
             "subheading": "At Footwear and Apparel, we take pride in offering top-notch screenprinting and embroidery services. Whether you want to promote your brand or create personalised apparel, our skilled team can add your logo or design to any garment. With our meticulous attention to detail and high-quality materials, we ensure that your message stands out in style. Don't miss out on this opportunity to make a lasting impression.",
             "button_label": "Find out more",
@@ -228,7 +228,7 @@
             "image": "shopify:\/\/shop_images\/home-sizing.jpg",
             "heading": "Sizing Charts",
             "heading_size": "h2",
-            "subheading": "Ensuring the perfect fit for your footwear and apparel is paramount to us.That's why we source our sizing charts directly from our suppliers, guaranteeing accurate measurements for all our products. Our meticulous approach ensures that you can confidently choose the right size and experience unparalleled comfort every time you shop with us. Say farewell to guesswork and make informed decisions with our comprehensive and detailed sizing charts.",
+            "subheading": "Ensuring the perfect fit for your footwear and apparel is paramount to us. That's why we source our sizing charts directly from our suppliers, guaranteeing accurate measurements for all our products. Our meticulous approach ensures that you can confidently choose the right size and experience unparalleled comfort every time you shop with us. Say farewell to guesswork and make informed decisions with our comprehensive and detailed sizing charts.",
             "button_label": "Find your ideal fit",
             "link": "#",
             "button_style_secondary": false,
