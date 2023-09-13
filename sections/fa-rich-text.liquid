@@ -92,11 +92,11 @@
             {{ block.settings.max-width }}
             <div class="rich-text__text">
               <style>
-                figure[loop="{{ forloop.index }}"]{
+                figure[loop="{{ block.id }}-{{ forloop.index }}"]{
                   max-width: {{ block.settings.max_width }}
                 }
               </style>
-              <figure loop="{{ forloop.index }}" class="rich-text-image {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" 
+              <figure loop="{{ block.id }}-{{ forloop.index }}" class="rich-text-image {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" 
                 style=";--animation-order: {{ forloop.index }};"
               {% if settings.animations_reveal_on_scroll %}
                     data-cascade
