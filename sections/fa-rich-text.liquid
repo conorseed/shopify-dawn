@@ -89,7 +89,13 @@
               </div>
 
             {% when 'image' %}
-            <figure class="animate--ambient scroll-trigger animate--fade-in" {% if block.settings.max-width != '' %}style="max-width:{{ block.settings.max-width }}"{% endif %}>
+            <style>
+              figure.rich-text-image img {
+                  width: 100%;
+                  height: auto;
+              }
+            </style>
+            <figure class="rich-text-image scroll-trigger animate--fade-in" {% if block.settings.max-width != '' %}style="max-width:{{ block.settings.max-width }}"{% endif %}>
               {{ block.settings.image | image_url: width: 2000 | image_tag }}
             </figure>
           {%- endcase -%}
