@@ -90,23 +90,14 @@
 
             {% when 'image' %}
             <div class="rich-text__text">
-            <style>
-              figure.rich-text-image{
-                margin: 0
-              }
-              figure.rich-text-image img {
-                  width: 100%;
-                  height: auto;
-              }
-            </style>
-            <figure class="rich-text-image {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" 
-              style="max-width:{{ block.settings.max-width }};--animation-order: {{ forloop.index }};"
-            {% if settings.animations_reveal_on_scroll %}
-                  data-cascade
-                {% endif %}
-              >
-              {{ block.settings.image | image_url: width: 2000 | image_tag }}
-            </figure>
+              <figure class="rich-text-image {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" 
+                style="max-width:{{ block.settings.max-width }};--animation-order: {{ forloop.index }};"
+              {% if settings.animations_reveal_on_scroll %}
+                    data-cascade
+                  {% endif %}
+                >
+                {{ block.settings.image | image_url: width: 2000 | image_tag }}
+              </figure>
             </div>
           {%- endcase -%}
         {%- endfor -%}
@@ -114,6 +105,15 @@
     </div>
   </div>
 </div>
+<style>
+  figure.rich-text-image{
+    margin: 0
+  }
+  figure.rich-text-image img {
+      width: 100%;
+      height: auto;
+  }
+</style>
 
 {% schema %}
 {
