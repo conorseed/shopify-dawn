@@ -183,14 +183,21 @@
   ],
   "blocks": [
     {
-      "type": "image_picker",
+      "type": "image",
       "name": "Image",
-      "settings": [{
-        "type": "text",
-        "id": "max-width",
-        "default": "100%",
-        "label": "Max Width"
-      }]
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "max-width",
+          "default": "100%",
+          "label": "Max Width"
+        }
+      ]
       
     },
     {
