@@ -21,19 +21,62 @@
         "image_overlay": false
       }
     },
-    "75e581bc-2a5d-46f9-ac89-4afa307d3115": {
+    "dd3d7826-c89f-4b0b-badc-f93ed2ca04bf": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width rte scroll-trigger animate--slide-in\">\n{{ page.content }}\n<\/div>",
+        "custom_liquid": "",
         "color_scheme": "",
-        "padding_top": 20,
-        "padding_bottom": 80
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "6704b699-001f-448a-8fd7-1af4cbdcc1d7": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14399191580747__6704b699-001f-448a-8fd7-1af4cbdcc1d7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "template--14399191580747__6704b699-001f-448a-8fd7-1af4cbdcc1d7-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--14399191580747__6704b699-001f-448a-8fd7-1af4cbdcc1d7-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14399191580747__6704b699-001f-448a-8fd7-1af4cbdcc1d7-heading-1",
+        "template--14399191580747__6704b699-001f-448a-8fd7-1af4cbdcc1d7-text-1",
+        "template--14399191580747__6704b699-001f-448a-8fd7-1af4cbdcc1d7-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
     "main",
     "1e90bbd7-ab89-43d7-9045-9e87a22c927f",
-    "75e581bc-2a5d-46f9-ac89-4afa307d3115"
+    "dd3d7826-c89f-4b0b-badc-f93ed2ca04bf",
+    "6704b699-001f-448a-8fd7-1af4cbdcc1d7"
   ]
 }
