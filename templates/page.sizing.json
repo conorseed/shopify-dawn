@@ -28,7 +28,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/FXD-logo_4d3094b5-c656-4023-8d16-c2480762a4f4.jpg",
-            "max-width": "150px"
+            "max_width": "150px"
           }
         },
         "template--14399191580747__17d8818a-c26a-4036-82a3-494cb3cb30a5-heading-1": {
@@ -42,14 +42,14 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/sizing-fxd-women.jpg",
-            "max-width": "100%"
+            "max_width": "100%"
           }
         },
         "07e9c2c2-509b-43ef-9f08-cd0b3d0a36a7": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/sizing-fxd-footwear.png",
-            "max-width": "100%"
+            "max_width": "100%"
           }
         }
       },
@@ -75,7 +75,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/bison.png",
-            "max-width": "100px"
+            "max_width": "100px"
           }
         },
         "a6f8b850-6ff0-4e9b-b0a1-c54b59c82af9": {
@@ -89,7 +89,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/sizing-bison.jpg",
-            "max-width": "100%"
+            "max_width": "100%"
           }
         }
       },
@@ -114,7 +114,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Grisport.png",
-            "max-width": "180px"
+            "max_width": "180px"
           }
         },
         "template--14399191580747__d7cd8a3f-e512-4210-8b56-748f47174e2d-heading-1": {
@@ -128,7 +128,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/sizing-grisport.png",
-            "max-width": "100%"
+            "max_width": "100%"
           }
         }
       },
@@ -153,7 +153,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Steel_Blue_Logo.png",
-            "max-width": "160px"
+            "max_width": "160px"
           }
         },
         "template--14399191580747__7cfd6b0e-b258-4f3f-878d-e8dcf040c1c3-heading-1": {
@@ -167,7 +167,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/sizing-bluesteel.jpg",
-            "max-width": "100%"
+            "max_width": "100%"
           }
         }
       },
@@ -192,7 +192,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/ApexLogoWithStrapline.png",
-            "max-width": "180px"
+            "max_width": "180px"
           }
         },
         "template--14399191580747__f6762bc7-79b0-437e-956b-effc29f8d304-heading-1": {
@@ -206,7 +206,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/sizing-apex.jpg",
-            "max-width": "100%"
+            "max_width": "100%"
           }
         }
       },
@@ -231,7 +231,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Syzmik.png",
-            "max-width": "180px"
+            "max_width": "180px"
           }
         },
         "template--14399191580747__d1709203-7537-4c20-90c7-3196193cd5e7-heading-1": {
@@ -245,7 +245,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/sizing-syzmik.png",
-            "max-width": "100%"
+            "max_width": "100%"
           }
         }
       },
@@ -270,7 +270,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/K1A3_Kaiwaka_Logo_RGB.jpg",
-            "max-width": "190px"
+            "max_width": "190px"
           }
         },
         "template--14399191580747__27f91561-0e3e-43a8-a777-51ea5217c987-heading-1": {
@@ -284,7 +284,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/sizing-kaiwaka.jpg",
-            "max-width": "100%"
+            "max_width": "100%"
           }
         }
       },
