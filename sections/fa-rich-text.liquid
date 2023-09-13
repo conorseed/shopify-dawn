@@ -89,6 +89,7 @@
               </div>
 
             {% when 'image' %}
+            {{ block.settings.max-width }}
             <div class="rich-text__text">
               <figure class="rich-text-image {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" 
                 style="max-width:{{ block.settings.max-width }};--animation-order: {{ forloop.index }};"
