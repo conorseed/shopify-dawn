@@ -95,10 +95,10 @@
                   height: auto;
               }
             </style>
-            <figure class="rich-text-image {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" {% if block.settings.max-width != '' %}style="max-width:{{ block.settings.max-width }}"{% endif %}
+            <figure class="rich-text-image {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" 
+              style="max-width:{{ block.settings.max-width }};--animation-order: {{ forloop.index }};"
             {% if settings.animations_reveal_on_scroll %}
                   data-cascade
-                  style="--animation-order: {{ forloop.index }};"
                 {% endif %}
               >
               {{ block.settings.image | image_url: width: 2000 | image_tag }}
