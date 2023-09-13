@@ -103,7 +103,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Screen-Shot-2023-09-13-at-12-46-50-PM.png",
-            "max-width": "100px"
+            "max-width": "200px"
           }
         }
       },
