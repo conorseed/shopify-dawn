@@ -21,97 +21,82 @@
         "image_overlay": false
       }
     },
-    "dd3d7826-c89f-4b0b-badc-f93ed2ca04bf": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "6704b699-001f-448a-8fd7-1af4cbdcc1d7": {
-      "type": "rich-text",
-      "blocks": {
-        "template--14399191580747__6704b699-001f-448a-8fd7-1af4cbdcc1d7-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "template--14399191580747__6704b699-001f-448a-8fd7-1af4cbdcc1d7-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--14399191580747__6704b699-001f-448a-8fd7-1af4cbdcc1d7-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--14399191580747__6704b699-001f-448a-8fd7-1af4cbdcc1d7-heading-1",
-        "template--14399191580747__6704b699-001f-448a-8fd7-1af4cbdcc1d7-text-1",
-        "template--14399191580747__6704b699-001f-448a-8fd7-1af4cbdcc1d7-button-1"
-      ],
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "17d8818a-c26a-4036-82a3-494cb3cb30a5": {
       "type": "fa-rich-text",
       "blocks": {
-        "template--14399191580747__17d8818a-c26a-4036-82a3-494cb3cb30a5-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "template--14399191580747__17d8818a-c26a-4036-82a3-494cb3cb30a5-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--14399191580747__17d8818a-c26a-4036-82a3-494cb3cb30a5-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        },
         "04a9efbc-e216-438c-8574-8cf7413f1a1a": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screen-Shot-2023-09-13-at-12-46-50-PM.png",
-            "max-width": "200px"
+            "image": "shopify:\/\/shop_images\/FXD-logo_4d3094b5-c656-4023-8d16-c2480762a4f4.jpg",
+            "max-width": "150px"
+          }
+        },
+        "template--14399191580747__17d8818a-c26a-4036-82a3-494cb3cb30a5-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "FXD Sizing Chart",
+            "heading_size": "h1"
+          }
+        },
+        "f72ab37a-3eaa-4998-ac8e-f64216939440": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sizing-fxd-women.jpg",
+            "max-width": "100%"
+          }
+        },
+        "07e9c2c2-509b-43ef-9f08-cd0b3d0a36a7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sizing-fxd-footwear.png",
+            "max-width": "100%"
           }
         }
       },
       "block_order": [
+        "04a9efbc-e216-438c-8574-8cf7413f1a1a",
         "template--14399191580747__17d8818a-c26a-4036-82a3-494cb3cb30a5-heading-1",
-        "template--14399191580747__17d8818a-c26a-4036-82a3-494cb3cb30a5-text-1",
-        "template--14399191580747__17d8818a-c26a-4036-82a3-494cb3cb30a5-button-1",
-        "04a9efbc-e216-438c-8574-8cf7413f1a1a"
+        "f72ab37a-3eaa-4998-ac8e-f64216939440",
+        "07e9c2c2-509b-43ef-9f08-cd0b3d0a36a7"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "50f6b344-2584-48d9-9444-207249781de4": {
+      "type": "fa-rich-text",
+      "blocks": {
+        "e16c43d0-2b7c-48bd-86e7-2a566ceb69c4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bison.png",
+            "max-width": "100px"
+          }
+        },
+        "a6f8b850-6ff0-4e9b-b0a1-c54b59c82af9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bison Sizing Chart",
+            "heading_size": "h1"
+          }
+        },
+        "ef02c0f3-1f1b-42d1-97de-a87e4391cf46": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sizing-bison.jpg",
+            "max-width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "e16c43d0-2b7c-48bd-86e7-2a566ceb69c4",
+        "a6f8b850-6ff0-4e9b-b0a1-c54b59c82af9",
+        "ef02c0f3-1f1b-42d1-97de-a87e4391cf46"
       ],
       "settings": {
         "desktop_content_position": "left",
@@ -120,14 +105,213 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "d7cd8a3f-e512-4210-8b56-748f47174e2d": {
+      "type": "fa-rich-text",
+      "blocks": {
+        "721ea047-b7fd-4d0d-885b-04a1155899b2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grisport.png",
+            "max-width": "180px"
+          }
+        },
+        "template--14399191580747__d7cd8a3f-e512-4210-8b56-748f47174e2d-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Grisport Sizing Chart",
+            "heading_size": "h1"
+          }
+        },
+        "9e410c60-17d8-4938-a6a9-e54f987112e5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sizing-grisport.png",
+            "max-width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "721ea047-b7fd-4d0d-885b-04a1155899b2",
+        "template--14399191580747__d7cd8a3f-e512-4210-8b56-748f47174e2d-heading-1",
+        "9e410c60-17d8-4938-a6a9-e54f987112e5"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "7cfd6b0e-b258-4f3f-878d-e8dcf040c1c3": {
+      "type": "fa-rich-text",
+      "blocks": {
+        "4fb4c125-c7fa-4324-88bc-7c0bfca74e8c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Steel_Blue_Logo.png",
+            "max-width": "160px"
+          }
+        },
+        "template--14399191580747__7cfd6b0e-b258-4f3f-878d-e8dcf040c1c3-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Steel Blue Sizing Chart",
+            "heading_size": "h1"
+          }
+        },
+        "8339d441-99f9-4335-af89-df11e5009aa3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sizing-bluesteel.jpg",
+            "max-width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "4fb4c125-c7fa-4324-88bc-7c0bfca74e8c",
+        "template--14399191580747__7cfd6b0e-b258-4f3f-878d-e8dcf040c1c3-heading-1",
+        "8339d441-99f9-4335-af89-df11e5009aa3"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "f6762bc7-79b0-437e-956b-effc29f8d304": {
+      "type": "fa-rich-text",
+      "blocks": {
+        "1cf63b3e-8463-4189-9dc9-29ce25346af9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ApexLogoWithStrapline.png",
+            "max-width": "180px"
+          }
+        },
+        "template--14399191580747__f6762bc7-79b0-437e-956b-effc29f8d304-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Apex Sizing Chart",
+            "heading_size": "h1"
+          }
+        },
+        "c7c2698a-07f6-4ba1-be91-8c471742739b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sizing-apex.jpg",
+            "max-width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "1cf63b3e-8463-4189-9dc9-29ce25346af9",
+        "template--14399191580747__f6762bc7-79b0-437e-956b-effc29f8d304-heading-1",
+        "c7c2698a-07f6-4ba1-be91-8c471742739b"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "d1709203-7537-4c20-90c7-3196193cd5e7": {
+      "type": "fa-rich-text",
+      "blocks": {
+        "eca25262-9c21-4647-9935-14022b42e3b0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Syzmik.png",
+            "max-width": "180px"
+          }
+        },
+        "template--14399191580747__d1709203-7537-4c20-90c7-3196193cd5e7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Syzmik Sizing Chart",
+            "heading_size": "h1"
+          }
+        },
+        "d93250c7-dacd-4a9d-a9c8-ed2bf9982970": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sizing-syzmik.png",
+            "max-width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "eca25262-9c21-4647-9935-14022b42e3b0",
+        "template--14399191580747__d1709203-7537-4c20-90c7-3196193cd5e7-heading-1",
+        "d93250c7-dacd-4a9d-a9c8-ed2bf9982970"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "27f91561-0e3e-43a8-a777-51ea5217c987": {
+      "type": "fa-rich-text",
+      "blocks": {
+        "d98612a6-7bf4-4543-a66e-e7d72865fbae": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/K1A3_Kaiwaka_Logo_RGB.jpg",
+            "max-width": "190px"
+          }
+        },
+        "template--14399191580747__27f91561-0e3e-43a8-a777-51ea5217c987-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Kaiwaka Sizing Chart",
+            "heading_size": "h1"
+          }
+        },
+        "68ce71f8-84ff-42a2-a097-4d5e46d19e70": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sizing-kaiwaka.jpg",
+            "max-width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "d98612a6-7bf4-4543-a66e-e7d72865fbae",
+        "template--14399191580747__27f91561-0e3e-43a8-a777-51ea5217c987-heading-1",
+        "68ce71f8-84ff-42a2-a097-4d5e46d19e70"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 100
       }
     }
   },
   "order": [
     "main",
     "1e90bbd7-ab89-43d7-9045-9e87a22c927f",
-    "dd3d7826-c89f-4b0b-badc-f93ed2ca04bf",
-    "6704b699-001f-448a-8fd7-1af4cbdcc1d7",
-    "17d8818a-c26a-4036-82a3-494cb3cb30a5"
+    "17d8818a-c26a-4036-82a3-494cb3cb30a5",
+    "50f6b344-2584-48d9-9444-207249781de4",
+    "d7cd8a3f-e512-4210-8b56-748f47174e2d",
+    "7cfd6b0e-b258-4f3f-878d-e8dcf040c1c3",
+    "f6762bc7-79b0-437e-956b-effc29f8d304",
+    "d1709203-7537-4c20-90c7-3196193cd5e7",
+    "27f91561-0e3e-43a8-a777-51ea5217c987"
   ]
 }
