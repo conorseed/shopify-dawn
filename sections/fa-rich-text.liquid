@@ -89,6 +89,7 @@
               </div>
 
             {% when 'image' %}
+            <div align="center">
             <style>
               figure.rich-text-image img {
                   width: 100%;
@@ -103,6 +104,7 @@
               >
               {{ block.settings.image | image_url: width: 2000 | image_tag }}
             </figure>
+            </div>
           {%- endcase -%}
         {%- endfor -%}
       </div>
