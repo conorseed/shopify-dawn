@@ -94,7 +94,7 @@
           "settings": {
             "heading": "How is my order delivered?",
             "icon": "none",
-            "row_content": "<p>Orders are picked, packed and sent out by reputable courier companies to ensure your order is received promptly, safely and at the best possible rates. International orders are sent via international courier and will take somewhat longer to arrive, we will advise you of the details, or please feel free to enquire for the cost and duration.<\/p>",
+            "row_content": "<p>Orders are picked, packed and sent out by reputable courier companies to ensure your order is received promptly, safely and at the best possible rates.<\/p>",
             "page": ""
           }
         },
@@ -161,15 +161,6 @@
             "page": ""
           }
         },
-        "331a0a81-6921-4588-9255-9ff988c4ad00": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Can I buy through a distributor in my area?",
-            "icon": "none",
-            "row_content": "<p>For some items, those we distribute by wholesale yes. Some of the specials promoted on this website might also be available only through this website or over the phone. Please contact the <a href=\"mailto:sales@faanz.co.nz\" target=\"_self\" title=\"Customer Services\">Customer Services<\/a> team to enquire.<\/p>",
-            "page": ""
-          }
-        },
         "353310b4-ddde-45f6-ac23-637b3fe93332": {
           "type": "collapsible_row",
           "settings": {
@@ -204,7 +195,6 @@
         "b197320a-504d-429c-80f5-d79f39aff5de",
         "b885c86d-fab6-45b0-84b7-aeab039f6e61",
         "ddb24161-1a13-48c3-8466-06f090699b18",
-        "331a0a81-6921-4588-9255-9ff988c4ad00",
         "353310b4-ddde-45f6-ac23-637b3fe93332",
         "c682e126-44c5-4ce5-8bdc-3932a56da19b"
       ],
