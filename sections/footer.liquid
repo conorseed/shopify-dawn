@@ -370,6 +370,12 @@
         <div class="footer__copyright caption">
           <small class="copyright__content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
           <small class="copyright__content">{{ powered_by_link }}</small>
+          
+          {% if template == 'index' %}
+            <p class="kk-link"><small class="copyright__content">Digital Marketing by <a href="https://kingkong.co/">King Kong</a></small></p>
+          {% else %}
+            <p class="kk-link"><small class="copyright__content">Digital Marketing by King Kong</small></p>
+          {% endif %}
         </div>
       </div>
     </div>
