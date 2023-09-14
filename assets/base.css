@@ -3065,6 +3065,7 @@ header.page-width {
 	transition: all 0.2s ease-in-out;
 }
 
+
 @media (max-width: 750px) {
 	.kk-footer {
         padding: 0px;
@@ -3072,3 +3073,24 @@ header.page-width {
 		display:block;
 	}
 }
+
+.kk-link {
+    text-align: center;
+}
+
+.kk-tag a { 
+	color:#fff!important;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out; 
+	transition: all 0.4s ease-in-out;
+}
+
+.kk-tag a:hover{
+	color:#A5DA2F!important;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out; 
+	transition: all 0.2s ease-in-out;
+}
+
