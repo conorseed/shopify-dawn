@@ -144,16 +144,6 @@
             "link": "shopify:\/\/collections\/hard-yakka"
           }
         },
-        "cd263baa-532c-48fb-a203-0d00f046979e": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-13.png",
-            "title": "",
-            "text": "",
-            "link_label": "View",
-            "link": "shopify:\/\/collections\/savlon"
-          }
-        },
         "32ac709c-a27b-4f52-ad57-47c8a8df575f": {
           "type": "column",
           "settings": {
@@ -244,16 +234,6 @@
             "link": "shopify:\/\/collections\/huberd"
           }
         },
-        "628b885a-87d4-4c59-bbed-08e7f8e9cb6": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-23.png",
-            "title": "",
-            "text": "",
-            "link_label": "View",
-            "link": "shopify:\/\/collections\/dettol"
-          }
-        },
         "628b885a-87d4-4c59-bbed-08e7f8e9cb7": {
           "type": "column",
           "settings": {
@@ -262,16 +242,6 @@
             "text": "",
             "link_label": "View",
             "link": "shopify:\/\/collections\/jb-wear"
-          }
-        },
-        "628b885a-87d4-4c59-bbed-08e7f8e9cb8": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-25.png",
-            "title": "",
-            "text": "",
-            "link_label": "View",
-            "link": "shopify:\/\/collections\/paramount-1"
           }
         },
         "628b885a-87d4-4c59-bbed-08e7f8e9cb9": {
@@ -347,11 +317,11 @@
         "628b885a-87d4-4c59-bbed-08e7f8e9cb33": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-33.png",
+            "image": "shopify:\/\/shop_images\/brands-logos-fashionbiz.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/biz-collection-1"
+            "link": "shopify:\/\/collections\/biz-collection"
           }
         },
         "628b885a-87d4-4c59-bbed-08e7f8e9cb34": {
@@ -467,7 +437,6 @@
         "9a7d07c4-65f1-4333-be12-b77b99616093",
         "fdbdd938-9285-4c39-883b-b527e342b086",
         "7088e01c-8325-4c9f-80b8-8399d32d445f",
-        "cd263baa-532c-48fb-a203-0d00f046979e",
         "32ac709c-a27b-4f52-ad57-47c8a8df575f",
         "b393b1d6-ff00-42a1-9269-8bd93b61b4de",
         "e8c796be-e8cb-46bc-81a5-8cad3455effc",
@@ -477,9 +446,7 @@
         "e8c796be-e8cb-46bc-81a5-8cad3455effe",
         "e8c796be-e8cb-46bc-81a5-8cad3455efff",
         "e8c796be-e8cb-46bc-81a5-8cad3455effg",
-        "628b885a-87d4-4c59-bbed-08e7f8e9cb6",
         "628b885a-87d4-4c59-bbed-08e7f8e9cb7",
-        "628b885a-87d4-4c59-bbed-08e7f8e9cb8",
         "628b885a-87d4-4c59-bbed-08e7f8e9cb9",
         "628b885a-87d4-4c59-bbed-08e7f8e9cb10",
         "628b885a-87d4-4c59-bbed-08e7f8e9cb11",
