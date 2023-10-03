@@ -135,12 +135,31 @@
             "color_scheme": "accent-2",
             "text_alignment_mobile": "center"
           }
+        },
+        "9b2c5443-7f3e-40ea-a359-bb242e08984e": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/product_feature_2_9.png",
+            "heading": "In-store giveaway!",
+            "heading_size": "h1",
+            "subheading": "Win an Oonie Fyra 12 Pizza Oven Bundle valued at $749 with Steel Blue! Purchase any pair of boots in-store or online from our Steel Blue range between 1 October and 30 November 2023 and go in the draw to win. All online purchases of Steel Blue boots will automatically be put into the draw. *T&C's apply Visit steelblue.com or see in-store for more info.",
+            "button_label": "Shop Now",
+            "link": "shopify:\/\/collections\/steel-blue",
+            "button_style_secondary": false,
+            "box_align": "top-right",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "template--14388672135243__a906c273-a8eb-416e-ade7-04155872f8f7-slide-1",
         "template--14388672135243__a906c273-a8eb-416e-ade7-04155872f8f7-slide-2",
-        "61ed6fc5-1c7e-42cf-98dc-66406f546419"
+        "61ed6fc5-1c7e-42cf-98dc-66406f546419",
+        "9b2c5443-7f3e-40ea-a359-bb242e08984e"
       ],
       "settings": {
         "layout": "grid",
