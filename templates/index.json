@@ -135,12 +135,31 @@
             "color_scheme": "accent-2",
             "text_alignment_mobile": "center"
           }
+        },
+        "9ecc09b2-cb8a-4c66-9506-6dfb8d42c425": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/product_feature_2_13.png",
+            "heading": "WIN AN ooNI PIZZA OVEN BUNDLE WITH STEEL BLUE!",
+            "heading_size": "h2",
+            "subheading": "Purchase any boots from our Steel Blue range between <strong>1 October and 30 November<\/strong> and go in the draw to win. T&C's apply - see steelblue.com or go instore for details ",
+            "button_label": "Shop Now",
+            "link": "shopify:\/\/collections\/steel-blue",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "template--14388672135243__a906c273-a8eb-416e-ade7-04155872f8f7-slide-1",
         "template--14388672135243__a906c273-a8eb-416e-ade7-04155872f8f7-slide-2",
-        "61ed6fc5-1c7e-42cf-98dc-66406f546419"
+        "61ed6fc5-1c7e-42cf-98dc-66406f546419",
+        "9ecc09b2-cb8a-4c66-9506-6dfb8d42c425"
       ],
       "settings": {
         "layout": "grid",
