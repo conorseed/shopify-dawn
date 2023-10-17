@@ -42,7 +42,7 @@
           "type": "button",
           "settings": {
             "button_label": "Fill out your form",
-            "button_link": "",
+            "button_link": "https:\/\/forms.gle\/eBbEKoa8EYJX8R339",
             "button_style_secondary": false
           }
         }
@@ -66,11 +66,21 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "db68a7d4-3d55-4f8c-a5b1-6537119049bf": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "1e90bbd7-ab89-43d7-9045-9e87a22c927f",
-    "ba900760-cb56-4583-b6d3-1325cc21051e"
+    "ba900760-cb56-4583-b6d3-1325cc21051e",
+    "db68a7d4-3d55-4f8c-a5b1-6537119049bf"
   ]
 }
