@@ -17,23 +17,60 @@
 
       ],
       "settings": {
-        "title": "",
+        "title": "Logos & Branding",
         "image_overlay": false
       }
     },
-    "75e581bc-2a5d-46f9-ac89-4afa307d3115": {
-      "type": "custom-liquid",
+    "ba900760-cb56-4583-b6d3-1325cc21051e": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14443128324171__ba900760-cb56-4583-b6d3-1325cc21051e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Let us know what your after",
+            "heading_size": "h1"
+          }
+        },
+        "template--14443128324171__ba900760-cb56-4583-b6d3-1325cc21051e-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Fill out the form below and let us know exactly what your after if your wanting to use our digital transfer and embroidery services. Whether you want to promote your brand or create personalised apparel, our skilled team can add your logo or design to any garment. We will get back to you as soon as possible!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14443128324171__ba900760-cb56-4583-b6d3-1325cc21051e-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Fill out your form",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14443128324171__ba900760-cb56-4583-b6d3-1325cc21051e-heading-1",
+        "template--14443128324171__ba900760-cb56-4583-b6d3-1325cc21051e-text-1",
+        "template--14443128324171__ba900760-cb56-4583-b6d3-1325cc21051e-button-1"
+      ],
       "settings": {
-        "custom_liquid": "<div class=\"page-width rte scroll-trigger animate--slide-in\">\n{{ page.content }}\n<\/div>",
+        "image": "shopify:\/\/shop_images\/ABC9512_1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
         "color_scheme": "",
-        "padding_top": 20,
-        "padding_bottom": 80
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
     "1e90bbd7-ab89-43d7-9045-9e87a22c927f",
-    "75e581bc-2a5d-46f9-ac89-4afa307d3115"
+    "ba900760-cb56-4583-b6d3-1325cc21051e"
   ]
 }
