@@ -533,9 +533,9 @@
         <form class="no-js">
           <div class="facet-filters sorting caption">
             <div class="facet-filters__field">
-              <h3 class="facet-filters__label caption-large text-body">
+              <h2 class="facet-filters__label caption-large text-body">
                 <label for="SortBy">{{ 'products.facets.sort_by_label' | t }}</label>
-              <h3>
+              <h2>
               <div class="select">
                 {%- assign sort_by = results.sort_by | default: results.default_sort_by -%}
                 <select
@@ -1025,7 +1025,7 @@
     class="product-count light{% if filter_type == 'vertical' or filter_type == 'horizontal' %} medium-hide large-up-hide{% endif %}"
     role="status"
   >
-    <h2 class="product-count__text text-body">
+    <h3 class="product-count__text text-body">
       <span id="ProductCount">
         {%- if results.results_count -%}
           {{ 'templates.search.results_with_count' | t: terms: results.terms, count: results.results_count }}
@@ -1038,7 +1038,7 @@
           }}
         {%- endif -%}
       </span>
-    </h2>
+    </h3>
     <div class="loading-overlay__spinner">
       <svg
         aria-hidden="true"
