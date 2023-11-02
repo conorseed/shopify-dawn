@@ -423,6 +423,16 @@
             "link_label": "View",
             "link": "shopify:\/\/collections\/flame-fighter"
           }
+        },
+        "9aee50ff-b5be-4d16-abe9-8271c4016992": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Capture.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -464,7 +474,8 @@
         "62888a-87d4-4c59-bbed-08e7f8e9cb40",
         "628b885a-87d4-4c59-bbed-08e7f8e9cb41",
         "62888a-87d4-4c59-bbed-08e7f8e9cb42",
-        "62888a-87d4-4c59-bbed-08e7f8e9cb43"
+        "62888a-87d4-4c59-bbed-08e7f8e9cb43",
+        "9aee50ff-b5be-4d16-abe9-8271c4016992"
       ],
       "custom_css": [
         ".multicolumn-card__image-wrapper {padding-top: 0;}",
