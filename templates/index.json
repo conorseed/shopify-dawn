@@ -54,7 +54,7 @@
     "ada176e6-d2c2-4449-a3a1-8eecba2021da": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<h1 style=\"text-align:center; font-size:24px\">Shop Office Furniture Online in New Zealand<\/h1>",
+        "custom_liquid": "<h1 style=\"text-align:center; color: #81BCB6; font-size:26px\">Shop Office Furniture Online in New Zealand<\/h1>",
         "color_scheme": "background-1",
         "padding_top": 24,
         "padding_bottom": 0
