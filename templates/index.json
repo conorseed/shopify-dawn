@@ -51,6 +51,15 @@
         "show_text_below": true
       }
     },
+    "ada176e6-d2c2-4449-a3a1-8eecba2021da": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<h1 style=\"text-align:center; font-size:22px\">Shop Office Furniture Online in New Zealand<\/h1>",
+        "color_scheme": "background-1",
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
     "16315799045056d243": {
       "type": "multicolumn",
       "blocks": {
@@ -103,7 +112,7 @@
         "image_width": "third",
         "image_ratio": "square",
         "columns_desktop": 4,
-        "column_alignment": "center",
+        "column_alignment": "left",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
@@ -420,6 +429,7 @@
   },
   "order": [
     "164253779604eede75",
+    "ada176e6-d2c2-4449-a3a1-8eecba2021da",
     "16315799045056d243",
     "1631576674bf289ea9",
     "featured_products",
