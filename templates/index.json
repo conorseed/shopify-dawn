@@ -49,6 +49,64 @@
         "show_text_below": false
       }
     },
+    "multirow_PA4zxp": {
+      "type": "multirow",
+      "blocks": {
+        "row_xa4gVk": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Imagery2022-PlasticBase-SmallFlex.jpg",
+            "caption": "Advanced One-piece design",
+            "heading": "Durapole Range",
+            "text": "<p>Experience elegance with our Durapole Teardrop Flags, crafted from durable satin fabric that ensures a sleek appearance with no bagginess, exceptional resilience against the elements, and vibrant graphics that captivate with a denser, richer image.<\/p>",
+            "button_label": "View Durapole Range",
+            "button_link": "shopify:\/\/collections\/feather-and-teardrop-flags-premium-high-strength"
+          }
+        },
+        "row_tW98W9": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ValueRangeFlagsCoffee2GoRoundBase.jpg",
+            "caption": "New Range",
+            "heading": "Retail Flags",
+            "text": "<p>Classy new designs with real punch to attract attention.  Double and single-sided options available.<\/p>",
+            "button_label": "View Retail Flags",
+            "button_link": "shopify:\/\/collections\/new-retail-flag-range"
+          }
+        },
+        "row_gyxV7p": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/xt-01.png",
+            "caption": "NZ's most durable",
+            "heading": "Flag Poles",
+            "text": "<p>These poles are the most durable flag poles available  and have been used widely for the last 20 years throughout NZ.<\/p>",
+            "button_label": "View Flag Poles",
+            "button_link": "shopify:\/\/collections\/flag-poles"
+          }
+        }
+      },
+      "block_order": [
+        "row_xa4gVk",
+        "row_tW98W9",
+        "row_gyxV7p"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "primary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-2",
+        "row_color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -216,6 +274,7 @@
   },
   "order": [
     "image_banner",
+    "multirow_PA4zxp",
     "rich_text",
     "featured_collection",
     "collage",
