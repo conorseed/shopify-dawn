@@ -2,6 +2,7 @@
   "current": {
     "logo": "shopify:\/\/shop_images\/new_Flagmakers_logo_RGB_Transparent_Background_1.png",
     "logo_width": 180,
+    "favicon": "shopify:\/\/shop_images\/new_Flagmakers_logo_RGB_Transparent_Background_1.png",
     "type_header_font": "sans-serif",
     "heading_scale": 100,
     "type_body_font": "sans-serif",
@@ -10,6 +11,7 @@
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
+    "animations_hover_elements": "vertical-lift",
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
     "buttons_radius": 0,
