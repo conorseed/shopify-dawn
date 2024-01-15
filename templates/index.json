@@ -84,12 +84,24 @@
             "button_label": "View Flag Poles",
             "button_link": "shopify:\/\/collections\/flag-poles"
           }
+        },
+        "row_d3bTz7": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L_Banner_Pro.jpg",
+            "caption": "Life long fabric",
+            "heading": "Roll-up Banners",
+            "text": "<p>Long-life Rollup Banners made from our beautiful satin fabric that do not curl or crease<\/p>",
+            "button_label": "View Roll-up Banners",
+            "button_link": "shopify:\/\/collections\/roll-up-pull-up-banners"
+          }
         }
       },
       "block_order": [
         "row_xa4gVk",
         "row_tW98W9",
-        "row_gyxV7p"
+        "row_gyxV7p",
+        "row_d3bTz7"
       ],
       "settings": {
         "image_height": "medium",
@@ -128,6 +140,7 @@
         "heading",
         "text"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -139,6 +152,7 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
@@ -193,6 +207,7 @@
         "product",
         "collection-1"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Multimedia collage",
         "heading_size": "h2",
@@ -206,6 +221,7 @@
     },
     "video": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -254,6 +270,7 @@
         "column2",
         "column3"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
