@@ -29,8 +29,8 @@
     "header": {
       "type": "header",
       "settings": {
-        "logo_position": "top-left",
-        "menu": "main-menu",
+        "logo_position": "middle-left",
+        "menu": "2024-main-menu",
         "menu_type_desktop": "mega",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
