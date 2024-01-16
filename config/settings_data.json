@@ -117,6 +117,7 @@
     "show_vendor": false,
     "show_cart_note": true,
     "cart_drawer_collection": "",
+    "cart_color_scheme": "scheme-1330bf84-9d22-4f56-8fd6-b4b20199153a",
     "checkout_logo_image": "shopify:\/\/shop_images\/new_Flagmakers_logo_RGB_Transparent_Background_1.png",
     "checkout_accent_color": "#104771",
     "checkout_button_color": "#70a034",

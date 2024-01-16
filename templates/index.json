@@ -82,7 +82,7 @@
       ],
       "custom_css": [
         ".grid--1-col .grid__item {max-width: 100%; width: 100%;}",
-        "img{border-radius: 8px}"
+        "img {border-radius: 8px;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/main-image-for-website.jpg",
