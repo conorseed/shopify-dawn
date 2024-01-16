@@ -1,5 +1,6 @@
 <div class="color-{{ section.settings.color_scheme }} rte">
-    <nav class="page-width breadcrumbs" role="navigation" aria-label="breadcrumbs">
+  <div class="page-width">
+    <nav class="breadcrumbs" role="navigation" aria-label="breadcrumbs">
         <a href="/" title="Home">Home</a> {% if template contains 'page' %}
         <span aria-hidden="true">&rsaquo;</span>
         <span>{{ page.title }}</span> {% elsif template contains 'product' %} {% if collection.url %}
@@ -20,6 +21,7 @@
         <span aria-hidden="true">&rsaquo;</span>
         <span>{{ page_title }}</span> {% endif %}
     </nav>
+  </div>
 </div>
 
 {% style %}
