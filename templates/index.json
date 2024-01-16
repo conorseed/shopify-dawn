@@ -84,7 +84,7 @@
         ".grid--1-col .grid__item {max-width: 100%; width: 100%;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/FlowerGazebo_4x-100.jpg",
+        "image": "shopify:\/\/shop_images\/main-image-for-website.jpg",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
