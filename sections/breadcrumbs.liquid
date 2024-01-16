@@ -1,7 +1,7 @@
 <div class="color-{{ section.settings.color_scheme }} rte">
   <div class="page-width">
     <nav class="breadcrumbs" role="navigation" aria-label="breadcrumbs">
-        <a href="/" title="Home">Home</a> {% if template contains 'page' %}
+        <a href="{{ shop.url }}" title="Flagmakers Home">Home</a> {% if template contains 'page' %}
         <span aria-hidden="true">&rsaquo;</span>
         <span>{{ page.title }}</span> {% elsif template contains 'product' %} {% if collection.url %}
         <span aria-hidden="true">&rsaquo;</span> {{ collection.title | link_to: collection.url }} {% endif %}
