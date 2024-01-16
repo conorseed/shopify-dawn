@@ -1,5 +1,11 @@
 {
   "sections": {
+    "breadcrumbs_KC3EgD": {
+      "type": "breadcrumbs",
+      "settings": {
+        "color_scheme": "scheme-ca4fc56a-2e94-4c1e-a840-6e039ef09e8a"
+      }
+    },
     "17053684944348bac6": {
       "type": "apps",
       "blocks": {
@@ -255,6 +261,7 @@
     }
   },
   "order": [
+    "breadcrumbs_KC3EgD",
     "17053684944348bac6",
     "main",
     "image-with-text",
