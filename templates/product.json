@@ -30,7 +30,7 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button",
+            "picker_type": "dropdown",
             "swatch_picker_type": "swatch",
             "swatch_shape": "circle"
           }
@@ -43,7 +43,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
+            "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
           }
         },
@@ -112,7 +112,7 @@
       ],
       "settings": {
         "enable_sticky_info": true,
-        "color_scheme": "",
+        "color_scheme": "scheme-1330bf84-9d22-4f56-8fd6-b4b20199153a",
         "media_size": "small",
         "constrain_to_viewport": false,
         "media_fit": "contain",
