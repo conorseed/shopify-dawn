@@ -11,10 +11,10 @@
     "custom_liquid_i7WFVk": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width section-content scroll-trigger animate--fade-in center\">\n<h1 class=\"h0\">We'd love to hear from you<\/h1>\n<\/div>",
-        "color_scheme": "scheme-2",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "custom_liquid": "<div class=\"page-width section-content scroll-trigger animate--fade-in center\">\n<h1 class=\"h0\">Contact Us<\/h1>\n<\/div>",
+        "color_scheme": "scheme-5",
+        "padding_top": 24,
+        "padding_bottom": 32
       }
     },
     "multicolumn_C6CUFR": {
@@ -24,7 +24,7 @@
           "type": "column",
           "settings": {
             "title": "Get In Touch",
-            "text": "<p>Freephone: <a href=\"tel:0800900800\" title=\"Call 0800900800\"><strong>0800 900800<\/strong><\/a><br\/>Phone: <a href=\"tel:+6444736682\" title=\"Call +6444736682\"><strong>(+64) 4 473 6682<\/strong><\/a><br\/>Fax: <a href=\"tel:+6442821197\" title=\"Fax +6442821197\"><strong>(+64) 4 282 1197<\/strong><\/a><br\/>Email:             <a href=\"mailto:sales@flagmakers.co.nz\" title=\"mailto:sales@flagmakers.co.nz\"><strong>sales@flagmakers.co.nz<\/strong><\/a><\/p>",
+            "text": "<p><strong>We have friendly sales staff who are waiting to take your call now.<\/strong><br\/><br\/>Freephone: <a href=\"tel:0800900800\" title=\"Call 0800900800\"><strong>0800 900800<\/strong><\/a><br\/>Phone: <a href=\"tel:+6444736682\" title=\"Call +6444736682\"><strong>(+64) 4 473 6682<\/strong><\/a><br\/>Fax: <a href=\"tel:+6442821197\" title=\"Fax +6442821197\"><strong>(+64) 4 282 1197<\/strong><\/a><br\/>Email:             <a href=\"mailto:sales@flagmakers.co.nz\" title=\"mailto:sales@flagmakers.co.nz\"><strong>sales@flagmakers.co.nz<\/strong><\/a><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -42,6 +42,9 @@
       "block_order": [
         "column_yEyd6L",
         "column_bQfrtK"
+      ],
+      "custom_css": [
+        "@media (min-width: 990px) {div > div {max-width: 72.6rem; padding-left: 0; padding-right: 0; }}"
       ],
       "settings": {
         "title": "",
