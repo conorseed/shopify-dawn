@@ -1,4 +1,4 @@
-<div class="page-width">
+<div class="page-width color-{{ section.settings.color_scheme }}">
     <nav class="breadcrumbs" role="navigation" aria-label="breadcrumbs">
         <a href="/" title="Home">Home</a> {% if template contains 'page' %}
         <span aria-hidden="true">&rsaquo;</span>
@@ -30,7 +30,12 @@
 {% schema %}
   {
     "name": "Breadcrumbs",
-    "settings": [],
+    "settings": [{
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    }],
     "presets": [{
       "name": "Breadcrumbs"
     }]
