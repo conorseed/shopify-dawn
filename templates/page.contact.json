@@ -8,6 +8,58 @@
         "padding_bottom": 36
       }
     },
+    "custom_liquid_i7WFVk": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width section-content scroll-trigger animate--fade-in center\">\n<h1 class=\"h0\">We'd love to hear from you<\/h1>\n<\/div>",
+        "color_scheme": "scheme-2",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_C6CUFR": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_yEyd6L": {
+          "type": "column",
+          "settings": {
+            "title": "Get In Touch",
+            "text": "<p>Freephone: <a href=\"tel:0800900800\" title=\"Call 0800900800\"><strong>0800 900800<\/strong><\/a><br\/>Phone: <a href=\"tel:+6444736682\" title=\"Call +6444736682\"><strong>(+64) 4 473 6682<\/strong><\/a><br\/>Fax: <a href=\"tel:+6442821197\" title=\"Fax +6442821197\"><strong>(+64) 4 282 1197<\/strong><\/a><br\/>Email:             <a href=\"mailto:sales@flagmakers.co.nz\" title=\"mailto:sales@flagmakers.co.nz\"><strong>sales@flagmakers.co.nz<\/strong><\/a><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_bQfrtK": {
+          "type": "column",
+          "settings": {
+            "title": "Wellington Showroom & Plant",
+            "text": "<p><strong>Open Hours:   8:30am to 5.00pm<br\/>Monday to Friday<br\/><br\/><\/strong>Flagmakers<br\/>8 Waione Street<br\/>Petone, Lower Hutt<br\/>New Zealand<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_yEyd6L",
+        "column_bQfrtK"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 36
+      }
+    },
     "form": {
       "type": "contact-form",
       "settings": {
@@ -17,10 +69,45 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_banner_7E3cAW": {
+      "type": "image-banner",
+      "blocks": {
+        "buttons_MyVL6f": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Get Directions",
+            "button_link_1": "https:\/\/maps.app.goo.gl\/Wx5ZmvLhQBhrKdi77",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "buttons_MyVL6f"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/contact_map.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "main",
-    "form"
+    "custom_liquid_i7WFVk",
+    "multicolumn_C6CUFR",
+    "form",
+    "image_banner_7E3cAW"
   ]
 }
