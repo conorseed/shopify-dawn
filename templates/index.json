@@ -193,19 +193,52 @@
             "link_label": "View All Products",
             "link": "shopify:\/\/collections\/all-blacks"
           }
+        },
+        "column_kLyQ4P": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Matariki_Street_flag_Blue.jpg",
+            "title": "Street Flags",
+            "text": "<p>Brighten up your streets with new flags.<\/p>",
+            "link_label": "View All Street Flags",
+            "link": "shopify:\/\/collections\/council-streetflags"
+          }
+        },
+        "column_xqfyqL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6m-expo-wall.jpg",
+            "title": "Event Products",
+            "text": "<p>Liven up your event with colourful award winning products.<\/p>",
+            "link_label": "View all Event Products",
+            "link": "shopify:\/\/collections\/expo-solutions"
+          }
+        },
+        "column_izG3TE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PopUp-Counter.jpg",
+            "title": "TradeShow Products",
+            "text": "<p>Options to promote your event with stunning imagery on top quality products.<\/p>",
+            "link_label": "View TradeShow Products",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column_mCQPm9",
         "column_Re38gF",
-        "column_4it7cj"
+        "column_4it7cj",
+        "column_kLyQ4P",
+        "column_xqfyqL",
+        "column_izG3TE"
       ],
       "custom_css": [
         ".multicolumn.background-primary .multicolumn-card {background: #fff;}",
-        ".multicolumn-card.content-container,.multicolumn-card__info{display:flex; flex-direction: column; justify-content: flex-start;}",
+        ".multicolumn-card.content-container,.multicolumn-card__info {display: flex; flex-direction: column; justify-content: flex-start;}",
         ".multicolumn-card__info {flex-grow: 1;}",
-        ".multicolumn-card__info .rte{margin-bottom: 2rem;}",
-        ".multicolumn-card__info > a.link{margin-top: auto;}"
+        ".multicolumn-card__info .rte {margin-bottom: 2rem;}",
+        ".multicolumn-card__info > a.link {margin-top: auto;}"
       ],
       "settings": {
         "title": "",
