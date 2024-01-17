@@ -135,36 +135,12 @@
             "button_label": "View Flag Poles",
             "button_link": "shopify:\/\/collections\/flag-poles"
           }
-        },
-        "row_d3bTz7": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/L_Banner_Pro.jpg",
-            "caption": "Life long fabric",
-            "heading": "Roll-up Banners",
-            "text": "<p>Long-life Rollup Banners made from our beautiful satin fabric that do not curl or crease<\/p>",
-            "button_label": "View Roll-up Banners",
-            "button_link": "shopify:\/\/collections\/roll-up-pull-up-banners"
-          }
-        },
-        "row_48h9ry": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/NZ_Handwavers_Shopify_a6c667cc-2015-4355-8e5d-c39b37506365.jpg",
-            "caption": "Premium Products",
-            "heading": "NZ & World Flags",
-            "text": "<p>Flagmakers is the largest dye-screen flag maker in NZ. We make beautifully crafted products that you can be proud to fly, and are the preferred supplier to the NZ Government.<\/p>",
-            "button_label": "View Country Flags",
-            "button_link": "shopify:\/\/collections\/country-flags"
-          }
         }
       },
       "block_order": [
         "row_xa4gVk",
         "row_tW98W9",
-        "row_gyxV7p",
-        "row_d3bTz7",
-        "row_48h9ry"
+        "row_gyxV7p"
       ],
       "custom_css": [
         "div {--grid-desktop-vertical-spacing: 4rem;}"
@@ -182,6 +158,69 @@
         "row_color_scheme": "scheme-1",
         "mobile_content_alignment": "left",
         "padding_top": 80,
+        "padding_bottom": 32
+      }
+    },
+    "multicolumn_BHeRHf": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_mCQPm9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L_Banner_Pro.jpg",
+            "title": "Roll-up Banners",
+            "text": "<p>Long-life Rollup Banners made from our beautiful satin fabric that do not curl or crease.<\/p>",
+            "link_label": "View Roll Up Banners",
+            "link": "shopify:\/\/collections\/roll-up-pull-up-banners"
+          }
+        },
+        "column_Re38gF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NZ_Handwavers_Shopify.jpg",
+            "title": "NZ & World Flags",
+            "text": "<p>Flagmakers is the largest dye-screen flag maker in NZ. We make beautifully crafted products that you can be proud to fly, and are the preferred supplier to the NZ Government.<\/p>",
+            "link_label": "View Country Flags",
+            "link": "shopify:\/\/collections\/country-flags"
+          }
+        },
+        "column_4it7cj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/All_Blacks.jpg",
+            "title": "Licensed Sports Products",
+            "text": "<p>Buy from our licensed supported products range to support your team! All Blacks, Black Caps and White Ferns.<\/p>",
+            "link_label": "View All Products",
+            "link": "shopify:\/\/collections\/all-blacks"
+          }
+        }
+      },
+      "block_order": [
+        "column_mCQPm9",
+        "column_Re38gF",
+        "column_4it7cj"
+      ],
+      "custom_css": [
+        ".multicolumn.background-primary .multicolumn-card {background: #fff;}",
+        ".multicolumn-card.content-container,.multicolumn-card__info{display:flex; flex-direction: column; justify-content: flex-start;}",
+        ".multicolumn-card__info {flex-grow: 1;}",
+        ".multicolumn-card__info .rte{margin-bottom: 2rem;}",
+        ".multicolumn-card__info > a.link{margin-top: auto;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
         "padding_bottom": 80
       }
     },
@@ -212,156 +251,13 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "disabled": true,
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 80,
-        "padding_bottom": 80
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "image_banner",
     "image_with_text_q9RCz6",
     "multirow_PA4zxp",
-    "featured_collection",
-    "rich_text",
-    "collage",
-    "video",
-    "multicolumn"
+    "multicolumn_BHeRHf",
+    "featured_collection"
   ]
 }
