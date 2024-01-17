@@ -260,7 +260,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Most Popular Products",
+        "title": "Best Selling Products",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
