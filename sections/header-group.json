@@ -9,7 +9,7 @@
           "type": "announcement",
           "settings": {
             "text": "Contact us on: 0800 900800 or sales@flagmakers.co.nz",
-            "link": ""
+            "link": "shopify:\/\/pages\/contact-us"
           }
         }
       },
@@ -20,8 +20,8 @@
         "color_scheme": "scheme-3",
         "show_line_separator": true,
         "show_social": false,
-        "auto_rotate": false,
-        "change_slides_speed": 5,
+        "auto_rotate": true,
+        "change_slides_speed": 7,
         "enable_country_selector": false,
         "enable_language_selector": false
       }
