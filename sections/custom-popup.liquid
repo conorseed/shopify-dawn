@@ -1,6 +1,4 @@
-  {{ "custom-popup.css" | asset_url | stylesheet_tag }}
-
-    <div id="customNewsletter">
+  <div id="customNewsletter">
       <div class="customNewsletter__container">
         <button id="customNewsletter__close">X</button>
         <div class="customNewsletter__logo">
@@ -52,6 +50,7 @@
         </div>
       </div>
     </div>
+    {{ "custom-popup.css" | asset_url | stylesheet_tag }}
   <script src="{{ 'js.cookie.min.js' | asset_url }}" defer></script>
   <script src="{{ 'custom-popup.js' | asset_url }}" defer></script>
 {% schema %}
