@@ -2,6 +2,9 @@
   --font-body-weight: 300;
   --font-heading-weight: 800;
 }
+body, [class*="color-scheme-"]{
+    color: rgba(var(--color-foreground), 1);
+}
 /* NAVIGATION */
 @media screen and (min-width: 990px){
   .header {
