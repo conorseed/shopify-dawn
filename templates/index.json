@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Uncompromised Quality",
+            "heading": "Summer Deals: Uncompromised Quality",
             "heading_size": "h0"
           }
         },
@@ -19,11 +19,10 @@
         },
         "button": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
+            "button_label_1": "View Specials",
+            "button_link_1": "shopify:\/\/collections\/hot-deals",
+            "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -80,6 +79,7 @@
         "text_4RkWg4",
         "button_L46M8r"
       ],
+      "disabled": true,
       "custom_css": [
         ".grid--1-col .grid__item {max-width: 100%; width: 100%;}",
         "img {border-radius: 8px;}"
