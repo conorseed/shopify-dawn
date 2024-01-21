@@ -15,6 +15,29 @@ ul.mega-menu__list.page-width:not(.mega-menu__list--condensed)>li {
     border-top: 1px solid #000;
     padding-top: 1rem;
 }
+ul [id*="-specials"]{
+    position: relative;
+}
+ul [id*="-specials"]:after {
+    content: "Sale";
+    font-size: 10px;
+    text-transform: uppercase;
+    background-color: #0f4771;
+    color: #fff;
+    line-height: 1;
+    padding: 3px 6px;
+    border-radius: 8px;
+    position: absolute;
+    top: -6px;
+    right: 10px;
+}
+
+ul a#HeaderDrawer-specials:after{
+    position: relative;
+    top: unset;
+    right: unset;
+    margin-left: 12px;
+}
 /* MEGA MENU */
 #Details-HeaderMenu-2 {
     position: relative;
