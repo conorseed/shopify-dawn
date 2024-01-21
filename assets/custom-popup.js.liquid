@@ -1,0 +1,15 @@
+document.addEventListener('DOMContentLoaded', ()=>{
+  const newsletter__modal = document.getElementById("customNewsletter");
+
+  const newsletter__close = document.getElementById("customNewsletter__close");
+  
+  newsletter__close.addEventListener("click", () => {
+    newsletter__modal.style.display = "none";
+  });
+  
+  let cookieStatus = Cookies.get('popUpVisited');
+  if (cookieStatus) return;
+  const popUpForm = document.getElementById('customNewsletter');
+  popUpForm.style.display = "flex";
+  Cookies.set('popUpVisited', 'true', { expires: 7 }) 
+})
