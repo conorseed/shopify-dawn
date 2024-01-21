@@ -52,8 +52,8 @@
         </div>
       </div>
     </div>
-  {{ 'js.cookie.min.js' | asset_url | script_tag }}
-  {{ 'custom-popup.js' | asset_url | script_tag }}    
+  <script src="{{ 'js.cookie.min.js' | asset_url }}" defer></script>
+  <script src="{{ 'custom-popup.js' | asset_url }}" defer></script>
 {% schema %}
   {
     "name": "Pop Up",
