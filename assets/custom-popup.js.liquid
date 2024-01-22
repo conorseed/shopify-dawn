@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
   const newsletter__close = document.getElementById("customNewsletter__close");
   
   newsletter__close.addEventListener("click", () => {
+    Cookies.set('popUpVisited', 'true', { expires: 1 });
     newsletter__modal.style.display = "none";
   });
   
@@ -11,5 +12,4 @@ document.addEventListener('DOMContentLoaded', ()=>{
   if (cookieStatus) return;
   const popUpForm = document.getElementById('customNewsletter');
   popUpForm.style.display = "flex";
-  Cookies.set('popUpVisited', 'true', { expires: 1 }) 
 })
