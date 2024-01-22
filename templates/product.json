@@ -1,7 +1,7 @@
 {
   "sections": {
     "breadcrumbs_KC3EgD": {
-      "type": "breadcrumbs",
+      "type": "custom-breadcrumbs",
       "settings": {
         "color_scheme": "scheme-40872108-8bb0-4ab8-8dba-4e148c49e639"
       }
