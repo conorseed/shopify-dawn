@@ -216,13 +216,13 @@
                 <span id="ProductCountDesktop">
                   {%- if filtered_results.size -%}
                     {{ 'templates.search.results_with_count' | t: terms: search.terms, count: filtered_results.size }}
-                  {%- elsif search.products_count == search.all_products_count -%}
+                  {% comment %}{%- elsif search.products_count == search.all_products_count -%}
                     {{ 'products.facets.product_count_simple' | t: count: search.products_count }}
                   {%- else -%}
                     {{
                       'products.facets.product_count'
                       | t: product_count: search.products_count, count: search.all_products_count
-                    }}
+                    }}{% endcomment %}
                   {%- endif -%}
                 </span>
               </h2>
@@ -255,7 +255,7 @@
           {%- endif -%}
         {%- endif -%}
         <div class="product-grid-container" id="ProductGridContainer">
-          {%- if search.results.size == 0 and search.filters != empty -%}
+          {%- if filtered_results.size == 0 and search.filters != empty -%}
             <div
               class="template-search__results collection collection--empty{% if section.settings.filter_type != 'vertical' %} page-width{% endif %}"
               id="product-grid"
