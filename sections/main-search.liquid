@@ -4,7 +4,8 @@
 {{ 'component-search.css' | asset_url | stylesheet_tag }}
 
 {% assign excluded_collection_title = "AGENTS PORTAL" %}
-{%- assign filtered_results = '' | split: '' -%}
+{%- assign filteredSearch = search -%}
+{%- assign filteredSearch.results = '' | split: '' -%}
 
 {% for item in search.results %}
   {%- assign include_item = true -%}
@@ -17,17 +18,11 @@
   {%- endif -%}
 
   {%- if include_item -%}
-    {%- assign filtered_results = filtered_results | push: item -%}
+    {%- assign filteredSearch.results = filteredSearch.results | push: item -%}
   {%- endif -%}
 {% endfor %}
 
-{{ filtered_results.size }} RESULTS
-{% for item in filtered_results %}
-  <!-- Your code to display the filtered search result item goes here -->
-  {{ item.title }}
-  {{ item.price | money }}
-  <!-- Add more details as needed -->
-{% endfor %}
+{% assign filteredSearch.products_count = filteredSearch.results.size %}
 
 {%- if section.settings.enable_filtering or section.settings.enable_sorting -%}
   {{ 'component-facets.css' | asset_url | stylesheet_tag }}
@@ -89,8 +84,8 @@
   }
 {%- endstyle -%}
 
-{% comment %}{% paginate filtered_results by 24 %}{% endcomment %}
-  <div class="template-search{% unless search.performed and filtered_results.size > 0 %} template-search--empty{% endunless %} section-{{ section.id }}-padding">
+{% comment %}{% paginate filteredSearch.results by 24 %}{% endcomment %}
+  <div class="template-search{% unless search.performed and filteredSearch.results.size > 0 %} template-search--empty{% endunless %} section-{{ section.id }}-padding">
     <div class="template-search__header page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
       <h1 class="h2 center">
         {%- if search.performed -%}
@@ -160,13 +155,13 @@
       </div>
       {%- if search.performed -%}
         {%- unless section.settings.enable_filtering or section.settings.enable_sorting -%}
-          {%- if filtered_results.size > 0 -%}
+          {%- if filteredSearch.results.size > 0 -%}
             <p role="status">
-              {{ 'templates.search.results_with_count_and_term' | t: terms: search.terms, count: filtered_results.size }}
+              {{ 'templates.search.results_with_count_and_term' | t: terms: search.terms, count: filteredSearch.results.size }}
             </p>
           {%- endif -%}
         {%- endunless -%}
-        {%- if filtered_results.size == 0 and search.filters == empty -%}
+        {%- if filteredSearch.results.size == 0 and search.filters == empty -%}
           <p role="status">{{ 'templates.search.no_results' | t: terms: search.terms }}</p>
         {%- endif -%}
       {%- endif -%}
@@ -215,16 +210,15 @@
             <div class="product-count-vertical light" role="status">
               <h2 class="product-count__text text-body">
                 <span id="ProductCountDesktop">
-                  {%- if filtered_results.size -%}
-                    CONOSR
-                    {{ 'templates.search.results_with_count' | t: terms: search.terms, count: filtered_results.size }}
-                  {% comment %}{%- elsif search.products_count == search.all_products_count -%}
+                  {%- if filteredSearch.results.size -%}
+                    {{ 'templates.search.results_with_count' | t: terms: search.terms, count: filteredSearch.results.size }}
+                  {%- elsif search.products_count == search.all_products_count -%}
                     {{ 'products.facets.product_count_simple' | t: count: search.products_count }}
                   {%- else -%}
                     {{
                       'products.facets.product_count'
                       | t: product_count: search.products_count, count: search.all_products_count
-                    }}{% endcomment %}
+                    }}
                   {%- endif -%}
                 </span>
               </h2>
@@ -257,7 +251,7 @@
           {%- endif -%}
         {%- endif -%}
         <div class="product-grid-container" id="ProductGridContainer">
-          {%- if filtered_results.size == 0 and search.filters != empty -%}
+          {%- if filteredSearch.results.size == 0 and search.filters != empty -%}
             <div
               class="template-search__results collection collection--empty{% if section.settings.filter_type != 'vertical' %} page-width{% endif %}"
               id="product-grid"
@@ -286,7 +280,7 @@
                 class="grid product-grid  grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop"
                 role="list"
               >
-                {%- for item in filtered_results -%}
+                {%- for item in filteredSearch.results -%}
                   {% assign lazy_load = false %}
                   {%- if forloop.index > 2 -%}
                     {%- assign lazy_load = true -%}
