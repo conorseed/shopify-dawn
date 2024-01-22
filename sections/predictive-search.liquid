@@ -12,13 +12,11 @@
 
   {% for item in predictive_search.resources.products %}
     {%- assign include_item = true -%}
-  
-    {%- if item.type == 'product' and item.collections.size > 0 -%}
-      {%- assign collection_titles = item.collections | map: 'title' | join: ',' -%}
-      {{ collection_titles }} {{ 'hello' }}
-      {%- if collection_titles contains excluded_collection_title -%}
-        {%- assign include_item = false -%}
-      {%- endif -%}
+    
+    {%- assign collection_titles = item.collections | map: 'title' | join: ',' -%}
+    
+    {%- if collection_titles contains excluded_collection_title -%}
+      {%- assign include_item = false -%}
     {%- endif -%}
   
     {%- if include_item -%}
