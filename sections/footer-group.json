@@ -60,8 +60,8 @@
       "type": "custom-popup",
       "settings": {
         "logo": "shopify:\/\/shop_images\/main-image-for-website.jpg",
-        "heading": "Heading Here",
-        "paragraph": "Tell your customer why they should subscribe."
+        "heading": "Get a $10 Discount!",
+        "paragraph": "Sign up to our newsletter and receive a coupon code for $10 off your order."
       }
     }
   },
