@@ -21,6 +21,7 @@
   {%- endif -%}
 {% endfor %}
 
+{{ filtered_results.size }} RESULTS
 {% for item in filtered_results %}
   <!-- Your code to display the filtered search result item goes here -->
   {{ item.title }}
