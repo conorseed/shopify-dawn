@@ -1,3 +1,4 @@
+{% if request.design_mode == false or section.settings.preview == true %}
   <div id="customNewsletter">
       <div class="customNewsletter__container">
         <button id="customNewsletter__close">X</button>
@@ -53,6 +54,8 @@
     {{ "custom-popup.css" | asset_url | stylesheet_tag }}
   <script src="{{ 'js-cookie.min.js' | asset_url }}" defer></script>
   <script src="{{ 'custom-popup.js' | asset_url }}" defer></script>
+{% endif %}
+
 {% schema %}
   {
     "name": "Pop Up",
@@ -61,27 +64,33 @@
     },
     "settings": [
           {
-      "type": "image_picker",
-      "id": "logo",
-      "label": "Logo",
-      "info": "Logo goes here"
-    },
-    {
-      "type": "text",
-      "id": "heading",
-      "label": "Heading",
-      "default": "Heading Here",
-      "placeholder": "Place Your Heading Here",
-      "info": "Header for your popup"
-    },
-    {
-      "type": "textarea",
-      "id": "paragraph",
-      "label": "Paragraph",
-      "default": "Tell your customer why they should subscribe.",
-      "placeholder": "Subscribe now to hear about great deals!",
-      "info": "Paragraph area for pop up"
-    }
+        "type": "image_picker",
+        "id": "logo",
+        "label": "Logo",
+        "info": "Logo goes here"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading",
+        "default": "Heading Here",
+        "placeholder": "Place Your Heading Here",
+        "info": "Header for your popup"
+      },
+      {
+        "type": "textarea",
+        "id": "paragraph",
+        "label": "Paragraph",
+        "default": "Tell your customer why they should subscribe.",
+        "placeholder": "Subscribe now to hear about great deals!",
+        "info": "Paragraph area for pop up"
+      },
+      {
+        "type": "checkbox",
+        "id": "preview",
+        "label": "Preview in Customiser",
+        "default": true
+      }
     ],
     "presets": [
       {
