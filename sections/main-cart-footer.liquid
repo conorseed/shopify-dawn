@@ -37,6 +37,12 @@
         </cart-note>
       {%- endif -%}
 
+      <div>
+        <label for="purchase-order-number">Purchase Order Number</label>
+        <input id="purchase-order-number" type="text" name="attributes[Purchase Order Number]" value="{{ cart.attributes["Purchase Order Number"] }}">
+        <input id="sageid" type="hidden" name="attributes[sageid]" value="0000">
+      </div>
+
       <div class="cart__blocks">
         {% for block in section.blocks %}
           {%- case block.type -%}
