@@ -17,7 +17,8 @@
   {%- endif -%}
 
   {%- if include_item -%}
-    {%- assign filtered_results = filtered_results | concat: item | split: '' -%}
+    {%- assign thing = item | sort -%}
+    {%- assign filtered_results = filtered_results | concat: thing -%}
   {%- endif -%}
 {% endfor %}
 
