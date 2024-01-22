@@ -555,6 +555,9 @@
           <div class="product-count light" role="status">
             <h2 class="product-count__text text-body">
               <span id="ProductCountDesktop">
+                {% if filtered_results %}
+                    {{ 'templates.search.results_with_count' | t: terms: results.terms, count: filtered_results.size }}
+                    {% endif %}
                 {%- if results.results_count -%}
                   {{ 'templates.search.results_with_count' | t: terms: results.terms, count: results.results_count }}
                 {%- elsif results.products_count == results.all_products_count -%}
@@ -669,9 +672,6 @@
                   {%- endif -%}
                 </h2>
                 <p class="mobile-facets__count">
-                  {% if filtered_results %}
-                    {{ 'templates.search.results_with_count' | t: terms: results.terms, count: filtered_results.size }}
-                    {% endif %}
                   {%- if results.results_count -%}
                     {{ 'templates.search.results_with_count' | t: terms: results.terms, count: results.results_count }}
                   {%- elsif results.products_count == results.all_products_count -%}
