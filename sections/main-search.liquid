@@ -3,6 +3,9 @@
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 {{ 'component-search.css' | asset_url | stylesheet_tag }}
 
+{% assign excluded_collection_title = "AGENTS PORTAL" %}
+{% assign search.results = search.results | where_exp: 'item', 'item.collections.size == 0 or item.collections | map: "title" | join: "," | contains: excluded_collection_title == false' %}
+
 {%- if section.settings.enable_filtering or section.settings.enable_sorting -%}
   {{ 'component-facets.css' | asset_url | stylesheet_tag }}
   <script src="{{ 'facets.js' | asset_url }}" defer="defer"></script>
