@@ -7,11 +7,29 @@
     | plus: predictive_search.resources.pages.size
     | plus: predictive_search.resources.articles.size
   %}
+
+  {%- assign filtered_products = '' | split: '' -%}
+
+  {% for item in predictive_search.resources.products %}
+    {%- assign include_item = true -%}
+  
+    {%- if item.type == 'product' and item.collections.size > 0 -%}
+      {%- assign collection_titles = item.collections | map: 'title' | join: ',' -%}
+      {%- if collection_titles contains excluded_collection_title -%}
+        {%- assign include_item = false -%}
+      {%- endif -%}
+    {%- endif -%}
+  
+    {%- if include_item -%}
+      {%- assign filtered_products = filtered_products | push: item -%}
+    {%- endif -%}
+  {% endfor %}
+  
   <div id="predictive-search-results" role="listbox">
-    {%- if first_column_results_size > 0 or predictive_search.resources.products.size > 0 -%}
+    {%- if first_column_results_size > 0 or filtered_products.size > 0 -%}
       <div
         id="predictive-search-results-groups-wrapper"
-        class="predictive-search__results-groups-wrapper{% unless predictive_search.resources.products.size > 0 %} predictive-search__results-groups-wrapper--no-products{% endunless %}{% unless predictive_search.resources.queries.size > 0 or predictive_search.resources.collections.size > 0 %} predictive-search__results-groups-wrapper--no-suggestions{% endunless %}"
+        class="predictive-search__results-groups-wrapper{% unless filtered_products.size > 0 %} predictive-search__results-groups-wrapper--no-products{% endunless %}{% unless predictive_search.resources.queries.size > 0 or predictive_search.resources.collections.size > 0 %} predictive-search__results-groups-wrapper--no-suggestions{% endunless %}"
       >
     {%- endif -%}
     {%- if first_column_results_size > 0 -%}
@@ -114,12 +132,12 @@
     {%- if first_column_results_size > 0 -%}
       </div>
     {%- endif -%}
-    {%- if predictive_search.resources.products.size > 0
+    {%- if filtered_products.size > 0
       or predictive_search.resources.articles.size > 0
       or predictive_search.resources.pages.size > 0
     -%}
       <div class="predictive-search__result-group">
-        {%- if predictive_search.resources.products.size > 0 -%}
+        {%- if filtered_products.size > 0 -%}
           <div>
             <h2
               id="predictive-search-products"
@@ -133,7 +151,7 @@
               role="group"
               aria-labelledby="predictive-search-products"
             >
-              {%- for product in predictive_search.resources.products -%}
+              {%- for product in filtered_products -%}
                 <li
                   id="predictive-search-option-product-{{ forloop.index }}"
                   class="predictive-search__list-item"
@@ -219,7 +237,7 @@
         {%- endif -%}
       </div>
     {%- endif -%}
-    {%- if first_column_results_size > 0 or predictive_search.resources.products.size > 0 -%}
+    {%- if first_column_results_size > 0 or filtered_products.size > 0 -%}
       </div>
     {%- endif -%}
 
@@ -242,7 +260,7 @@
 
   <span class="hidden" data-predictive-search-live-region-count-value>
     {% liquid
-      assign total_results = predictive_search.resources.products.size | plus: first_column_results_size
+      assign total_results = filtered_products.size | plus: first_column_results_size
       if total_results == 0
         echo 'templates.search.no_results' | t: terms: predictive_search.terms
       else
@@ -255,8 +273,8 @@
           assign count = predictive_search.resources.pages.size | plus: predictive_search.resources.articles.size
           echo 'templates.search.results_pages_with_count' | t: count: count | append: ', '
         endif
-        if predictive_search.resources.products.size > 0
-          echo 'templates.search.results_products_with_count' | t: count: predictive_search.resources.products.size
+        if filtered_products.size > 0
+          echo 'templates.search.results_products_with_count' | t: count: filtered_products.size
         endif
       endif
     %}
