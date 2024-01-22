@@ -15,6 +15,7 @@
   
     {%- if item.type == 'product' and item.collections.size > 0 -%}
       {%- assign collection_titles = item.collections | map: 'title' | join: ',' -%}
+      {{ collection_titles }}
       {%- if collection_titles contains excluded_collection_title -%}
         {%- assign include_item = false -%}
       {%- endif -%}
