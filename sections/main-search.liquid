@@ -21,13 +21,6 @@
   {%- endif -%}
 {% endfor %}
 
-{% for item in filtered_results %}
-  <!-- Your code to display the filtered search result item goes here -->
-  {{ item.title }}
-  {{ item.price | money }}
-  <!-- Add more details as needed -->
-{% endfor %}
-
 {%- if section.settings.enable_filtering or section.settings.enable_sorting -%}
   {{ 'component-facets.css' | asset_url | stylesheet_tag }}
   <script src="{{ 'facets.js' | asset_url }}" defer="defer"></script>
