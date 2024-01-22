@@ -29,6 +29,7 @@
   background-color: transparent;
   font-size: 4vw;
   color: black;
+  cursor: pointer;
 }
 .customNewsletter__logo {
   display: flex;
