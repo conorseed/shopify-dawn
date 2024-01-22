@@ -25,7 +25,7 @@
     {%- endif -%}
   {% endfor %}
 
-  <div>{{ filtered_products.size }} yop=</div>
+  <div>{{ filtered_products.size }} / {{ filtered_products }} / {{ predictive_search.terms }}</div>
   
   <div id="predictive-search-results" role="listbox">
     {%- if first_column_results_size > 0 or filtered_products.size > 0 -%}
