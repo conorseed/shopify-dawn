@@ -1,4 +1,6 @@
 {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
+{% assign excluded_collection_title = "AGENTS PORTAL" %}
+
 {%- if predictive_search.performed -%}
   {% assign first_column_results_size = predictive_search.resources.queries.size
     | plus: predictive_search.resources.collections.size
@@ -46,6 +48,7 @@
             </li>
           {%- endfor -%}
           {%- for collection in predictive_search.resources.collections -%}
+            {% unless collection.title contains excluded_collection_title %}
             <li
               id="predictive-search-option-collection-{{ forloop.index }}"
               class="predictive-search__list-item"
@@ -58,6 +61,7 @@
                 </div>
               </a>
             </li>
+            {% endunless %}
           {%- endfor -%}
         </ul>
       </div>
