@@ -21,8 +21,12 @@
   {%- endif -%}
 {% endfor %}
 
-<p>CONOR</p>
-{{ filtered_results }}
+{% for item in filtered_results %}
+  <!-- Your code to display the filtered search result item goes here -->
+  {{ item.title }}
+  {{ item.price | money }}
+  <!-- Add more details as needed -->
+{% endfor %}
 
 {% assign search.results = filtered_results %}
 
