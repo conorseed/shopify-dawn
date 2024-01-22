@@ -92,12 +92,22 @@
         "padding_top": 100,
         "padding_bottom": 80
       }
+    },
+    "custom_liquid_aeczVM": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if cart == empty %}\n<style>\n[class*=\"rich_text\"]{\n  display:none\n}\n<\/style>\n{% endif %}",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "cart-items",
     "rich_text_mzk6ag",
     "cart-footer",
-    "featured-collection"
+    "featured-collection",
+    "custom_liquid_aeczVM"
   ]
 }
