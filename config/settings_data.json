@@ -151,6 +151,12 @@
           "button_vertical_position": "lowest",
           "greeting_message": "👋 Hi, message us with any questions. Or if you'd prefer to talk to someone, you can call us on 0800 900 800. We're happy to help!"
         }
+      },
+      "5460929749692845798": {
+        "type": "shopify:\/\/apps\/shopacado-volume-discounts\/blocks\/enable\/5950831a-4e4e-40a4-82b0-674110b50a14",
+        "disabled": false,
+        "settings": {
+        }
       }
     },
     "color_schemes": {
