@@ -9,6 +9,8 @@
 {% for item in search.results %}
   {%- assign include_item = true -%}
 
+  {{ 'type: ' }}{{ item.type }}
+
   {%- if item.type == 'product' and item.collections.size > 0 -%}
     {%- assign collection_titles = item.collections | map: 'title' | join: ',' -%}
     {%- if collection_titles contains excluded_collection_title -%}
