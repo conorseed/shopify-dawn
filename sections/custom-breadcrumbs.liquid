@@ -9,7 +9,8 @@
           {% elsif template contains 'product' %}
 
           {% for collection in product.collections %}
-          <span aria-hidden="true">&rsaquo;</span> {{ collection.title | link_to: collection.url }}
+            {% if forloop.first %} <span aria-hidden="true">&rsaquo;</span> {% else %} <span aria-hidden="true">/</span> {% endif %}
+            {{ collection.title | link_to: collection.url }}
           {% endfor %}
           <span aria-hidden="true">&rsaquo;</span>
           <span>{{ product.title }}</span> 
