@@ -21,7 +21,8 @@
     {%- endif -%}
   
     {%- if include_item -%}
-      {%- assign filtered_products = filtered_products | concat: item | split: '' -%}
+      {%- assign product = item | sort -%}
+      {%- assign filtered_products = filtered_products | concat: product -%}
     {%- endif -%}
   {% endfor %}
 
