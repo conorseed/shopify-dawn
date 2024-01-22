@@ -8,6 +8,39 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_mzk6ag": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_zryXDg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Before you checkout...",
+            "heading_size": "h2"
+          }
+        },
+        "text_8xgDtq": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>If you have a rural address <\/strong>please ensure you click the 'Rural Address' button on checkout so the right freight charge is calculated. You can check if your address is rural by clicking on <a href=\"https:\/\/nzcouriers.co.nz\/tools\/check-an-address\/\" target=\"_blank\"><strong>Address Checker<\/strong><\/a><strong>.<\/strong><\/p><p><strong>If you do not select the rural address option then your goods may be delayed until the correct charges have been paid.<\/strong><\/p><p><strong>Note: <\/strong>We do not deliver to Waiheke Island. Please contact us to discuss delivery and collection options with you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zryXDg",
+        "text_8xgDtq"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "cart-footer": {
       "type": "main-cart-footer",
       "blocks": {
@@ -29,7 +62,7 @@
       "settings": {
         "color_scheme": "scheme-1330bf84-9d22-4f56-8fd6-b4b20199153a",
         "padding_top": 40,
-        "padding_bottom": 40
+        "padding_bottom": 100
       }
     },
     "featured-collection": {
@@ -47,7 +80,7 @@
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
         "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": false,
@@ -63,6 +96,7 @@
   },
   "order": [
     "cart-items",
+    "rich_text_mzk6ag",
     "cart-footer",
     "featured-collection"
   ]
