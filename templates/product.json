@@ -97,7 +97,7 @@
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "truck",
-            "content": "",
+            "content": "<p>You can <a href=\"#\" target=\"_blank\" title=\"#\">view shipping details on this page<\/a>, as well as <a href=\"\/pages\/refund-and-returns-policy\" target=\"_blank\" title=\"Refund and Returns Policy\">information about refunds and returns here<\/a>.<\/p>",
             "page": ""
           }
         }
