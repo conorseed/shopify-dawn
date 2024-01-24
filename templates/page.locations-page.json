@@ -50,7 +50,6 @@
     },
     "252834fa-c75e-4808-933a-7afbd3ac1a9b": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--16273051025607__252834fa-c75e-4808-933a-7afbd3ac1a9b-heading-1": {
           "type": "heading",
@@ -70,6 +69,7 @@
         "template--16273051025607__252834fa-c75e-4808-933a-7afbd3ac1a9b-heading-1",
         "template--16273051025607__252834fa-c75e-4808-933a-7afbd3ac1a9b-text-1"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -196,7 +196,7 @@
         "ce0672b6-c87e-442f-9423-24490abb9057": {
           "type": "featured_collection",
           "settings": {
-            "collection": "office-desk-chairs"
+            "collection": "office-chairs"
           }
         },
         "44c96d36-2bb3-447b-b5d5-d727f01fc350": {
