@@ -100,6 +100,24 @@
             "text_alignment_mobile": "center"
           }
         },
+        "slide_fbLaK4": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/saleclearance_post_11.png",
+            "heading": "CLEARANCE SALE NOW ON!",
+            "heading_size": "h0",
+            "subheading": "Grisport Modena Light - on sale for $109.00 NZD (down from $179.00 NZD.) Limited sizes and stock available.",
+            "button_label": "Shop Now",
+            "link": "shopify:\/\/products\/0242e39e-bfc5-11eb-fc6f-1dbab962f23f",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
+        },
         "template--14388672135243__a906c273-a8eb-416e-ade7-04155872f8f7-slide-1": {
           "type": "slide",
           "settings": {
@@ -157,6 +175,7 @@
       },
       "block_order": [
         "facc43d7-900f-45b5-ac4e-c1f570dbdc7f",
+        "slide_fbLaK4",
         "template--14388672135243__a906c273-a8eb-416e-ade7-04155872f8f7-slide-1",
         "template--14388672135243__a906c273-a8eb-416e-ade7-04155872f8f7-slide-2",
         "61ed6fc5-1c7e-42cf-98dc-66406f546419"
