@@ -3499,4 +3499,4 @@ details-disclosure > details {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
 }
-.multivariants_block_img {max-image: 55px! important;}
+.multivariants_block_img {max-height: 55px! important;}
