@@ -133,15 +133,45 @@
         "padding_bottom": 36
       }
     },
-    "custom_liquid_7M8TNw": {
-      "type": "custom-liquid",
-      "custom_css": [
-
+    "rich_text_X7CNiU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ABe9bw": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2>Personalised Office Fit Out Services Designed Especially For You<\/h2>",
+            "heading_size": "h1"
+          }
+        },
+        "text_FUaD7G": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Are you looking to reshape your office space into a hub of productivity and style? Then look no further than Smart Office Furniture for all your <strong>office fit out NZ<\/strong> needs. As a leading supplier of <a href=\"\/\">office furniture in New Zealand<\/a>, we specialise in providing comprehensive <strong>interior office fit out<\/strong> services tailored to your unique requirements. We take pride in our reputation as one of the leading suppliers of office furniture and fit outs in New Zealand. We’ve built long lasting relationships with our suppliers to ensure that you get the best quality office furniture for your fit out, at the best prices, no matter whether you’re a small start up or a large corporation. <\/p>"
+          }
+        },
+        "button_8Ef6k4": {
+          "type": "button",
+          "settings": {
+            "button_label": "Request A Fit Out Quote",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ABe9bw",
+        "text_FUaD7G",
+        "button_8Ef6k4"
       ],
       "settings": {
-        "custom_liquid": "<h2 style=\"text-align: center;\">Personalised Office Fit Out Services Designed Especially For You<\/h2>\n<p>Are you looking to reshape your office space into a hub of productivity and style? Then look no further than Smart Office Furniture for all your <strong>office fit out NZ<\/strong> needs. As a leading supplier of <a href=\"\/\">office furniture in New Zealand<\/a>, we specialise in providing comprehensive <strong>interior office fit out<\/strong> services tailored to your unique requirements. We take pride in our reputation as one of the leading suppliers of office furniture and fit outs in New Zealand. We’ve built long lasting relationships with our suppliers to ensure that you get the best quality office furniture for your fit out, at the best prices, no matter whether you’re a small start up or a large corporation.&nbsp;<\/p>",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
-        "padding_top": 36,
+        "full_width": true,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
@@ -391,7 +421,7 @@
     "70b88c64-11fc-43ae-8d58-49c2dde45b99",
     "252834fa-c75e-4808-933a-7afbd3ac1a9b",
     "5c67ca3a-aa44-454d-8c35-5d62451d72d4",
-    "custom_liquid_7M8TNw",
+    "rich_text_X7CNiU",
     "f1c8b05a-1816-4783-a20f-839d4df18176",
     "main",
     "710a377c-138c-4e07-a410-5fdd44cd657f",
