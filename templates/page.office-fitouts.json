@@ -340,6 +340,34 @@
         "padding_bottom": 36
       }
     },
+    "11acdf4a-f970-4ea6-96ae-2cf14c4e0e90": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Most Popular",
+        "heading_size": "h2",
+        "description": "<p>Our most popular selling products, lined up here for easy access to ordering.<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "most-popular",
+        "products_to_show": 10,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "69faa1f7-132d-4a31-b5b8-65b5de68b5bf": {
       "type": "image-banner",
       "blocks": {
@@ -398,6 +426,7 @@
     "f1c8b05a-1816-4783-a20f-839d4df18176",
     "main",
     "710a377c-138c-4e07-a410-5fdd44cd657f",
+    "11acdf4a-f970-4ea6-96ae-2cf14c4e0e90",
     "69faa1f7-132d-4a31-b5b8-65b5de68b5bf"
   ]
 }
