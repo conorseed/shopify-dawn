@@ -342,7 +342,6 @@
     },
     "11acdf4a-f970-4ea6-96ae-2cf14c4e0e90": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Most Popular",
         "heading_size": "h2",
