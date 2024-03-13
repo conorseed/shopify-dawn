@@ -367,6 +367,33 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_wJiiXb": {
+      "type": "rich-text",
+      "blocks": {
+        "button_PK4TrY": {
+          "type": "button",
+          "settings": {
+            "button_label": "Request A Free Quote",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_PK4TrY"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "69faa1f7-132d-4a31-b5b8-65b5de68b5bf": {
       "type": "image-banner",
       "blocks": {
@@ -426,6 +453,7 @@
     "main",
     "710a377c-138c-4e07-a410-5fdd44cd657f",
     "11acdf4a-f970-4ea6-96ae-2cf14c4e0e90",
+    "rich_text_wJiiXb",
     "69faa1f7-132d-4a31-b5b8-65b5de68b5bf"
   ]
 }
