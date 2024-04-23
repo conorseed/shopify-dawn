@@ -3,6 +3,42 @@
     "a906c273-a8eb-416e-ade7-04155872f8f7": {
       "type": "slideshow",
       "blocks": {
+        "slide_KAMNkJ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/italy_post_slide_1.jpg",
+            "heading": "WIN WITH GRISPORT!",
+            "heading_size": "h2",
+            "subheading": "Shop in store or online at for a chance to win. To enter, register at <a href=\"http:\/\/www.grisport.co.nz\/register\/?fbclid=IwZXh0bgNhZW0CMTAAAR3pSga5J6H8zGo0cyBQa_nCEXWbNvYV6oKufHHuKLzBoxPnDoV_sWauDzs_aem_AbAunjQtYoBusgI-q_-vganLayAplzMbCh2nzChsjVwieMrufybxtQtnm2on4KuS7MqD5WYbB0aJmgIZLj91g0Hm\" target=\"_blank\">www.grisport.co.nz\/register\/<\/a>",
+            "button_label": "SHOP NOW",
+            "link": "shopify:\/\/collections\/grisport",
+            "button_style_secondary": false,
+            "box_align": "bottom-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_MYCT8b": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Modern_Minimalist_Face_Brand_Photo_Collage_Instagram_Post_8.png",
+            "heading": "CLEARANCE!! Grisport Brown Venice Slip-on Boot",
+            "heading_size": "h1",
+            "subheading": "WAS $199 NOW ONLY $149",
+            "button_label": "SHOP NOW",
+            "link": "shopify:\/\/products\/0242e39e-bfc5-11eb-fc6f-1dba6312e12d",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
+        },
         "template--14388672135243__a906c273-a8eb-416e-ade7-04155872f8f7-slide-1": {
           "type": "slide",
           "settings": {
@@ -56,50 +92,14 @@
             "color_scheme": "accent-2",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_MYCT8b": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Modern_Minimalist_Face_Brand_Photo_Collage_Instagram_Post_8.png",
-            "heading": "CLEARANCE!! Grisport Brown Venice Slip-on Boot",
-            "heading_size": "h1",
-            "subheading": "WAS $199 NOW ONLY $149",
-            "button_label": "SHOP NOW",
-            "link": "shopify:\/\/products\/0242e39e-bfc5-11eb-fc6f-1dba6312e12d",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "accent-2",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_KAMNkJ": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/italy_post_slide_1.jpg",
-            "heading": "WIN WITH GRISPORT!",
-            "heading_size": "h2",
-            "subheading": "Shop in store or online at for a chance to win. To enter, register at <a href=\"http:\/\/www.grisport.co.nz\/register\/?fbclid=IwZXh0bgNhZW0CMTAAAR3pSga5J6H8zGo0cyBQa_nCEXWbNvYV6oKufHHuKLzBoxPnDoV_sWauDzs_aem_AbAunjQtYoBusgI-q_-vganLayAplzMbCh2nzChsjVwieMrufybxtQtnm2on4KuS7MqD5WYbB0aJmgIZLj91g0Hm\" target=\"_blank\">www.grisport.co.nz\/register\/<\/a>",
-            "button_label": "SHOP NOW",
-            "link": "shopify:\/\/collections\/grisport",
-            "button_style_secondary": false,
-            "box_align": "bottom-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
+        "slide_KAMNkJ",
+        "slide_MYCT8b",
         "template--14388672135243__a906c273-a8eb-416e-ade7-04155872f8f7-slide-1",
         "template--14388672135243__a906c273-a8eb-416e-ade7-04155872f8f7-slide-2",
-        "61ed6fc5-1c7e-42cf-98dc-66406f546419",
-        "slide_MYCT8b",
-        "slide_KAMNkJ"
+        "61ed6fc5-1c7e-42cf-98dc-66406f546419"
       ],
       "settings": {
         "layout": "grid",
