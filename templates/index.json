@@ -3,24 +3,6 @@
     "a906c273-a8eb-416e-ade7-04155872f8f7": {
       "type": "slideshow",
       "blocks": {
-        "facc43d7-900f-45b5-ac4e-c1f570dbdc7f": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/5026_CLASSIC_TEE_MAIN__45889_1cb85986-4955-4da9-bba3-807ba2aa003b.jpg",
-            "heading": "AS COLOURS",
-            "heading_size": "h0",
-            "subheading": "We are stoked to be a stockist for the popular AS Colour brand. We have multiple different styles, colours and sizes available in tees, hoodies and hats. Made with quality cotton, AS Colours is super comfortable, durable and the perfect product to add your logo or design to.",
-            "button_label": "Shop Now",
-            "link": "shopify:\/\/collections\/as-colours",
-            "button_style_secondary": false,
-            "box_align": "bottom-right",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "accent-2",
-            "text_alignment_mobile": "center"
-          }
-        },
         "template--14388672135243__a906c273-a8eb-416e-ade7-04155872f8f7-slide-1": {
           "type": "slide",
           "settings": {
@@ -92,14 +74,32 @@
             "color_scheme": "accent-2",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_KAMNkJ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/italy_post_slide_1.jpg",
+            "heading": "WIN WITH GRISPORT!",
+            "heading_size": "h2",
+            "subheading": "Shop in store or online at for a chance to win. To enter, register at <a href=\"http:\/\/www.grisport.co.nz\/register\/?fbclid=IwZXh0bgNhZW0CMTAAAR3pSga5J6H8zGo0cyBQa_nCEXWbNvYV6oKufHHuKLzBoxPnDoV_sWauDzs_aem_AbAunjQtYoBusgI-q_-vganLayAplzMbCh2nzChsjVwieMrufybxtQtnm2on4KuS7MqD5WYbB0aJmgIZLj91g0Hm\" target=\"_blank\">www.grisport.co.nz\/register\/<\/a>",
+            "button_label": "SHOP NOW",
+            "link": "shopify:\/\/collections\/grisport",
+            "button_style_secondary": false,
+            "box_align": "bottom-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
-        "facc43d7-900f-45b5-ac4e-c1f570dbdc7f",
         "template--14388672135243__a906c273-a8eb-416e-ade7-04155872f8f7-slide-1",
         "template--14388672135243__a906c273-a8eb-416e-ade7-04155872f8f7-slide-2",
         "61ed6fc5-1c7e-42cf-98dc-66406f546419",
-        "slide_MYCT8b"
+        "slide_MYCT8b",
+        "slide_KAMNkJ"
       ],
       "settings": {
         "layout": "grid",
