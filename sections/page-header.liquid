@@ -1,6 +1,100 @@
+{% liquid 
+   assign title = page.title
+    if section.settings.title != ''
+      assign title = section.settings.title
+    endif
+%}
+    
+{% if section.settings.header_image != nil %}
+<div class="scroll-trigger animate--fade-in with_media">
+  <figure class="animate--ambient scroll-trigger animate--fade-in{% if section.settings.image_overlay %} with_overlay{% endif %}">
+    {{ section.settings.header_image | image_url: width: 2500 | image_tag }}
+  </figure>
+  <div class="page-width section-content scroll-trigger animate--fade-in">
+      <h1 class="h0">{{ title }}</h1>
+  </div>
+</div>
+{% else %}
+<div class="scroll-trigger animate--fade-in">
+  <div class="page-width section-content animate--fade-in">
+      <h1 class="h0 animate--fade-in">{{ title }}</h1>
+  </div>
+</div>
+{% endif; %}
+
+<style>
+  .section-page-header{
+    position: relative;
+  }
+  .section-page-header figure{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0; left: 0;
+    margin: 0;
+    overflow: hidden; z-index: -1;
+  }
+  .section-page-header figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .section-page-header figure.with_overlay:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: background: rgb(255,24,24);
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .section-page-header .with_media .section-content{
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .section-page-header .section-content{
+    padding-top: 80px;
+    padding-bottom: 0px;
+  }
+  .section-page-header h1{
+    margin: 0
+  }
+  .section-page-header .with_media h1{
+    color: #fff !important;
+  }
+</style>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Page Header Custom",
+    "tag": "section",
+    "class": "section section-fa-page-header",
+    "disabled_on": {
+      "groups": ["header", "footer"]
+    },
+    "settings": [
+      {
+        "type": "inline_richtext",
+        "id": "title",
+        "label": "t:sections.collection-list.settings.title.label"
+      },
+      {
+        "type": "image_picker",
+        "id": "header_image",
+        "label": "Custom Image"
+      },
+      {
+        "type": "checkbox",
+        "id": "image_overlay",
+        "label": "Use image overlay?"
+      }
+    ],
+    "presets": [{
+      "name": "Page Header Custom"
+    }]
   }
 {% endschema %}
