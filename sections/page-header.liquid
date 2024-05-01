@@ -9,6 +9,7 @@
 <div class="scroll-trigger animate--fade-in with_media">
   <figure class="animate--ambient scroll-trigger animate--fade-in{% if section.settings.image_overlay %} with_overlay{% endif %}">
     {{ section.settings.header_image | image_url: width: 2500 | image_tag }}
+    <div class="overlay" style="background: {{ section.settings.image_overlay_color.rgba }}"></div>
   </figure>
   <div class="page-width section-content scroll-trigger animate--fade-in">
       <h1 class="h0">{{ title }}</h1>
@@ -39,11 +40,14 @@
     height: 100%;
     object-fit: cover;
   }
-  .section-page-header figure.with_overlay:after {
+  .section-page-header figure .overlay {
+    display:none
+  }
+  .section-page-header figure.with_overlay .overlay {
     content: "";
     width: 100%;
     height: 100%;
-    background: rgb(255,24,24);
+    background: rgb(0 0 0 / 45%);
     display: block;
     position: absolute;
     top: 0;
@@ -91,6 +95,11 @@
         "type": "checkbox",
         "id": "image_overlay",
         "label": "Use image overlay?"
+      },
+      {
+        "type": "color",
+        "id": "image_overlay_color",
+        "label": "Image overlay color"
       }
     ],
     "presets": [{
