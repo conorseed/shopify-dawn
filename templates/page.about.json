@@ -12,8 +12,9 @@
       "type": "page-header",
       "settings": {
         "title": "",
-        "header_image": "shopify:\/\/shop_images\/easter_24_flag-05.png",
-        "image_overlay": true
+        "image_overlay": true,
+        "image_overlay_color": "#000000",
+        "image_overlay_opacity": 55
       }
     }
   },

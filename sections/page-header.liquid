@@ -11,7 +11,7 @@
     {{ section.settings.header_image | image_url: width: 2500 | image_tag }}
     <div class="overlay" style="background: rgba({{ section.settings.image_overlay_color.rgb }} / {{ section.settings.image_overlay_opacity }}%)"></div>
   </figure>
-  <div class="page-width section-content scroll-trigger animate--fade-in">
+  <div style="padding-top: {{ section.settings.padding_top }}px; padding-bottom: {{ section.settings.padding_bottom }}px" class="page-width section-content scroll-trigger animate--fade-in">
       <h1 class="h0">{{ title }}</h1>
   </div>
 </div>
@@ -57,12 +57,6 @@
     min-height: 40vh;
     display: flex;
     align-items: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-  .section-page-header .section-content{
-    padding-top: 80px;
-    padding-bottom: 0px;
   }
   .section-page-header h1{
     margin: 0
@@ -109,6 +103,26 @@
         "min": 0,
         "max": 100,
         "unit": "%"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "label": "Section Padding Top",
+        "default": 60,
+        "min": 40,
+        "max": 200,
+        "unit": "px",
+        "step": 5
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "label": "Section Padding Bottom",
+        "default": 60,
+        "min": 40,
+        "max": 200,
+        "unit": "px",
+        "step": 5
       }
     ],
     "presets": [{
