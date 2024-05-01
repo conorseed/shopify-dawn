@@ -9,7 +9,7 @@
 <div class="scroll-trigger animate--fade-in with_media">
   <figure class="animate--ambient scroll-trigger animate--fade-in{% if section.settings.image_overlay %} with_overlay{% endif %}">
     {{ section.settings.header_image | image_url: width: 2500 | image_tag }}
-    <div class="overlay" style="background: rgba({{ section.settings.image_overlay_color.rgb }} / {{ section.settings.image_overlay_opacity }})"></div>
+    <div class="overlay" style="background: rgba({{ section.settings.image_overlay_color.rgb }} / {{ section.settings.image_overlay_opacity }}%)"></div>
   </figure>
   <div class="page-width section-content scroll-trigger animate--fade-in">
       <h1 class="h0">{{ title }}</h1>
