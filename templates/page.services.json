@@ -33,7 +33,7 @@
             "title": "Custom Manufacturing",
             "text": "<p>We can manufacture specialised short run products for you<\/p>",
             "link_label": "View Custom Manufacturing",
-            "link": ""
+            "link": "shopify:\/\/pages\/custom-manufacturing"
           }
         },
         "column_YDXEQL": {
@@ -43,7 +43,7 @@
             "title": "Customised Online Web Ordering Portals",
             "text": "<p>A custom on-line web portal solely for your products.  Enables a high level of purchasing control and brand compliance.<\/p>",
             "link_label": "View Custom Portals",
-            "link": ""
+            "link": "shopify:\/\/pages\/customised-online-web-ordering-portals"
           }
         }
       },
