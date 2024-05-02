@@ -26,7 +26,7 @@
     "custom_liquid_CXFqCR": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width narrow scroll-trigger animate--slide-in\">{{page.content}}<\/div>",
+        "custom_liquid": "<div style=\"max-width:900px;\" class=\"page-width narrow scroll-trigger animate--slide-in\">{{page.content}}<\/div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
