@@ -28,11 +28,17 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
+    },
+    "case_studies_content_KVn7rX": {
+      "type": "case-studies-content",
+      "settings": {
+      }
     }
   },
   "order": [
     "page_dRyLjj",
     "custom_breadcrumbs_yUjwmM",
-    "page_header_JmkLr9"
+    "page_header_JmkLr9",
+    "case_studies_content_KVn7rX"
   ]
 }
