@@ -26,7 +26,7 @@
     "custom_liquid_CXFqCR": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% assign image = page.metafields.custom.services_featured_image %}\n{% assign title = page.metafields.custom.services_featured_title %}\n\n{% if image != '' and title != '' %}\n  <div class=\"page-width scroll-trigger animate--slide-in services-hero\">\n    {{ image | image_url: width: 800 | image_tag: alt: title, loading: 'lazy'  }}\n    <div>\n      <h2 class=\"h2\">{{ title }}<\/h2>\n    <\/div>\n  <\/div>\n<style>\n\n<\/style>\n{% endif %}\n\n<div style=\"max-width:900px;\" class=\"page-width scroll-trigger animate--slide-in\">\n{{page.content}}\n<\/div>",
+        "custom_liquid": "{% assign image = page.metafields.custom.services_featured_image %}\n{% assign title = page.metafields.custom.services_featured_title %}\n\n{% if image != '' and title != '' %}\n  <div class=\"page-width scroll-trigger animate--slide-in services-hero\">\n    {{ image | image_url: width: 800 | image_tag: alt: title, loading: 'lazy', class: 'scroll-trigger animate--slide-in'  }}\n    <div>\n      <h2 class=\"h1 scroll-trigger animate--slide-in\">{{ title }}<\/h2>\n    <\/div>\n  <\/div>\n<style>\n\n<\/style>\n{% endif %}\n\n<div style=\"max-width:900px;\" class=\"page-width scroll-trigger animate--slide-in\">\n{{page.content}}\n<\/div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
