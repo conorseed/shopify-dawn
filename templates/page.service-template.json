@@ -26,53 +26,50 @@
     "custom_liquid_CXFqCR": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{{page.content}}",
+        "custom_liquid": "<div class=\"page-width narrow scroll-trigger animate--slide-in\">{{page.content}}<\/div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
       }
     },
-    "multicolumn_mq9fPz": {
-      "type": "multicolumn",
+    "rich_text_myKqxK": {
+      "type": "rich-text",
       "blocks": {
-        "column_maiRha": {
-          "type": "column",
+        "heading_CJBLcL": {
+          "type": "heading",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Miitre10Gazebo_4x-100.jpg",
-            "title": "Custom Manufacturing",
-            "text": "<p>We can manufacture specialised short run products for you<\/p>",
-            "link_label": "View Custom Manufacturing",
-            "link": ""
+            "heading": "Let's Talk",
+            "heading_size": "h1"
           }
         },
-        "column_YDXEQL": {
-          "type": "column",
+        "text_9reaDP": {
+          "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mta-portal-pic.jpg",
-            "title": "Customised Online Web Ordering Portals",
-            "text": "<p>A custom on-line web portal solely for your products.  Enables a high level of purchasing control and brand compliance.<\/p>",
-            "link_label": "View Custom Portals",
-            "link": ""
+            "text": "<p>If you're ready for our services or simply have some questions, then we'd love to hear from you.<\/p>"
+          }
+        },
+        "button_pkQ9fT": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact Us Today",
+            "button_link": "shopify:\/\/pages\/contact-us",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "column_maiRha",
-        "column_YDXEQL"
+        "heading_CJBLcL",
+        "text_9reaDP",
+        "button_pkQ9fT"
       ],
       "settings": {
-        "title": "A range of services to suit all",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
         "padding_top": 80,
         "padding_bottom": 80
       }
@@ -82,6 +79,6 @@
     "main",
     "page_header_FTBBe8",
     "custom_liquid_CXFqCR",
-    "multicolumn_mq9fPz"
+    "rich_text_myKqxK"
   ]
 }
