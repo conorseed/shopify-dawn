@@ -32,6 +32,7 @@
     "case_studies_content_KVn7rX": {
       "type": "case-studies-content",
       "settings": {
+        "content": "{{ metaobject.content | metafield_tag }}"
       }
     }
   },
