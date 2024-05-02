@@ -1,7 +1,38 @@
 {
   "sections": {
+    "page_dRyLjj": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "page": "",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_breadcrumbs_yUjwmM": {
+      "type": "custom-breadcrumbs",
+      "settings": {
+        "color_scheme": "scheme-40872108-8bb0-4ab8-8dba-4e148c49e639"
+      }
+    },
+    "page_header_JmkLr9": {
+      "type": "page-header",
+      "settings": {
+        "title": "{{ metaobject.title.value }}",
+        "header_image": "shopify:\/\/shop_images\/transparent.png",
+        "image_overlay": true,
+        "image_overlay_color": "#104771",
+        "image_overlay_opacity": 100,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
   },
   "order": [
-
+    "page_dRyLjj",
+    "custom_breadcrumbs_yUjwmM",
+    "page_header_JmkLr9"
   ]
 }
