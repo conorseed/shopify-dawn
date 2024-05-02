@@ -26,7 +26,7 @@
     "custom_liquid_CXFqCR": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div style=\"max-width:900px;\" class=\"page-width narrow scroll-trigger animate--slide-in\">{{page.content}}<\/div>",
+        "custom_liquid": "{% liquid\n\nassign image = page.metafields.custom.services_featured_image\nassign title = page.metafields.custom.services_featured_title\n\n\n\n%}\n\n\n<div class=\"page-width scroll-trigger animate--slide-in\">\n\n{{ page.metafields.custom.services_featured_image | image_url: width: 800 | image_tag }}\n\n\n<\/div>\n\n<div style=\"max-width:900px;\" class=\"page-width scroll-trigger animate--slide-in\">\n{{page.content}}\n<\/div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
