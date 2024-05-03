@@ -2,6 +2,7 @@
   <div class="page-width">
     <nav class="breadcrumbs" role="navigation" aria-label="breadcrumbs">
         <a href="{{ shop.url }}" title="Flagmakers Home">Home</a> 
+      {{ template }}
         {% if template contains 'page' %}
         <span aria-hidden="true">&rsaquo;</span>
         <span>{{ page.title }}</span>
