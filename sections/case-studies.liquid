@@ -13,7 +13,10 @@
       <div style="flex-direction:column" class="grid grid--1-col grid--3-col-tablet casestudies_list">
         <div class="grid__item scroll-trigger animate--slide-in">
           {{ metaobject.gallery.value | first | image_url: width: 1000 | image_tag: alt: metaobject.title  }}
-          {{ metaobject.title | append: ' <span aria-hidden="true">&rsaquo;</span>' | link_to: metaobject.system.url }}
+          <a class="link animate-arrow" href="{{ metaobject.system.url }}">
+            {{ metaobject.title }}
+            <span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span>
+          </a>
         </div>
       </div>
     {% endif %}
