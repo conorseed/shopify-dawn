@@ -13,7 +13,7 @@
       <div style="flex-direction:column" class="grid grid--1-col grid--3-col-tablet casestudies_list">
         <div class="grid__item scroll-trigger animate--slide-in">
           <a class="link animate-arrow" href="{{ metaobject.system.url }}">
-            {{ metaobject.gallery.value | first | image_url: width: 1000 | image_tag: alt: metaobject.title  }}
+            {{ metaobject.gallery.value | first | image_url: width: 1000, height: 700 | image_tag: alt: metaobject.title  }}
             <div style="margin-top: 1rem">
               {{ metaobject.title }}
               <span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span>
