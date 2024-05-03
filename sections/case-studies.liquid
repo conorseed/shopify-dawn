@@ -1,17 +1,23 @@
-{% for metaobject in shop.metaobjects.case_studies.values %}
-  {% assign check = false %}
-  {% if section.settings.category == '' %}
-    {% assign check = true %}
-  {% elsif section.settings.category != '' and metaobject.category == section.settings.category %}
-    {% assign check = true %}
-  {% endif %}
+<div class="page-width">
 
-  {% if check == true %}
-    <li>
-      {{ metaobject.title | link_to: metaobject.system.url }}
-    </li>
-  {% endif %}
-{% endfor %}
+  <h2 class="h2">{{ section.settings.title }}</h2>
+  {% for metaobject in shop.metaobjects.case_studies.values %}
+    {% assign check = false %}
+    {% if section.settings.category == '' %}
+      {% assign check = true %}
+    {% elsif section.settings.category != '' and metaobject.category == section.settings.category %}
+      {% assign check = true %}
+    {% endif %}
+  
+    {% if check == true %}
+      <ul class="grid grid--1-col grid--3-col-tablet">
+        <li class="grid_item">
+          {{ metaobject.title | link_to: metaobject.system.url }}
+        </li>
+        </ul>
+    {% endif %}
+  {% endfor %}
+</div>
 
 {% schema %}
   {
