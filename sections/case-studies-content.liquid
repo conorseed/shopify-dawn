@@ -1,5 +1,5 @@
 <div class="page-width" style="padding-top: {{ section.settings.padding_top }}px; padding-bottom: {{ section.settings.padding_bottom }}px">
-  <div style="gap:6rem" class="grid grid--1-col grid--2-col-tablet">
+  <div class="grid grid--1-col grid--2-col-tablet">
     <div class="grid__item casestudy-media">
       {% for image in metaobject.gallery.value %}
         {{ image | image_url: width: 1000 | image_tag: alt: metaobject.title, class: 'scroll-trigger animate--slide-in'  }}
