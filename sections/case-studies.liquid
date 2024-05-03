@@ -1,4 +1,4 @@
-<div class="page-width">
+<div class="page-width" style="padding-top: {{ section.settings.padding_top }}px; padding-bottom: {{ section.settings.padding_bottom }}px">
 
   <h2 class="h2">{{ section.settings.title }}</h2>
   {% for metaobject in shop.metaobjects.case_studies.values %}
@@ -29,6 +29,7 @@
 {% schema %}
   {
     "name": "Case Studies List",
+    "tag": "section",
     "settings": [
       {
         "type": "text",
