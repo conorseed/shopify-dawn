@@ -1,6 +1,42 @@
+{% paginate shop.metaobjects.chef.values by 25 %}
+  
+  {% for metaobject in shop.metaobjects.chef.values %}
+    <li>
+      {{ metaobject.name | link_to: metaobject.system.url }}
+    </li>
+  {% endfor %}
+
+  {{ paginate | default_pagination }}
+
+{% endpaginate %}
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Case Studies List",
+    "settings": [
+      {
+        "type": "range",
+        "id": "padding_top",
+        "label": "Section Padding Top",
+        "default": 60,
+        "min": 40,
+        "max": 200,
+        "unit": "px",
+        "step": 5
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "label": "Section Padding Bottom",
+        "default": 60,
+        "min": 40,
+        "max": 200,
+        "unit": "px",
+        "step": 5
+      }
+    ],
+    "presets": [{
+      "name": "Case Studies List"
+    }]
   }
 {% endschema %}
