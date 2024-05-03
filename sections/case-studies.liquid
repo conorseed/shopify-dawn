@@ -1,8 +1,8 @@
-{% paginate shop.metaobjects.chef.values by 25 %}
+{% paginate shop.metaobjects.case_studies.values by 25 %}
   
-  {% for metaobject in shop.metaobjects.chef.values %}
+  {% for metaobject in shop.metaobjects.case_studies.values %}
     <li>
-      {{ metaobject.name | link_to: metaobject.system.url }}
+      {{ metaobject.title | link_to: metaobject.system.url }}
     </li>
   {% endfor %}
 
