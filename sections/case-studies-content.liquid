@@ -5,7 +5,7 @@
         {{ image | image_url: width: 1000 | image_tag: alt: metaobject.title, class: 'scroll-trigger animate--slide-in'  }}
       {% endfor %}
     </div>
-    <div class="grid__item scroll-trigger animate--slide-in">
+    <div class="grid__item scroll-trigger animate--slide-in product__column-sticky">
       {{ metaobject.content | metafield_tag }}
     </div>
   </div>
