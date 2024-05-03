@@ -1,4 +1,4 @@
-<div class="page-width">
+<div class="page-width" style="padding-top: {{ section.settings.padding_top }}px; padding-bottom: {{ section.settings.padding_bottom }}px">
   <div class="grid grid--1-col grid--2-col-tablet">
     <div class="grid__item">
       
@@ -12,11 +12,33 @@
 {% schema %}
   {
     "name": "Case Study Template",
-    "settings": [{
+    "settings": [
+      {
       "type": "richtext",
       "id": "content",
       "label": "Content"
-    }],
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "label": "Section Padding Top",
+        "default": 60,
+        "min": 40,
+        "max": 200,
+        "unit": "px",
+        "step": 5
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "label": "Section Padding Bottom",
+        "default": 60,
+        "min": 40,
+        "max": 200,
+        "unit": "px",
+        "step": 5
+      }
+    ],
     "presets": [{
       "name": "Case Study Template"
     }]
