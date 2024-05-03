@@ -22,10 +22,18 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
+    },
+    "case_studies_KGzPMx": {
+      "type": "case-studies",
+      "settings": {
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
     "main",
-    "page_header_FTBBe8"
+    "page_header_FTBBe8",
+    "case_studies_KGzPMx"
   ]
 }
