@@ -32,7 +32,50 @@
     "case_studies_content_KVn7rX": {
       "type": "case-studies-content",
       "settings": {
-        "content": "{{ metaobject.content | metafield_tag }}"
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "rich_text_JEyqWQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cBhpmz": {
+          "type": "heading",
+          "settings": {
+            "heading": "Let's Talk",
+            "heading_size": "h1"
+          }
+        },
+        "text_NRg3U9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you're ready for our services or simply have some questions, then we'd love to hear from you.<\/p>"
+          }
+        },
+        "button_tJDJHC": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact Us Today",
+            "button_link": "shopify:\/\/pages\/contact-us",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_cBhpmz",
+        "text_NRg3U9",
+        "button_tJDJHC"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
@@ -40,6 +83,7 @@
     "page_dRyLjj",
     "custom_breadcrumbs_yUjwmM",
     "page_header_JmkLr9",
-    "case_studies_content_KVn7rX"
+    "case_studies_content_KVn7rX",
+    "rich_text_JEyqWQ"
   ]
 }
