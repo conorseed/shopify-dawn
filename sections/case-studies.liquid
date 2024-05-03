@@ -12,9 +12,10 @@
     {% if check == true %}
       <ul class="grid grid--1-col grid--3-col-tablet">
         <li class="grid_item">
+          {{ metaobject.gallery.value.first | image_url: width: 1000 | image_tag: alt: metaobject.title, class: 'scroll-trigger animate--slide-in'  }}
           {{ metaobject.title | link_to: metaobject.system.url }}
         </li>
-        </ul>
+      </ul>
     {% endif %}
   {% endfor %}
 </div>
