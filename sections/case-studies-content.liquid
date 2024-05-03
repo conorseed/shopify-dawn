@@ -4,7 +4,7 @@
   {{ metaobject.title }}
     </div>
     <div class="grid__item scroll-trigger animate--slide-in">
-      {{ metaobject.content.value }}
+      {{ metaobject.content.value | metafield_tag }}
     </div>
   </div>
 </div>
