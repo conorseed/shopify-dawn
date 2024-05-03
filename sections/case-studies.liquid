@@ -11,7 +11,7 @@
   
     {% if check == true %}
       <ul class="grid grid--1-col grid--3-col-tablet casestudies_list">
-        <li class="grid_item scroll-trigger animate--slide-in">
+        <li class="grid__item scroll-trigger animate--slide-in">
           {{ metaobject.gallery.value | first | image_url: width: 1000 | image_tag: alt: metaobject.title  }}
           {{ metaobject.title | link_to: metaobject.system.url }}
         </li>
