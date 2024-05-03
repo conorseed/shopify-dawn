@@ -32,10 +32,15 @@
         <span aria-hidden="true">&rsaquo;</span> {{ blog.title | link_to: blog.url }}
         <span aria-hidden="true">&rsaquo;</span>
         <span>{{ article.title }}</span> 
+
+      {% elsif template contains 'case_studies' %}
+          <span aria-hidden="true">&rsaquo;</span> <a href="pages/casestudies">Case Studies</a>
+          <span aria-hidden="true">&rsaquo;</span>
+          <span>{{metaobject.title }}</span> 
           
       {% else %}
         <span aria-hidden="true">&rsaquo;</span>
-        <span>{{ page_title }}hh</span> {% endif %}
+        <span>{{ page_title }}</span> {% endif %}
     </nav>
   </div>
 </div>
