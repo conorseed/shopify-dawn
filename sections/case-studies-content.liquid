@@ -2,6 +2,7 @@
   <div class="grid grid--1-col grid--2-col-tablet">
     <div class="grid__item">
       {% for thingy in metaobject.gallery %}
+        {{ metaobject.gallery | json }}
         {{ thingy }}
       {% endfor %}
     </div>
