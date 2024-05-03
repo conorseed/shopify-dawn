@@ -1,19 +1,32 @@
-{% paginate shop.metaobjects.case_studies.values by 25 %}
-  
-  {% for metaobject in shop.metaobjects.case_studies.values %}
+{% for metaobject in shop.metaobjects.case_studies.values %}
+  {% assign check = false %}
+  {% if section.settings.category == '' %}
+    {% assign check = true %}
+  {% elsif section.settings.category != '' and metaobject.category == section.settings.category %}
+    {% assign check = true %}
+  {% endif %}
+
+  {% if check == true %}
     <li>
       {{ metaobject.title | link_to: metaobject.system.url }}
     </li>
-  {% endfor %}
-
-  {{ paginate | default_pagination }}
-
-{% endpaginate %}
+  {% endif %}
+{% endfor %}
 
 {% schema %}
   {
     "name": "Case Studies List",
     "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "text",
+        "id": "category",
+        "label": "Category"
+      },
       {
         "type": "range",
         "id": "padding_top",
