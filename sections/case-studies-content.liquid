@@ -5,7 +5,7 @@
         {{ image | image_url: width: 1000 | image_tag: alt: metaobject.title, class: 'scroll-trigger animate--slide-in'  }}
       {% endfor %}
     </div>
-    <div class="grid__item scroll-trigger animate--slide-in product__column-sticky">
+    <div class="grid__item scroll-trigger animate--slide-in column-sticky">
       {{ metaobject.content | metafield_tag }}
     </div>
   </div>
@@ -15,6 +15,14 @@
     max-width: 100%;
     height: auto;
     margin-bottom: 1rem
+  }
+  @media screen and (min-width: 750px) {
+    .column-sticky {
+        display: block;
+        position: sticky;
+        top: 3rem;
+        z-index: 2;
+    }
   }
 </style>
 
