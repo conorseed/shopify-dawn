@@ -26,6 +26,8 @@
     "case_studies_KGzPMx": {
       "type": "case-studies",
       "settings": {
+        "title": "Corporate",
+        "category": "Corporate",
         "padding_top": 60,
         "padding_bottom": 60
       }
