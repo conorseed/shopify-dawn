@@ -28,8 +28,8 @@
       "settings": {
         "title": "Corporate",
         "category": "Corporate",
-        "padding_top": 60,
-        "padding_bottom": 60
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     }
   },
