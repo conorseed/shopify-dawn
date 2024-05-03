@@ -2,7 +2,7 @@
   <div class="grid grid--1-col grid--2-col-tablet">
     <div class="grid__item">
       {% for image in metaobject.gallery.value %}
-        {{ image | image_url | image_tag: alt: metaobject.title, class: 'scroll-trigger animate--slide-in'  }}
+        {{ image | image_url: width: 1000 | image_tag: alt: metaobject.title, class: 'scroll-trigger animate--slide-in'  }}
       {% endfor %}
     </div>
     <div class="grid__item scroll-trigger animate--slide-in">
