@@ -31,11 +31,21 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
+    },
+    "case_studies_e68AqV": {
+      "type": "case-studies",
+      "settings": {
+        "title": "Councils",
+        "category": "Councils",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
     }
   },
   "order": [
     "main",
     "page_header_FTBBe8",
-    "case_studies_KGzPMx"
+    "case_studies_KGzPMx",
+    "case_studies_e68AqV"
   ]
 }
