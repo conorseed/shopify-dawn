@@ -470,6 +470,46 @@
             "link_label": "Download",
             "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/xt-flag-xl-ss-template_oct-17.pdf?v=1715034581"
           }
+        },
+        "column_jyamRB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/xt-flag.jpg",
+            "title": "Durapole XT Single Sided Only",
+            "text": "",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/xt-flag-ss-template_oct-17.pdf?v=1715034581"
+          }
+        },
+        "column_hmcwkR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/xt-flag.jpg",
+            "title": "Durapole XT Double Sided Only",
+            "text": "",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/xt-flag-ds-template_oct-17.pdf?v=1715034581"
+          }
+        },
+        "column_d8aja8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/durapole-ss-dragonfly-500px-x-1000px.jpg",
+            "title": "Durapole Dragonfly Double Sided Only",
+            "text": "",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/dragonfly_medium_2-2m-x-0-78m.pdf?v=1715034581"
+          }
+        },
+        "column_QdhCHA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/durapole-ss-dragonfly-500px-x-1000px.jpg",
+            "title": "Durapole Dragonfly Single Sided Only",
+            "text": "",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/dragonfly_medium_2-2m-x-0-78m.pdf?v=1715034581"
+          }
         }
       },
       "block_order": [
@@ -486,7 +526,11 @@
         "column_pPwzMh",
         "column_NzUbKj",
         "column_ibLqdN",
-        "column_kPxF7j"
+        "column_kPxF7j",
+        "column_jyamRB",
+        "column_hmcwkR",
+        "column_d8aja8",
+        "column_QdhCHA"
       ],
       "settings": {
         "title": "Flags",
