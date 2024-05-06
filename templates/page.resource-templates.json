@@ -430,6 +430,46 @@
             "link_label": "Download",
             "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/giant-mayfly-ss-template_oct-17.pdf?v=1715034581"
           }
+        },
+        "column_pPwzMh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/swing-flag.jpg",
+            "title": "Durapole Swing Small and Large Single Sided",
+            "text": "",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/swing-ss-flag-template_oct-17.pdf?v=1715034581"
+          }
+        },
+        "column_NzUbKj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/swing-flag.jpg",
+            "title": "Durapole Swing Small Double Sided Only",
+            "text": "",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/swing-ds-small-template_oct-17.pdf?v=1715034581"
+          }
+        },
+        "column_ibLqdN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/swing-flag.jpg",
+            "title": "Durapole Swing Large Double Sided Only",
+            "text": "",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/swing-ds-large-template_oct-17.pdf?v=1715034581"
+          }
+        },
+        "column_kPxF7j": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/swing-flag.jpg",
+            "title": "Durapole Swing Extra Large Single Sided Only",
+            "text": "",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/xt-flag-xl-ss-template_oct-17.pdf?v=1715034581"
+          }
         }
       },
       "block_order": [
@@ -442,7 +482,11 @@
         "column_Qg9LyT",
         "column_w3MnRx",
         "column_qF4n8t",
-        "column_Xh6qzC"
+        "column_Xh6qzC",
+        "column_pPwzMh",
+        "column_NzUbKj",
+        "column_ibLqdN",
+        "column_kPxF7j"
       ],
       "settings": {
         "title": "Flags",
