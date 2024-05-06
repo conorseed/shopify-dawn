@@ -51,6 +51,9 @@
         "column_hHrjDG",
         "column_xwNL6c"
       ],
+      "custom_css": [
+        "div img {width: 100%;}"
+      ],
       "settings": {
         "title": "Zone & Wall Banners",
         "heading_size": "h1",
@@ -62,7 +65,298 @@
         "button_label": "",
         "button_link": "",
         "color_scheme": "",
-        "columns_mobile": "1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "multicolumn_NpBxyT": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_4NGTVD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2degrees-barmat.jpg",
+            "title": "Bar Mat 890mm",
+            "text": "",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/10ft-straight-one-fabric-pop-up-with-endcaps-zone.pdf?v=1715031497"
+          }
+        },
+        "column_39exaF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/floormat.png",
+            "title": "Floormat 850mm",
+            "text": "",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/floormat-850.pdf?v=1715032761"
+          }
+        },
+        "column_MT4HUt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/floormat.png",
+            "title": "Floormat 1200mm",
+            "text": "",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/large-floormat-1200.pdf?v=1715032761"
+          }
+        }
+      },
+      "block_order": [
+        "column_4NGTVD",
+        "column_39exaF",
+        "column_MT4HUt"
+      ],
+      "custom_css": [
+        "div img {width: 100%;}"
+      ],
+      "settings": {
+        "title": "Bar & Floor Mats",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "multicolumn_dWLx4X": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_6VXqDG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nz_large_e9e3f0f7-780a-4e72-9960-891ff76e7d7e.jpg",
+            "title": "Standard Flag 1.8m x 0.9m",
+            "text": "",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/horizontal-flag-1-8m-x-0-9m_1.pdf?v=1715033077"
+          }
+        },
+        "column_JR8wVn": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_6VXqDG",
+        "column_JR8wVn"
+      ],
+      "custom_css": [
+        "div img {width: 100%;}"
+      ],
+      "settings": {
+        "title": "Standard Flags",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "multicolumn_NinEtQ": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_qHrFUd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/streetbanners.jpg",
+            "title": "StreetFlag 1.8m x0.9m",
+            "text": "",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/streetflags-template_1-8x0-9_nov-22.pdf?v=1715033354"
+          }
+        },
+        "column_RVJndj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/streetbanners.jpg",
+            "title": "StreetFlag 2.7m x 1.35m",
+            "text": "",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/streetflag-2-7m-x-1-35m-_nov-22.pdf?v=1715033354"
+          }
+        },
+        "column_PrWLYy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/flagtrax-hastings-distrcit-council-web_0d8fa450-8a09-4910-bc4f-326992989960.jpg",
+            "title": "StreetFlag 2.7m x 1.35m",
+            "text": "",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/streetflag-2-7m-x-1-35m-_nov-22.pdf?v=1715033354"
+          }
+        }
+      },
+      "block_order": [
+        "column_qHrFUd",
+        "column_RVJndj",
+        "column_PrWLYy"
+      ],
+      "custom_css": [
+        "div img {width: 100%;}"
+      ],
+      "settings": {
+        "title": "Street Flags",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "multicolumn_CtXbcM": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_8kynwU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/standard-footpath-sign.jpg",
+            "title": "Standard Footpath Sign",
+            "text": "",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/basic-footpath-sign-800.pdf?v=1715033862"
+          }
+        },
+        "column_QGfdbB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/chalkboard-footpath-sign.jpg",
+            "title": "Standard Chalkboard Sign",
+            "text": "",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/basic-footpath-sign-800-chalk.pdf?v=1715033862"
+          }
+        },
+        "column_B8rnRQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/advertiser-a-frame.jpg",
+            "title": "A Frame Footpath Sign",
+            "text": "",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/a-frame-template.pdf?v=1715033862"
+          }
+        },
+        "column_fzrmnW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/informer-footpath-sign.jpg",
+            "title": "Informer Footpath Sign",
+            "text": "",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/informer-footpath-sign-800.pdf?v=1715033862"
+          }
+        },
+        "column_iE6aNp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ultra_footpath_sign_grande_628a539b-3819-4dd1-bd09-d644e0036aa0.jpg",
+            "title": "Ultra Footpath Sign",
+            "text": "",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/ultra-footpath-sign-800-wheelaway.pdf?v=1715033862"
+          }
+        },
+        "column_kFDBxL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/durasign-rustic.jpg",
+            "title": "Durasign Rustic",
+            "text": "",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/durasign-rustic-template_1.pdf?v=1715033862"
+          }
+        }
+      },
+      "block_order": [
+        "column_8kynwU",
+        "column_QGfdbB",
+        "column_B8rnRQ",
+        "column_fzrmnW",
+        "column_iE6aNp",
+        "column_kFDBxL"
+      ],
+      "custom_css": [
+        "div img {width: 100%;}"
+      ],
+      "settings": {
+        "title": "Footpath Signs",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "columns_desktop": 5,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "multicolumn_gJdU3p": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Pk8ANi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/durasign-rustic.jpg",
+            "title": "Durasign Rustic",
+            "text": "",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/durasign-rustic-template_1.pdf?v=1715033862"
+          }
+        }
+      },
+      "block_order": [
+        "column_Pk8ANi"
+      ],
+      "settings": {
+        "title": "Flags",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "columns_desktop": 5,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 40,
         "padding_bottom": 40
@@ -72,6 +366,11 @@
   "order": [
     "main",
     "page_header_FTBBe8",
-    "multicolumn_7CEqY9"
+    "multicolumn_7CEqY9",
+    "multicolumn_NpBxyT",
+    "multicolumn_dWLx4X",
+    "multicolumn_NinEtQ",
+    "multicolumn_CtXbcM",
+    "multicolumn_gJdU3p"
   ]
 }
