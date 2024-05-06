@@ -334,22 +334,55 @@
         "column_Pk8ANi": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/durasign-rustic.jpg",
-            "title": "Durasign Rustic",
+            "image": "shopify:\/\/shop_images\/durapole-ds-small-flex-500px-x-1000px.jpg",
+            "title": "Durapole Flex Small and Large Single Sided",
             "text": "",
             "link_label": "Download",
-            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/durasign-rustic-template_1.pdf?v=1715033862"
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/flex-ss-straight-template_oct-17.pdf?v=1715034581"
+          }
+        },
+        "column_QNLppe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/durapole-ds-small-flex-500px-x-1000px.jpg",
+            "title": "Durapole Flex Small Double Sided Only",
+            "text": "",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/flex-small-ds-template_oct-17.pdf?v=1715034581"
+          }
+        },
+        "column_fEMpXJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/durapole-ds-large-flex-500px-x-1000px.jpg",
+            "title": "Durapole Flex Large Double Sided Only",
+            "text": "",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/flex-large-ds-template-straight_oct-17.pdf?v=1715034581"
+          }
+        },
+        "column_tkUApw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/durapole-ds-large-flex-500px-x-1000px.jpg",
+            "title": "Durapole Flex XL Single Sided Only",
+            "text": "",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/flex-xl-ss-templates_oct-17.pdf?v=1715034581"
           }
         }
       },
       "block_order": [
-        "column_Pk8ANi"
+        "column_Pk8ANi",
+        "column_QNLppe",
+        "column_fEMpXJ",
+        "column_tkUApw"
       ],
       "settings": {
         "title": "Flags",
         "heading_size": "h1",
         "image_width": "full",
-        "image_ratio": "portrait",
+        "image_ratio": "adapt",
         "columns_desktop": 5,
         "column_alignment": "left",
         "background_style": "none",
