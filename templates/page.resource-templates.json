@@ -14,7 +14,7 @@
 
       ],
       "settings": {
-        "title": "Case Studies",
+        "title": "Product Templates",
         "header_image": "shopify:\/\/shop_images\/transparent.png",
         "image_overlay": true,
         "image_overlay_color": "#104771",
@@ -23,92 +23,55 @@
         "padding_bottom": 40
       }
     },
-    "case_studies_KGzPMx": {
-      "type": "case-studies",
-      "settings": {
-        "title": "Corporate",
-        "category": "Corporate",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
-    "case_studies_e68AqV": {
-      "type": "case-studies",
-      "settings": {
-        "title": "Councils",
-        "category": "Councils",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
-    "case_studies_ynecPi": {
-      "type": "case-studies",
-      "settings": {
-        "title": "Events",
-        "category": "Events",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
-    "case_studies_XP8TrD": {
-      "type": "case-studies",
-      "settings": {
-        "title": "Retail",
-        "category": "Retail",
-        "padding_top": 40,
-        "padding_bottom": 80
-      }
-    },
-    "rich_text_tx83XN": {
-      "type": "rich-text",
+    "multicolumn_7CEqY9": {
+      "type": "multicolumn",
       "blocks": {
-        "heading_qEgzP3": {
-          "type": "heading",
+        "column_hHrjDG": {
+          "type": "column",
           "settings": {
-            "heading": "Let's Talk",
-            "heading_size": "h1"
+            "image": "shopify:\/\/shop_images\/zone-display.png",
+            "title": "Zone Display",
+            "text": "",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/10ft-straight-one-fabric-pop-up-with-endcaps-zone.pdf?v=1715031497"
           }
         },
-        "text_xFJCVY": {
-          "type": "text",
+        "column_xwNL6c": {
+          "type": "column",
           "settings": {
-            "text": "<p>If you're ready for our services or simply have some questions, then we'd love to hear from you.<\/p>"
-          }
-        },
-        "button_KrWyFJ": {
-          "type": "button",
-          "settings": {
-            "button_label": "Contact Us Today",
-            "button_link": "shopify:\/\/pages\/contact-us",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "image": "shopify:\/\/shop_images\/wave-display-2.png",
+            "title": "Wave Display",
+            "text": "",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/10ft-wave-series-curved-frame.pdf?v=1715031497"
           }
         }
       },
       "block_order": [
-        "heading_qEgzP3",
-        "text_xFJCVY",
-        "button_KrWyFJ"
+        "column_hHrjDG",
+        "column_xwNL6c"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-2",
-        "full_width": true,
-        "padding_top": 80,
-        "padding_bottom": 80
+        "title": "Zone & Wall Banners",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     }
   },
   "order": [
     "main",
     "page_header_FTBBe8",
-    "case_studies_KGzPMx",
-    "case_studies_e68AqV",
-    "case_studies_ynecPi",
-    "case_studies_XP8TrD",
-    "rich_text_tx83XN"
+    "multicolumn_7CEqY9"
   ]
 }
