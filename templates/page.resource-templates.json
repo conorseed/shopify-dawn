@@ -315,7 +315,7 @@
         "title": "Footpath Signs",
         "heading_size": "h1",
         "image_width": "full",
-        "image_ratio": "portrait",
+        "image_ratio": "adapt",
         "columns_desktop": 5,
         "column_alignment": "left",
         "background_style": "none",
@@ -364,11 +364,71 @@
         "column_tkUApw": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/durapole-ds-large-flex-500px-x-1000px.jpg",
+            "image": "shopify:\/\/shop_images\/durapole-ss-large-flex-500px-x-1000px.jpg",
             "title": "Durapole Flex XL Single Sided Only",
             "text": "",
             "link_label": "Download",
             "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/flex-xl-ss-templates_oct-17.pdf?v=1715034581"
+          }
+        },
+        "column_4UXqjm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/durapole-ss-large-flex-500px-x-1000px.jpg",
+            "title": "Durapole Flex Super Large Single Sided",
+            "text": "",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/giant-ss-flex-template_oct-17.pdf?v=1715034581"
+          }
+        },
+        "column_g7V7De": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mayfly-flag.jpg",
+            "title": "Durapole Mayfly Small and Large Single Sided",
+            "text": "",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/mayfly-ss-template_oct-17.pdf?v=1715034581"
+          }
+        },
+        "column_Qg9LyT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mayfly-flag.jpg",
+            "title": "Durapole Mayfly Small Double Sided Only",
+            "text": "",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/mayfly-ds-small-template_oct-17.pdf?v=1715034581"
+          }
+        },
+        "column_w3MnRx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mayfly-flag.jpg",
+            "title": "Durapole Mayfly Large Double Sided Only",
+            "text": "",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/mayfly-ds-large-template_oct-17.pdf?v=1715034581"
+          }
+        },
+        "column_qF4n8t": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/durapole-ss-large-mayfly-500px-x-1000px.jpg",
+            "title": "Durapole MayFly XL Single Sided Only",
+            "text": "",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/mayfly-ss-xlarge-template_oct-17.pdf?v=1715034581"
+          }
+        },
+        "column_Xh6qzC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/durapole-ss-large-mayfly-500px-x-1000px.jpg",
+            "title": "Durapole Mayfly Super Large Single Sided",
+            "text": "",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/giant-mayfly-ss-template_oct-17.pdf?v=1715034581"
           }
         }
       },
@@ -376,7 +436,13 @@
         "column_Pk8ANi",
         "column_QNLppe",
         "column_fEMpXJ",
-        "column_tkUApw"
+        "column_tkUApw",
+        "column_4UXqjm",
+        "column_g7V7De",
+        "column_Qg9LyT",
+        "column_w3MnRx",
+        "column_qF4n8t",
+        "column_Xh6qzC"
       ],
       "settings": {
         "title": "Flags",
