@@ -1,6 +1,6 @@
 {% if request.design_mode == false or section.settings.preview == true %}
   
-  <div id="privateCollectionPopup">
+  <div tabindex="-1" id="privateCollectionPopup">
     <div class="pcp__container">
       <button id="pcp__close">X</button>
       {% if collection.image %}
