@@ -7,7 +7,7 @@
       {% endif %}
       <h2>{{ section.settings.heading | replace: '[company]', 'ITM' }}</h2>
       <div class="pcp__desc">
-        {{ section.settings.paragraph }}
+        {{ section.settings.paragraph | replace: '[company]', 'ITM' }}
       </div>
       <button id="pcp__accept" class="button">Yes I'm from BLAH</button>
       <button id="pcp__decline" class="button button--secondary">No I'm not from BLAH</button>
