@@ -39,9 +39,9 @@
           } else {
             // If shift key is not pressed, move focus to the first element when tabbing forwards
             if (document.activeElement === lastElement) {
+              console.log('first yeah')
               firstElement.focus();
             }
-            console.log('yep')
           }
         }
       });
