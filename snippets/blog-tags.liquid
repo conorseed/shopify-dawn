@@ -2,11 +2,11 @@
   <div class="blog-filter">
     <div class="list-group">
       <ul id="BlogTagFilter" class="tag-list">
-      <li>
-        <a href="{{ blog.url }}" class="button">
-          All Topics
-        </a>
-      </li>
+        <li>
+          <a href="{{ blog.url }}" class="button">
+            All Topics
+          </a>
+        </li>
         {% for tag in blog.all_tags %}
         <li>
           <a href="{{ blog.url }}/tagged/{{ tag | handleize }}" class="button">
