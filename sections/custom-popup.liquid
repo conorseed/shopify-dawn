@@ -1,4 +1,8 @@
-{% if request.design_mode == false or section.settings.preview == true %}
+{% assign show = true %}
+{% if collection.title contains 'AGENTS PORTAL' %}
+  {% assign show = false %}
+{% endif %}
+{% if show == true and request.design_mode == false or section.settings.preview == true %}
   <div id="customNewsletter">
       <div class="customNewsletter__container">
         <button id="customNewsletter__close">X</button>
