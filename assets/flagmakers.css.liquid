@@ -51,16 +51,16 @@ ul a#HeaderDrawer-specials:after{
     font-weight: bold;
 }
 /* MEGA MENU */
-#Details-HeaderMenu-2 {
+.mega-menu:not(#Details-HeaderMenu-1){
     position: relative;
+    z-index: 9;
 }
-#MegaMenu-Content-2{
-    right: unset;
-    z-index: 1;
-    width: 200px;
+.mega-menu__content:not(#MegaMenu-Content-1) {
+    width: 250px;
+    left: 0;
     padding: 2rem;
 }
-#MegaMenu-Content-2 ul{
+.mega-menu__content:not(#MegaMenu-Content-1) ul{
     padding: 0;
 }
 
