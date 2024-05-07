@@ -2,7 +2,6 @@
   
   <div tabindex="-1" id="pcp_main">
     <div class="pcp__container">
-      <button id="pcp__close">X</button>
       {% if collection.image %}
         {{ collection.image | image_url: width: 400 | image_tag }}
       {% endif %}
