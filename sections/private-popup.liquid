@@ -40,6 +40,12 @@
       if (check < Date.now()){
         openPcp()
       }
+
+      // always open in customiser
+      const preview = {{section.settings.preview}}
+      if(preview){
+        openPcp()
+      }
     
     
       // trap focus inside modal
