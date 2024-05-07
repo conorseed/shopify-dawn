@@ -3,8 +3,7 @@
   <div id="privateCollectionPopup">
     <div class="pcp__container">
       <button id="pcp__close">X</button>
-      {{ collection.image }}
-      {% if collection.image != ''  %}
+      {% if collection.image %}
         {{ collection.image | image_url: width: 400 | image_tag }}
       {% endif %}
       <h2>BLAH Private Portal</h2>
