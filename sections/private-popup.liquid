@@ -24,6 +24,7 @@
 
       const pcpAccept = document.getElementById('pcp__accept')
       const pcpDecline = document.getElementById('pcp__decline')
+      const cookieName = 'pcp_{{ collection.id }}'
 
       // open the modal
       const openPcp = ()=>{
@@ -36,7 +37,10 @@
       }
 
       // check if should open or not
-      openPcp()
+      const cookieCheck = Cookie.get(cookieName)
+      if(!cookieCheck || cookieCheck != 'true'){
+        openPcp()
+      }
 
 
       // trap focus inside modal
@@ -63,7 +67,7 @@
 
       // on accept
       pcpAccept.addEventListener('click', ()=>{
-        Cookies.set('pcp_{{ collection.id }}', 'true', { expires: (1 / 1440) });
+        Cookies.set(cookieName, 'true', { expires: (1 / 1440) });
         closePcp()
       })
 
