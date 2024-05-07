@@ -36,7 +36,7 @@
       }
     
       // check if should open or not
-      const check = localStorage.getItem(storageName)
+      const check = Number(localStorage.getItem(storageName))
       console.log('date', Number(check), Date.now())
       if (!check || Number(check) < Date.now()){
         openPcp()
