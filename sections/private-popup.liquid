@@ -14,12 +14,32 @@
     </div>
   </div>
 
+  <script src="{{ 'js-cookie.min.js' | asset_url }}" defer></script>
   <script>
     document.addEventListener('DOMContentLoaded', function(){
+
+      // setup vars
       const pcp = document.getElementById('pcp_main')
       if(!pcp) return;
-      pcp.focus()
 
+      const pcpAccept = pcp.getElementById('pcp__accept')
+      const pcpDeline = pcp.getElementById('pcp__decline')
+
+      // open the modal
+      const openPcp = ()=>{
+        pcp.style.display = "flex";
+        pcp.focus()
+      }
+      // close the modal
+      const closePcp = ()=>{
+        pcp.style.display = "none";
+      }
+
+      // check if should open or not
+      openPcp()
+
+
+      // trap focus inside modal
       pcp.addEventListener('keydown', function(e) {
         if (e.key === 'Tab') {
   
@@ -39,11 +59,20 @@
             firstElement.focus();
           }
         }
-
-        if (event.key === "Escape") {
-          // close this thing
-        }
       });
+
+      // on accept
+      pcpAccept.addEventListener('click', ()=>{
+        Cookies.set('pcp_{{ collection.id }}', 'true', { expires: (1 / 1440) });
+        closePcp()
+      })
+
+      // on decline
+      pcpDecline.addEventListener('click', ()=>{
+        window.location = {{ shop.url }}
+      })
+      
+
     })
   </script>
 
