@@ -1,6 +1,51 @@
+{% if request.design_mode == false or section.settings.preview == true %}
+  
+  <div id="privateCollectionPopup">
+    <div class="pcp__container">
+      <button id="pcp__close">X</button>
+      {{ collection.image | image_url: width: 400 | image_tag }}
+      <h2>BLAH Private Portal</h2>
+      <div>
+        {{ section.settings.paragraph }}
+      </div>
+      <button id="pcp__accept" class="button">Yes I'm from BLAH</button>
+      <button id="pcp__decline" class="button">No I'm not from BLAH</button>
+    </div>
+  </div>
+  
+{% endif %}
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Private Collection Popup",
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading",
+        "default": "Heading Here",
+        "placeholder": "Place Your Heading Here",
+        "info": "Header for your popup"
+      },
+      {
+        "type": "textarea",
+        "id": "paragraph",
+        "label": "Paragraph",
+        "default": "Tell your customer why they should subscribe.",
+        "placeholder": "Subscribe now to hear about great deals!",
+        "info": "Paragraph area for pop up"
+      },
+      {
+        "type": "checkbox",
+        "id": "preview",
+        "label": "Preview in Customiser",
+        "default": true
+      }
+    ],
+    "presets": [
+      {
+        "name": "Private Collection Popup"
+      }
+    ]
   }
 {% endschema %}
