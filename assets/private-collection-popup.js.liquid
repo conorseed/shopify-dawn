@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
   const pcpAccept = document.getElementById('pcp__accept')
   const pcpDecline = document.getElementById('pcp__decline')
-  const cookieName = 'pcp_{{ collection.id }}'
+  const storageName = 'pcp_{{ collection.id }}'
 
   // open the modal
   const openPcp = ()=>{
@@ -19,8 +19,8 @@ document.addEventListener('DOMContentLoaded', function(){
   }
 
   // check if should open or not
-  const cookieCheck = Cookie.get(cookieName)
-  if(!cookieCheck || cookieCheck != 'true'){
+  const check = localStorage.getItem(storageName)
+  if (!check|| check < Date.now())
     openPcp()
   }
 
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
   // on accept
   pcpAccept.addEventListener('click', ()=>{
-    Cookies.set(cookieName, 'true', { expires: (1 / 1440) });
+    localStorage.setItem(storageName, Date.now() + 30000)
     closePcp()
   })
 
