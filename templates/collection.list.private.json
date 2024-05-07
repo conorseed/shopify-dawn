@@ -30,10 +30,19 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "private_popup_w38m3R": {
+      "type": "private-popup",
+      "settings": {
+        "heading": "[company] Private Portal",
+        "paragraph": "Products in this portal can only be purchased by authorised [company] businesses and members.",
+        "preview": true
+      }
     }
   },
   "order": [
     "banner",
-    "product-grid"
+    "product-grid",
+    "private_popup_w38m3R"
   ]
 }
