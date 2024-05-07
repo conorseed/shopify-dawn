@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
   // check if should open or not
   const check = localStorage.getItem(storageName)
-  if (!check|| check < Date.now())
+  if (!check|| check < Date.now()){
     openPcp()
   }
 
