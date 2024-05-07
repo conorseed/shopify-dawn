@@ -42,7 +42,11 @@
       }
 
       // always open in customiser
-      const preview = {{section.settings.preview}}
+      {% assign preview = false %}
+      {% if request.design_mode == true and section.settings.preview == true %}
+        {% assign preview = true %}
+      {% endif %}
+      const preview = {{preview}}
       if(preview){
         openPcp()
       }
