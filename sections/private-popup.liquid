@@ -39,6 +39,7 @@
       const check = Number(localStorage.getItem(storageName))
       console.log('date', check, Date.now())
       if (check < Date.now()){
+        console.log('yeppers')
         openPcp()
       }
     
