@@ -76,7 +76,7 @@
     
       // on accept
       pcpAccept.addEventListener('click', ()=>{
-        localStorage.setItem(storageName, Date.now() + 30000)
+        localStorage.setItem(storageName, Date.now() + 86400000) // last for one day
         closePcp()
       })
     
