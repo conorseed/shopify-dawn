@@ -9,8 +9,8 @@
       <div class="pcp__desc">
         {{ section.settings.paragraph | replace: '[company]', collection.metafields.custom.company }}
       </div>
-      <button id="pcp__accept" class="button">Yes I'm from {{ collection.metafields.custom.company }}</button>
-      <button id="pcp__decline" class="button button--secondary">No I'm not from {{ collection.metafields.custom.company }}</button>
+      <button id="pcp__accept" class="button">Yes I'm from {{ collection.metafields.custom.company | default: 'this business' }}</button>
+      <button id="pcp__decline" class="button button--secondary">No I'm not from {{ collection.metafields.custom.company | default: 'this business' }}</button>
     </div>
   </div>
   
