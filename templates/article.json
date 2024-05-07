@@ -1,5 +1,11 @@
 {
   "sections": {
+    "custom_breadcrumbs_VA9YrM": {
+      "type": "custom-breadcrumbs",
+      "settings": {
+        "color_scheme": "scheme-40872108-8bb0-4ab8-8dba-4e148c49e639"
+      }
+    },
     "main": {
       "type": "main-article",
       "blocks": {
@@ -35,13 +41,14 @@
         "share"
       ],
       "custom_css": [
-        ".media{max-width: 800px; margin: 0 auto;}"
+        ".media {max-width: 800px; margin: 0 auto;}"
       ],
       "settings": {
       }
     }
   },
   "order": [
+    "custom_breadcrumbs_VA9YrM",
     "main"
   ]
 }
