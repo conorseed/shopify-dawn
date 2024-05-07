@@ -22,26 +22,21 @@
 
       pcp.addEventListener('keydown', function(e) {
         if (e.key === 'Tab') {
-          // Prevent default tab behavior
-          e.preventDefault();
   
           // Get all focusable elements within the modal
           const focusableElements = pcp.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
           const firstElement = focusableElements[0];
           const lastElement = focusableElements[focusableElements.length - 1];
-          console.log(focusableElements)
   
-          if (e.shiftKey) {
-            // If shift key is pressed, move focus to the last element when tabbing backwards
-            if (document.activeElement === firstElement) {
-              lastElement.focus();
-            }
-          } else {
-            // If shift key is not pressed, move focus to the first element when tabbing forwards
-            if (document.activeElement === lastElement) {
-              console.log('first yeah')
-              firstElement.focus();
-            }
+          if (e.shiftKey && document.activeElement === firstElement) {
+            e.preventDefault();
+            lastElement.focus();
+          } else if (
+            !e.shiftKey &&
+            document.activeElement === lastElement
+          ) {
+            e.preventDefault();
+            firstElement.focus();
           }
         }
       });
