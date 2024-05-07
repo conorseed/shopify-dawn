@@ -7,7 +7,7 @@
         {{ collection.image | image_url: width: 400 | image_tag }}
       {% endif %}
       <h2>{{ section.settings.heading }}</h2>
-      <div>
+      <div class="pcp__desc">
         {{ section.settings.paragraph }}
       </div>
       <button id="pcp__decline" class="button button--secondary">No I'm not from BLAH</button>
@@ -54,6 +54,12 @@
       height: 140px;
       object-fit: contain;
       margin: 0 auto;
+    }
+    .pcp__container h2 {
+      margin: 0;
+    }
+    .pcp__container .pcp__desc {
+      margin-bottom: 2rem;
     }
   </style>
   
