@@ -110,7 +110,7 @@
               {% endif %}
             >
               <a
-                {% if card_product.collections[0] contains 'AGENTS PORTAL' %}
+                {% if card_product.collections[0].title contains 'AGENTS PORTAL' %}
                   href="{{ product.url | within: product.collections[0] }}"
                 {% else %}
                   href="{{ card_product.url }}"
@@ -151,7 +151,7 @@
             {% endif %}
           >
             <a
-              {% if card_product.collections[0] contains 'AGENTS PORTAL' %}
+              {% if card_product.collections[0].title contains 'AGENTS PORTAL' %}
                 href="{{ product.url | within: product.collections[0] }}"
               {% else %}
                 href="{{ card_product.url }}"
