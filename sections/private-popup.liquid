@@ -2,8 +2,8 @@
   
   <div tabindex="-1" id="pcp_main">
     <div class="pcp__container">
-      {% if collection.image %}
-        {{ collection.image | image_url: width: 400 | image_tag }}
+      {% if collection.metafields.custom.logo %}
+        {{ collection.metafields.custom.logo | image_url: width: 400 | image_tag }}
       {% endif %}
       <h2>{{ section.settings.heading | replace: '[company]', collection.metafields.custom.company }}</h2>
       <div class="pcp__desc">
