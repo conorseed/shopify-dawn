@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Summer Deals: Uncompromised Quality",
+            "heading": "Autumn Deals: Uncompromised Quality",
             "heading_size": "h0"
           }
         },
@@ -35,8 +35,8 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/FLAGsinsitu.jpg",
-        "image_overlay_opacity": 60,
+        "image": "shopify:\/\/shop_images\/main-image-for-website.jpg",
+        "image_overlay_opacity": 50,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
@@ -117,7 +117,7 @@
         "row_tW98W9": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ValueRangeFlagsCoffee2GoRoundBase.jpg",
+            "image": "shopify:\/\/shop_images\/Stock_flags_home_page.png",
             "caption": "New Range",
             "heading": "Retail Flags",
             "text": "<p>Classy new designs with real punch to attract attention.  Double and single-sided options available.<\/p>",
@@ -128,7 +128,7 @@
         "row_gyxV7p": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/xt-01.png",
+            "image": "shopify:\/\/shop_images\/Supreme_Larger_3.jpg",
             "caption": "NZ's most durable",
             "heading": "Flag Poles",
             "text": "<p>These poles are the most durable flag poles available  and have been used widely for the last 20 years throughout NZ.<\/p>",
@@ -177,7 +177,7 @@
         "column_Re38gF": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/NZ_Handwavers_Shopify.jpg",
+            "image": "shopify:\/\/shop_images\/CountryFlagBundle-Square-01.jpg",
             "title": "NZ & World Flags",
             "text": "<p>Flagmakers is the largest dye-screen flag maker in NZ. We make beautifully crafted products that you can be proud to fly, and are the preferred supplier to the NZ Government.<\/p>",
             "link_label": "View Country Flags",
@@ -187,7 +187,7 @@
         "column_4it7cj": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/All_Blacks.jpg",
+            "image": "shopify:\/\/shop_images\/AllBlacks_376bb7bc-89fb-4b82-ac70-f20c78213a7d.jpg",
             "title": "Licensed Sports Products",
             "text": "<p>Buy from our licensed supported products range to support your team! All Blacks, Black Caps and White Ferns.<\/p>",
             "link_label": "View All Products",
