@@ -22,7 +22,7 @@
         "template--16273051025607__70b88c64-11fc-43ae-8d58-49c2dde45b99-text-1": {
           "type": "text",
           "settings": {
-            "text": "Are you looking to reshape your office space into a hub of productivity and style? Then look no further than Smart Office Furniture for all your office fit out NZ needs in Wellington. As a leading supplier of office furniture in New Zealand, we specialise in providing comprehensive interior office fit out services tailored to your unique requirements.",
+            "text": "Are you looking to reshape your office space into a hub of productivity and style? As a leading supplier of office furniture in New Zealand, Smart Office Furniture specialise in providing comprehensive interior office fit out services in Wellington tailored to your unique requirements.",
             "text_style": "body"
           }
         },
@@ -160,8 +160,51 @@
 
       ],
       "settings": {
-        "custom_liquid": "<div class=\"page-width\" style=\"text-align: center;\">\n<h2>Who Can Cater for All the Office Fitouts in Wellington?<\/h2>\n<p>There is only one <strong>office fit out in Wellington<\/strong> that matters. That is <em>your<\/em> <strong>office fit out in Wellington<\/strong>. In principle that means to do a great job for you, we only need to provide one suite of furniture: the one that is right for you. But which one is that?<\/p>\n<p>No one knows exactly what styles and models they are going to choose until they start browsing. And that means to do a great job for you, we need to be able to show you everything available. That would be a pretty big showroom &ndash; and who wants to spend all day wandering around a vast hangar full of furniture?<\/p>\n<p><a href=\"http:\/\/www.smartofficefurniture.co.nz\/\">Smart Office Furniture<\/a> solve the problem by not having a showroom. We don&rsquo;t have storerooms or warehouses either. The world is full of furniture in storerooms and warehouses.<\/p>\n<p>What we do is give you access to a whole host of them and all they contain. You browse on our website. You order from us. We get the goods delivered to you.<\/p> \n<a id=\"show-more\" href=\"#read-more\">Read More<\/a>",
+        "custom_liquid": "<div class=\"page-width\" style=\"text-align: left;\">\n<h2>Who Can Cater for All the Office Fitouts in Wellington?<\/h2>\n<p>There is only one <strong>office fit out in Wellington<\/strong> that matters. That is <em>your<\/em> <strong>office fit out in Wellington<\/strong>. In principle that means to do a great job for you, we only need to provide one suite of furniture: the one that is right for you. But which one is that?<\/p>\n<p>No one knows exactly what styles and models they are going to choose until they start browsing. And that means to do a great job for you, we need to be able to show you everything available. That would be a pretty big showroom &ndash; and who wants to spend all day wandering around a vast hangar full of furniture?<\/p>\n<p><a href=\"http:\/\/www.smartofficefurniture.co.nz\/\">Smart Office Furniture<\/a> solve the problem by not having a showroom. We don&rsquo;t have storerooms or warehouses either. The world is full of furniture in storerooms and warehouses.<\/p>\n<p>What we do is give you access to a whole host of them and all they contain. You browse on our website. You order from us. We get the goods delivered to you.<\/p> \n<a id=\"show-more\" href=\"#read-more\">Read More<\/a>",
         "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_G3NDA6": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_4HEaJC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_t7MiAb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_MQMLVE": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_4HEaJC",
+        "text_t7MiAb",
+        "button_MQMLVE"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -172,14 +215,14 @@
         "heading_apeHnH": {
           "type": "heading",
           "settings": {
-            "heading": "Office Fitouts in Wellington with Furniture Made in NZ?",
+            "heading": "Custom Office Fitouts in Wellington with Furniture Made in NZ?",
             "heading_size": "h1"
           }
         },
         "text_qjP3XU": {
           "type": "text",
           "settings": {
-            "text": "<p>Yes, we can do that. If what you need is available from a Kiwi manufacturer, so much the better. The world is your oyster and New Zealand is a significant part of it. This is a hard-working country with a lot of skilled people in all sorts of fields.<\/p><p>However, we don’t just service Wellington, but our <a href=\"https:\/\/www.smartofficefurniture.co.nz\/pages\/office-fit-outs\">office fit out services<\/a> are available across NZ. Whether you’re located in Auckland, Wellington or looking for an <a href=\"http:\/\/www.smartofficefurniture.co.nz\/pages\/office-fit-outs-christchurch\">Office Fitout in Christchurch<\/a>. We will be able to help. <\/p>",
+            "text": "<p>Yes, we can do that. If what you need is available from a Kiwi manufacturer, so much the better. The world is your oyster and New Zealand is a significant part of it. This is a hard-working country with a lot of skilled people in all sorts of fields.<\/p><p>However, we don’t just service Wellington, but our <a href=\"https:\/\/www.smartofficefurniture.co.nz\/pages\/office-fit-outs\">office fit out services<\/a> are available across NZ. Whether you’re located in Auckland, Wellington or looking for an <a href=\"http:\/\/www.smartofficefurniture.co.nz\/pages\/office-fit-outs-christchurch\">Office Fitout in Christchurch<\/a>. We will be able to help. <\/p><p><\/p>",
             "text_style": "body"
           }
         }
@@ -320,7 +363,7 @@
 
       ],
       "settings": {
-        "custom_liquid": "<div class=\"page-width\"><h2>Contact Us and Get Started with your Office Fitout in Wellington<\/h2>\n<p>The ordering process is simple, but with all these options to choose from, you may want to discuss things &ndash; and we will be delighted to help. You can call us or send us an email. Or fill in the online contact form below, indicating what you&rsquo;re looking for or would like clarification on. That will give us a heads-up so we can hit the ground running.<\/p>\n<\/div>",
+        "custom_liquid": "<div class=\"page-width\"><h2>Contact Us and Get Started with your Office Fitout in Wellington<\/h2>\n<p>The ordering process is simple, but with all these options to choose from, you may want to discuss things &ndash; and we will be delighted to help. You can call us or send us an email. Or fill in the online contact form below, indicating what you&rsquo;re looking for or would like clarification on. That will give us a heads-up so we can hit the ground running.\n\nAt SmartOffice NZ, we also have the ability to help you design the fit-out of your new office with our <a href=\"\/collections\/design-service\">Design service<\/a>. This service includes:\n\n\n<ul>\n<li>Recommended layout and products for office furniture within your office space<\/li>\n<li>Drawing of the space from your measurements or plans<\/li>\n<li>Locating products to suit power supply etc. if this information is available<\/li>\n<li>Location and visualisation of a full range of furniture products as appropriate<\/li>\n<\/ul>\n\n<\/p>\n<\/div>",
         "color_scheme": "background-2",
         "padding_top": 40,
         "padding_bottom": 52
@@ -441,6 +484,7 @@
     "252834fa-c75e-4808-933a-7afbd3ac1a9b",
     "5c67ca3a-aa44-454d-8c35-5d62451d72d4",
     "custom_liquid_DQewwy",
+    "image_with_text_G3NDA6",
     "image_with_text_zwzmBb",
     "custom_liquid_hQ9tnf",
     "f1c8b05a-1816-4783-a20f-839d4df18176",
