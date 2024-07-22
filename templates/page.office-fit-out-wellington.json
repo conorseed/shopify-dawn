@@ -160,9 +160,45 @@
 
       ],
       "settings": {
-        "custom_liquid": "<div class=\"page-width\" style=\"text-align: left;\">\n<h2>Who Can Cater for All the Office Fitouts in Wellington?<\/h2>\n<p>There is only one <strong>office fit out in Wellington<\/strong> that matters. That is <em>your<\/em> <strong>office fit out in Wellington<\/strong>. In principle that means to do a great job for you, we only need to provide one suite of furniture: the one that is right for you. But which one is that?<\/p>\n<p>No one knows exactly what styles and models they are going to choose until they start browsing. And that means to do a great job for you, we need to be able to show you everything available. That would be a pretty big showroom &ndash; and who wants to spend all day wandering around a vast hangar full of furniture?<\/p>\n<p><a href=\"http:\/\/www.smartofficefurniture.co.nz\/\">Smart Office Furniture<\/a> solve the problem by not having a showroom. We don&rsquo;t have storerooms or warehouses either. The world is full of furniture in storerooms and warehouses.<\/p>\n<p>What we do is give you access to a whole host of them and all they contain. You browse on our website. You order from us. We get the goods delivered to you.<\/p> \n<a id=\"show-more\" href=\"#read-more\">Read More<\/a>",
+        "custom_liquid": "<div class=\"page-width\" style=\"text-align: left;\">\n<h2>Who Can Cater for All the Office Fitouts in Wellington?<\/h2>\n<p>There is only one <strong>office fit out in Wellington<\/strong> that matters. That is <em>your<\/em> <strong>office fit out in Wellington<\/strong>. In principle that means to do a great job for you, we only need to provide one suite of furniture: the one that is right for you. But which one is that?<\/p>\n<p>No one knows exactly what styles and models they are going to choose until they start browsing. And that means to do a great job for you, we need to be able to show you everything available. That would be a pretty big showroom &ndash; and who wants to spend all day wandering around a vast hangar full of furniture?<\/p>\n<p><a href=\"http:\/\/www.smartofficefurniture.co.nz\/\">Smart Office Furniture<\/a> solve the problem by not having a showroom. We don&rsquo;t have storerooms or warehouses either. The world is full of furniture in storerooms and warehouses.<\/p>\n<p>What we do is give you access to a whole host of them and all they contain. You browse on our website. You order from us. We get the goods delivered to you.\n<a id=\"show-more\" href=\"#read-more\">Read More<\/a><\/p>",
         "color_scheme": "background-1",
         "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_zwzmBb": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_apeHnH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Office Fitouts in Wellington with Furniture Made in NZ",
+            "heading_size": "h1"
+          }
+        },
+        "text_qjP3XU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Yes, we can do that. If what you need is available from a Kiwi manufacturer, so much the better. The world is your oyster and New Zealand is a significant part of it. This is a hard-working country with a lot of skilled people in all sorts of fields.<\/p><p>However, we don’t just service Wellington, but our <a href=\"https:\/\/www.smartofficefurniture.co.nz\/pages\/office-fit-outs\">office fit out services<\/a> are available across NZ. Whether you’re located in Auckland, Wellington or looking for an <a href=\"http:\/\/www.smartofficefurniture.co.nz\/pages\/office-fit-outs-christchurch\">Office Fitout in Christchurch<\/a>. We will be able to help. <\/p><p><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_apeHnH",
+        "text_qjP3XU"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Fitout_4.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -201,42 +237,6 @@
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_zwzmBb": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_apeHnH": {
-          "type": "heading",
-          "settings": {
-            "heading": "Office Fitouts in Wellington with Furniture Made in NZ",
-            "heading_size": "h1"
-          }
-        },
-        "text_qjP3XU": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Yes, we can do that. If what you need is available from a Kiwi manufacturer, so much the better. The world is your oyster and New Zealand is a significant part of it. This is a hard-working country with a lot of skilled people in all sorts of fields.<\/p><p>However, we don’t just service Wellington, but our <a href=\"https:\/\/www.smartofficefurniture.co.nz\/pages\/office-fit-outs\">office fit out services<\/a> are available across NZ. Whether you’re located in Auckland, Wellington or looking for an <a href=\"http:\/\/www.smartofficefurniture.co.nz\/pages\/office-fit-outs-christchurch\">Office Fitout in Christchurch<\/a>. We will be able to help. <\/p><p><\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_apeHnH",
-        "text_qjP3XU"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Fitout_4.webp",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -318,16 +318,16 @@
             "collection": "office-cupboards"
           }
         },
-        "f0cb9b9c-3b92-483c-82c9-1b82cb9a1ebf": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "lockable-office-drawers"
-          }
-        },
         "featured_collection_RgNQbk": {
           "type": "featured_collection",
           "settings": {
             "collection": "reception-desks"
+          }
+        },
+        "f0cb9b9c-3b92-483c-82c9-1b82cb9a1ebf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office-furniture-seating-barstools-cafe-seating"
           }
         }
       },
@@ -342,8 +342,8 @@
         "679d6ab6-f2c5-4066-9437-b5d048b8df37",
         "f2bac0a9-4245-42cd-8ec4-e48304955cd8",
         "4259bbac-f9e6-40c1-8700-245c2392bc1d",
-        "f0cb9b9c-3b92-483c-82c9-1b82cb9a1ebf",
-        "featured_collection_RgNQbk"
+        "featured_collection_RgNQbk",
+        "f0cb9b9c-3b92-483c-82c9-1b82cb9a1ebf"
       ],
       "settings": {
         "title": "",
@@ -485,8 +485,8 @@
     "252834fa-c75e-4808-933a-7afbd3ac1a9b",
     "5c67ca3a-aa44-454d-8c35-5d62451d72d4",
     "custom_liquid_DQewwy",
-    "image_with_text_G3NDA6",
     "image_with_text_zwzmBb",
+    "image_with_text_G3NDA6",
     "custom_liquid_hQ9tnf",
     "f1c8b05a-1816-4783-a20f-839d4df18176",
     "custom_liquid_mNx3iz",
