@@ -172,22 +172,22 @@
         "heading_4HEaJC": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Custom Fitout Solutions",
             "heading_size": "h1"
           }
         },
         "text_t7MiAb": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>At SmartOffice NZ, we have the ability to help you design the fit-out of your new office with our <a href=\"\/collections\/design-service\">Design service<\/a>. This service includes:<br\/><\/p><ul><li>Recommended layout and products for office furniture within your office space<\/li><li>Drawing of the space from your measurements or plans<\/li><li>Locating products to suit power supply etc. if this information is available<\/li><li>Location and visualisation of a full range of furniture products as appropriate<\/li><\/ul>",
             "text_style": "body"
           }
         },
         "button_MQMLVE": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Find out More",
+            "button_link": "shopify:\/\/collections\/design-service"
           }
         }
       },
@@ -197,9 +197,10 @@
         "button_MQMLVE"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/all_wellplanned-office_blog-image1_16.9.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -215,7 +216,7 @@
         "heading_apeHnH": {
           "type": "heading",
           "settings": {
-            "heading": "Custom Office Fitouts in Wellington with Furniture Made in NZ?",
+            "heading": "Office Fitouts in Wellington with Furniture Made in NZ",
             "heading_size": "h1"
           }
         },
@@ -305,28 +306,28 @@
             "collection": "boardroom-tables"
           }
         },
-        "4259bbac-f9e6-40c1-8700-245c2392bc1d": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "office-cupboards"
-          }
-        },
-        "featured_collection_RgNQbk": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "reception-desks"
-          }
-        },
         "f2bac0a9-4245-42cd-8ec4-e48304955cd8": {
           "type": "featured_collection",
           "settings": {
             "collection": "office-furniture-seating-conference-seating"
           }
         },
+        "4259bbac-f9e6-40c1-8700-245c2392bc1d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office-cupboards"
+          }
+        },
         "f0cb9b9c-3b92-483c-82c9-1b82cb9a1ebf": {
           "type": "featured_collection",
           "settings": {
-            "collection": "office-furniture-seating-barstools-cafe-seating"
+            "collection": "lockable-office-drawers"
+          }
+        },
+        "featured_collection_RgNQbk": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "reception-desks"
           }
         }
       },
@@ -339,10 +340,10 @@
         "fb2e2ece-954a-480d-995a-4b026c7db7be",
         "bab22cd5-9dd1-4fb0-b8db-8017a03501d4",
         "679d6ab6-f2c5-4066-9437-b5d048b8df37",
-        "4259bbac-f9e6-40c1-8700-245c2392bc1d",
-        "featured_collection_RgNQbk",
         "f2bac0a9-4245-42cd-8ec4-e48304955cd8",
-        "f0cb9b9c-3b92-483c-82c9-1b82cb9a1ebf"
+        "4259bbac-f9e6-40c1-8700-245c2392bc1d",
+        "f0cb9b9c-3b92-483c-82c9-1b82cb9a1ebf",
+        "featured_collection_RgNQbk"
       ],
       "settings": {
         "title": "",
@@ -363,7 +364,7 @@
 
       ],
       "settings": {
-        "custom_liquid": "<div class=\"page-width\"><h2>Contact Us and Get Started with your Office Fitout in Wellington<\/h2>\n<p>The ordering process is simple, but with all these options to choose from, you may want to discuss things &ndash; and we will be delighted to help. You can call us or send us an email. Or fill in the online contact form below, indicating what you&rsquo;re looking for or would like clarification on. That will give us a heads-up so we can hit the ground running.\n\nAt SmartOffice NZ, we also have the ability to help you design the fit-out of your new office with our <a href=\"\/collections\/design-service\">Design service<\/a>. This service includes:\n\n\n<ul>\n<li>Recommended layout and products for office furniture within your office space<\/li>\n<li>Drawing of the space from your measurements or plans<\/li>\n<li>Locating products to suit power supply etc. if this information is available<\/li>\n<li>Location and visualisation of a full range of furniture products as appropriate<\/li>\n<\/ul>\n\n<\/p>\n<\/div>",
+        "custom_liquid": "<div class=\"page-width\"><h2>Contact Us and Get Started with your Office Fitout in Wellington<\/h2>\n<p>The ordering process is simple, but with all these options to choose from, you may want to discuss things &ndash; and we will be delighted to help. You can call us or send us an email. Or fill in the online contact form below, indicating what you&rsquo;re looking for or would like clarification on. That will give us a heads-up so we can hit the ground running.\n<\/p>\n<\/div>",
         "color_scheme": "background-2",
         "padding_top": 40,
         "padding_bottom": 52
