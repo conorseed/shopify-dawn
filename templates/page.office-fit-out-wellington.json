@@ -276,12 +276,6 @@
           "settings": {
             "collection": "office-furniture-seating-barstools-cafe-seating"
           }
-        },
-        "d29c0ab6-172d-4c67-86cf-d5eb0473f597": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "office-furniture-tables-bar-leaners"
-          }
         }
       },
       "block_order": [
@@ -296,8 +290,7 @@
         "4259bbac-f9e6-40c1-8700-245c2392bc1d",
         "featured_collection_RgNQbk",
         "f2bac0a9-4245-42cd-8ec4-e48304955cd8",
-        "f0cb9b9c-3b92-483c-82c9-1b82cb9a1ebf",
-        "d29c0ab6-172d-4c67-86cf-d5eb0473f597"
+        "f0cb9b9c-3b92-483c-82c9-1b82cb9a1ebf"
       ],
       "settings": {
         "title": "",
