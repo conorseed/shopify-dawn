@@ -207,7 +207,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Flagtrax.jpg",
-            "title": "Street Flags",
+            "title": "StreetFlags",
             "text": "<p>Brighten up your streets with new flags.<\/p>",
             "link_label": "View All Street Flags",
             "link": "shopify:\/\/collections\/council-streetflags"
