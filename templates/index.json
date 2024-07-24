@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "image_banner": {
@@ -117,7 +126,7 @@
         "row_tW98W9": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Stock_flags_home_page.png",
+            "image": "shopify:\/\/shop_images\/collection_-_value_2.png",
             "caption": "New Range",
             "heading": "Retail Flags",
             "text": "<p>Classy new designs with real punch to attract attention.  Double and single-sided options available.<\/p>",
@@ -177,7 +186,7 @@
         "column_Re38gF": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Country_Flags-01-01.png",
+            "image": "shopify:\/\/shop_images\/Country_flgs_collection_2.png",
             "title": "NZ & World Flags",
             "text": "<p>Flagmakers is the largest dye-screen flag maker in NZ. We make beautifully crafted products that you can be proud to fly, and are the preferred supplier to the NZ Government.<\/p>",
             "link_label": "View Country Flags",
@@ -187,10 +196,10 @@
         "column_4it7cj": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/AB_Bunting_large_4aac406e-c2ee-45b1-832d-6e1b0200ec72.jpg",
-            "title": "Licensed Sports Products",
-            "text": "<p>Buy from our licensed supported products range to support your team! All Blacks, Black Caps and White Ferns.<\/p>",
-            "link_label": "View All Products",
+            "image": "shopify:\/\/shop_images\/all_blakcs_collection.png",
+            "title": "All Blacks®",
+            "text": "<p>Flagmakers Ltd is an Official Licensee to the All Blacks®.<\/p>",
+            "link_label": "View All Blacks®",
             "link": "shopify:\/\/collections\/all-blacks"
           }
         },
