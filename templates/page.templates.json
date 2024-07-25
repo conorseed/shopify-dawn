@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -78,7 +87,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/2degrees-barmat.jpg",
-            "title": "Bar Mat 890mm",
+            "title": "Bar Mat 890mm x 245mm",
             "text": "",
             "link_label": "Download",
             "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/10ft-straight-one-fabric-pop-up-with-endcaps-zone.pdf?v=1715031497"
@@ -88,17 +97,17 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/floormat.png",
-            "title": "Floormat 850mm",
+            "title": "Floormat Medium 900mm x 600mm",
             "text": "",
             "link_label": "Download",
-            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/floormat-850.pdf?v=1715032761"
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/floor_mat_template_900x600_Verfied_05-17.pdf?v=1721947549"
           }
         },
         "column_MT4HUt": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/floormat.png",
-            "title": "Floormat 1200mm",
+            "title": "Floormat Large 1190mm x 890mm",
             "text": "",
             "link_label": "Download",
             "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/large-floormat-1200.pdf?v=1715032761"
