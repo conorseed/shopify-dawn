@@ -87,8 +87,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/2degrees-barmat.jpg",
-            "title": "Bar Mat 890mm x 245mm",
-            "text": "",
+            "title": "Bar Mat",
+            "text": "<p>890mm x 245mm<\/p>",
             "link_label": "Download",
             "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/10ft-straight-one-fabric-pop-up-with-endcaps-zone.pdf?v=1715031497"
           }
@@ -97,8 +97,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/floormat.png",
-            "title": "Floormat Medium 900mm x 600mm",
-            "text": "",
+            "title": "Floormat Medium",
+            "text": "<p>900mm x 600mm<\/p>",
             "link_label": "Download",
             "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/floor_mat_template_900x600_Verfied_05-17.pdf?v=1721947549"
           }
@@ -107,8 +107,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/floormat.png",
-            "title": "Floormat Large 1190mm x 890mm",
-            "text": "",
+            "title": "Floormat Large",
+            "text": "<p>1190mm x 890mm<\/p>",
             "link_label": "Download",
             "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/large-floormat-1200.pdf?v=1715032761"
           }
@@ -146,8 +146,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/nz_large_e9e3f0f7-780a-4e72-9960-891ff76e7d7e.jpg",
-            "title": "Standard Flag 1.8m x 0.9m",
-            "text": "",
+            "title": "Standard Flag",
+            "text": "<p>1800mm x 900mm<\/p>",
             "link_label": "Download",
             "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/horizontal-flag-1-8m-x-0-9m_1.pdf?v=1715033077"
           }
@@ -192,9 +192,9 @@
         "column_qHrFUd": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/streetbanners.jpg",
-            "title": "StreetFlag 1.8m x0.9m",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/Streetflags-85.png",
+            "title": "StreetFlag",
+            "text": "<p>0.9m x 1.8m<\/p>",
             "link_label": "Download",
             "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/streetflags-template_1-8x0-9_nov-22.pdf?v=1715033354"
           }
@@ -202,9 +202,9 @@
         "column_RVJndj": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/streetbanners.jpg",
-            "title": "StreetFlag 2.7m x 1.35m",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/large_streetflag-41.png",
+            "title": "StreetFlag Large",
+            "text": "<p>1.35m x 2.7m<\/p>",
             "link_label": "Download",
             "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/streetflag-2-7m-x-1-35m-_nov-22.pdf?v=1715033354"
           }
@@ -212,18 +212,40 @@
         "column_PrWLYy": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/flagtrax-hastings-distrcit-council-web_0d8fa450-8a09-4910-bc4f-326992989960.jpg",
-            "title": "StreetFlag 2.7m x 1.35m",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/wowflagtrax-70.png",
+            "title": "Flagtrax 2",
+            "text": "<p>0.95m x 1.75m<\/p>",
             "link_label": "Download",
-            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/streetflag-2-7m-x-1-35m-_nov-22.pdf?v=1715033354"
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/Flagtrax_0.95m_x_1.75m_RHS_Template.pdf?v=1721952309"
+          }
+        },
+        "column_xtV8NR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Flagtrax-08.png",
+            "title": "Flagtrax 2 Large",
+            "text": "<p>0.95 x 2.65m<\/p>",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/Flagtrax_Large_0.95m_x_2.65m_Template.pdf?v=1721952601"
+          }
+        },
+        "column_RcPpjB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wow_revolution.png",
+            "title": "Flagtrax Revolutions",
+            "text": "<p>0.95m x 3.8m<\/p>",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/Flagtrax_Revolutions_Template.pdf?v=1721952814"
           }
         }
       },
       "block_order": [
         "column_qHrFUd",
         "column_RVJndj",
-        "column_PrWLYy"
+        "column_PrWLYy",
+        "column_xtV8NR",
+        "column_RcPpjB"
       ],
       "custom_css": [
         "div img {width: 100%; object-fit: contain;}"
@@ -245,107 +267,15 @@
         "padding_bottom": 40
       }
     },
-    "multicolumn_CtXbcM": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_8kynwU": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/standard-footpath-sign.jpg",
-            "title": "Standard Footpath Sign",
-            "text": "",
-            "link_label": "Download",
-            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/basic-footpath-sign-800.pdf?v=1715033862"
-          }
-        },
-        "column_QGfdbB": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/chalkboard-footpath-sign.jpg",
-            "title": "Standard Chalkboard Sign",
-            "text": "",
-            "link_label": "Download",
-            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/basic-footpath-sign-800-chalk.pdf?v=1715033862"
-          }
-        },
-        "column_B8rnRQ": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/advertiser-a-frame.jpg",
-            "title": "A Frame Footpath Sign",
-            "text": "",
-            "link_label": "Download",
-            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/a-frame-template.pdf?v=1715033862"
-          }
-        },
-        "column_fzrmnW": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/informer-footpath-sign.jpg",
-            "title": "Informer Footpath Sign",
-            "text": "",
-            "link_label": "Download",
-            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/informer-footpath-sign-800.pdf?v=1715033862"
-          }
-        },
-        "column_iE6aNp": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ultra_footpath_sign_grande_628a539b-3819-4dd1-bd09-d644e0036aa0.jpg",
-            "title": "Ultra Footpath Sign",
-            "text": "",
-            "link_label": "Download",
-            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/ultra-footpath-sign-800-wheelaway.pdf?v=1715033862"
-          }
-        },
-        "column_kFDBxL": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/durasign-rustic.jpg",
-            "title": "Durasign Rustic",
-            "text": "",
-            "link_label": "Download",
-            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/durasign-rustic-template_1.pdf?v=1715033862"
-          }
-        }
-      },
-      "block_order": [
-        "column_8kynwU",
-        "column_QGfdbB",
-        "column_B8rnRQ",
-        "column_fzrmnW",
-        "column_iE6aNp",
-        "column_kFDBxL"
-      ],
-      "custom_css": [
-        "div img {width: 100%; object-fit: contain;}"
-      ],
-      "settings": {
-        "title": "Footpath Signs",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "portrait",
-        "columns_desktop": 5,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
     "multicolumn_gJdU3p": {
       "type": "multicolumn",
       "blocks": {
         "column_Pk8ANi": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/durapole-ds-small-flex-500px-x-1000px.jpg",
-            "title": "Durapole Flex Small and Large Single Sided",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/Template_images_flex-25.png",
+            "title": "Durapole Flex Small and Large - Single Sided",
+            "text": "<p>Display Height: 2670mm or 4000mm<\/p>",
             "link_label": "Download",
             "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/flex-ss-straight-template_oct-17.pdf?v=1715034581"
           }
@@ -353,9 +283,9 @@
         "column_QNLppe": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/durapole-ds-small-flex-500px-x-1000px.jpg",
-            "title": "Durapole Flex Small Double Sided Only",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/Template_images_flex-26.png",
+            "title": "Durapole Flex Small - Double Sided",
+            "text": "<p>Display Height: 2670mm<\/p>",
             "link_label": "Download",
             "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/flex-small-ds-template_oct-17.pdf?v=1715034581"
           }
@@ -363,9 +293,9 @@
         "column_fEMpXJ": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/durapole-ds-large-flex-500px-x-1000px.jpg",
-            "title": "Durapole Flex Large Double Sided Only",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/Template_images_flex-27.png",
+            "title": "Durapole Flex Large - Double Sided",
+            "text": "<p>Display Height: 4000mm<\/p>",
             "link_label": "Download",
             "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/flex-large-ds-template-straight_oct-17.pdf?v=1715034581"
           }
@@ -373,9 +303,9 @@
         "column_tkUApw": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/durapole-ss-large-flex-500px-x-1000px.jpg",
-            "title": "Durapole Flex XL Single Sided Only",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/Template_images_flex-28.png",
+            "title": "Durapole Flex XL - Single Sided only",
+            "text": "<p>Display Height: 4700mm<\/p>",
             "link_label": "Download",
             "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/flex-xl-ss-templates_oct-17.pdf?v=1715034581"
           }
@@ -383,9 +313,9 @@
         "column_4UXqjm": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/durapole-ss-large-flex-500px-x-1000px.jpg",
-            "title": "Durapole Flex Super Large Single Sided",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/Template_images_flex-29_cdb905cc-cf54-4019-9873-c22ee6687510.png",
+            "title": "Durapole Flex Super Large - Single Sided only",
+            "text": "<p>Display Height: 6300mm<\/p>",
             "link_label": "Download",
             "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/giant-ss-flex-template_oct-17.pdf?v=1715034581"
           }
@@ -393,9 +323,9 @@
         "column_g7V7De": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mayfly-flag.jpg",
-            "title": "Durapole Mayfly Small and Large Single Sided",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/Template_images_mayfly-30.png",
+            "title": "Durapole Mayfly Small and Large - Single Sided",
+            "text": "<p>Display Height: 2360mm or 3600mm<\/p>",
             "link_label": "Download",
             "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/mayfly-ss-template_oct-17.pdf?v=1715034581"
           }
@@ -403,9 +333,9 @@
         "column_Qg9LyT": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mayfly-flag.jpg",
-            "title": "Durapole Mayfly Small Double Sided Only",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/Template_images_mayfly-31.png",
+            "title": "Durapole Mayfly Small - Double Sided",
+            "text": "<p>Display Height: 2360mm<\/p>",
             "link_label": "Download",
             "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/mayfly-ds-small-template_oct-17.pdf?v=1715034581"
           }
@@ -413,9 +343,9 @@
         "column_w3MnRx": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mayfly-flag.jpg",
-            "title": "Durapole Mayfly Large Double Sided Only",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/Template_images_mayfly-32.png",
+            "title": "Durapole Mayfly Large - Double Sided",
+            "text": "<p>Display Height: 4000mm<\/p>",
             "link_label": "Download",
             "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/mayfly-ds-large-template_oct-17.pdf?v=1715034581"
           }
@@ -423,9 +353,9 @@
         "column_qF4n8t": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/durapole-ss-large-mayfly-500px-x-1000px.jpg",
-            "title": "Durapole MayFly XL Single Sided Only",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/Template_images_mayfly-33.png",
+            "title": "Durapole MayFly XL - Single Sided Only",
+            "text": "<p>Display Height: 4100mm<\/p>",
             "link_label": "Download",
             "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/mayfly-ss-xlarge-template_oct-17.pdf?v=1715034581"
           }
@@ -433,9 +363,9 @@
         "column_Xh6qzC": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/durapole-ss-large-mayfly-500px-x-1000px.jpg",
-            "title": "Durapole Mayfly Super Large Single Sided",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/Template_images_mayfly-34.png",
+            "title": "Durapole Mayfly Super Large - Single Sided Only",
+            "text": "<p>Display Height: 5800mm<\/p>",
             "link_label": "Download",
             "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/giant-mayfly-ss-template_oct-17.pdf?v=1715034581"
           }
@@ -443,9 +373,9 @@
         "column_pPwzMh": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/swing-flag.jpg",
-            "title": "Durapole Swing Small and Large Single Sided",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/Template_images_swing-35.png",
+            "title": "Durapole Swing Small and Large - Single Sided",
+            "text": "<p>Display Height: 2190mm or 3100mm<\/p>",
             "link_label": "Download",
             "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/swing-ss-flag-template_oct-17.pdf?v=1715034581"
           }
@@ -453,9 +383,9 @@
         "column_NzUbKj": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/swing-flag.jpg",
-            "title": "Durapole Swing Small Double Sided Only",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/Template_images_swing-36.png",
+            "title": "Durapole Swing Small - Double Sided",
+            "text": "<p>Display Height: 2190mm<\/p>",
             "link_label": "Download",
             "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/swing-ds-small-template_oct-17.pdf?v=1715034581"
           }
@@ -463,9 +393,9 @@
         "column_ibLqdN": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/swing-flag.jpg",
-            "title": "Durapole Swing Large Double Sided Only",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/Template_images_swing-37.png",
+            "title": "Durapole Swing Large - Double Sided",
+            "text": "<p>Display Height: 3100mm<\/p>",
             "link_label": "Download",
             "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/swing-ds-large-template_oct-17.pdf?v=1715034581"
           }
@@ -473,9 +403,9 @@
         "column_kPxF7j": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/swing-flag.jpg",
-            "title": "Durapole Swing Extra Large Single Sided Only",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/Template_images_swing-38.png",
+            "title": "Durapole Swing Extra Large - Single Sided Only",
+            "text": "<p>Display Height: 4300mm<\/p>",
             "link_label": "Download",
             "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/xt-flag-xl-ss-template_oct-17.pdf?v=1715034581"
           }
@@ -483,9 +413,9 @@
         "column_jyamRB": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/xt-flag.jpg",
-            "title": "Durapole XT Single Sided Only",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/Template_images_XT-39.png",
+            "title": "Durapole XT Single Sided",
+            "text": "<p>Display Height Extends from 1.2m to 3.2m<\/p>",
             "link_label": "Download",
             "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/xt-flag-ss-template_oct-17.pdf?v=1715034581"
           }
@@ -493,31 +423,11 @@
         "column_hmcwkR": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/xt-flag.jpg",
-            "title": "Durapole XT Double Sided Only",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/Template_images_XT-40.png",
+            "title": "Durapole XT Double Sided",
+            "text": "<p>Display Height Extends from 1.2m to 3.2m<\/p>",
             "link_label": "Download",
             "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/xt-flag-ds-template_oct-17.pdf?v=1715034581"
-          }
-        },
-        "column_d8aja8": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/durapole-ss-dragonfly-500px-x-1000px.jpg",
-            "title": "Durapole Dragonfly Double Sided Only",
-            "text": "",
-            "link_label": "Download",
-            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/dragonfly_medium_2-2m-x-0-78m.pdf?v=1715034581"
-          }
-        },
-        "column_QdhCHA": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/durapole-ss-dragonfly-500px-x-1000px.jpg",
-            "title": "Durapole Dragonfly Single Sided Only",
-            "text": "",
-            "link_label": "Download",
-            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/dragonfly_medium_2-2m-x-0-78m.pdf?v=1715034581"
           }
         }
       },
@@ -537,9 +447,7 @@
         "column_ibLqdN",
         "column_kPxF7j",
         "column_jyamRB",
-        "column_hmcwkR",
-        "column_d8aja8",
-        "column_QdhCHA"
+        "column_hmcwkR"
       ],
       "custom_css": [
         "div img {width: 100%; object-fit: contain;}"
@@ -568,8 +476,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/rollup-traveller.jpg",
-            "title": "Roll Up 850mm and 1m wide",
-            "text": "<p>(Regular, Traveller, Prestige, X Banner)<\/p>",
+            "title": "Roll Up 850mm wide",
+            "text": "<p>Roll up Regular, Traveller, Prestige, X Banner.<\/p>",
             "link_label": "Download",
             "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/rollup-banner.pdf?v=1715036347"
           }
@@ -616,7 +524,6 @@
     "multicolumn_NpBxyT",
     "multicolumn_dWLx4X",
     "multicolumn_NinEtQ",
-    "multicolumn_CtXbcM",
     "multicolumn_gJdU3p",
     "multicolumn_JVJgFj"
   ]
