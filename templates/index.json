@@ -137,7 +137,7 @@
         "row_gyxV7p": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Supreme_Larger_3.jpg",
+            "image": "shopify:\/\/shop_images\/Supreme_Larger_3-01_bdb3ff00-0c29-42be-aa89-2084580a645b.png",
             "caption": "NZ's most durable",
             "heading": "Flag Poles",
             "text": "<p>These poles are the most durable flag poles available  and have been used widely for the last 20 years throughout NZ.<\/p>",
@@ -232,6 +232,16 @@
             "link_label": "View TradeShow Products",
             "link": "shopify:\/\/collections\/expo-solutions"
           }
+        },
+        "column_QhTfaC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Licenced_Products_2.png",
+            "title": "Licensed Sports Products",
+            "text": "<p>Buy from our licensed supported products range to support your team!<\/p>",
+            "link_label": "View Licensed Sports Products",
+            "link": "https:\/\/shop.flagmakers.co.nz\/collections\/licensed-sport-products"
+          }
         }
       },
       "block_order": [
@@ -240,7 +250,8 @@
         "column_4it7cj",
         "column_kLyQ4P",
         "column_xqfyqL",
-        "column_izG3TE"
+        "column_izG3TE",
+        "column_QhTfaC"
       ],
       "custom_css": [
         ".multicolumn.background-primary .multicolumn-card {background: #fff;}",
