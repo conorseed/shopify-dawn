@@ -80,6 +80,51 @@
         "padding_bottom": 40
       }
     },
+    "multicolumn_WhteMR": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_eFgA4a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gazebo-71.png",
+            "title": "3m x 3m Gazebo",
+            "text": "",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/3m_Gazebo_template_T10.pdf?v=1722311285"
+          }
+        },
+        "column_ETfNfA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gazebo_6m.png",
+            "title": "6m x 3m Gazebo",
+            "text": "",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/6m_Gazebo_template_T20.pdf?v=1722310993"
+          }
+        }
+      },
+      "block_order": [
+        "column_eFgA4a",
+        "column_ETfNfA"
+      ],
+      "settings": {
+        "title": "Gazebos",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "columns_desktop": 5,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
     "multicolumn_NpBxyT": {
       "type": "multicolumn",
       "blocks": {
@@ -521,6 +566,7 @@
     "main",
     "page_header_FTBBe8",
     "multicolumn_7CEqY9",
+    "multicolumn_WhteMR",
     "multicolumn_NpBxyT",
     "multicolumn_dWLx4X",
     "multicolumn_NinEtQ",
