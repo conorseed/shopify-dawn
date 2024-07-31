@@ -9,6 +9,61 @@
 */
 {
   "sections": {
+    "slideshow_eBLxA7": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_pXKKny": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Winter_special_banner_2.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_m7qP3H": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Roll-up_Banner_half_price_deal.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_pXKKny",
+        "slide_m7qP3H"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 3,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Specials"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -43,6 +98,7 @@
         "text",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/main-image-for-website.jpg",
         "image_overlay_opacity": 50,
@@ -307,6 +363,7 @@
     }
   },
   "order": [
+    "slideshow_eBLxA7",
     "image_banner",
     "image_with_text_q9RCz6",
     "multirow_PA4zxp",
