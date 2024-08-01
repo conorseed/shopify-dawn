@@ -1,9 +1,60 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "breadcrumbs_cadDFP": {
       "type": "custom-breadcrumbs",
       "settings": {
         "color_scheme": "scheme-40872108-8bb0-4ab8-8dba-4e148c49e639"
+      }
+    },
+    "rich_text_w8mLMy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_xhzcM9": {
+          "type": "heading",
+          "settings": {
+            "heading": "1\/2 Price Durapole Offer!",
+            "heading_size": "h1"
+          }
+        },
+        "text_ppdam9": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Buy 1 Durapole Flag or Display and get the second flag for 1\/2 price!<br\/>Contact us on<strong> 0800 900800 or email us on <\/strong><a href=\"mailto:sales@flagmakers.co.nz\"><strong>sales@flagmakers.co.nz<\/strong><\/a> for a quote.  Offer ends 31st August 2024<\/h4>"
+          }
+        },
+        "button_GCmTTt": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_xhzcM9",
+        "text_ppdam9",
+        "button_GCmTTt"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "banner": {
@@ -37,6 +88,7 @@
   },
   "order": [
     "breadcrumbs_cadDFP",
+    "rich_text_w8mLMy",
     "banner",
     "product-grid"
   ]
