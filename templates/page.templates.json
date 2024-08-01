@@ -479,6 +479,95 @@
         "padding_bottom": 40
       }
     },
+    "multicolumn_3bLNgb": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_XjJxg8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Table_cloths-48.png",
+            "title": "Table Runner",
+            "text": "<p>Top strip only - 2200mm x 280mm<\/p>",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/Table_Runner_Template.pdf?v=1722480763"
+          }
+        },
+        "column_E9ePgW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Table_cloths-53.png",
+            "title": "Table Cover",
+            "text": "<p>Top only - 2180mm x 850mm<\/p>",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/Table_Cover.pdf?v=1722480666"
+          }
+        },
+        "column_C6GdkP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Table_cloths-51.png",
+            "title": "Table Drop",
+            "text": "<p>Top and Front only - 1800mm x 750mm<\/p>",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/large-floormat-1200.pdf?v=1715032761"
+          }
+        },
+        "column_rAFMGW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Table_cloths-55.png",
+            "title": "3\/4 Table Cloth",
+            "text": "<p>Top, front and sides only - 1800mm x 750mm x 700mm<\/p>",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/3qtr_Table_Cloth.pdf?v=1722480666"
+          }
+        },
+        "column_whj9gg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Table_cloths-49.png",
+            "title": "Tailored Table Cloth",
+            "text": "<p>Top, front, sides and back - 1800mm x 750mm x 700mm<\/p>",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/large-floormat-1200.pdf?v=1715032761"
+          }
+        },
+        "column_tXHbDy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Table_cloths-52.png",
+            "title": "Full Table Cover",
+            "text": "<p>Top, front, sides and back - 1800mm x 750mm x 700mm<\/p>",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/Full_Table_Cloth.pdf?v=1722480666"
+          }
+        }
+      },
+      "block_order": [
+        "column_XjJxg8",
+        "column_E9ePgW",
+        "column_C6GdkP",
+        "column_rAFMGW",
+        "column_whj9gg",
+        "column_tXHbDy"
+      ],
+      "settings": {
+        "title": "Table Cloths",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "columns_desktop": 5,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
     "multicolumn_fMGERx": {
       "type": "multicolumn",
       "blocks": {
@@ -681,6 +770,7 @@
     "multicolumn_gJdU3p",
     "multicolumn_JVJgFj",
     "multicolumn_NpBxyT",
+    "multicolumn_3bLNgb",
     "multicolumn_fMGERx",
     "multicolumn_WhteMR",
     "multicolumn_7CEqY9"
