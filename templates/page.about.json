@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -147,7 +156,6 @@
         "column_maiRha": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/easter.jpg",
             "title": "Ethics",
             "text": "<p>We believe that hard work gets results and importantly we look at ourselves as a learning organisation. Failure is part of learning and it is important that we work with our clients to make sure we learn from our mistakes and constantly strive to improve our products and services.<br\/><br\/>We also believe that we are part of society and local communities we operate in and therefore have chosen to contribute to a number of Children's charities such as the Heart Kids, The Radio Network Wellington Christmas Show.<br\/>We are environmentally responsible with a number of our staff passionate about nature. We recycle our water and use energy from a renewable energy suppliers and recycle our waste where possible<br\/>We care about our customers and our staff. We pay the living wage and our state of the art equipment along with dedicated teams means you will only get what you deserve - which is the best you can get.<\/p>",
             "link_label": "",
@@ -157,7 +165,6 @@
         "column_YDXEQL": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/easter.jpg",
             "title": "Who Are We?",
             "text": "<p>We are a dedicated and passionate company which cares about the fine detail of our products. Our finishing team out that extra effort in to make sure you will always receive a crafted high quality product.Our sales, design, marketing and production facilities are based in both Auckland and Wellington with our specialist dye screen printing plant located in Auckland and our digital printing facilities located in both Auckland and Wellington.We have over 6000 satisfied customers and produce over 20,000 products each year, That's 82 products per working day!<\/p>",
             "link_label": "",
