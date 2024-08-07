@@ -270,6 +270,36 @@
     "multicolumn_BHeRHf": {
       "type": "multicolumn",
       "blocks": {
+        "column_xgEbqJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Value_Pavement_Flags_visuals_img-02-02.png",
+            "title": "Value Range",
+            "text": "<p>A range of stock designs for the budget conscious consumer who wants a quality product at a great price.<\/p>",
+            "link_label": "View Value Range",
+            "link": "https:\/\/shop.flagmakers.co.nz\/collections\/value-range-retail-stock-design-flags"
+          }
+        },
+        "column_rzByyE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/new_zealand_collection-17_2.png",
+            "title": "New Zealand Flags",
+            "text": "<p>Free Shipping in NZ for our popular NZ flags!<\/p>",
+            "link_label": "View New Zealand Flags",
+            "link": "https:\/\/shop.flagmakers.co.nz\/collections\/new-zealand-flags"
+          }
+        },
+        "column_Re38gF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/world_flags_collection.png",
+            "title": "World Flags",
+            "text": "<p>Flagmakers is the largest dye-screen flag maker in NZ. We make beautifully crafted products that you can be proud to fly, and are the preferred supplier to the NZ Government.<\/p>",
+            "link_label": "View Country Flags",
+            "link": "shopify:\/\/collections\/country-flags"
+          }
+        },
         "column_mCQPm9": {
           "type": "column",
           "settings": {
@@ -278,16 +308,6 @@
             "text": "<p>Long-life Rollup Banners made from our beautiful satin fabric that do not curl or crease.<\/p>",
             "link_label": "View Roll Up Banners",
             "link": "shopify:\/\/collections\/roll-up-pull-up-banners"
-          }
-        },
-        "column_Re38gF": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Country_flgs_collection_2.png",
-            "title": "NZ & World Flags",
-            "text": "<p>Flagmakers is the largest dye-screen flag maker in NZ. We make beautifully crafted products that you can be proud to fly, and are the preferred supplier to the NZ Government.<\/p>",
-            "link_label": "View Country Flags",
-            "link": "shopify:\/\/collections\/country-flags"
           }
         },
         "column_4it7cj": {
@@ -342,8 +362,10 @@
         }
       },
       "block_order": [
-        "column_mCQPm9",
+        "column_xgEbqJ",
+        "column_rzByyE",
         "column_Re38gF",
+        "column_mCQPm9",
         "column_4it7cj",
         "column_kLyQ4P",
         "column_xqfyqL",
