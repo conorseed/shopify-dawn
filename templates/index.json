@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "164253779604eede75": {
@@ -195,7 +204,7 @@
         "84b84fbd-1a87-458d-baf6-c3eb47627332": {
           "type": "featured_collection",
           "settings": {
-            "collection": "office-furniture-seating-conference-seating"
+            "collection": "stackable-conference-chairs"
           }
         },
         "aeeb40c5-504f-4bc3-ad8b-ae2143faf147": {
