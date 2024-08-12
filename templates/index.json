@@ -288,6 +288,46 @@
     "09f64e08-0e21-446c-bd5c-c68252f87ec9": {
       "type": "multicolumn",
       "blocks": {
+        "eb4ec6f9-f1ad-4189-9c41-b5e43198130f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/carhartt-2-logo-png-transparent.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/carhartt"
+          }
+        },
+        "503ca77c-f318-4ae8-964a-c25ef5116ff1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-fxd.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "c8f9c19b-5245-4864-b241-acccd702a421": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-steelblue.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "7f705433-70b2-449b-9ea1-8c3d63fd2940": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-grisport.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "template--14388672135243__09f64e08-0e21-446c-bd5c-c68252f87ec9-column-1": {
           "type": "column",
           "settings": {
@@ -328,26 +368,6 @@
             "link": ""
           }
         },
-        "503ca77c-f318-4ae8-964a-c25ef5116ff1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/brand-fxd.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "7f705433-70b2-449b-9ea1-8c3d63fd2940": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/brand-grisport.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "73c49367-2185-4da8-b3a8-04565c107321": {
           "type": "column",
           "settings": {
@@ -357,38 +377,18 @@
             "link_label": "",
             "link": ""
           }
-        },
-        "c8f9c19b-5245-4864-b241-acccd702a421": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/brand-steelblue.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "eb4ec6f9-f1ad-4189-9c41-b5e43198130f": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/carhartt-2-logo-png-transparent.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "shopify:\/\/collections\/carhartt"
-          }
         }
       },
       "block_order": [
+        "eb4ec6f9-f1ad-4189-9c41-b5e43198130f",
+        "503ca77c-f318-4ae8-964a-c25ef5116ff1",
+        "c8f9c19b-5245-4864-b241-acccd702a421",
+        "7f705433-70b2-449b-9ea1-8c3d63fd2940",
         "template--14388672135243__09f64e08-0e21-446c-bd5c-c68252f87ec9-column-1",
         "template--14388672135243__09f64e08-0e21-446c-bd5c-c68252f87ec9-column-2",
         "template--14388672135243__09f64e08-0e21-446c-bd5c-c68252f87ec9-column-3",
         "e01f7a7d-54bc-445b-bd8a-799667020ed7",
-        "503ca77c-f318-4ae8-964a-c25ef5116ff1",
-        "7f705433-70b2-449b-9ea1-8c3d63fd2940",
-        "73c49367-2185-4da8-b3a8-04565c107321",
-        "c8f9c19b-5245-4864-b241-acccd702a421",
-        "eb4ec6f9-f1ad-4189-9c41-b5e43198130f"
+        "73c49367-2185-4da8-b3a8-04565c107321"
       ],
       "settings": {
         "title": "Brands we love",
