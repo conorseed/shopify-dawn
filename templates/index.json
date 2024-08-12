@@ -66,24 +66,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "61ed6fc5-1c7e-42cf-98dc-66406f546419": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/home-about_0c9fa9fd-2a3f-40bc-91a0-721dd70d9d1d.jpg",
-            "heading": "Meet the team",
-            "heading_size": "h2",
-            "subheading": "We're proud to introduce you to our incredible team. Behind every successful company, there are dedicated individuals who work tirelessly to bring you the best products and service. Each member of our team plays a crucial role in delivering a seamless experience for you. Meet our exceptional team members and learn more about the people who make Footwear and Apparel thrive.",
-            "button_label": "Meet the team",
-            "link": "shopify:\/\/pages\/about-us",
-            "button_style_secondary": false,
-            "box_align": "middle-right",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "accent-2",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_MdR74w": {
           "type": "slide",
           "settings": {
@@ -101,14 +83,32 @@
             "color_scheme": "accent-2",
             "text_alignment_mobile": "center"
           }
+        },
+        "61ed6fc5-1c7e-42cf-98dc-66406f546419": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/home-about_0c9fa9fd-2a3f-40bc-91a0-721dd70d9d1d.jpg",
+            "heading": "Meet the team",
+            "heading_size": "h2",
+            "subheading": "We're proud to introduce you to our incredible team. Behind every successful company, there are dedicated individuals who work tirelessly to bring you the best products and service. Each member of our team plays a crucial role in delivering a seamless experience for you. Meet our exceptional team members and learn more about the people who make Footwear and Apparel thrive.",
+            "button_label": "Meet the team",
+            "link": "shopify:\/\/pages\/about-us",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_ydd6RK",
         "slide_T7jDkJ",
         "template--14388672135243__a906c273-a8eb-416e-ade7-04155872f8f7-slide-2",
-        "61ed6fc5-1c7e-42cf-98dc-66406f546419",
-        "slide_MdR74w"
+        "slide_MdR74w",
+        "61ed6fc5-1c7e-42cf-98dc-66406f546419"
       ],
       "settings": {
         "layout": "grid",
