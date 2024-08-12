@@ -48,6 +48,24 @@
             "text_alignment_mobile": "center"
           }
         },
+        "slide_89PTpq": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_3.png",
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "Shop Oilskin",
+            "link": "shopify:\/\/collections\/outback",
+            "button_style_secondary": false,
+            "box_align": "bottom-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
+        },
         "template--14388672135243__a906c273-a8eb-416e-ade7-04155872f8f7-slide-2": {
           "type": "slide",
           "settings": {
@@ -83,32 +101,14 @@
             "color_scheme": "accent-2",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_89PTpq": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_design_3.png",
-            "heading": "",
-            "heading_size": "h2",
-            "subheading": "",
-            "button_label": "Shop Oilskin",
-            "link": "shopify:\/\/collections\/outback",
-            "button_style_secondary": false,
-            "box_align": "bottom-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "accent-2",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
         "slide_ydd6RK",
         "slide_T7jDkJ",
+        "slide_89PTpq",
         "template--14388672135243__a906c273-a8eb-416e-ade7-04155872f8f7-slide-2",
-        "slide_MdR74w",
-        "slide_89PTpq"
+        "slide_MdR74w"
       ],
       "settings": {
         "layout": "grid",
