@@ -12,24 +12,6 @@
     "a906c273-a8eb-416e-ade7-04155872f8f7": {
       "type": "slideshow",
       "blocks": {
-        "template--14388672135243__a906c273-a8eb-416e-ade7-04155872f8f7-slide-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/home-screen.jpg",
-            "heading": "Digital Transfer & Embroidery",
-            "heading_size": "h2",
-            "subheading": "At Footwear and Apparel, we take pride in offering top-notch digital transfer and embroidery services. Whether you want to promote your brand or create personalised apparel, our skilled team can add your logo or design to any garment. With our meticulous attention to detail and high-quality materials, we ensure that your message stands out in style. Don't miss out on this opportunity to make a lasting impression.",
-            "button_label": "Find out more",
-            "link": "shopify:\/\/pages\/contact-us",
-            "button_style_secondary": false,
-            "box_align": "middle-right",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "accent-2",
-            "text_alignment_mobile": "center"
-          }
-        },
         "template--14388672135243__a906c273-a8eb-416e-ade7-04155872f8f7-slide-2": {
           "type": "slide",
           "settings": {
@@ -83,13 +65,31 @@
             "color_scheme": "accent-2",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_ydd6RK": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/carhartt.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Shop Carhartt Workwear",
+            "link": "shopify:\/\/collections\/carhartt",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
-        "template--14388672135243__a906c273-a8eb-416e-ade7-04155872f8f7-slide-1",
         "template--14388672135243__a906c273-a8eb-416e-ade7-04155872f8f7-slide-2",
         "61ed6fc5-1c7e-42cf-98dc-66406f546419",
-        "slide_T7jDkJ"
+        "slide_T7jDkJ",
+        "slide_ydd6RK"
       ],
       "settings": {
         "layout": "grid",
