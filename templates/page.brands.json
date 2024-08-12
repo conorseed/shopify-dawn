@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -34,6 +43,16 @@
     "ed9a48b3-e3ff-43e6-bde9-b7d7533f8993": {
       "type": "multicolumn",
       "blocks": {
+        "9aee50ff-b5be-4d16-abe9-8271c4016992": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/carhartt-logo-758BAFD83B-seeklogo.com.png",
+            "title": "",
+            "text": "",
+            "link_label": "View",
+            "link": "shopify:\/\/collections\/carhartt"
+          }
+        },
         "template--14393573081163__ed9a48b3-e3ff-43e6-bde9-b7d7533f8993-column-1": {
           "type": "column",
           "settings": {
@@ -423,19 +442,10 @@
             "link_label": "View",
             "link": "shopify:\/\/collections\/flame-fighter"
           }
-        },
-        "9aee50ff-b5be-4d16-abe9-8271c4016992": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Capture.png",
-            "title": "",
-            "text": "",
-            "link_label": "View",
-            "link": "shopify:\/\/collections\/x-dmg"
-          }
         }
       },
       "block_order": [
+        "9aee50ff-b5be-4d16-abe9-8271c4016992",
         "template--14393573081163__ed9a48b3-e3ff-43e6-bde9-b7d7533f8993-column-1",
         "template--14393573081163__ed9a48b3-e3ff-43e6-bde9-b7d7533f8993-column-2",
         "template--14393573081163__ed9a48b3-e3ff-43e6-bde9-b7d7533f8993-column-3",
@@ -474,8 +484,7 @@
         "62888a-87d4-4c59-bbed-08e7f8e9cb40",
         "628b885a-87d4-4c59-bbed-08e7f8e9cb41",
         "62888a-87d4-4c59-bbed-08e7f8e9cb42",
-        "62888a-87d4-4c59-bbed-08e7f8e9cb43",
-        "9aee50ff-b5be-4d16-abe9-8271c4016992"
+        "62888a-87d4-4c59-bbed-08e7f8e9cb43"
       ],
       "custom_css": [
         ".multicolumn-card__image-wrapper {padding-top: 0;}",
