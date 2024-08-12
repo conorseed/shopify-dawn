@@ -51,12 +51,12 @@
         "template--14388672135243__a906c273-a8eb-416e-ade7-04155872f8f7-slide-2": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/home-sizing.jpg",
-            "heading": "Sizing Charts",
+            "image": "shopify:\/\/shop_images\/Untitled_design_2.png",
+            "heading": "",
             "heading_size": "h2",
-            "subheading": "Ensuring the perfect fit for your footwear and apparel is paramount to us. That's why we source our sizing charts directly from our suppliers, guaranteeing accurate measurements for all our products. Our meticulous approach ensures that you can confidently choose the right size and experience unparalleled comfort every time you shop with us. Say farewell to guesswork and make informed decisions with our comprehensive and detailed sizing charts.",
-            "button_label": "Find your ideal fit",
-            "link": "#",
+            "subheading": "",
+            "button_label": "Shop Grisport Capri",
+            "link": "shopify:\/\/products\/grisport-capri-boot-zip-sand",
             "button_style_secondary": false,
             "box_align": "middle-right",
             "show_text_box": true,
