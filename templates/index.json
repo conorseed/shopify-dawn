@@ -371,16 +371,6 @@
         "eb4ec6f9-f1ad-4189-9c41-b5e43198130f": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brand-swanndri.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_YYRCtc": {
-          "type": "column",
-          "settings": {
             "image": "shopify:\/\/shop_images\/carhartt-2-logo-png-transparent.png",
             "title": "",
             "text": "",
@@ -398,8 +388,7 @@
         "7f705433-70b2-449b-9ea1-8c3d63fd2940",
         "73c49367-2185-4da8-b3a8-04565c107321",
         "c8f9c19b-5245-4864-b241-acccd702a421",
-        "eb4ec6f9-f1ad-4189-9c41-b5e43198130f",
-        "column_YYRCtc"
+        "eb4ec6f9-f1ad-4189-9c41-b5e43198130f"
       ],
       "settings": {
         "title": "Brands we love",
