@@ -190,101 +190,6 @@
         "use_sub_collection": false
       }
     },
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Get the job done in style: workwear & footwear for tradespeople",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "From construction sites to home projects, our gear has you covered.",
-            "text_style": "subtitle"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/home-hero_274d4ee1-3813-4bb6-9150-152a10864533.jpg",
-        "image_overlay_opacity": 20,
-        "image_height": "large",
-        "desktop_content_position": "middle-left",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "color_scheme": "accent-1",
-        "image_behavior": "ambient",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "New Zealand owned, globally inspired: Quality Workwear with Footwear & Apparel",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "<p>Welcome to Footwear & Apparel NZ Ltd - your source for a wide range of quality and stylish products sourced from around the globe.<\/p><p>As an independent business owned by Stuart and Rebecca Williams, we pride ourselves on providing friendly, professional customer service and offer an up to date vast range of products to give our customers more choice.<\/p><p>Our extensive range includes Safety and Outdoor Footwear, Safety Equipment, Apparel and we have a particular passion for supporting NZ made products where possible.<\/p><p>Additionally, we specialise in providing customised branding and corporate clothing options to uphold your company image.<\/p>",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections"
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h0",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 80,
-        "padding_bottom": 80
-      }
-    },
-    "4349b2d9-e677-45a3-8bcc-f51abcefea3f": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/home-subbanner.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "09f64e08-0e21-446c-bd5c-c68252f87ec9": {
       "type": "multicolumn",
       "blocks": {
@@ -407,6 +312,85 @@
         "padding_bottom": 80
       }
     },
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get the job done in style: workwear & footwear for tradespeople",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "From construction sites to home projects, our gear has you covered.",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/home-hero_274d4ee1-3813-4bb6-9150-152a10864533.jpg",
+        "image_overlay_opacity": 20,
+        "image_height": "large",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "accent-1",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "title": "New Zealand owned, globally inspired: Quality Workwear with Footwear & Apparel",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Welcome to Footwear & Apparel NZ Ltd - your source for a wide range of quality and stylish products sourced from around the globe.<\/p><p>As an independent business owned by Stuart and Rebecca Williams, we pride ourselves on providing friendly, professional customer service and offer an up to date vast range of products to give our customers more choice.<\/p><p>Our extensive range includes Safety and Outdoor Footwear, Safety Equipment, Apparel and we have a particular passion for supporting NZ made products where possible.<\/p><p>Additionally, we specialise in providing customised branding and corporate clothing options to uphold your company image.<\/p>",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections"
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
     "117a4c3d-e815-419b-ad91-b9f1bd44030d": {
       "type": "image-with-text",
       "blocks": {
@@ -444,15 +428,31 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "4349b2d9-e677-45a3-8bcc-f51abcefea3f": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/home-subbanner.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "a906c273-a8eb-416e-ade7-04155872f8f7",
     "2377cec9-f09c-4e08-bd02-72f854c16dce",
+    "09f64e08-0e21-446c-bd5c-c68252f87ec9",
     "image_banner",
     "multicolumn",
-    "4349b2d9-e677-45a3-8bcc-f51abcefea3f",
-    "09f64e08-0e21-446c-bd5c-c68252f87ec9",
-    "117a4c3d-e815-419b-ad91-b9f1bd44030d"
+    "117a4c3d-e815-419b-ad91-b9f1bd44030d",
+    "4349b2d9-e677-45a3-8bcc-f51abcefea3f"
   ]
 }
