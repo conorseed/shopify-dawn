@@ -12,6 +12,42 @@
     "a906c273-a8eb-416e-ade7-04155872f8f7": {
       "type": "slideshow",
       "blocks": {
+        "slide_ydd6RK": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/carhartt.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Shop Carhartt Workwear",
+            "link": "shopify:\/\/collections\/carhartt",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_T7jDkJ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FXD_HEADER.jpg",
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "Shop FXD Workwear",
+            "link": "shopify:\/\/collections\/fxd",
+            "button_style_secondary": false,
+            "box_align": "bottom-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
+        },
         "template--14388672135243__a906c273-a8eb-416e-ade7-04155872f8f7-slide-2": {
           "type": "slide",
           "settings": {
@@ -47,49 +83,13 @@
             "color_scheme": "accent-2",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_T7jDkJ": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/FXD_HEADER.jpg",
-            "heading": "",
-            "heading_size": "h2",
-            "subheading": "",
-            "button_label": "Shop FXD Workwear",
-            "link": "shopify:\/\/collections\/fxd",
-            "button_style_secondary": false,
-            "box_align": "bottom-right",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "accent-2",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_ydd6RK": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/carhartt.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "Shop Carhartt Workwear",
-            "link": "shopify:\/\/collections\/carhartt",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "accent-2",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
-        "template--14388672135243__a906c273-a8eb-416e-ade7-04155872f8f7-slide-2",
-        "61ed6fc5-1c7e-42cf-98dc-66406f546419",
+        "slide_ydd6RK",
         "slide_T7jDkJ",
-        "slide_ydd6RK"
+        "template--14388672135243__a906c273-a8eb-416e-ade7-04155872f8f7-slide-2",
+        "61ed6fc5-1c7e-42cf-98dc-66406f546419"
       ],
       "settings": {
         "layout": "grid",
