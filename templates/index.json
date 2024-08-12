@@ -83,13 +83,32 @@
             "color_scheme": "accent-2",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_MdR74w": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/steel_blue_1.png",
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "Shop Steel Blue",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "top-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_ydd6RK",
         "slide_T7jDkJ",
         "template--14388672135243__a906c273-a8eb-416e-ade7-04155872f8f7-slide-2",
-        "61ed6fc5-1c7e-42cf-98dc-66406f546419"
+        "61ed6fc5-1c7e-42cf-98dc-66406f546419",
+        "slide_MdR74w"
       ],
       "settings": {
         "layout": "grid",
