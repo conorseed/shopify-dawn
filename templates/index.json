@@ -66,18 +66,17 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_3fH6CU": {
+        "slide_T7jDkJ": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/carhartt.png",
+            "image": "shopify:\/\/shop_images\/FXD_HEADER.jpg",
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
-            "button_label": "Shop Now",
-            "link": "shopify:\/\/collections\/carhartt",
+            "button_label": "Shop FXD Workwear",
+            "link": "shopify:\/\/collections\/fxd",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "bottom-right",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
@@ -90,7 +89,7 @@
         "template--14388672135243__a906c273-a8eb-416e-ade7-04155872f8f7-slide-1",
         "template--14388672135243__a906c273-a8eb-416e-ade7-04155872f8f7-slide-2",
         "61ed6fc5-1c7e-42cf-98dc-66406f546419",
-        "slide_3fH6CU"
+        "slide_T7jDkJ"
       ],
       "settings": {
         "layout": "grid",
