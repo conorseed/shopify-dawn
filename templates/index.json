@@ -270,16 +270,6 @@
     "multicolumn_BHeRHf": {
       "type": "multicolumn",
       "blocks": {
-        "column_xgEbqJ": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Value_Pavement_Flags_visuals_img-02-02.png",
-            "title": "NEW VALUE FLAG RANGE!",
-            "text": "<p>A range of stock designs for the budget conscious consumer who wants a quality product at a great price.<\/p>",
-            "link_label": "View Value Range",
-            "link": "https:\/\/shop.flagmakers.co.nz\/collections\/value-range-retail-stock-design-flags"
-          }
-        },
         "column_rzByyE": {
           "type": "column",
           "settings": {
@@ -359,10 +349,19 @@
             "link_label": "View Licensed Sports Products",
             "link": "https:\/\/shop.flagmakers.co.nz\/collections\/licensed-sport-products"
           }
+        },
+        "column_xgEbqJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Value_Pavement_Flags_visuals_img-02-02.png",
+            "title": "NEW VALUE FLAG RANGE!",
+            "text": "<p>A range of stock designs for the budget conscious consumer who wants a quality product at a great price.<\/p>",
+            "link_label": "View Value Range",
+            "link": "https:\/\/shop.flagmakers.co.nz\/collections\/value-range-retail-stock-design-flags"
+          }
         }
       },
       "block_order": [
-        "column_xgEbqJ",
         "column_rzByyE",
         "column_Re38gF",
         "column_mCQPm9",
@@ -370,7 +369,8 @@
         "column_kLyQ4P",
         "column_xqfyqL",
         "column_izG3TE",
-        "column_QhTfaC"
+        "column_QhTfaC",
+        "column_xgEbqJ"
       ],
       "custom_css": [
         ".multicolumn.background-primary .multicolumn-card {background: #fff;}",
