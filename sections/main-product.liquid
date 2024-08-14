@@ -93,7 +93,7 @@
               </p>
             {%- when 'title' -%}
 
-            {% assign title_parts = card_product.title | split: '||' %}
+            {% assign title_parts = product.title | split: '||' %}
               <div class="product__title" {{ block.shopify_attributes }}>
                 <h1>
                   <!-- {{ product.title | escape }} -->
