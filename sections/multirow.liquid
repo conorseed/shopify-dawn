@@ -57,6 +57,10 @@
                 style="padding-bottom: {{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%;"
               {% endif %}
             >
+              {% if block.settings.button_link == blank %}
+                 <a href="{{ block.settings.button_link }}">
+              {% endif %}
+                    
               {%- if block.settings.image != blank -%}
                 {%- capture sizes -%}
                   (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
@@ -70,6 +74,10 @@
               {%- else -%}
                 {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
               {%- endif -%}
+
+              {% if block.settings.button_link == blank %}
+                  </a>
+              {% endif %}
             </div>
           </div>
           <div class="image-with-text__text-item grid__item">
