@@ -53,47 +53,47 @@ ul a#HeaderDrawer-specials:after{
 /* SLIDERS */
 @media(min-width: 750px){
     .slideshow__controls.slideshow__controls--top{
-    position: unset;
-    margin-top: -44px;
-    border: none;
-}
-.slideshow__control-wrapper {
-    background-color: #eaf6ff;
-    border-radius: 100em;
-}
-.slider-button{
-    position: absolute; 
-    top: 50%;
-    translate: 0 50%;
-    width: auto;
-    height: auto;
-    opacity: 0;
-    transition: all ease 0.35s;
+        position: unset;
+        margin-top: -44px;
+        border: none;
+    }
+    .slideshow__control-wrapper {
+        background-color: #eaf6ff;
+        border-radius: 100em;
+    }
+    .slider-button{
+        position: absolute; 
+        top: 50%;
+        translate: 0 50%;
+        width: auto;
+        height: auto;
+        opacity: 0;
+        transition: all ease 0.35s;
+        
+    }
+    slideshow-component:hover .slider-button{
+        opacity: 1;
+    }
+    slideshow-component:hover .slider-button.slider-button--prev{
+        left: 0;
+    }
+    slideshow-component:hover .slider-button.slider-button--next{
+        right: 0;
+    }
+    .slider-button.slider-button--prev{
+        left: -10rem;
+    }
+    .slider-button.slider-button--next{
+        right: -10rem;
+    }
+    .slider-button .icon{
+        width: 70px;
+        height: auto;
+    }
     
-}
-slideshow-component:hover .slider-button{
-    opacity: 1;
-}
-slideshow-component:hover .slider-button.slider-button--prev{
-    left: 0;
-}
-slideshow-component:hover .slider-button.slider-button--next{
-    right: 0;
-}
-.slider-button.slider-button--prev{
-    left: -10rem;
-}
-.slider-button.slider-button--next{
-    right: -10rem;
-}
-.slider-button .icon{
-    width: 70px;
-    height: auto;
-}
-
-button.slideshow__autoplay.slider-button {
-    display:none
-}
+    button.slideshow__autoplay.slider-button {
+        display:none
+    }
 }
 /* MEGA MENU */
 .mega-menu:not(#Details-HeaderMenu-1){
