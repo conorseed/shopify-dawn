@@ -56,8 +56,8 @@
               {% if section.settings.image_height == 'adapt' and block.settings.image != blank %}
                 style="padding-bottom: {{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%;"
               {% endif %}
-            > Conor
-              {% if block.settings.button_link == blank %}
+            >
+              {% if block.settings.button_link != blank %}
                  <a href="{{ block.settings.button_link }}">
               {% endif %}
                     
@@ -75,7 +75,7 @@
                 {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
               {%- endif -%}
 
-              {% if block.settings.button_link == blank %}
+              {% if block.settings.button_link != blank %}
                   </a>
               {% endif %}
             </div>
