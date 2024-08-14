@@ -1,5 +1,4 @@
 {% if blog.tags.size > 0 %}
-  {{ blog.handle }}
   <div class="blog-filter">
     <div class="list-group">
       <ul id="BlogTagFilter" class="tag-list">
@@ -8,6 +7,13 @@
             All {{ blog.title }}
           </a>
         </li>
+        {% if blog.handle == 'resources' %}
+        <li>
+          <a href="{{ shop.url }}/pages/templates" class="button">
+            Templates
+          </a>
+        </li>
+        {% endif %}
         {% for tag in blog.all_tags %}
         <li>
           <a href="{{ blog.url }}/tagged/{{ tag | handleize }}" class="button">
