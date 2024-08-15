@@ -1,5 +1,36 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
+    "1723759420c37d5c20": {
+      "type": "apps",
+      "blocks": {
+        "shopacado_volume_discounts_cart_notification_bar_BVBbeF": {
+          "type": "shopify:\/\/apps\/shopacado-volume-discounts\/blocks\/cart-notification-bar\/5950831a-4e4e-40a4-82b0-674110b50a14",
+          "settings": {
+            "background_color": "#ffffff",
+            "text_color": "#000000",
+            "padding": 10,
+            "margin_bottom": 2,
+            "font_size": 16,
+            "show_remove_button": true
+          }
+        }
+      },
+      "block_order": [
+        "shopacado_volume_discounts_cart_notification_bar_BVBbeF"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "cart-items": {
       "type": "main-cart-items",
       "settings": {
@@ -104,6 +135,7 @@
     }
   },
   "order": [
+    "1723759420c37d5c20",
     "cart-items",
     "rich_text_mzk6ag",
     "cart-footer",
