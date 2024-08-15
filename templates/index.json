@@ -65,31 +65,12 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_aij8xX": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2nd_flag_half_price_website_Banner.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "https:\/\/shop.flagmakers.co.nz\/collections\/feather-and-teardrop-flags-premium-high-strength",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
         "slide_pXKKny",
         "slide_m7qP3H",
-        "slide_JKHfEt",
-        "slide_aij8xX"
+        "slide_JKHfEt"
       ],
       "custom_css": [
 
