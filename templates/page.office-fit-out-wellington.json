@@ -215,7 +215,7 @@
         "text_t7MiAb": {
           "type": "text",
           "settings": {
-            "text": "<p>At SmartOffice NZ, we have the ability to help you design the fit-out of your new office with our <a href=\"\/collections\/design-service\">Design service<\/a>. This service includes:<br\/><\/p><ul><li>Recommended layout and products for office furniture within your office space<\/li><li>Drawing of the space from your measurements or plans<\/li><li>Locating products to suit power supply etc. if this information is available<\/li><li>Location and visualisation of a full range of furniture products as appropriate<\/li><\/ul>",
+            "text": "<p>At SmartOffice NZ, we have the ability to help you design the fit-out of your new office with our <a href=\"\/pages\/design-service\" title=\"Design Service\">Design service<\/a>. This service includes:<br\/><\/p><ul><li>Recommended layout and products for office furniture within your office space<\/li><li>Drawing of the space from your measurements or plans<\/li><li>Locating products to suit power supply etc. if this information is available<\/li><li>Location and visualisation of a full range of furniture products as appropriate<\/li><\/ul>",
             "text_style": "body"
           }
         },
@@ -223,7 +223,7 @@
           "type": "button",
           "settings": {
             "button_label": "Find out More",
-            "button_link": "shopify:\/\/collections\/design-service"
+            "button_link": "shopify:\/\/pages\/design-service"
           }
         }
       },
