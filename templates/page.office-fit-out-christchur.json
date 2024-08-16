@@ -223,7 +223,7 @@
           "type": "button",
           "settings": {
             "button_label": "Find out More",
-            "button_link": "shopify:\/\/collections\/design-service"
+            "button_link": "shopify:\/\/pages\/design-service"
           }
         }
       },
