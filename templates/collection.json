@@ -9,23 +9,6 @@
 */
 {
   "sections": {
-    "b7fa0023-0ac6-451e-a758-8f5e41a263b6": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/hhh.jpg",
-        "image_2": "shopify:\/\/shop_images\/Stoney_Creek.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "ambient",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "f74daae5-c9d4-4867-9430-c21a8df44dcb": {
       "type": "custom-liquid",
       "settings": {
@@ -65,7 +48,6 @@
     }
   },
   "order": [
-    "b7fa0023-0ac6-451e-a758-8f5e41a263b6",
     "f74daae5-c9d4-4867-9430-c21a8df44dcb",
     "banner",
     "product-grid"
