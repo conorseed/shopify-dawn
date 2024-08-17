@@ -38,7 +38,7 @@
             "heading_size": "h2",
             "subheading": "",
             "button_label": "Shop Stoney Creek",
-            "link": "",
+            "link": "shopify:\/\/collections\/stoney-creek",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,

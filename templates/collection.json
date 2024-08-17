@@ -1,9 +1,19 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "b7fa0023-0ac6-451e-a758-8f5e41a263b6": {
       "type": "image-banner",
       "settings": {
-        "image": "{{ collection.image }}",
+        "image": "shopify:\/\/shop_images\/Stoney_Creek.jpg",
+        "image_2": "shopify:\/\/shop_images\/67888286_901897850173232_6969401198805778432_n.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "middle-center",
