@@ -30,6 +30,24 @@
             "text_alignment_mobile": "center"
           }
         },
+        "slide_gk4cTh": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Stoney_Creek.jpg",
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "Shop Stoney Creek",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_T7jDkJ": {
           "type": "slide",
           "settings": {
@@ -83,32 +101,14 @@
             "color_scheme": "accent-2",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_gk4cTh": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Stoney_Creek.jpg",
-            "heading": "",
-            "heading_size": "h2",
-            "subheading": "",
-            "button_label": "Shop Stoney Creek",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "accent-2",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
         "slide_ydd6RK",
+        "slide_gk4cTh",
         "slide_T7jDkJ",
         "slide_89PTpq",
-        "slide_MdR74w",
-        "slide_gk4cTh"
+        "slide_MdR74w"
       ],
       "settings": {
         "layout": "grid",
