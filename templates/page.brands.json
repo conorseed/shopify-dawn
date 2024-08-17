@@ -53,16 +53,6 @@
             "link": "shopify:\/\/collections\/carhartt"
           }
         },
-        "template--14393573081163__ed9a48b3-e3ff-43e6-bde9-b7d7533f8993-column-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-2.png",
-            "title": "",
-            "text": "",
-            "link_label": "View",
-            "link": "shopify:\/\/collections\/3m"
-          }
-        },
         "template--14393573081163__ed9a48b3-e3ff-43e6-bde9-b7d7533f8993-column-2": {
           "type": "column",
           "settings": {
@@ -71,6 +61,36 @@
             "text": "",
             "link_label": "View",
             "link": "shopify:\/\/collections\/fxd"
+          }
+        },
+        "e4ffe1d9-de0c-44a9-8c61-4bd61dad83e5": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brands-logos-6.png",
+            "title": "",
+            "text": "",
+            "link_label": "View",
+            "link": "shopify:\/\/collections\/grisport"
+          }
+        },
+        "628b885a-87d4-4c59-bbed-08e7f8e9c37": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/67888286_901897850173232_6969401198805778432_n.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "View",
+            "link": "shopify:\/\/collections\/bisley"
+          }
+        },
+        "template--14393573081163__ed9a48b3-e3ff-43e6-bde9-b7d7533f8993-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brands-logos-2.png",
+            "title": "",
+            "text": "",
+            "link_label": "View",
+            "link": "shopify:\/\/collections\/3m"
           }
         },
         "template--14393573081163__ed9a48b3-e3ff-43e6-bde9-b7d7533f8993-column-3": {
@@ -83,6 +103,16 @@
             "link": "shopify:\/\/collections\/norsewear"
           }
         },
+        "628b885a-87d4-4c59-bbed-08e7f8e9cb32": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brands-logos-32.png",
+            "title": "",
+            "text": "",
+            "link_label": "View",
+            "link": "shopify:\/\/collections\/as-colours"
+          }
+        },
         "d22bec76-65b0-49a0-8794-e68f2e9f54f3": {
           "type": "column",
           "settings": {
@@ -91,16 +121,6 @@
             "text": "",
             "link_label": "View",
             "link": "shopify:\/\/collections\/syzmik"
-          }
-        },
-        "e4ffe1d9-de0c-44a9-8c61-4bd61dad83e5": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-6.png",
-            "title": "",
-            "text": "",
-            "link_label": "View",
-            "link": "shopify:\/\/collections\/grisport"
           }
         },
         "66b9684a-b2c5-4314-89c2-03c629814c44": {
@@ -323,16 +343,6 @@
             "link": "shopify:\/\/collections\/clogger-1"
           }
         },
-        "628b885a-87d4-4c59-bbed-08e7f8e9cb32": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-32.png",
-            "title": "",
-            "text": "",
-            "link_label": "View",
-            "link": "shopify:\/\/collections\/as-colours"
-          }
-        },
         "628b885a-87d4-4c59-bbed-08e7f8e9cb33": {
           "type": "column",
           "settings": {
@@ -371,16 +381,6 @@
             "text": "",
             "link_label": "View",
             "link": "shopify:\/\/collections\/bata"
-          }
-        },
-        "628b885a-87d4-4c59-bbed-08e7f8e9c37": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/67888286_901897850173232_6969401198805778432_n.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "View",
-            "link": "shopify:\/\/collections\/bisley"
           }
         },
         "628b885a-87d4-4c59-bb38-08e7f8e9cb38": {
@@ -446,11 +446,13 @@
       },
       "block_order": [
         "9aee50ff-b5be-4d16-abe9-8271c4016992",
-        "template--14393573081163__ed9a48b3-e3ff-43e6-bde9-b7d7533f8993-column-1",
         "template--14393573081163__ed9a48b3-e3ff-43e6-bde9-b7d7533f8993-column-2",
-        "template--14393573081163__ed9a48b3-e3ff-43e6-bde9-b7d7533f8993-column-3",
-        "d22bec76-65b0-49a0-8794-e68f2e9f54f3",
         "e4ffe1d9-de0c-44a9-8c61-4bd61dad83e5",
+        "628b885a-87d4-4c59-bbed-08e7f8e9c37",
+        "template--14393573081163__ed9a48b3-e3ff-43e6-bde9-b7d7533f8993-column-1",
+        "template--14393573081163__ed9a48b3-e3ff-43e6-bde9-b7d7533f8993-column-3",
+        "628b885a-87d4-4c59-bbed-08e7f8e9cb32",
+        "d22bec76-65b0-49a0-8794-e68f2e9f54f3",
         "66b9684a-b2c5-4314-89c2-03c629814c44",
         "af4bfb7a-2f24-4d52-9880-9d84e25bfd41",
         "6aa29239-f1ce-4ab9-8923-7e00bd86b691",
@@ -473,12 +475,10 @@
         "628b885a-87d4-4c59-bbed-08e7f8e9cb12",
         "628b885a-87d4-4c59-bbed-08e7f8e9cb30",
         "628b885a-87d4-4c59-bbed-08e7f8e9cb31",
-        "628b885a-87d4-4c59-bbed-08e7f8e9cb32",
         "628b885a-87d4-4c59-bbed-08e7f8e9cb33",
         "628b885a-87d4-4c59-bbed-08e7f8e9cb34",
         "628b885a-87d4-4c59-bbed-08e7f8e9cb35",
         "628b885a-87d4-4c59-bbed-08e7f8e9cb36",
-        "628b885a-87d4-4c59-bbed-08e7f8e9c37",
         "628b885a-87d4-4c59-bb38-08e7f8e9cb38",
         "628b88a-87d4-4c59-bbed-08e7f8e9cb39",
         "62888a-87d4-4c59-bbed-08e7f8e9cb40",
