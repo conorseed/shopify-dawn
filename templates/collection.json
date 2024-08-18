@@ -11,6 +11,7 @@
   "sections": {
     "breadcrumbs_cadDFP": {
       "type": "custom-breadcrumbs",
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-40872108-8bb0-4ab8-8dba-4e148c49e639"
       }
