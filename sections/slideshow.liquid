@@ -118,12 +118,13 @@
           opacity: {{ block.settings.image_overlay_opacity | divided_by: 100.0 }};
         }
       </style>
-      {% assign slideEl = 'div' %} {% assign slideElClose = 'div' %}
+      {% assign slide_el = 'div' %} {% assign slide_extras = '' %}
         {%- if block.settings.button_label == blank and block.settings.link != blank -%}
-          {% capture slideEl %}a href="{{ block.settings.link }}"{% endcapture %}
-          {% assign slideElClose = 'a' %}
+          {% capture slide_extras %}href="{{ block.settings.link }}"{% endcapture %}
+          {% assign slide_el = 'a' %}
         {% endif %}
-      <{{ slideEl }}
+      <{{ slide_el }}
+        {{ slide_extras }}
         class="slideshow__slide grid__item grid--1-col slider__slide"
         id="Slide-{{ section.id }}-{{ forloop.index }}"
         {{ block.shopify_attributes }}
@@ -200,7 +201,7 @@
           </div>
         </div>
         {% endif %}
-      </{{ slideElClose }}>
+      </{{ slide_el }}>
     {%- endfor -%}
   </div>
 
