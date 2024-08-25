@@ -167,7 +167,7 @@
         </div>
         {%- if block.settings.heading != blank and block.settings.subheading != blank and block.settings.button_label != blank -%}
         {% assign slideEl = 'div' %} {% assign slideElClose = 'div' %}
-        {%- if block.settings.button_label == blank and block.settings.link -%}
+        {%- if block.settings.button_label == blank and block.settings.link != blank -%}
           {% capture slideEl %}a href="{{ block.settings.link }}"{% endcapture %}
           {% assign slideElClose = 'a' %}
         {% endif %}
