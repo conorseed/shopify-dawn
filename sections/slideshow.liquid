@@ -118,7 +118,12 @@
           opacity: {{ block.settings.image_overlay_opacity | divided_by: 100.0 }};
         }
       </style>
-      <div
+      {% assign slideEl = 'div' %} {% assign slideElClose = 'div' %}
+        {%- if block.settings.button_label == blank and block.settings.link != blank -%}
+          {% capture slideEl %}a href="{{ block.settings.link }}"{% endcapture %}
+          {% assign slideElClose = 'a' %}
+        {% endif %}
+      <{{ slideEl }}
         class="slideshow__slide grid__item grid--1-col slider__slide"
         id="Slide-{{ section.id }}-{{ forloop.index }}"
         {{ block.shopify_attributes }}
@@ -166,12 +171,7 @@
           {%- endif -%}
         </div>
         {%- if block.settings.heading != blank and block.settings.subheading != blank and block.settings.button_label != blank -%}
-        {% assign slideEl = 'div' %} {% assign slideElClose = 'div' %}
-        {%- if block.settings.button_label == blank and block.settings.link != blank -%}
-          {% capture slideEl %}a href="{{ block.settings.link }}"{% endcapture %}
-          {% assign slideElClose = 'a' %}
-        {% endif %}
-        <{{ slideEl }} class="slideshow__text-wrapper banner__content banner__content--{{ block.settings.box_align }} page-width{% if block.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll and forloop.index == 1 %} scroll-trigger animate--slide-in{% endif %}">
+        <div class="slideshow__text-wrapper banner__content banner__content--{{ block.settings.box_align }} page-width{% if block.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll and forloop.index == 1 %} scroll-trigger animate--slide-in{% endif %}">
           <div class="slideshow__text banner__box content-container content-container--full-width-mobile color-{{ block.settings.color_scheme }} gradient slideshow__text--{{ block.settings.text_alignment }} slideshow__text-mobile--{{ block.settings.text_alignment_mobile }}">
             {%- if block.settings.heading != blank -%}
               <h2 class="banner__heading inline-richtext {{ block.settings.heading_size }}">
@@ -198,9 +198,9 @@
               </div>
             {%- endif -%}
           </div>
-        </{{ slideElClose }}>
+        </div>
         {% endif %}
-      </div>
+      </{{ slideElClose }}>
     {%- endfor -%}
   </div>
 
