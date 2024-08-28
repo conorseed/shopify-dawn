@@ -7,6 +7,7 @@
   - show_badges: {Boolean} Renders 'Sale' and 'Sold Out' tags if the product matches the condition (optional)
   - price_class: {String} Adds a price class to the price element (optional)
   - show_compare_at_price: {Boolean} Renders the compare at price if the product matches the condition (optional)
+  - tax_compare: {Boolean} Renders price without GST as well as the regular price if matches the condition (optional)
 
   Usage:
   {% render 'price', product: product %}
@@ -83,12 +84,14 @@
           {{- 'products.product.volume_pricing.price_range' | t: minimum: money_price_min, maximum: money_price_max -}}
         </span>
       {%- else -%}
+        {% if tax_compare %}
         <div class="price-wrapper">
           <span class="price-item price-item--regular no-tax">
             {{ money_price_without_gst }}
           </span>
           <span class="product__tax caption rte"> GST Exc. </span>
         </div>
+        {% endif %}
         <div class="price-wrapper">
           <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
           <span class="price-item price-item--regular">
