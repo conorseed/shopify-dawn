@@ -37,6 +37,10 @@
   endif
 
   assign price_without_gst = product.price | divided_by: 1.15
+  assign money_price_without_gst = price_without_gst | money
+   if settings.currency_code_enabled
+     assign money_price_without_gst = price_without_gst | money_with_currency
+   endif
 -%}
 
 <div
@@ -83,7 +87,7 @@
         <span class="price-item price-item--regular">
           {% if product.price > 0 %} {{ money_price }} {% endif %}
         </span>
-        <span class="price-item price-item--regular visually-hidden visually-hidden--inline">{{ price_without_gst | money }}</span>
+        <span class="price-item price-item--regular visually-hidden visually-hidden--inline">{{ money_price_without_gst }}</span>
       {%- endif -%}
     </div>
     <div class="price__sale">
