@@ -116,6 +116,11 @@
       <span class="price-item price-item--sale price-item--last">
         {{ money_price }}
       </span>
+      <div class="product__tax caption rte">
+        {%- if cart.taxes_included -%}
+          {{ 'products.product.include_taxes' | t }}
+        {%- endif -%}
+      </div>
     </div>
     <small class="unit-price caption{% if product.selected_or_first_available_variant.unit_price_measurement == nil %} hidden{% endif %}">
       <span class="visually-hidden">{{ 'products.product.price.unit_price' | t }}</span>
