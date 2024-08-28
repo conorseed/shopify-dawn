@@ -35,6 +35,8 @@
   if target == product and product.price_varies
     assign money_price = 'products.product.price.from_price_html' | t: price: money_price
   endif
+
+  assign price_without_gst = product.price | divided_by: 1.15
 -%}
 
 <div
@@ -82,6 +84,7 @@
           {% if product.price > 0 %} {{ money_price }} {% endif %}
         </span>
       {%- endif -%}
+      <div style="display:none">{{ price_without_gst | money }}</div>
     </div>
     <div class="price__sale">
       {%- unless product.price_varies == false and product.compare_at_price_varies %}
