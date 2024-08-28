@@ -35,6 +35,12 @@
   if target == product and product.price_varies
     assign money_price = 'products.product.price.from_price_html' | t: price: money_price
   endif
+
+  assign price_without_gst = target.price | divided_by: 1.15
+  assign money_price_without_gst = price_without_gst | money
+   if settings.currency_code_enabled
+     assign money_price_without_gst = price_without_gst | money_with_currency
+   endif
 -%}
 
 <div
@@ -77,10 +83,20 @@
           {{- 'products.product.volume_pricing.price_range' | t: minimum: money_price_min, maximum: money_price_max -}}
         </span>
       {%- else -%}
-        <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
-        <span class="price-item price-item--regular">
-          {{ money_price }}
-        </span>
+        <div class="price-wrapper">
+          <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
+          <span class="price-item price-item--regular">
+            {% if product.price > 0 %} {{ money_price }} {% endif %}
+          </span>
+          <span class="product__tax caption rte"> GST Inc. </span>
+        </div>
+        <div class="price-wrapper">
+          <span class="price-item price-item--regular no-tax">
+            {{ money_price_without_gst }}
+          </span>
+          <span class="product__tax caption rte"> GST Exc. </span>
+        </div>
+        
       {%- endif -%}
     </div>
     <div class="price__sale">
