@@ -36,7 +36,7 @@
     assign money_price = 'products.product.price.from_price_html' | t: price: money_price
   endif
 
-  assign price_without_gst = product.price | divided_by: 1.15
+  assign price_without_gst = target.price | divided_by: 1.15
   assign money_price_without_gst = price_without_gst | money
    if settings.currency_code_enabled
      assign money_price_without_gst = price_without_gst | money_with_currency
