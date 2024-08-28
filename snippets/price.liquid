@@ -84,18 +84,19 @@
         </span>
       {%- else -%}
         <div class="price-wrapper">
+          <span class="price-item price-item--regular no-tax">
+            {{ money_price_without_gst }}
+          </span>
+          <span class="product__tax caption rte"> GST Exc. </span>
+        </div>
+        <div class="price-wrapper">
           <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
           <span class="price-item price-item--regular">
             {% if product.price > 0 %} {{ money_price }} {% endif %}
           </span>
           <span class="product__tax caption rte"> GST Inc. </span>
         </div>
-        <div class="price-wrapper">
-          <span class="price-item price-item--regular no-tax">
-            {{ money_price_without_gst }}
-          </span>
-          <span class="product__tax caption rte"> GST Exc. </span>
-        </div>
+        
         
       {%- endif -%}
     </div>
