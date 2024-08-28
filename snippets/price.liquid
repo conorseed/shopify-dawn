@@ -83,7 +83,7 @@
         <span class="price-item price-item--regular">
           {% if product.price > 0 %} {{ money_price }} {% endif %}
         </span>
-        <div style="display:none" class="hello">{{ price_without_gst | money }}</div>
+        <span class="price-item price-item--regular visually-hidden visually-hidden--inline">{{ price_without_gst | money }}</span>
       {%- endif -%}
     </div>
     <div class="price__sale">
