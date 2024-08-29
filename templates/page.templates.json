@@ -370,7 +370,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/rollup-traveller.jpg",
             "title": "Roll Up 850mm wide",
-            "text": "<p>Roll up Regular, Traveller, Prestige, X Banner.<\/p>",
+            "text": "<p>Roll up Regular, Traveller, X Banner.<\/p>",
             "link_label": "Download",
             "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/Rollup_Regular_or_Traveller_Template_850mmx2000mm.pdf?v=1722476310"
           }
@@ -380,9 +380,19 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/rollup-traveller.jpg",
             "title": "Roll Up 1m wide",
-            "text": "<p>Roll up Regular, Traveller, Prestige, X Banner.<\/p>",
+            "text": "<p>Roll up Regular, Traveller, X Banner.<\/p>",
             "link_label": "Download",
             "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/Rollup_Regular_or_Traveller_Template_1000mmx2000mm.pdf?v=1722476310"
+          }
+        },
+        "column_fEt8Gb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/roll_up_car.jpg",
+            "title": "Roll Up Prestige",
+            "text": "<p>830mm & 1150mm wide<\/p>",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/Prestige_Rollups_830-1150.pdf?v=1724962894"
           }
         },
         "column_zkiRUc": {
@@ -398,6 +408,7 @@
       "block_order": [
         "column_zPBiKt",
         "column_n7MmBz",
+        "column_fEt8Gb",
         "column_zkiRUc"
       ],
       "custom_css": [
