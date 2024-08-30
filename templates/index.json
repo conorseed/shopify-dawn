@@ -15,12 +15,12 @@
         "slide_pXKKny": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Winter_special_banner_3-02.png",
+            "image": "shopify:\/\/shop_images\/Catagory_Banners_v2-Event.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "shopify:\/\/collections\/hot-deals",
+            "link": "shopify:\/\/collections\/event-products",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -33,7 +33,7 @@
         "slide_m7qP3H": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2nd_flag_half_price_website_Banner_aug-02.png",
+            "image": "shopify:\/\/shop_images\/A_Sustrainable_Future_website_banner.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -51,12 +51,12 @@
         "slide_JKHfEt": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/10_gazebos_flexs_new-06.png",
+            "image": "shopify:\/\/shop_images\/LSP_Banner_4x-100.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "",
+            "link": "shopify:\/\/collections\/licensed-sport-products",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -196,7 +196,7 @@
             "image": "shopify:\/\/shop_images\/Imagery2022-PlasticBase-SmallFlex.jpg",
             "caption": "Advanced One-piece design",
             "heading": "Durapole Range. Commercial Grade.",
-            "text": "<h4><a href=\"\/collections\/feather-and-teardrop-flags-premium-high-strength\" title=\"Feather flags and Teardrop Flags.  Commercial Grade. 1\/2 Price Durapole Offer! No bagging!\">1\/2 Price Durapole Deal! Click to see details.<\/a><\/h4><p>Experience elegance with our Durapole Teardrop Flags, crafted from durable satin fabric that ensures a sleek appearance with no bagginess, exceptional resilience against the elements, and vibrant graphics that captivate with a denser, richer image.<\/p>",
+            "text": "<p>Experience elegance with our Durapole Teardrop Flags, crafted from durable satin fabric that ensures a sleek appearance with no bagginess, exceptional resilience against the elements, and vibrant graphics that captivate with a denser, richer image.<\/p>",
             "button_label": "View Durapole Range",
             "button_link": "shopify:\/\/collections\/feather-and-teardrop-flags-premium-high-strength"
           }
@@ -217,7 +217,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Supreme_Larger_3-01_bdb3ff00-0c29-42be-aa89-2084580a645b.png",
             "caption": "NZ's most durable",
-            "heading": "Flag Poles. On Sale Now!",
+            "heading": "Flag Poles",
             "text": "<p>These poles are the most durable flag poles available  and have been used widely for the last 20 years throughout NZ.<\/p>",
             "button_label": "View Flag Poles",
             "button_link": "shopify:\/\/collections\/flag-poles"
@@ -266,7 +266,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/new_zealand_collection-17_2.png",
             "title": "New Zealand Flags",
-            "text": "<p>Free Shipping in NZ for our popular NZ flags!<\/p>",
+            "text": "<p>Free Shipping in NZ for our popular NZ flags!*<\/p>",
             "link_label": "View New Zealand Flags",
             "link": "https:\/\/shop.flagmakers.co.nz\/collections\/new-zealand-flags"
           }
