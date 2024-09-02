@@ -12,21 +12,21 @@
     "slideshow_eBLxA7": {
       "type": "slideshow",
       "blocks": {
-        "slide_pXKKny": {
+        "slide_7fX7tb": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Catagory_Banners_v2-Event.jpg",
+            "image": "shopify:\/\/shop_images\/Website_-_Catagories_Custom_Flags.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "shopify:\/\/collections\/event-products",
+            "link": "shopify:\/\/collections\/licensed-sport-products",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "",
+            "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
         },
@@ -39,6 +39,24 @@
             "subheading": "",
             "button_label": "",
             "link": "shopify:\/\/collections\/feather-and-teardrop-flags-premium-high-strength",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_pXKKny": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Catagory_Banners_v2-Event.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify:\/\/collections\/event-products",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -68,8 +86,9 @@
         }
       },
       "block_order": [
-        "slide_pXKKny",
+        "slide_7fX7tb",
         "slide_m7qP3H",
+        "slide_pXKKny",
         "slide_JKHfEt"
       ],
       "custom_css": [
