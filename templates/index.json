@@ -241,12 +241,24 @@
             "button_label": "View Flag Poles",
             "button_link": "shopify:\/\/collections\/flag-poles"
           }
+        },
+        "row_tAHcjW": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Value_Flags_FLEX-74.png",
+            "caption": "Budget Friendly",
+            "heading": "Value Custom Range",
+            "text": "<p>Choose from Teardrop, feather and square flag options with your own design! For the budget conscious consumer who want a good quality product at an affordable price.<\/p>",
+            "button_label": "View Custom Value flags",
+            "button_link": "shopify:\/\/collections\/value-teardrop-and-feather-range"
+          }
         }
       },
       "block_order": [
         "row_xa4gVk",
         "row_tW98W9",
-        "row_gyxV7p"
+        "row_gyxV7p",
+        "row_tAHcjW"
       ],
       "custom_css": [
         "div {--grid-desktop-vertical-spacing: 4rem;}"
