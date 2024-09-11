@@ -162,7 +162,7 @@
         {%- endunless -%}
         {% assign show_no_results = false %}
         {% assign results_diff = search.results.size | minus: filtered_results.size %}
-        {% if results_diff == 0 %}
+        {% if results_diff == 0 or search.results_count == 0 and search.filters == empty %}
           {% assign show_no_results = true %}
         {% endif %}
         {%- if search.results_count == 0 and search.filters == empty -%}
