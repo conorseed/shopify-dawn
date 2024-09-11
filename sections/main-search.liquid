@@ -287,7 +287,7 @@
                     {% if settings.animations_reveal_on_scroll %}
                       data-cascade
                     {% endif %}
-                  >
+                  >{{ item.title }}
                     {%- case item.object_type -%}
                       {%- when 'product' -%}
                         {%- capture product_settings -%}{%- if section.settings.product_show_vendor -%}vendor,{%- endif -%}title,price{%- endcapture -%}
