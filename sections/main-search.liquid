@@ -3,6 +3,26 @@
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 {{ 'component-search.css' | asset_url | stylesheet_tag }}
 
+{% assign excluded_collection_title = "AGENTS PORTAL" %}
+{% assign excluded_product_title = "(Durapole Addon)" %}
+{%- assign filtered_results = '' | split: '' -%}
+
+{% for item in search.results %}
+  {%- assign include_item = true -%}
+
+  {%- if item.object_type == 'product' and item.collections.size > 0 -%}
+    {%- assign collection_titles = item.collections | map: 'title' | join: ',' -%}
+    {%- if collection_titles contains excluded_collection_title -%}
+      {%- assign include_item = false -%}
+    {%- endif -%}
+  {%- endif -%}
+
+  {%- if include_item -%}
+    {%- assign thing = item | sort -%}
+    {%- assign filtered_results = filtered_results | concat: thing -%}
+  {%- endif -%}
+{% endfor %}
+
 {%- if section.settings.enable_filtering or section.settings.enable_sorting -%}
   {{ 'component-facets.css' | asset_url | stylesheet_tag }}
   <script src="{{ 'facets.js' | asset_url }}" defer="defer"></script>
@@ -140,7 +160,7 @@
             </p>
           {%- endif -%}
         {%- endunless -%}
-        {%- if search.results_count == 0 and search.filters == empty -%}
+        {%- if search.results_count == 0 or filtered_results.size == 0 and search.filters == empty -%}
           <p role="status">{{ 'templates.search.no_results' | t: terms: search.terms }}</p>
         {%- endif -%}
       {%- endif -%}
@@ -267,8 +287,6 @@
 
 
                   {%- assign include_item = true -%}
-                  {% assign excluded_collection_title = "AGENTS PORTAL" %}
-                  {% assign excluded_product_title = "(Durapole Addon)" %}
                 
                   {%- if item.object_type == 'product' and item.collections.size > 0 -%}
                     {%- assign collection_titles = item.collections | map: 'title' | join: ',' -%}
