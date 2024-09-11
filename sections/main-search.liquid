@@ -282,7 +282,6 @@
                   {%- endif -%}
 
                   {% if include_item %}
-{{ item.title | escape }}
                   <li
                     class="grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                     {% if settings.animations_reveal_on_scroll %}
