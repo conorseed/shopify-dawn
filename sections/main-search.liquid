@@ -279,11 +279,10 @@
                     {% if title contains excluded_product_title %}
                       {%- assign include_item = false -%}
                     {%- endif -%}
-                    {{ title }}
                   {%- endif -%}
 
                   {% if include_item %}
-
+{{ title }}
                   <li
                     class="grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                     {% if settings.animations_reveal_on_scroll %}
