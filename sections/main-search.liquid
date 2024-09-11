@@ -275,8 +275,8 @@
                     {%- if collection_titles contains excluded_collection_title -%}
                       {%- assign include_item = false -%}
                     {%- endif -%}
-                    {% if item.title contains excluded_product_title %}
-                      <pre>Yes</pre>
+                    {% assign title = item.title | escape %}
+                    {% if title contains excluded_product_title %}
                       {%- assign include_item = false -%}
                     {%- endif -%}
                   {%- endif -%}
