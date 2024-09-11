@@ -274,10 +274,11 @@
                     {%- assign collection_titles = item.collections | map: 'title' | join: ',' -%}
                     {%- if collection_titles contains excluded_collection_title -%}
                       {%- assign include_item = false -%}
-                    
-                    {% elsif item.title contains excluded_product_title %}
-                      {%- assign include_item = false -%}
                     {%- endif -%}
+                  {%- endif -%}
+
+                  {% if item.title contains excluded_product_title %}
+                      {%- assign include_item = false -%}
                   {%- endif -%}
 
                   {% if include_item %}
