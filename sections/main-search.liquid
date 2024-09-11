@@ -161,9 +161,10 @@
           {%- endif -%}
         {%- endunless -%}
         {% assign show_no_results = false %}
-        {% if search.results.size-filtered_results.size == 0 %}
+        {% assign results_diff = search.results.size | minus: filtered_results.size %}
+        {% if results_diff == 0 %}
           {% assign show_no_results = true %}
-          {% endif %}
+        {% endif %}
         {%- if search.results_count == 0 and search.filters == empty -%}
           <p role="status">{{ 'templates.search.no_results' | t: terms: search.terms }}</p>
         {%- endif -%}
