@@ -165,9 +165,9 @@
         {% if results_diff == 0 or search.results_count == 0 and search.filters == empty %}
           {% assign show_no_results = true %}
         {% endif %}
-        {%- if search.results_count == 0 and search.filters == empty -%}
+        {% comment %}{%- if search.results_count == 0 and search.filters == empty -%}
           <p role="status">{{ 'templates.search.no_results' | t: terms: search.terms }}</p>
-        {%- endif -%}
+        {%- endif -%}{% endcomment %}
         {%- if show_no_results -%}
           <p role="status">{{ 'templates.search.no_results' | t: terms: search.terms }}</p>
         {%- endif -%}
