@@ -268,7 +268,7 @@
 
                   {%- assign include_item = true -%}
                   {% assign excluded_collection_title = "AGENTS PORTAL" %}
-                  {% assign excluded_product_title = "(Durapole Addon)" %}
+                  {% assign excluded_product_title = "Durapole Addon" %}
                 
                   {%- if item.object_type == 'product' and item.collections.size > 0 -%}
                     {%- assign collection_titles = item.collections | map: 'title' | join: ',' -%}
