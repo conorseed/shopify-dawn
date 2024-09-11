@@ -279,6 +279,7 @@
                     {% if title contains excluded_product_title %}
                       {%- assign include_item = false -%}
                     {%- endif -%}
+                    {title}
                   {%- endif -%}
 
                   {% if include_item %}
