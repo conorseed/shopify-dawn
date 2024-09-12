@@ -287,7 +287,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Template_images_swing-37.png",
-            "title": "Durapole Swing Large - Double Sided",
+            "title": "Durapole Swing Large - DoubleSided",
             "text": "<p>Display Height: 3100mm<\/p>",
             "link_label": "Download",
             "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/swing-ds-large-template_oct-17.pdf?v=1715034581"
@@ -300,7 +300,17 @@
             "title": "Durapole Swing Extra Large - Single Sided Only",
             "text": "<p>Display Height: 4300mm<\/p>",
             "link_label": "Download",
-            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/xt-flag-xl-ss-template_oct-17.pdf?v=1715034581"
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/Durapole_Swing_XL_SS_Template.pdf?v=1726107676"
+          }
+        },
+        "column_TWrymk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Durapole_Swing_ds_xl_65456828-d698-41ff-90e6-992c53ee5ea4.png",
+            "title": "Durapole Swing Extra Large - Double Sided Only",
+            "text": "<p>Display Height: 4300mm<\/p>",
+            "link_label": "Download",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0714\/1883\/files\/Durapole_Swing_XL_DS_Template.pdf?v=1726107676"
           }
         },
         "column_jyamRB": {
@@ -339,6 +349,7 @@
         "column_NzUbKj",
         "column_ibLqdN",
         "column_kPxF7j",
+        "column_TWrymk",
         "column_jyamRB",
         "column_hmcwkR"
       ],
