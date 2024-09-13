@@ -30,24 +30,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_nqVRU6": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Website_-_Catagories_Custom_Flags.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "https:\/\/www.flagmakers.co.nz\/collections\/feather-and-teardrop-flags-premium-high-strength",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_m7qP3H": {
           "type": "slide",
           "settings": {
@@ -84,6 +66,24 @@
             "text_alignment_mobile": "center"
           }
         },
+        "slide_nqVRU6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Website_-_Catagories_Custom_Flags.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "https:\/\/www.flagmakers.co.nz\/collections\/feather-and-teardrop-flags-premium-high-strength",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_JKHfEt": {
           "type": "slide",
           "settings": {
@@ -105,9 +105,9 @@
       },
       "block_order": [
         "slide_7fX7tb",
-        "slide_nqVRU6",
         "slide_m7qP3H",
         "slide_pXKKny",
+        "slide_nqVRU6",
         "slide_JKHfEt"
       ],
       "custom_css": [
@@ -325,8 +325,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/world_flags_collection.png",
-            "title": "World Flags",
-            "text": "<p>Flagmakers is the largest dye-screen flag maker in NZ. We make beautifully crafted products that you can be proud to fly, and are the preferred supplier to the NZ Government.<\/p>",
+            "title": "Country Flags",
+            "text": "<p><strong>Selected country flags on sale until September 30th! <\/strong><\/p><p>Flagmakers is the largest dye-screen flag maker in NZ. We make beautifully crafted products that you can be proud to fly and are the preferred supplier to the NZ Government.<\/p>",
             "link_label": "View Country Flags",
             "link": "shopify:\/\/collections\/country-flags"
           }
