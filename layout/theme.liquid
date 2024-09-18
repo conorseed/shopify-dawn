@@ -44,7 +44,7 @@
 <html>
   <head>      
     <title>{{ shop.name }}</title>      
-    <meta http-equiv="refresh" content="0;URL='{{ shop.url }}/account/login/?redirect={{ redirect | url_encode }}'" />    
+    <meta http-equiv="refresh" content="0;URL='{{ shop.url }}/account/login/?checkout_url={{ redirect }}'" />    
   </head> 
 </html>
 {% else %}
