@@ -32,14 +32,10 @@
     
        {% for user in private_users %}
         {% if user contains customer.id %}
-          <a href="{{ collection.url }}" class="portal-wrapper">
+          <!-- <a href="{{ collection.url }}" class="portal-wrapper">
             {{ collection.metafields.custom.logo | image_url: width: 100, height: 100 | image_tag: class: 'portal-logo' }}
             <span href="{{ collection.url }}">View {{ collection.metafields.custom.company | default: '' }} Portal</span>
-          </a>
-          <a href="{{ collection.url }}" class="portal-wrapper">
-            {{ collection.metafields.custom.logo | image_url: width: 100, height: 100 | image_tag: class: 'portal-logo' }}
-            <span href="{{ collection.url }}">View {{ collection.metafields.custom.company | default: '' }} Portal</span>
-          </a>
+          </a> -->
         {% endif %}
       {% endfor %}
       
