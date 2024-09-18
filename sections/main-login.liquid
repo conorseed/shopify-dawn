@@ -165,7 +165,8 @@
 
 <script>
 if (window.location.search.includes('redirect')) {
-  document.querySelector('input[name="checkout_url"]').value = window.location.search.split('redirect=')[1];
+  const redirectUrl = decodeURIComponent(window.location.search.split('redirect=')[1]);
+  document.querySelector('input[name="checkout_url"]').value = redirectUrl;
 }
 </script>
 
