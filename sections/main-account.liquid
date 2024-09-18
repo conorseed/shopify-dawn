@@ -36,7 +36,8 @@
             <div>{% assign private_portal_output = true %}
           {% endif %}
           <a href="{{ collection.url }}" class="portal-wrapper">
-            {{ collection.metafields.custom.logo | image_url: width: 100, height: 100 | image_tag: class: 'portal-logo' }}
+            <style>.portal-logo[portal="{{ collection.metafields.custom.company }}"]{ background-color: {{collection.metafields.custom.header_colour}}}</style>
+            {{ collection.metafields.custom.logo | image_url: width: 100, height: 100 | image_tag: class: 'portal-logo', portal: collection.metafields.custom.company }}
             <span href="{{ collection.url }}">View {{ collection.metafields.custom.company | default: '' }} Portal</span>
           </a>
         {% endif %}
