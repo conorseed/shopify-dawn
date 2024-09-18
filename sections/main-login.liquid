@@ -137,6 +137,8 @@
         </a>
       {%- endif -%}
 
+      <input type="hidden" name="checkout_url" value="/account">
+
       <button>
         {{ 'customer.login_page.sign_in' | t }}
       </button>
@@ -160,6 +162,12 @@
     </div>
   {%- endif -%}
 </div>
+
+<script>
+if (window.location.search.includes('redirect')) {
+  document.querySelector('input[name="checkout_url"]').value = window.location.search.split('redirect=')[1];
+}
+</script>
 
 {% schema %}
 {
