@@ -34,11 +34,11 @@
         {% if user contains customer.id %}
           <div class="portal-wrapper">
             {{ collection.metafields.custom.logo | image_url: width: 100, height: 100 | image_tag: class: 'portal-logo' }}
-            <a href="{{ collection.url }}">View Portal</a>
+            <a href="{{ collection.url }}">View {{ collection.metafields.custom.company | default: '' }} Portal</a>
           </div>
           <div class="portal-wrapper">
             {{ collection.metafields.custom.logo | image_url: width: 100, height: 100 | image_tag: class: 'portal-logo' }}
-            <a href="{{ collection.url }}">View Portal</a>
+            <a href="{{ collection.url }}">View {{ collection.metafields.custom.company | default: '' }} Portal</a>
           </div>
         {% endif %}
       {% endfor %}
