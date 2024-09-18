@@ -19,10 +19,11 @@
  {% endif %}
 
  {% if template.name contains 'product' and request.design_mode == false %}
-   {% assign redirect = product.url %}
    {% for collection in product.collections %}
      {% if collection.metafields.custom.users %}
        {%- assign private_page = true -%}
+       {% assign redirect = collection.url | append: product.url %}
+       
        {% assign private_users = collection.metafields.custom.users | remove: '[' | remove: ']' | split: ',' %}
   
        {% for user in private_users %}
