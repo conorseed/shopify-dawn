@@ -26,7 +26,15 @@
   </div>
 
   <div>
-    {{ collections | json }}
+  {% for collection in collection %}
+    {% for user in collection.metafields.custom.users %}
+      {% if user contains customer.id %}
+        <h2>{{ collection.title }}</h2>
+        <p>{{ collection.description }}</p>
+        <a href="{{ collection.url }}">View Portal</a>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
   </div>
 
   <div>
