@@ -26,7 +26,7 @@
   </div>
 
   <div>
-    <!-- {% assign private_portal_output = false %}
+    {% assign private_portal_output = false %}
     {% for collection in collections %}
       {% assign private_users = collection.metafields.custom.users | remove: '[' | remove: ']' | split: ',' %}
     
@@ -42,7 +42,7 @@
         {% endif %}
       {% endfor %}
     {% endfor %}
-    {% if private_portal_output %}</div>{% endif %} -->
+    {% if private_portal_output %}</div>{% endif %}
     <div>
       <h2>{{ 'customer.orders.title' | t }}</h2>
 
