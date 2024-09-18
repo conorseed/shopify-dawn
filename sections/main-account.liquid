@@ -31,9 +31,11 @@
 
      {% for user in private_users %}
       {% if user contains customer.id %}
-        <h2>{{ collection.title }}</h2>
-        <p>{{ collection.description }}</p>
-        <a href="{{ collection.url }}">View Portal</a>
+        <div>
+          {{ product.featured_image | image_url: '200x200' }}
+          <h2>{{ collection.title }}</h2>
+          <a href="{{ collection.url }}">View Portal</a>
+        </div>div>
       {% endif %}
     {% endfor %}
   {% endfor %}
