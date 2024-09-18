@@ -1,14 +1,17 @@
 <!doctype html>
 {%- assign private_page = false -%}
+{%- assign redirect = '/' -%}
  {%- if template.name == 'collection' and request.design_mode == false -%}
    {% if collection.metafields.custom.users %}
      {%- assign private_page = true -%}
+     {% assign redirect = collection.url %}
      
      {% assign private_users = collection.metafields.custom.users | remove: '[' | remove: ']' | split: ',' %}
 
      {% for user in private_users %}
        {% if user contains customer.id %}
          {%- assign private_page = false -%}
+         {% break %}
        {% endif %}
      {% endfor %}
      
@@ -19,15 +22,19 @@
    {% for collection in product.collections %}
      {% if collection.metafields.custom.users %}
        {%- assign private_page = true -%}
+       {% assign redirect = collection.url %}
        
        {% assign private_users = collection.metafields.custom.users | remove: '[' | remove: ']' | split: ',' %}
   
        {% for user in private_users %}
          {% if user contains customer.id %}
            {%- assign private_page = false -%}
+           {% break %}
          {% endif %}
        {% endfor %}
-       
+     {% endif %}
+     {% if private_page %}
+       {% break %}
      {% endif %}
    {% endfor %}
      
@@ -37,7 +44,7 @@
 <html>
   <head>      
     <title>{{ shop.name }}</title>      
-    <meta http-equiv="refresh" content="0;URL='{{ shop.url }}/account/login'" />    
+    <meta http-equiv="refresh" content="0;URL='{{ shop.url }}/account/login/?redirect={{ redirect | url_encode }}'" />    
   </head> 
 </html>
 {% else %}
