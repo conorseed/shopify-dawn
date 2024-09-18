@@ -26,22 +26,25 @@
   </div>
 
   <div>
-  {% for collection in collections %}
-    {% assign private_users = collection.metafields.custom.users | remove: '[' | remove: ']' | split: ',' %}
-
-     {% for user in private_users %}
-      {% if user contains customer.id %}
-        <div>
-          {{ collection.metafields.custom.logo | image_url: width: 100 | image_tag: class: 'logo' }}
-          <h2>{{ collection.title }}</h2>
-          <a href="{{ collection.url }}">View Portal</a>
-        </div>
-      {% endif %}
+    <div>
+    {% for collection in collections %}
+      {% assign private_users = collection.metafields.custom.users | remove: '[' | remove: ']' | split: ',' %}
+    
+       {% for user in private_users %}
+        {% if user contains customer.id %}
+          <div class="portal-wrapper">
+            {{ collection.metafields.custom.logo | image_url: width: 100 | image_tag: class: 'portal-logo' }}
+            <a href="{{ collection.url }}">View Portal</a>
+          </div>
+          <div class="portal-wrapper">
+            {{ collection.metafields.custom.logo | image_url: width: 100 | image_tag: class: 'portal-logo' }}
+            <a href="{{ collection.url }}">View Portal</a>
+          </div>
+        {% endif %}
+      {% endfor %}
+      
     {% endfor %}
-  {% endfor %}
-  </div>
-
-  <div>
+    </div>
     <div>
       <h2>{{ 'customer.orders.title' | t }}</h2>
 
