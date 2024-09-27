@@ -26,6 +26,26 @@
   </div>
 
   <div>
+    {% assign private_portal_output = false %}
+    {% for collection in collections %}
+      {% assign private_users = collection.metafields.custom.users | remove: '[' | remove: ']' | split: ',' %}
+    
+       {% for user in private_users %}
+        {% if user contains customer.id %}
+          {% if private_portal_output == false %}
+            <div>{% assign private_portal_output = true %}
+          {% endif %}
+          <a href="{{ collection.url }}" class="portal-wrapper">
+            <style>.portal-logo[portal="{{ collection.metafields.custom.company }}"]{ background-color: {{collection.metafields.custom.header_colour}}}</style>
+            {% if collection.metafields.custom.logo %}
+              {{ collection.metafields.custom.logo | image_url: width: 100 | image_tag: class: 'portal-logo', portal: collection.metafields.custom.company }}
+            {% endif %}
+            <span href="{{ collection.url }}">View {{ collection.metafields.custom.company | default: '' }} Portal</span>
+          </a>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+    {% if private_portal_output %}</div>{% endif %}
     <div>
       <h2>{{ 'customer.orders.title' | t }}</h2>
 
