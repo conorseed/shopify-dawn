@@ -30,7 +30,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Request A Free Quote",
-            "button_link_1": "shopify:\/\/pages\/contact",
+            "button_link_1": "shopify://pages/contact",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -47,7 +47,7 @@
         ".banner__text.body {color: #fff;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Fitout_2.jpg",
+        "image": "shopify://shop_images/Fitout_2.jpg",
         "image_overlay_opacity": 40,
         "image_height": "small",
         "adapt_height_first_image": false,
@@ -66,14 +66,14 @@
         "template--16273051025607__252834fa-c75e-4808-933a-7afbd3ac1a9b-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Smart Office New Zealand<\/p>",
+            "heading": "<p>Smart Office New Zealand</p>",
             "heading_size": "h0"
           }
         },
         "template--16273051025607__252834fa-c75e-4808-933a-7afbd3ac1a9b-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Bargain priced range that could be the cheapest web priced furniture in New Zealand.<br\/>Office furniture NZ, office chairs, office desks, office workstations and more!<br\/><br\/><strong>Proudly NZ Owned & Operated.<\/strong> <strong>Thank you for shopping New Zealand local.<\/strong><\/p>"
+            "text": "<p>Bargain priced range that could be the cheapest web priced furniture in New Zealand.<br/>Office furniture NZ, office chairs, office desks, office workstations and more!<br/><br/><strong>Proudly NZ Owned & Operated.</strong> <strong>Thank you for shopping New Zealand local.</strong></p>"
           }
         }
       },
@@ -124,7 +124,7 @@
         "7f2250d2-9d0e-4d88-a6da-6d3965df0bbb": {
           "type": "column",
           "settings": {
-            "title": "Shop Online 24\/7",
+            "title": "Shop Online 24/7",
             "text": "",
             "link_label": "",
             "link": ""
@@ -160,7 +160,7 @@
         "a {color: rgba(129, 188, 182, 0.85); text-decoration-color: rgba(129, 188, 182, 0.85);}"
       ],
       "settings": {
-        "custom_liquid": "<div class=\"page-width\" style=\"text-align: left;\">\n<h2 style=\"text-align: center;\">Who Can Cater for All the Office Fitouts in Wellington?<\/h2>\n<p>There is only one <strong>office fit out in Wellington<\/strong> that matters. That is <em>your<\/em> <strong>office fit out in Wellington<\/strong>. In principle that means to do a great job for you, we only need to provide one suite of furniture: the one that is right for you. But which one is that?<\/p>\n<p>No one knows exactly what styles and models they are going to choose until they start browsing. And that means to do a great job for you, we need to be able to show you everything available. That would be a pretty big showroom &ndash; and who wants to spend all day wandering around a vast hangar full of furniture?<\/p>\n<p><a href=\"http:\/\/www.smartofficefurniture.co.nz\/\">Smart Office Furniture<\/a> solve the problem by not having a showroom. We don&rsquo;t have storerooms or warehouses either. The world is full of furniture in storerooms and warehouses.<\/p>\n<p>What we do is give you access to a whole host of them and all they contain. You browse on our website. You order from us. We get the goods delivered to you.\n<a id=\"show-more\" href=\"#read-more\">Read More<\/a><\/p>",
+        "custom_liquid": "<div class=\"page-width\" style=\"text-align: left;\">\n<h2 style=\"text-align: center;\">Who Can Cater for All the Office Fitouts in Wellington?</h2>\n<p>There is only one <strong>office fit out in Wellington</strong> that matters. That is <em>your</em> <strong>office fit out in Wellington</strong>. In principle that means to do a great job for you, we only need to provide one suite of furniture: the one that is right for you. But which one is that?</p>\n<p>No one knows exactly what styles and models they are going to choose until they start browsing. And that means to do a great job for you, we need to be able to show you everything available. That would be a pretty big showroom &ndash; and who wants to spend all day wandering around a vast hangar full of furniture?</p>\n<p><a href=\"http://www.smartofficefurniture.co.nz/\">Smart Office Furniture</a> solve the problem by not having a showroom. We don&rsquo;t have storerooms or warehouses either. The world is full of furniture in storerooms and warehouses.</p>\n<p>What we do is give you access to a whole host of them and all they contain. You browse on our website. You order from us. We get the goods delivered to you.\n<a id=\"show-more\" href=\"#read-more\">Read More</a></p>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 36
@@ -179,7 +179,7 @@
         "text_qjP3XU": {
           "type": "text",
           "settings": {
-            "text": "<p>Yes, we can do that. If what you need is available from a Kiwi manufacturer, so much the better. The world is your oyster and New Zealand is a significant part of it. This is a hard-working country with a lot of skilled people in all sorts of fields.<\/p><p>However, we don’t just service Wellington, but our <a href=\"\/pages\/office-fit-out-christchurch\" title=\"Office Fit Out Christchurch\">office fit out services<\/a> are available across NZ. Whether you’re located in Auckland, Wellington or looking for an <a href=\"https:\/\/www.smartofficefurniture.co.nz\/pages\/office-fit-outs-christchurch\" title=\"https:\/\/www.smartofficefurniture.co.nz\/pages\/office-fit-outs-christchurch\">Office Fitout in Christchurch<\/a>. We will be able to help. <\/p><p><\/p>",
+            "text": "<p>Yes, we can do that. If what you need is available from a Kiwi manufacturer, so much the better. The world is your oyster and New Zealand is a significant part of it. This is a hard-working country with a lot of skilled people in all sorts of fields.</p><p>However, we don’t just service Wellington, but our <a href=\"/pages/office-fit-out-christchurch\" title=\"Office Fit Out Christchurch\">office fit out services</a> are available across NZ. Whether you’re located in Auckland, Wellington or looking for an <a href=\"https://www.smartofficefurniture.co.nz/pages/office-fit-out-christchurch\" title=\"https://www.smartofficefurniture.co.nz/pages/office-fit-out-christchurch\">Office Fitout in Christchurch</a>. We will be able to help. </p><p></p>",
             "text_style": "body"
           }
         }
@@ -189,7 +189,7 @@
         "text_qjP3XU"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Fitout_4.webp",
+        "image": "shopify://shop_images/Fitout_4.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -215,7 +215,7 @@
         "text_t7MiAb": {
           "type": "text",
           "settings": {
-            "text": "<p>At SmartOffice NZ, we have the ability to help you design the fit-out of your new office with our <a href=\"\/pages\/design-service\" title=\"Design Service\">Design service<\/a>. This service includes:<br\/><\/p><ul><li>Recommended layout and products for office furniture within your office space<\/li><li>Drawing of the space from your measurements or plans<\/li><li>Locating products to suit power supply etc. if this information is available<\/li><li>Location and visualisation of a full range of furniture products as appropriate<\/li><\/ul>",
+            "text": "<p>At SmartOffice NZ, we have the ability to help you design the fit-out of your new office with our <a href=\"/pages/design-service\" title=\"Design Service\">Design service</a>. This service includes:<br/></p><ul><li>Recommended layout and products for office furniture within your office space</li><li>Drawing of the space from your measurements or plans</li><li>Locating products to suit power supply etc. if this information is available</li><li>Location and visualisation of a full range of furniture products as appropriate</li></ul>",
             "text_style": "body"
           }
         },
@@ -223,7 +223,7 @@
           "type": "button",
           "settings": {
             "button_label": "Find out More",
-            "button_link": "shopify:\/\/pages\/design-service"
+            "button_link": "shopify://pages/design-service"
           }
         }
       },
@@ -233,7 +233,7 @@
         "button_MQMLVE"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/all_wellplanned-office_blog-image1_16.9.jpg",
+        "image": "shopify://shop_images/all_wellplanned-office_blog-image1_16.9.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -252,7 +252,7 @@
         "a {color: rgba(129, 188, 182, 0.85); text-decoration-color: rgba(129, 188, 182, 0.85);}"
       ],
       "settings": {
-        "custom_liquid": "<div class=\"page-width\">\n<div id=\"read-more\">\n<h2 style=\"text-align: center;\">Office Fitouts in Wellington with Imported Furniture?<\/h2>\n<p>Imported is good too. We don&rsquo;t believe in being blinkered about this. We&rsquo;re a New Zealand company and proud of it, so we support home-grown talent when we can, but you can&rsquo;t be totally insular about these things. If there is great stuff available somewhere else, we would be failing in our duty to you, the customer, if we didn&rsquo;t give you access to it.<\/p> <a id=\"hide-less\" href=\"#read-more\">Read Less<\/a>\n\n<\/div>\n<h2 style=\"text-align: center;\">Browse Our Product Range<\/h2>\n<p>Be prepared for an eye-opening experience. You are going to see options you didn&rsquo;t know existed. Take this list of variants of office chairs. Mesh-backed models. High-lift ones with circular footrests or backless, armless ones models. Big, fancy, super-comfortable ones originally designed for executives.&nbsp;<\/p>\n<p>And that&rsquo;s just the chairs.<\/p>\n<p>How about this for desks: L-shaped ones, desks called workstations, <a href=\"https:\/\/www.smartofficefurniture.co.nz\/collections\/corner-desks-workstations\">corner desks<\/a>, &ldquo;back-to-corner&rdquo; workstations, and <a href=\"https:\/\/www.smartofficefurniture.co.nz\/collections\/height-adjustable-sit-stand-desks\">standing desks<\/a> (you stand up to work and it&rsquo;s good for your posture.<\/p>\n<p>You&rsquo;re going to have to make notes and draw up shortlists. You&rsquo;re going to be making decisions. You&rsquo;re going to be tempted by things you weren&rsquo;t actually looking for at first, at prices that will fit into your budget.<\/p>",
+        "custom_liquid": "<div class=\"page-width\">\n<div id=\"read-more\">\n<h2 style=\"text-align: center;\">Office Fitouts in Wellington with Imported Furniture?</h2>\n<p>Imported is good too. We don&rsquo;t believe in being blinkered about this. We&rsquo;re a New Zealand company and proud of it, so we support home-grown talent when we can, but you can&rsquo;t be totally insular about these things. If there is great stuff available somewhere else, we would be failing in our duty to you, the customer, if we didn&rsquo;t give you access to it.</p> <a id=\"hide-less\" href=\"#read-more\">Read Less</a>\n\n</div>\n<h2 style=\"text-align: center;\">Browse Our Product Range</h2>\n<p>Be prepared for an eye-opening experience. You are going to see options you didn&rsquo;t know existed. Take this list of variants of office chairs. Mesh-backed models. High-lift ones with circular footrests or backless, armless ones models. Big, fancy, super-comfortable ones originally designed for executives.&nbsp;</p>\n<p>And that&rsquo;s just the chairs.</p>\n<p>How about this for desks: L-shaped ones, desks called workstations, <a href=\"https://www.smartofficefurniture.co.nz/collections/corner-desks-workstations\">corner desks</a>, &ldquo;back-to-corner&rdquo; workstations, and <a href=\"https://www.smartofficefurniture.co.nz/collections/height-adjustable-sit-stand-desks\">standing desks</a> (you stand up to work and it&rsquo;s good for your posture.</p>\n<p>You&rsquo;re going to have to make notes and draw up shortlists. You&rsquo;re going to be making decisions. You&rsquo;re going to be tempted by things you weren&rsquo;t actually looking for at first, at prices that will fit into your budget.</p>",
         "color_scheme": "background-1",
         "padding_top": 24,
         "padding_bottom": 24
@@ -367,7 +367,7 @@
 
       ],
       "settings": {
-        "custom_liquid": "<div class=\"page-width\"><h2>Contact Us and Get Started with your Office Fitout in Wellington<\/h2>\n<p>The ordering process is simple, but with all these options to choose from, you may want to discuss things &ndash; and we will be delighted to help. You can call us or send us an email. Or fill in the online contact form below, indicating what you&rsquo;re looking for or would like clarification on. That will give us a heads-up so we can hit the ground running.\n<\/p>\n<\/div>",
+        "custom_liquid": "<div class=\"page-width\"><h2>Contact Us and Get Started with your Office Fitout in Wellington</h2>\n<p>The ordering process is simple, but with all these options to choose from, you may want to discuss things &ndash; and we will be delighted to help. You can call us or send us an email. Or fill in the online contact form below, indicating what you&rsquo;re looking for or would like clarification on. That will give us a heads-up so we can hit the ground running.\n</p>\n</div>",
         "color_scheme": "background-2",
         "padding_top": 40,
         "padding_bottom": 52
@@ -412,7 +412,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Get In Touch",
-            "button_link_1": "shopify:\/\/pages\/contact",
+            "button_link_1": "shopify://pages/contact",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -426,7 +426,7 @@
         "template--16273051025607__69faa1f7-132d-4a31-b5b8-65b5de68b5bf-buttons-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Fitout_5.jpg",
+        "image": "shopify://shop_images/Fitout_5.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
