@@ -150,9 +150,13 @@ document.addEventListener('DOMContentLoaded', function(){
           this.addEventListener(
             'input',
             debounce((event) => {
-              // const body = JSON.stringify({ note: event.target.value });
-              // fetch(`${routes.cart_update_url}`, { ...fetchConfig(), ...{ body } });
-              console.log(event);
+              const inputs = this.querySelectorAll('input');
+              const data = {};
+              inputs.forEach((input) => {
+                data[input.name] = input.value;
+              });
+              const body = JSON.stringify({attributes: data});
+              fetch(`${routes.cart_update_url}`, { ...fetchConfig(), ...{ body } });
             }, ON_CHANGE_DEBOUNCE_TIMER)
           );
         }
