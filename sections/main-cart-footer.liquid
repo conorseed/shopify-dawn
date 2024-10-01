@@ -38,9 +38,11 @@
       {%- endif -%}
 
       <div class="cart__note field">
-        <label for="purchase-order-number">Purchase Order Number</label>
-        <input class="field__input" id="purchase-order-number" type="text" name="attributes[Purchase Order Number]" value="{{ cart.attributes["Purchase Order Number"] }}">
-        <input id="sageid" type="hidden" name="attributes[sageid]" value="0000">
+        <cart-fields>
+          <label for="purchase-order-number">Purchase Order Number</label>
+          <input class="field__input" id="purchase-order-number" type="text" name="attributes[Purchase Order Number]" value="{{ cart.attributes["Purchase Order Number"] }}">
+          <input id="sageid" type="hidden" name="attributes[sageid]" value="0000">
+        </cart-fields>
       </div>
 
       <div class="cart__blocks">
@@ -136,6 +138,28 @@
       document.querySelector('#cart').submit();
     });
   });
+</script>
+
+<script>
+if (!customElements.get('cart-fields')) {
+  customElements.define(
+    'cart-fields',
+    class CartFields extends HTMLElement {
+      constructor() {
+        super();
+
+        this.addEventListener(
+          'input',
+          debounce((event) => {
+            // const body = JSON.stringify({ note: event.target.value });
+            // fetch(`${routes.cart_update_url}`, { ...fetchConfig(), ...{ body } });
+            console.log(event);
+          }, ON_CHANGE_DEBOUNCE_TIMER)
+        );
+      }
+    }
+  );
+}
 </script>
 
 {% schema %}
