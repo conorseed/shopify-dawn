@@ -139,25 +139,27 @@
 </script>
 
 <script>
-if (!customElements.get('cart-fields')) {
-  customElements.define(
-    'cart-fields',
-    class CartFields extends HTMLElement {
-      constructor() {
-        super();
-
-        this.addEventListener(
-          'input',
-          debounce((event) => {
-            // const body = JSON.stringify({ note: event.target.value });
-            // fetch(`${routes.cart_update_url}`, { ...fetchConfig(), ...{ body } });
-            console.log(event);
-          }, ON_CHANGE_DEBOUNCE_TIMER)
-        );
+document.addEventListener('DOMContentLoaded', function(){
+  if (!customElements.get('cart-fields')) {
+    customElements.define(
+      'cart-fields',
+      class CartFields extends HTMLElement {
+        constructor() {
+          super();
+  
+          this.addEventListener(
+            'input',
+            debounce((event) => {
+              // const body = JSON.stringify({ note: event.target.value });
+              // fetch(`${routes.cart_update_url}`, { ...fetchConfig(), ...{ body } });
+              console.log(event);
+            }, ON_CHANGE_DEBOUNCE_TIMER)
+          );
+        }
       }
-    }
-  );
-}
+    );
+  }
+})
 </script>
 
 {% schema %}
