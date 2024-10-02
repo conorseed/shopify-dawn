@@ -110,15 +110,6 @@
           "settings": {
           }
         },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "<p>You can <a href=\"#\" target=\"_blank\" title=\"#\">view shipping details on this page</a>, as well as <a href=\"/pages/refund-and-returns-policy\" target=\"_blank\" title=\"Refund and Returns Policy\">information about refunds and returns here</a>.</p>",
-            "page": ""
-          }
-        },
         "quotify_button_gxz9wr": {
           "type": "shopify://apps/quotify/blocks/button/e72a6125-4dd6-4154-a361-ca94e10e6d52",
           "settings": {
@@ -130,6 +121,36 @@
             "request_button_width": 100,
             "enable_quote_cart_button": false,
             "enable_quote_cart_button_count": true,
+            "quote_cart_button_text": "Show Quote Cart",
+            "quote_cart_button_class": "btn btn--secondary button button--secondary",
+            "quote_cart_button_css": "",
+            "quote_cart_button_width": 100,
+            "button_positions": "side-by-side",
+            "button_horizontal_alignment": "center",
+            "button_gap": 15,
+            "block_css": ""
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping & Returns",
+            "icon": "truck",
+            "content": "<p>You can <a href=\"#\" target=\"_blank\" title=\"#\">view shipping details on this page</a>, as well as <a href=\"/pages/refund-and-returns-policy\" target=\"_blank\" title=\"Refund and Returns Policy\">information about refunds and returns here</a>.</p>",
+            "page": ""
+          }
+        },
+        "quotify_button_dnjEn3": {
+          "type": "shopify://apps/quotify/blocks/button/e72a6125-4dd6-4154-a361-ca94e10e6d52",
+          "settings": {
+            "request_button": true,
+            "request_button_text": "Request Quote",
+            "request_product": "{{product}}",
+            "request_button_class": "btn btn--primary button button--primary",
+            "request_button_css": "",
+            "request_button_width": 100,
+            "enable_quote_cart_button": false,
+            "enable_quote_cart_button_count": false,
             "quote_cart_button_text": "Show Quote Cart",
             "quote_cart_button_class": "btn btn--secondary button button--secondary",
             "quote_cart_button_css": "",
@@ -153,8 +174,9 @@
         "custom_liquid_XfNMHt",
         "shopacado_volume_discounts_discount_table_3VWU8V",
         "description",
+        "quotify_button_gxz9wr",
         "collapsible-row-1",
-        "quotify_button_gxz9wr"
+        "quotify_button_dnjEn3"
       ],
       "settings": {
         "enable_sticky_info": true,
