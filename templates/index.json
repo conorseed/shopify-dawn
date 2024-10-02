@@ -12,15 +12,51 @@
     "slideshow_eBLxA7": {
       "type": "slideshow",
       "blocks": {
-        "slide_7fX7tb": {
+        "slide_pXKKny": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Website_banner_-_value_flags_CUSTOM-02.png",
+            "image": "shopify://shop_images/SPRING_SPEICAL_packages-04_deebadc5-993a-4b54-85f2-c23f1bf38c60.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "shopify:\/\/collections\/value-teardrop-and-feather-range",
+            "link": "shopify://collections/event-packages",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_7fX7tb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Website_banner_-_value_flags_CUSTOM-02.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify://collections/value-teardrop-and-feather-range",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_nqVRU6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Website_-_Catagories_Custom_Flags.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "https://www.flagmakers.co.nz/collections/feather-and-teardrop-flags-premium-high-strength",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -33,66 +69,30 @@
         "slide_m7qP3H": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/A_Sustrainable_Future_website_banner.jpg",
+            "image": "shopify://shop_images/A_Sustrainable_Future_website_banner.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "shopify:\/\/collections\/feather-and-teardrop-flags-premium-high-strength",
+            "link": "shopify://collections/feather-and-teardrop-flags-premium-high-strength",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_pXKKny": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Catagory_Banners_v2-Event.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "shopify:\/\/collections\/event-products",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_nqVRU6": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Website_-_Catagories_Custom_Flags.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "https:\/\/www.flagmakers.co.nz\/collections\/feather-and-teardrop-flags-premium-high-strength",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
         },
         "slide_JKHfEt": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Licenced_Products_03c6d04f-4749-49aa-adf2-3d7b1262780d.png",
+            "image": "shopify://shop_images/Licenced_Products_03c6d04f-4749-49aa-adf2-3d7b1262780d.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "shopify:\/\/collections\/licensed-sport-products",
+            "link": "shopify://collections/licensed-sport-products",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -104,10 +104,10 @@
         }
       },
       "block_order": [
-        "slide_7fX7tb",
-        "slide_m7qP3H",
         "slide_pXKKny",
+        "slide_7fX7tb",
         "slide_nqVRU6",
+        "slide_m7qP3H",
         "slide_JKHfEt"
       ],
       "custom_css": [
@@ -145,7 +145,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "View Specials",
-            "button_link_1": "shopify:\/\/collections\/hot-deals",
+            "button_link_1": "shopify://collections/hot-deals",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -160,7 +160,7 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/main-image-for-website.jpg",
+        "image": "shopify://shop_images/main-image-for-website.jpg",
         "image_overlay_opacity": 50,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -186,7 +186,7 @@
         "text_4RkWg4": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "text_style": "body"
           }
         },
@@ -194,7 +194,7 @@
           "type": "button",
           "settings": {
             "button_label": "View Summer Deals",
-            "button_link": "shopify:\/\/collections\/hot-deals",
+            "button_link": "shopify://collections/hot-deals",
             "button_style_secondary": false
           }
         }
@@ -210,7 +210,7 @@
         "img {border-radius: 8px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/main-image-for-website.jpg",
+        "image": "shopify://shop_images/main-image-for-website.jpg",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -231,45 +231,45 @@
         "row_xa4gVk": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Imagery2022-PlasticBase-SmallFlex.jpg",
+            "image": "shopify://shop_images/Imagery2022-PlasticBase-SmallFlex.jpg",
             "caption": "Advanced One-piece design",
             "heading": "Durapole Range. Commercial Grade.",
-            "text": "<p>Experience elegance with our Durapole Teardrop Flags, crafted from durable satin fabric that ensures a sleek appearance with no bagginess, exceptional resilience against the elements, and vibrant graphics that captivate with a denser, richer image.<\/p>",
+            "text": "<p>Experience elegance with our Durapole Teardrop Flags, crafted from durable satin fabric that ensures a sleek appearance with no bagginess, exceptional resilience against the elements, and vibrant graphics that captivate with a denser, richer image.</p>",
             "button_label": "View Durapole Range",
-            "button_link": "shopify:\/\/collections\/feather-and-teardrop-flags-premium-high-strength"
+            "button_link": "shopify://collections/feather-and-teardrop-flags-premium-high-strength"
           }
         },
         "row_tW98W9": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/collection_-_value_2.png",
+            "image": "shopify://shop_images/collection_-_value_2.png",
             "caption": "",
             "heading": "Retail Flags",
-            "text": "<p><strong>Commercial Grade. <\/strong><\/p><p>Classy new designs with real punch to attract attention.  Double and single-sided options available.<\/p>",
+            "text": "<p><strong>Commercial Grade. </strong></p><p>Classy new designs with real punch to attract attention.  Double and single-sided options available.</p>",
             "button_label": "View Retail Flags",
-            "button_link": "shopify:\/\/collections\/retail-flags"
+            "button_link": "shopify://collections/retail-flags"
           }
         },
         "row_gyxV7p": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Supreme_Larger_3-01_bdb3ff00-0c29-42be-aa89-2084580a645b.png",
+            "image": "shopify://shop_images/Supreme_Larger_3-01_bdb3ff00-0c29-42be-aa89-2084580a645b.png",
             "caption": "NZ's most durable",
             "heading": "Flag Poles",
-            "text": "<p>These poles are the most durable flag poles available  and have been used widely for the last 20 years throughout NZ.<\/p>",
+            "text": "<p>These poles are the most durable flag poles available  and have been used widely for the last 20 years throughout NZ.</p>",
             "button_label": "View Flag Poles",
-            "button_link": "shopify:\/\/collections\/flag-poles"
+            "button_link": "shopify://collections/flag-poles"
           }
         },
         "row_tAHcjW": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Value_Flags_FLEX-74_-_new_3.png",
+            "image": "shopify://shop_images/Value_Flags_FLEX-74_-_new_3.png",
             "caption": "Budget Friendly",
             "heading": "Value Custom Range",
-            "text": "<p>Choose from Teardrop, feather and square flag options with your own design! For the budget conscious consumer who want a good quality product at an affordable price.<\/p>",
+            "text": "<p>Choose from Teardrop, feather and square flag options with your own design! For the budget conscious consumer who want a good quality product at an affordable price.</p>",
             "button_label": "View Custom Value flags",
-            "button_link": "shopify:\/\/collections\/value-teardrop-and-feather-range"
+            "button_link": "shopify://collections/value-teardrop-and-feather-range"
           }
         }
       },
@@ -304,91 +304,91 @@
         "column_xgEbqJ": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Value_Pavement_Flags_visuals_img-02-02.png",
+            "image": "shopify://shop_images/Value_Pavement_Flags_visuals_img-02-02.png",
             "title": "NEW VALUE RETAIL FLAG RANGE!",
-            "text": "<p>A range of stock designs for the budget conscious consumer who want a good quality product at a affordable price.<\/p>",
+            "text": "<p>A range of stock designs for the budget conscious consumer who want a good quality product at a affordable price.</p>",
             "link_label": "View Value Range",
-            "link": "https:\/\/shop.flagmakers.co.nz\/collections\/value-range-retail-stock-design-flags"
+            "link": "https://shop.flagmakers.co.nz/collections/value-range-retail-stock-design-flags"
           }
         },
         "column_rzByyE": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/new_zealand_collection-17_2.png",
+            "image": "shopify://shop_images/new_zealand_collection-17_2.png",
             "title": "New Zealand Flags",
-            "text": "<p>Free Shipping in NZ for our popular NZ flags!*<\/p>",
+            "text": "<p>Free Shipping in NZ for our popular NZ flags!*</p>",
             "link_label": "View New Zealand Flags",
-            "link": "https:\/\/shop.flagmakers.co.nz\/collections\/new-zealand-flags"
+            "link": "https://shop.flagmakers.co.nz/collections/new-zealand-flags"
           }
         },
         "column_Re38gF": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/world_flags_collection.png",
+            "image": "shopify://shop_images/world_flags_collection.png",
             "title": "Country Flags",
-            "text": "<p><strong>Selected country flags on sale until September 30th! <\/strong><\/p><p>Flagmakers is the largest dye-screen flag maker in NZ. We make beautifully crafted products that you can be proud to fly and are the preferred supplier to the NZ Government.<\/p>",
+            "text": "<p><strong>Selected country flags on sale until September 30th! </strong></p><p>Flagmakers is the largest dye-screen flag maker in NZ. We make beautifully crafted products that you can be proud to fly and are the preferred supplier to the NZ Government.</p>",
             "link_label": "View Country Flags",
-            "link": "shopify:\/\/collections\/country-flags"
+            "link": "shopify://collections/country-flags"
           }
         },
         "column_mCQPm9": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Roll-up_Banners_cb22e328-7761-4938-b056-519e8f555c96.jpg",
+            "image": "shopify://shop_images/Roll-up_Banners_cb22e328-7761-4938-b056-519e8f555c96.jpg",
             "title": "Roll-up Banners",
-            "text": "<p>Long-life Rollup Banners made from our beautiful satin fabric that do not curl or crease.<\/p>",
+            "text": "<p>Long-life Rollup Banners made from our beautiful satin fabric that do not curl or crease.</p>",
             "link_label": "View Roll Up Banners",
-            "link": "shopify:\/\/collections\/roll-up-pull-up-banners"
+            "link": "shopify://collections/roll-up-pull-up-banners"
           }
         },
         "column_4it7cj": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/all_blakcs_collection.png",
+            "image": "shopify://shop_images/all_blakcs_collection.png",
             "title": "All Blacks®",
-            "text": "<p>Flagmakers Ltd is an Official Licensee to the All Blacks®.<\/p>",
+            "text": "<p>Flagmakers Ltd is an Official Licensee to the All Blacks®.</p>",
             "link_label": "View All Blacks®",
-            "link": "shopify:\/\/collections\/all-blacks"
+            "link": "shopify://collections/all-blacks"
           }
         },
         "column_kLyQ4P": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/wow_flagtrax_MAIN_3-114.png",
+            "image": "shopify://shop_images/wow_flagtrax_MAIN_3-114.png",
             "title": "StreetFlags",
-            "text": "<p>Brighten up your streets with new flags.<\/p>",
+            "text": "<p>Brighten up your streets with new flags.</p>",
             "link_label": "View All Street Flags",
-            "link": "shopify:\/\/collections\/council-streetflags"
+            "link": "shopify://collections/council-streetflags"
           }
         },
         "column_xqfyqL": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/habithealthgazbeo-07.png",
+            "image": "shopify://shop_images/habithealthgazbeo-07.png",
             "title": "Event Products",
-            "text": "<p>Liven up your event with colourful award winning products.<\/p>",
+            "text": "<p>Liven up your event with colourful award winning products.</p>",
             "link_label": "View all Event Products",
-            "link": "shopify:\/\/collections\/event-products"
+            "link": "shopify://collections/event-products"
           }
         },
         "column_izG3TE": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PopupDisplayImages-02.jpg",
+            "image": "shopify://shop_images/PopupDisplayImages-02.jpg",
             "title": "TradeShow Products",
-            "text": "<p>Options to promote your event with stunning imagery on top quality products.<\/p>",
+            "text": "<p>Options to promote your event with stunning imagery on top quality products.</p>",
             "link_label": "View TradeShow Products",
-            "link": "shopify:\/\/collections\/expo-solutions"
+            "link": "shopify://collections/expo-solutions"
           }
         },
         "column_QhTfaC": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Licenced_Products_2.png",
+            "image": "shopify://shop_images/Licenced_Products_2.png",
             "title": "Licensed Sports Products",
-            "text": "<p>Buy from our licensed supported products range to support your team!<\/p>",
+            "text": "<p>Buy from our licensed supported products range to support your team!</p>",
             "link_label": "View Licensed Sports Products",
-            "link": "https:\/\/shop.flagmakers.co.nz\/collections\/licensed-sport-products"
+            "link": "https://shop.flagmakers.co.nz/collections/licensed-sport-products"
           }
         }
       },
