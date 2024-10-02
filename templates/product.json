@@ -139,6 +139,14 @@
             "content": "<p>You can <a href=\"#\" target=\"_blank\" title=\"#\">view shipping details on this page</a>, as well as <a href=\"/pages/refund-and-returns-policy\" target=\"_blank\" title=\"Refund and Returns Policy\">information about refunds and returns here</a>.</p>",
             "page": ""
           }
+        },
+        "inventory_xNqmAN": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 10,
+            "show_inventory_quantity": true
+          }
         }
       },
       "block_order": [
@@ -154,7 +162,8 @@
         "custom_liquid_XfNMHt",
         "shopacado_volume_discounts_discount_table_3VWU8V",
         "description",
-        "collapsible-row-1"
+        "collapsible-row-1",
+        "inventory_xNqmAN"
       ],
       "settings": {
         "enable_sticky_info": true,
