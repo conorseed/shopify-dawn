@@ -93,6 +93,27 @@
             "show_gift_card_recipient": true
           }
         },
+        "quotify_button_dnjEn3": {
+          "type": "shopify://apps/quotify/blocks/button/e72a6125-4dd6-4154-a361-ca94e10e6d52",
+          "settings": {
+            "request_button": true,
+            "request_button_text": "Request Quote",
+            "request_product": "",
+            "request_button_class": "btn btn--primary button button--primary",
+            "request_button_css": "",
+            "request_button_width": 100,
+            "enable_quote_cart_button": true,
+            "enable_quote_cart_button_count": true,
+            "quote_cart_button_text": "Show Quote Cart",
+            "quote_cart_button_class": "btn btn--secondary button button--secondary",
+            "quote_cart_button_css": "",
+            "quote_cart_button_width": 100,
+            "button_positions": "side-by-side",
+            "button_horizontal_alignment": "center",
+            "button_gap": 15,
+            "block_css": ""
+          }
+        },
         "custom_liquid_XfNMHt": {
           "type": "custom_liquid",
           "settings": {
@@ -118,27 +139,6 @@
             "content": "<p>You can <a href=\"#\" target=\"_blank\" title=\"#\">view shipping details on this page</a>, as well as <a href=\"/pages/refund-and-returns-policy\" target=\"_blank\" title=\"Refund and Returns Policy\">information about refunds and returns here</a>.</p>",
             "page": ""
           }
-        },
-        "quotify_button_dnjEn3": {
-          "type": "shopify://apps/quotify/blocks/button/e72a6125-4dd6-4154-a361-ca94e10e6d52",
-          "settings": {
-            "request_button": true,
-            "request_button_text": "Request Quote",
-            "request_product": "",
-            "request_button_class": "btn btn--primary button button--primary",
-            "request_button_css": "",
-            "request_button_width": 100,
-            "enable_quote_cart_button": true,
-            "enable_quote_cart_button_count": true,
-            "quote_cart_button_text": "Show Quote Cart",
-            "quote_cart_button_class": "btn btn--secondary button button--secondary",
-            "quote_cart_button_css": "",
-            "quote_cart_button_width": 100,
-            "button_positions": "side-by-side",
-            "button_horizontal_alignment": "center",
-            "button_gap": 15,
-            "block_css": ""
-          }
         }
       },
       "block_order": [
@@ -150,11 +150,11 @@
         "infinite_options_app_block_W734hh",
         "quantity_selector",
         "buy_buttons",
+        "quotify_button_dnjEn3",
         "custom_liquid_XfNMHt",
         "shopacado_volume_discounts_discount_table_3VWU8V",
         "description",
-        "collapsible-row-1",
-        "quotify_button_dnjEn3"
+        "collapsible-row-1"
       ],
       "settings": {
         "enable_sticky_info": true,
