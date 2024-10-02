@@ -20,7 +20,7 @@
       "type": "apps",
       "blocks": {
         "shopacado_volume_discounts_product_notification_bar_PNxaBC": {
-          "type": "shopify:\/\/apps\/shopacado-volume-discounts\/blocks\/product-notification-bar\/5950831a-4e4e-40a4-82b0-674110b50a14",
+          "type": "shopify://apps/shopacado-volume-discounts/blocks/product-notification-bar/5950831a-4e4e-40a4-82b0-674110b50a14",
           "disabled": true,
           "settings": {
             "background_color": "#eaf6ff",
@@ -77,7 +77,7 @@
           }
         },
         "infinite_options_app_block_W734hh": {
-          "type": "shopify:\/\/apps\/infinite-options\/blocks\/app-block\/7e73b6f9-82b0-45f5-9b9b-04f446ba1a9b",
+          "type": "shopify://apps/infinite-options/blocks/app-block/7e73b6f9-82b0-45f5-9b9b-04f446ba1a9b",
           "settings": {
           }
         },
@@ -96,12 +96,13 @@
         "custom_liquid_XfNMHt": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<a class=\"button button--secondary button--full-width product-form__buttons\" style=\"margin-top: -1rem;\" target=\"_blank\" href=\"\/pages\/contact-us\">Ask A Question<\/a>"
+            "custom_liquid": "<a class=\"button button--secondary button--full-width product-form__buttons\" style=\"margin-top: -1rem;\" target=\"_blank\" href=\"/pages/contact-us\">Ask A Question</a>"
           }
         },
         "shopacado_volume_discounts_discount_table_3VWU8V": {
-          "type": "shopify:\/\/apps\/shopacado-volume-discounts\/blocks\/discount-table\/5950831a-4e4e-40a4-82b0-674110b50a14",
+          "type": "shopify://apps/shopacado-volume-discounts/blocks/discount-table/5950831a-4e4e-40a4-82b0-674110b50a14",
           "settings": {
+            "theme_id": ""
           }
         },
         "description": {
@@ -114,8 +115,29 @@
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "truck",
-            "content": "<p>You can <a href=\"#\" target=\"_blank\" title=\"#\">view shipping details on this page<\/a>, as well as <a href=\"\/pages\/refund-and-returns-policy\" target=\"_blank\" title=\"Refund and Returns Policy\">information about refunds and returns here<\/a>.<\/p>",
+            "content": "<p>You can <a href=\"#\" target=\"_blank\" title=\"#\">view shipping details on this page</a>, as well as <a href=\"/pages/refund-and-returns-policy\" target=\"_blank\" title=\"Refund and Returns Policy\">information about refunds and returns here</a>.</p>",
             "page": ""
+          }
+        },
+        "quotify_button_gxz9wr": {
+          "type": "shopify://apps/quotify/blocks/button/e72a6125-4dd6-4154-a361-ca94e10e6d52",
+          "settings": {
+            "request_button": true,
+            "request_button_text": "Request Quote",
+            "request_product": "{{product}}",
+            "request_button_class": "btn btn--primary button button--primary",
+            "request_button_css": "",
+            "request_button_width": 100,
+            "enable_quote_cart_button": false,
+            "enable_quote_cart_button_count": true,
+            "quote_cart_button_text": "Show Quote Cart",
+            "quote_cart_button_class": "btn btn--secondary button button--secondary",
+            "quote_cart_button_css": "",
+            "quote_cart_button_width": 100,
+            "button_positions": "side-by-side",
+            "button_horizontal_alignment": "center",
+            "button_gap": 15,
+            "block_css": ""
           }
         }
       },
@@ -131,7 +153,8 @@
         "custom_liquid_XfNMHt",
         "shopacado_volume_discounts_discount_table_3VWU8V",
         "description",
-        "collapsible-row-1"
+        "collapsible-row-1",
+        "quotify_button_gxz9wr"
       ],
       "settings": {
         "enable_sticky_info": true,
