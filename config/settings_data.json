@@ -167,6 +167,12 @@
           "button_vertical_position": "lowest",
           "greeting_message": "👋 Hi, message us with any questions. Or if you'd prefer to talk to someone, you can call us on 0800 900 800. We're happy to help!"
         }
+      },
+      "7974659707553285070": {
+        "type": "shopify://apps/quotify/blocks/app-embed/e72a6125-4dd6-4154-a361-ca94e10e6d52",
+        "disabled": false,
+        "settings": {
+        }
       }
     },
     "color_schemes": {
