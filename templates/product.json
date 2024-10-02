@@ -124,7 +124,7 @@
           "settings": {
             "request_button": true,
             "request_button_text": "Request Quote",
-            "request_product": "{{product}}",
+            "request_product": "",
             "request_button_class": "btn btn--primary button button--primary",
             "request_button_css": "",
             "request_button_width": 100,
