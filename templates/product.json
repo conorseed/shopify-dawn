@@ -142,9 +142,9 @@
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Shipping & Returns",
+            "heading": "Returns",
             "icon": "truck",
-            "content": "<p>You can <a href=\"#\" target=\"_blank\" title=\"#\">view shipping details on this page</a>, as well as <a href=\"/pages/refund-and-returns-policy\" target=\"_blank\" title=\"Refund and Returns Policy\">information about refunds and returns here</a>.</p>",
+            "content": "<p>You can <a href=\"#\" target=\"_blank\" title=\"#\">view</a> <a href=\"/pages/refund-and-returns-policy\" target=\"_blank\" title=\"Refund and Returns Policy\">information about refunds and returns here</a>.</p>",
             "page": ""
           }
         }
