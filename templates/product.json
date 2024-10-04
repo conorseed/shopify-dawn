@@ -144,7 +144,7 @@
           "settings": {
             "heading": "Returns",
             "icon": "truck",
-            "content": "<p>You can <a href=\"#\" target=\"_blank\" title=\"#\">view</a> <a href=\"/pages/refund-and-returns-policy\" target=\"_blank\" title=\"Refund and Returns Policy\">information about refunds and returns here</a>.</p>",
+            "content": "<p>You can <a href=\"/pages/shipping-information\" target=\"_blank\" title=\"Shipping Information\">view information about shipping here </a>and <a href=\"/pages/refund-and-returns-policy\" title=\"Refund and Returns Policy\">refunds and returns here.</a></p>",
             "page": ""
           }
         }
