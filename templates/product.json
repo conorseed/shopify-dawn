@@ -63,6 +63,12 @@
             "text_style": "subtitle"
           }
         },
+        "sku_HCnEfy": {
+          "type": "sku",
+          "settings": {
+            "text_style": "body"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -153,6 +159,7 @@
         "vendor",
         "title",
         "caption",
+        "sku_HCnEfy",
         "price",
         "variant_picker",
         "infinite_options_app_block_W734hh",
