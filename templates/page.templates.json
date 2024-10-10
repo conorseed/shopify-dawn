@@ -379,7 +379,7 @@
         "column_ec3Fbr": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Value_template_images-19.png",
+            "image": "shopify://shop_images/Value_template_images_CORRECT-19.png",
             "title": "Value Feather Small and Large",
             "text": "<p>Display Height: 2670mm or 4000mm.</p><p><strong>Angled, Straight or curved bottom</strong></p>",
             "link_label": "Download",
@@ -389,7 +389,7 @@
         "column_Cbjz3r": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Value_template_images-18.png",
+            "image": "shopify://shop_images/Value_template_images_CORRECT-18.png",
             "title": "Value Teardrop Small and Large",
             "text": "<p>Display Height: 2360mm or 3600mm</p>",
             "link_label": "Download",
@@ -399,7 +399,7 @@
         "column_rqmqUA": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Value_template_images-20.png",
+            "image": "shopify://shop_images/Value_template_images_CORRECT-20.png",
             "title": "Value Rectangle Small and Large",
             "text": "<p>Display Height: 2190mm or 3100mm</p>",
             "link_label": "Download",
