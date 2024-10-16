@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -238,7 +238,7 @@
           "settings": {
             "image": "shopify://shop_images/Template_images_mayfly-32.png",
             "title": "Durapole Mayfly Large - Double Sided",
-            "text": "<p>Display Height: 4000mm</p>",
+            "text": "<p>Display Height: 3600mm</p>",
             "link_label": "Download",
             "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/mayfly-ds-large-template_oct-17.pdf?v=1715034581"
           }
