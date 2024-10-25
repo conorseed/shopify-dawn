@@ -34,6 +34,8 @@
         role="list"
       >
         {% for recommendation in recommendations.products %}
+          <li>{{ recommendation.metafields.seo.hidden }}</li>
+          {% if recommendation.metafields.seo.hidden != 1 %}
           <li class="grid__item">
             {% render 'card-product',
               card_product: recommendation,
@@ -44,6 +46,7 @@
               show_rating: section.settings.show_rating
             %}
           </li>
+            {% endif %}
         {% endfor %}
       </ul>
     {% endif %}
