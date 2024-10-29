@@ -1,9 +1,18 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "118179d1-5d1c-4b50-8c5c-a697028f5e9f": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width\">\n {% render 'fa-line' %}\n<\/div>",
+        "custom_liquid": "<div class=\"page-width\">\n {% render 'fa-line' %}\n</div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 0
@@ -38,7 +47,7 @@
         "29208501-7e9d-4dc7-8d88-84470b9eb65d": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.has_only_default_variant == false %}\n<style>\nproduct-info variant-radios,\nproduct-info .product-form__input,\nproduct-info form{\n    display:none;\n}\n<\/style>\n\n<a class=\"button\" style=\"margin-bottom:0\" href=\"#shopify-section-template--14388672528459__1693778538c2ea073c\">Order Now<\/a>\n{% endif %}"
+            "custom_liquid": "{% if product.has_only_default_variant == false %}\n<style>\nproduct-info variant-radios,\nproduct-info .product-form__input,\nproduct-info form{\n    display:none;\n}\n</style>\n\n<a class=\"button\" style=\"margin-bottom:0\" href=\"#MULTIVARIANTS_APP_SECTION_PLACE\">Order Now</a>\n{% endif %}"
           }
         },
         "variant_picker": {
@@ -67,7 +76,7 @@
         "46b38823-1b17-4e7a-a288-4889c3b7cde8": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class=\"fa-single-product-links\">\n<a href=\"https:\/\/www.footwearandapparel.co.nz\/pages\/contact-us\">Need Help?<\/a>\n<a href=\"https:\/\/www.footwearandapparel.co.nz\/pages\/contact-us\">Need a Quote?<\/a>\n<\/div>\n<div class=\"fa-single-product-links\">\n<a href=\"\/pages\/delivery\">Delivery & Shipping<\/a>\n<a href=\"https:\/\/www.footwearandapparel.co.nz\/pages\/returns-policy\">Return Policy<\/a>\n<\/div>\n<div class=\"fa-single-product-links\">\n<a href=\"https:\/\/www.footwearandapparel.co.nz\/pages\/sizing\">Sizing Charts<\/a>\n<\/div>"
+            "custom_liquid": "<div class=\"fa-single-product-links\">\n<a href=\"https://www.footwearandapparel.co.nz/pages/contact-us\">Need Help?</a>\n<a href=\"https://www.footwearandapparel.co.nz/pages/contact-us\">Need a Quote?</a>\n</div>\n<div class=\"fa-single-product-links\">\n<a href=\"/pages/delivery\">Delivery & Shipping</a>\n<a href=\"https://www.footwearandapparel.co.nz/pages/returns-policy\">Return Policy</a>\n</div>\n<div class=\"fa-single-product-links\">\n<a href=\"https://www.footwearandapparel.co.nz/pages/sizing\">Sizing Charts</a>\n</div>"
           }
         },
         "share": {
@@ -109,7 +118,7 @@
       "type": "apps",
       "blocks": {
         "12ae51da-6cc0-4855-9ebd-d8e9a62d7745": {
-          "type": "shopify:\/\/apps\/multivariants-bulk-order\/blocks\/app-block-product\/e556349f-fd26-4006-9dd9-dcbf70aa55b3",
+          "type": "shopify://apps/multivariants-bulk-order/blocks/app-block-product/e556349f-fd26-4006-9dd9-dcbf70aa55b3",
           "settings": {
             "multivariants_custom_css": "#shopify-section-template--14388672528459__1693778538c2ea073c{\n  padding-top: 5rem;\n}\n.multivariants_block_prc_holder{\n  justify-content: center;\n}\n.multivariants_block_prc_label,\n.multivariants_block_qty_label{\n  display:none;\n}\n.multivariants_block_prc_total,\n.multivariants_block_stock_qty{\n  color: #999999;\n}\n\n.multivariants_block_subtotal_h{\n  color: rgb(var(--fa-orange));\n  padding: 1rem;\n}"
           }
@@ -125,7 +134,7 @@
     "522cf1ed-ae3e-4408-999d-a6c1fc8602d4": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width\">\n {% render 'fa-line' %}\n<\/div>",
+        "custom_liquid": "<div class=\"page-width\">\n {% render 'fa-line' %}\n</div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 0
