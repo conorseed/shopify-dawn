@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "logo": "shopify://shop_images/new_Flagmakers_logo_RGB_Transparent_Background_1.png",
@@ -168,9 +168,15 @@
           "greeting_message": "👋 Hi, message us with any questions. Or if you'd prefer to talk to someone, you can call us on 0800 900 800. We're happy to help!"
         }
       },
+      "7974659707553285070": {
+        "type": "shopify://apps/quotify/blocks/app-embed/e72a6125-4dd6-4154-a361-ca94e10e6d52",
+        "disabled": false,
+        "settings": {
+        }
+      },
       "15562191488504292397": {
         "type": "shopify://apps/quotify/blocks/sticky-cart-button/e72a6125-4dd6-4154-a361-ca94e10e6d52",
-        "disabled": false,
+        "disabled": true,
         "settings": {
           "floating_quote_cart_button_text": "Show Quote Cart",
           "floating_quote_cart_button_background_color": "#ffffff",
@@ -179,12 +185,6 @@
           "floating_quote_cart_button_padding": 10,
           "floating_quote_cart_button_border_radius": 4,
           "floating_quote_cart_button_css": ""
-        }
-      },
-      "7974659707553285070": {
-        "type": "shopify://apps/quotify/blocks/app-embed/e72a6125-4dd6-4154-a361-ca94e10e6d52",
-        "disabled": false,
-        "settings": {
         }
       }
     },
