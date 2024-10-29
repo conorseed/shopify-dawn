@@ -45,7 +45,7 @@
       "settings": {
         "heading": "[company] Private Portal",
         "paragraph": "Products in this portal can only be purchased by authorised [company] businesses and members.",
-        "preview": true
+        "preview": false
       }
     }
   },
