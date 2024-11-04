@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.footer.name",
   "type": "footer",
@@ -17,7 +17,7 @@
         "image_BXAKQR": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/new_Flagmakers_logo_RGB_Transparent_Background_1.png",
+            "image": "shopify://shop_images/new_Flagmakers_logo_RGB_Transparent_Background_1.png",
             "image_width": 200,
             "alignment": ""
           }
@@ -40,7 +40,7 @@
           "type": "text",
           "settings": {
             "heading": "Raising the standard",
-            "subtext": "<p>Our mission is to deliver beautifully crafted products anywhere and on-time. We are a dedicated and passionate company which cares about the fine detail of our products. Our finishing team put that extra effort in to make sure you will always receive a crafted high quality product.<\/p>"
+            "subtext": "<p>Our mission is to deliver beautifully crafted products anywhere and on-time. We are a dedicated and passionate company which cares about the fine detail of our products. Our finishing team put that extra effort in to make sure you will always receive a crafted high quality product.</p>"
           }
         }
       },
@@ -69,10 +69,10 @@
       "type": "custom-popup",
       "disabled": true,
       "settings": {
-        "logo": "shopify:\/\/shop_images\/main-image-for-website.jpg",
+        "logo": "shopify://shop_images/main-image-for-website.jpg",
         "heading": "Get a $10 Discount!",
         "paragraph": "Sign up to receive a coupon code for $10 off your FIRST order.",
-        "preview": false
+        "preview": true
       }
     }
   },
