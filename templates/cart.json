@@ -1,19 +1,19 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "1723759420c37d5c20": {
       "type": "apps",
       "blocks": {
         "shopacado_volume_discounts_cart_notification_bar_BVBbeF": {
-          "type": "shopify:\/\/apps\/shopacado-volume-discounts\/blocks\/cart-notification-bar\/5950831a-4e4e-40a4-82b0-674110b50a14",
+          "type": "shopify://apps/shopacado-volume-discounts/blocks/cart-notification-bar/5950831a-4e4e-40a4-82b0-674110b50a14",
           "settings": {
             "background_color": "#ffffff",
             "text_color": "#000000",
@@ -52,7 +52,7 @@
         "text_8xgDtq": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>If you have a rural address <\/strong>please ensure you click the 'Rural Address' button on checkout so the right freight charge is calculated. You can check if your address is rural by clicking on <a href=\"https:\/\/nzcouriers.co.nz\/tools\/check-an-address\/\" target=\"_blank\"><strong>Address Checker<\/strong><\/a><strong>.<\/strong><\/p><p><strong>If you do not select the rural address option then your goods may be delayed until the correct charges have been paid.<\/strong><\/p><p><strong>Note: <\/strong>We do not deliver to Waiheke Island. Please contact us to discuss delivery and collection options with you.<\/p>"
+            "text": "<p><strong>If you have a rural address </strong>please ensure you click the 'Rural Address' button on checkout so the right freight charge is calculated. You can check if your address is rural by clicking on <a href=\"https://nzcouriers.co.nz/tools/check-an-address/\" target=\"_blank\"><strong>Address Checker</strong></a><strong>.</strong></p><p><strong>If you do not select the rural address option then your goods may be delayed until the correct charges have been paid.</strong></p><p><strong>Note: </strong>We do not deliver to Waiheke Island. Please contact us to discuss delivery and collection options with you.</p>"
           }
         }
       },
@@ -104,7 +104,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "frontpage",
+        "collection": "hot-deals",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
@@ -127,7 +127,7 @@
     "custom_liquid_aeczVM": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if cart == empty %}\n<style>\n[class*=\"rich_text\"]{\n  display:none\n}\n<\/style>\n{% endif %}",
+        "custom_liquid": "{% if cart == empty %}\n<style>\n[class*=\"rich_text\"]{\n  display:none\n}\n</style>\n{% endif %}",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
