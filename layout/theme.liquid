@@ -11,6 +11,7 @@
      {% for user in private_users %}
        {% if user contains customer.id %}
          {%- assign private_page = false -%}
+         <!-- CUSTOMER {{ customer | json }} -->
          {% break %}
        {% endif %}
      {% endfor %}
