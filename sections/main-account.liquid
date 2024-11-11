@@ -28,10 +28,10 @@
   <div>
     {% assign private_portal_output = false %}
     {% for collection in collections %}
-      {% assign private_users = collection.metafields.custom.users | remove: '[' | remove: ']' | split: ',' %}
+      {% assign private_users = collection.metafields.custom.usersMultiLine | newline_to_br | split: '<br />' %}
     
        {% for user in private_users %}
-        {% if user contains customer.id %}
+        {% if user contains customer.email %}
           {% if private_portal_output == false %}
             <div>{% assign private_portal_output = true %}
           {% endif %}
