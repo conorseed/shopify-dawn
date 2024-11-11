@@ -9,7 +9,7 @@
      {% assign private_users = collection.metafields.custom.usersMultiLine | newline_to_br | split: '<br />' %}
 
      {% for user in private_users %}
-       {% if user contains customer.id %}
+       {% if user contains customer.email %}
          {%- assign private_page = false -%}
          {% break %}
        {% endif %}
@@ -27,7 +27,7 @@
        {% assign private_users = collection.metafields.custom.usersMultiLine | newline_to_br | split: '<br />' %}
   
        {% for user in private_users %}
-         {% if user contains customer.id %}
+         {% if user contains customer.email %}
            {%- assign private_page = false -%}
            {% break %}
          {% endif %}
