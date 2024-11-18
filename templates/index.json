@@ -256,6 +256,17 @@
     "multirow_PA4zxp": {
       "type": "multirow",
       "blocks": {
+        "row_7UmiBK": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Supporters_flag-_tino.png",
+            "caption": "Tino Rangatiratanga Flags",
+            "heading": "Tino Rangatiratanga Flags",
+            "text": "<p>TIno Tino Rangatiratanga Flags. Select from our options.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
         "row_xa4gVk": {
           "type": "row",
           "settings": {
@@ -313,6 +324,7 @@
         }
       },
       "block_order": [
+        "row_7UmiBK",
         "row_xa4gVk",
         "row_tW98W9",
         "row_XcgE9e",
