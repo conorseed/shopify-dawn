@@ -610,6 +610,7 @@
         "text_NWpVby",
         "buttons_Hz4W8h"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Congratulations_Flagmakers_long_2-02.jpg",
         "image_overlay_opacity": 0,
