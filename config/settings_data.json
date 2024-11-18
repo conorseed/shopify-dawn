@@ -20,6 +20,7 @@
     "spacing_sections": 0,
     "spacing_grid_horizontal": 16,
     "spacing_grid_vertical": 16,
+    "animations_reveal_on_scroll": true,
     "animations_hover_elements": "vertical-lift",
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
@@ -144,15 +145,12 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "5460929749692845798": {
         "type": "shopify://apps/shopacado-volume-discounts/blocks/enable/5950831a-4e4e-40a4-82b0-674110b50a14",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "15683396631634586217": {
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
@@ -171,8 +169,7 @@
       "7974659707553285070": {
         "type": "shopify://apps/quotify/blocks/app-embed/e72a6125-4dd6-4154-a361-ca94e10e6d52",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "15562191488504292397": {
         "type": "shopify://apps/quotify/blocks/sticky-cart-button/e72a6125-4dd6-4154-a361-ca94e10e6d52",
