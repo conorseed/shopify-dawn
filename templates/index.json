@@ -479,69 +479,20 @@
         "padding_bottom": 80
       }
     },
-    "image_banner_mTLYgU": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_trKhXH": {
-          "type": "heading",
-          "settings": {
-            "heading": "145kg's of textiles waste diverted from landfill - SO FAR!",
-            "heading_size": "h1"
-          }
-        },
-        "text_NWpVby": {
-          "type": "text",
-          "settings": {
-            "text": "Flagmakers is working with you on diverting textile waste from global landfills.",
-            "text_style": "body"
-          }
-        },
-        "buttons_Hz4W8h": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Find out more",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_trKhXH",
-        "text_NWpVby",
-        "buttons_Hz4W8h"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/Congratulations_Flagmakers_long_2-02.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "desktop_content_position": "bottom-left",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "image_with_text_yGDXdU": {
       "type": "image-with-text",
       "blocks": {
         "heading_MmD8YQ": {
           "type": "heading",
           "settings": {
-            "heading": "145kg's of textiles waste diverted from landfill - SO FAR",
+            "heading": "Flagmakers Recycling Programme",
             "heading_size": "h1"
           }
         },
         "text_xaXqRj": {
           "type": "text",
           "settings": {
-            "text": "<p>Flagmakers is working with you on diverting Textile waste from global landfills.</p>",
+            "text": "<p><strong>145kg's of textiles waste diverted from landfill - SO FAR.</strong></p><p>Flagmakers is working with you on diverting Textile waste from global landfills.</p>",
             "text_style": "body"
           }
         },
@@ -549,7 +500,7 @@
           "type": "button",
           "settings": {
             "button_label": "Find out more",
-            "button_link": "",
+            "button_link": "shopify://collections/all",
             "button_style_secondary": false
           }
         }
@@ -559,9 +510,8 @@
         "text_xaXqRj",
         "button_GRbDzn"
       ],
-      "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/Congratulations_Flagmakers_GRAPHIC_with_date_updated-04-04.png",
+        "image": "shopify://shop_images/Congratulations_Flagmakers_GRAPHIC_with_date_updated-04-04-04-04-05-05.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -612,7 +562,6 @@
     "image_with_text_q9RCz6",
     "multirow_PA4zxp",
     "multicolumn_BHeRHf",
-    "image_banner_mTLYgU",
     "image_with_text_yGDXdU",
     "featured_collection"
   ]
