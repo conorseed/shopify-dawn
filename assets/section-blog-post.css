@@ -56,7 +56,7 @@
 .article-template header {
   margin-top: 4.4rem;
   margin-bottom: 2rem;
-  margin-left: 4.4rem;
+  margin-left: 6rem;
   line-height: calc(0.8 / var(--font-body-scale));
 }
 
@@ -67,7 +67,7 @@
 }
 
 .article-template__title {
-  margin: 20px;
+  margin: 0px;
 }
 
 .article-template__title:not(:only-child) {
