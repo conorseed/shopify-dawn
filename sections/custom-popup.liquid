@@ -2,9 +2,6 @@
 {% if collection.title contains 'AGENTS PORTAL' %}
   {% assign show = false %}
 {% endif %}
-{% unless customer.email contains 'conor@tailgunner.co.nz' %}
-  {% assign show = false %}
-{% endunless %}
 {% if show == true and request.design_mode == false or section.settings.preview == true %}
   {{ "custom-popup.css" | asset_url | stylesheet_tag }}
   <script src="{{ 'js-cookie.min.js' | asset_url }}" defer></script>
