@@ -60,8 +60,8 @@
               </div>
               {% endunless %}
               {%- if form.posted_successfully? -%}
-                <h3 class="newsletter-form__message newsletter-form__message--success h1" id="Newsletter-success--{{ section.id }}" tabindex="-1" autofocus>{% render 'icon-success' %} Thank You!</h3>
-                <p>Use code <b>"WELCOME10"</b> <br>at checkout to get $10 off!</p>
+                <h3 class="newsletter-form__message newsletter-form__message--success h1" id="Newsletter-success--{{ section.id }}" tabindex="-1" autofocus>{% render 'icon-success' %} {{ section.settings.headingSuccess }}</h3>
+                <p>{{ section.settings.paragraphSuccess }}</p>
               {%- endif -%}
             {% endform %}
 
@@ -96,6 +96,22 @@
         "id": "paragraph",
         "label": "Paragraph",
         "default": "Tell your customer why they should subscribe.",
+        "placeholder": "Subscribe now to hear about great deals!",
+        "info": "Paragraph area for pop up"
+      },
+      {
+        "type": "text",
+        "id": "headingSuccess",
+        "label": "Heading (Success)",
+        "default": "Thank You!",
+        "placeholder": "Thank You!",
+        "info": "Header for your popup"
+      },
+      {
+        "type": "textarea",
+        "id": "paragraphSuccess",
+        "label": "Paragraph (Success)",
+        "default": "Information displayed on successful subscription",
         "placeholder": "Subscribe now to hear about great deals!",
         "info": "Paragraph area for pop up"
       },
