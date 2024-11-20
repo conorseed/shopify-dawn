@@ -50,7 +50,7 @@
                     {% render 'icon-arrow' %}
                   </button>
                 </div>
-                <p style="font-size:13px; text-align: center">By submitting this form you accept our Terms & Conditions, and allow us to send marketing emails to your email address.</p>
+                <p style="font-size:13px; text-align: center; color: #ccc">By submitting this form you accept our Terms & Conditions, and allow us to send marketing emails to your email address.</p>
                 {%- if form.errors -%}
                   Error!
                   <small class="newsletter-form__message form__message" id="Newsletter-error--{{ section.id }}">{% render 'icon-error' %}{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}</small>
