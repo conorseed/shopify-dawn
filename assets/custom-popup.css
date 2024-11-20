@@ -45,6 +45,10 @@
   margin: 0 auto;
 }
 
+.customNewsletter__text h2{
+  margin: 0
+}
+
 .custom__newsletter-form {
   display: flex;
   flex-direction: column;
