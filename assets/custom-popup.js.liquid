@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
     errorMessage.classList.add('newsletter-form__message');
     errorMessage.classList.add('form__message');
     errorMessage.textContent = 'This email address may already be subscribed. Please try again with a different email address.';
-    newsletter__modal.querySelector('.field').appendChild(errorMessage);
+    newsletter__modal.querySelector('.field').after(errorMessage);
   }
   
   const popUpForm = document.getElementById('customNewsletter');
