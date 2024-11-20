@@ -21,7 +21,8 @@
           {%- unless form.posted_successfully? -%}
           <h2 class="h1">{{ section.settings.heading }}</h2>
           <p>{{ section.settings.paragraph }}</p>
-            
+
+            {{ template.name }}
               
               <input type="hidden" name="contact[tags]" value="newsletter">
               <div class="newsletter-form__field-wrapper">
