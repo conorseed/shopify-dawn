@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
   });
   
   let cookieStatus = Cookies.get('popUpVisited');
+  let challenge = window.location.href.indexOf("challenge?form_key") > -1
   if (cookieStatus) return;
   const popUpForm = document.getElementById('customNewsletter');
   popUpForm.style.display = "flex";
