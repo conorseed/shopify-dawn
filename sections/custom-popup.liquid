@@ -3,11 +3,15 @@
   {% assign show = false %}
 {% endif %}
 {% if show == true and request.design_mode == false or section.settings.preview == true %}
+  {{ "custom-popup.css" | asset_url | stylesheet_tag }}
+  <script src="{{ 'js-cookie.min.js' | asset_url }}" defer></script>
+  <script src="{{ 'custom-popup.js' | asset_url }}" defer></script>
+  
   <div id="customNewsletter">
       <div class="customNewsletter__container">
         <button id="customNewsletter__close">X</button>
         <div class="customNewsletter__logo">
-          <img src="{{ section.settings.logo | img_url: 'master' }}" alt="" />
+          <img src="{{ section.settings.logo | img_url: 'master' }}" alt="Newsletter Image" />
         </div>
         <div class="customNewsletter__text">
           <h1>{{ section.settings.heading }}</h1>
@@ -44,10 +48,12 @@
                   </button>
                 </div>
                 {%- if form.errors -%}
+                  Error!
                   <small class="newsletter-form__message form__message" id="Newsletter-error--{{ section.id }}">{% render 'icon-error' %}{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}</small>
                 {%- endif -%}
               </div>
               {%- if form.posted_successfully? -%}
+                Success!
                 <h3 class="newsletter-form__message newsletter-form__message--success form__message" id="Newsletter-success--{{ section.id }}" tabindex="-1" autofocus>{% render 'icon-success' %}{{ 'newsletter.success' | t }}</h3>
               {%- endif -%}
             {% endform %}
@@ -55,9 +61,6 @@
         </div>
       </div>
     </div>
-    {{ "custom-popup.css" | asset_url | stylesheet_tag }}
-  <script src="{{ 'js-cookie.min.js' | asset_url }}" defer></script>
-  <script src="{{ 'custom-popup.js' | asset_url }}" defer></script>
 {% endif %}
 
 {% schema %}
