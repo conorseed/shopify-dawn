@@ -71,6 +71,8 @@
         "logo": "shopify://shop_images/main-image-for-website.jpg",
         "heading": "Get a $10 Discount!",
         "paragraph": "Sign up to receive a coupon code for $10 off your FIRST order.",
+        "headingSuccess": "Thank You!",
+        "paragraphSuccess": "Use code <b>\"WELCOME10\"</b> <br>\nat checkout to get $10 off!",
         "preview": true
       }
     }
