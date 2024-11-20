@@ -20,6 +20,7 @@
           <h1>{{ section.settings.heading }}</h1>
           <p>{{ section.settings.paragraph }}</p>
             {% form 'customer', class: 'custom__newsletter-form' %}
+              {%- unless form.posted_successfully? -%}
               <input type="hidden" name="contact[tags]" value="newsletter">
               <div class="newsletter-form__field-wrapper">
                 <div class="field">
@@ -50,11 +51,13 @@
                     {% render 'icon-arrow' %}
                   </button>
                 </div>
-                <p style="font-size:13px; text-align: center; color: #aaa">By submitting this form you accept our Terms & Conditions, and allow us to send marketing emails to your email address.</p>
                 {%- if form.errors -%}
                   <small class="newsletter-form__message form__message" id="Newsletter-error--{{ section.id }}">{% render 'icon-error' %}{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}</small>
                 {%- endif -%}
+                <p style="font-size:13px; text-align: center; color: #aaa">By submitting this form you accept our Terms & Conditions, and allow us to send marketing emails to your email address.</p>
+                
               </div>
+              {% endunless %}
               {%- if form.posted_successfully? -%}
                 <h3 class="newsletter-form__message newsletter-form__message--success form__message" id="Newsletter-success--{{ section.id }}" tabindex="-1" autofocus>{% render 'icon-success' %}{{ 'newsletter.success' | t }}</h3>
               {%- endif -%}
