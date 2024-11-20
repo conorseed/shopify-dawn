@@ -60,7 +60,7 @@
               </div>
               {% endunless %}
               {%- if form.posted_successfully? -%}
-                <h3 class="newsletter-form__message newsletter-form__message--success h1" id="Newsletter-success--{{ section.id }}" tabindex="-1" autofocus>{% render 'icon-success' %}<br>Thank You!</h3>
+                <h3 class="newsletter-form__message newsletter-form__message--success h1" id="Newsletter-success--{{ section.id }}" tabindex="-1" autofocus>{% render 'icon-success' %} Thank You!</h3>
                 <p>Use code <b>"WELCOME10"</b> at checkout to get $10 off!</p>
               {%- endif -%}
             {% endform %}
