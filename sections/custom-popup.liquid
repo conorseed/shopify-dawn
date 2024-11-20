@@ -49,6 +49,7 @@
                   <button type="submit" class="newsletter-form__button field__button" name="commit" id="Subscribe" aria-label="{{ 'newsletter.button_label' | t }}">
                     {% render 'icon-arrow' %}
                   </button>
+                  <p>By submitting this form you accept our Terms & Conditions, and allow us to send marketing emails to your email address.</p>
                 </div>
                 {%- if form.errors -%}
                   Error!
@@ -56,7 +57,6 @@
                 {%- endif -%}
               </div>
               {%- if form.posted_successfully? -%}
-                Success!
                 <h3 class="newsletter-form__message newsletter-form__message--success form__message" id="Newsletter-success--{{ section.id }}" tabindex="-1" autofocus>{% render 'icon-success' %}{{ 'newsletter.success' | t }}</h3>
               {%- endif -%}
             {% endform %}
