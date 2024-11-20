@@ -152,6 +152,49 @@
         "padding_bottom": 20
       }
     },
+    "rich_text_kpcW6x": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YVF4aF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Flagmakers Recycling programme",
+            "heading_size": "h1"
+          }
+        },
+        "text_haTJp3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We have diverted <strong>145kgs</strong> of textile waste from global landfills - SO FAR!</p>"
+          }
+        },
+        "button_exybVA": {
+          "type": "button",
+          "settings": {
+            "button_label": "Find out more",
+            "button_link": "shopify://pages/about-us",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_YVF4aF",
+        "text_haTJp3",
+        "button_exybVA"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-ca4fc56a-2e94-4c1e-a840-6e039ef09e8a",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -559,6 +602,7 @@
   "order": [
     "slideshow_eBLxA7",
     "rich_text_YU96UL",
+    "rich_text_kpcW6x",
     "image_banner",
     "image_with_text_q9RCz6",
     "multirow_PA4zxp",
