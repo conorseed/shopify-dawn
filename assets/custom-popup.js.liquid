@@ -16,10 +16,11 @@ document.addEventListener('DOMContentLoaded', ()=>{
   // add email error manually if already subscribed
   const alreadyCustomer = window.location.href.indexOf("?contact%5Btags%5D=newsletter") > -1
   if(alreadyCustomer){
-    const errorMessage = document.createElement("p");
-    errorMessage.classList.add("newsletter-form__message form__message");
-    errorMessage.textContent = "This email address may already be subscribed. Please try again with a different email address.";
-    newsletter__modal.querySelector(".field").appendChild(errorMessage);
+    const errorMessage = document.createElement('p');
+    errorMessage.classList.add('newsletter-form__message');
+    errorMessage.classList.add('form__message');
+    errorMessage.textContent = 'This email address may already be subscribed. Please try again with a different email address.';
+    newsletter__modal.querySelector('.field').appendChild(errorMessage);
   }
   
   const popUpForm = document.getElementById('customNewsletter');
