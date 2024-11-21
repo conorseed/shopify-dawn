@@ -301,6 +301,7 @@
       "blocks": {
         "row_7UmiBK": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Supporters_flag-_tino.png",
             "caption": "",
