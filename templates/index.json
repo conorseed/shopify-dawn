@@ -1,26 +1,44 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "a906c273-a8eb-416e-ade7-04155872f8f7": {
       "type": "slideshow",
       "blocks": {
+        "slide_89PTpq": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/saleclearance_post_3.png",
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "Shop Gifts",
+            "link": "shopify://collections/christmas-present-ideas",
+            "button_style_secondary": true,
+            "box_align": "top-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_ydd6RK": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/carhartt.png",
+            "image": "shopify://shop_images/carhartt.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "Shop Carhartt Workwear",
-            "link": "shopify:\/\/collections\/carhartt",
+            "link": "shopify://collections/carhartt",
             "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": true,
@@ -33,12 +51,12 @@
         "slide_gk4cTh": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Stoney_Creek.jpg",
+            "image": "shopify://shop_images/Stoney_Creek.jpg",
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
             "button_label": "Shop Stoney Creek",
-            "link": "shopify:\/\/collections\/stoney-creek",
+            "link": "shopify://collections/stoney-creek",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
@@ -51,32 +69,14 @@
         "slide_T7jDkJ": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FXD_HEADER.jpg",
+            "image": "shopify://shop_images/FXD_HEADER.jpg",
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
             "button_label": "Shop FXD Workwear",
-            "link": "shopify:\/\/collections\/fxd",
+            "link": "shopify://collections/fxd",
             "button_style_secondary": false,
             "box_align": "bottom-right",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "accent-2",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_89PTpq": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_design_3.png",
-            "heading": "",
-            "heading_size": "h2",
-            "subheading": "",
-            "button_label": "Shop Oilskin",
-            "link": "shopify:\/\/collections\/outback",
-            "button_style_secondary": false,
-            "box_align": "bottom-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
@@ -87,12 +87,12 @@
         "slide_MdR74w": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/steel_blue_1.png",
+            "image": "shopify://shop_images/steel_blue_1.png",
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
             "button_label": "Shop Steel Blue",
-            "link": "shopify:\/\/collections\/steel-blue",
+            "link": "shopify://collections/steel-blue",
             "button_style_secondary": false,
             "box_align": "top-right",
             "show_text_box": true,
@@ -104,10 +104,10 @@
         }
       },
       "block_order": [
+        "slide_89PTpq",
         "slide_ydd6RK",
         "slide_gk4cTh",
         "slide_T7jDkJ",
-        "slide_89PTpq",
         "slide_MdR74w"
       ],
       "settings": {
@@ -128,42 +128,42 @@
           "type": "featured_collection",
           "settings": {
             "collection": "footwear",
-            "collection_image": "shopify:\/\/shop_images\/collection-footwear.jpg"
+            "collection_image": "shopify://shop_images/collection-footwear.jpg"
           }
         },
         "template--14388672135243__2377cec9-f09c-4e08-bd02-72f854c16dce-featured_collection-2": {
           "type": "featured_collection",
           "settings": {
             "collection": "apparel",
-            "collection_image": "shopify:\/\/shop_images\/collection-apparel.jpg"
+            "collection_image": "shopify://shop_images/collection-apparel.jpg"
           }
         },
         "template--14388672135243__2377cec9-f09c-4e08-bd02-72f854c16dce-featured_collection-3": {
           "type": "featured_collection",
           "settings": {
             "collection": "safety-equipment",
-            "collection_image": "shopify:\/\/shop_images\/collection-safety-equipment.jpg"
+            "collection_image": "shopify://shop_images/collection-safety-equipment.jpg"
           }
         },
         "bb0bf01b-96c4-418b-b1e0-ef38e13ffcf5": {
           "type": "featured_collection",
           "settings": {
             "collection": "height-safety",
-            "collection_image": "shopify:\/\/shop_images\/collection-height-safety.jpg"
+            "collection_image": "shopify://shop_images/collection-height-safety.jpg"
           }
         },
         "5a5b1e68-7c36-4d18-bfc0-3eef46faaa1c": {
           "type": "featured_collection",
           "settings": {
             "collection": "hand-protection",
-            "collection_image": "shopify:\/\/shop_images\/collection-hand-protection.jpg"
+            "collection_image": "shopify://shop_images/collection-hand-protection.jpg"
           }
         },
         "735e6dc0-dfdc-4923-b34d-b557a14db84d": {
           "type": "featured_collection",
           "settings": {
             "collection": "medical-misc",
-            "collection_image": "shopify:\/\/shop_images\/collection-medical.jpg"
+            "collection_image": "shopify://shop_images/collection-medical.jpg"
           }
         }
       },
@@ -195,17 +195,17 @@
         "eb4ec6f9-f1ad-4189-9c41-b5e43198130f": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/carhartt-2-logo-png-transparent.png",
+            "image": "shopify://shop_images/carhartt-2-logo-png-transparent.png",
             "title": "",
             "text": "",
             "link_label": "",
-            "link": "shopify:\/\/collections\/carhartt"
+            "link": "shopify://collections/carhartt"
           }
         },
         "503ca77c-f318-4ae8-964a-c25ef5116ff1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brand-fxd.jpg",
+            "image": "shopify://shop_images/brand-fxd.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -215,7 +215,7 @@
         "c8f9c19b-5245-4864-b241-acccd702a421": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brand-steelblue.jpg",
+            "image": "shopify://shop_images/brand-steelblue.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -225,7 +225,7 @@
         "7f705433-70b2-449b-9ea1-8c3d63fd2940": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brand-grisport.jpg",
+            "image": "shopify://shop_images/brand-grisport.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -235,7 +235,7 @@
         "template--14388672135243__09f64e08-0e21-446c-bd5c-c68252f87ec9-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brand-syzmik.jpg",
+            "image": "shopify://shop_images/brand-syzmik.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -245,7 +245,7 @@
         "template--14388672135243__09f64e08-0e21-446c-bd5c-c68252f87ec9-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/67888286_901897850173232_6969401198805778432_n.jpg",
+            "image": "shopify://shop_images/67888286_901897850173232_6969401198805778432_n.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -255,7 +255,7 @@
         "template--14388672135243__09f64e08-0e21-446c-bd5c-c68252f87ec9-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brand-norsewear.jpg",
+            "image": "shopify://shop_images/brand-norsewear.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -265,7 +265,7 @@
         "e01f7a7d-54bc-445b-bd8a-799667020ed7": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brand-kaiwaka.jpg",
+            "image": "shopify://shop_images/brand-kaiwaka.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -275,7 +275,7 @@
         "73c49367-2185-4da8-b3a8-04565c107321": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brand-bison.jpg",
+            "image": "shopify://shop_images/brand-bison.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -303,7 +303,7 @@
         "column_alignment": "left",
         "background_style": "none",
         "button_label": "Explore our brands",
-        "button_link": "shopify:\/\/pages\/brands",
+        "button_link": "shopify://pages/brands",
         "color_scheme": "",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
@@ -334,7 +334,7 @@
         "text"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/home-hero_274d4ee1-3813-4bb6-9150-152a10864533.jpg",
+        "image": "shopify://shop_images/home-hero_274d4ee1-3813-4bb6-9150-152a10864533.jpg",
         "image_overlay_opacity": 20,
         "image_height": "large",
         "desktop_content_position": "middle-left",
@@ -363,9 +363,9 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Welcome to Footwear & Apparel NZ Ltd - your source for a wide range of quality and stylish products sourced from around the globe.<\/p><p>As an independent business owned by Stuart and Rebecca Williams, we pride ourselves on providing friendly, professional customer service and offer an up to date vast range of products to give our customers more choice.<\/p><p>Our extensive range includes Safety and Outdoor Footwear, Safety Equipment, Apparel and we have a particular passion for supporting NZ made products where possible.<\/p><p>Additionally, we specialise in providing customised branding and corporate clothing options to uphold your company image.<\/p>",
+            "text": "<p>Welcome to Footwear & Apparel NZ Ltd - your source for a wide range of quality and stylish products sourced from around the globe.</p><p>As an independent business owned by Stuart and Rebecca Williams, we pride ourselves on providing friendly, professional customer service and offer an up to date vast range of products to give our customers more choice.</p><p>Our extensive range includes Safety and Outdoor Footwear, Safety Equipment, Apparel and we have a particular passion for supporting NZ made products where possible.</p><p>Additionally, we specialise in providing customised branding and corporate clothing options to uphold your company image.</p>",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections"
+            "link": "shopify://collections"
           }
         }
       },
@@ -404,7 +404,7 @@
           "type": "button",
           "settings": {
             "button_label": "Download",
-            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/1353\/2007\/files\/Copy_of_Footwear_and_Apparel_Catalogue.pdf?v=1695943174",
+            "button_link": "https://cdn.shopify.com/s/files/1/1353/2007/files/Copy_of_Footwear_and_Apparel_Catalogue.pdf?v=1695943174",
             "button_style_secondary": false
           }
         }
@@ -414,7 +414,7 @@
         "template--14388672135243__117a4c3d-e815-419b-ad91-b9f1bd44030d-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/home-catalog.png",
+        "image": "shopify://shop_images/home-catalog.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -431,7 +431,7 @@
     "4349b2d9-e677-45a3-8bcc-f51abcefea3f": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/home-subbanner.jpg",
+        "image": "shopify://shop_images/home-subbanner.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "middle-center",
