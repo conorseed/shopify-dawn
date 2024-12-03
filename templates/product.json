@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrumbs_KC3EgD": {
@@ -53,8 +53,7 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "caption": {
           "type": "text",
@@ -71,8 +70,7 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -84,13 +82,11 @@
         },
         "infinite_options_app_block_W734hh": {
           "type": "shopify://apps/infinite-options/blocks/app-block/7e73b6f9-82b0-45f5-9b9b-04f446ba1a9b",
-          "settings": {
-          }
+          "settings": {}
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -142,8 +138,7 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
@@ -151,6 +146,15 @@
             "heading": "Returns and Shipping Information",
             "icon": "truck",
             "content": "<p>You can <a href=\"/pages/shipping-information\" target=\"_blank\" title=\"Shipping Information\">view information about shipping here </a>and <a href=\"/pages/refund-and-returns-policy\" title=\"Refund and Returns Policy\">refunds and returns here.</a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_gdkMta": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
             "page": ""
           }
         }
@@ -170,7 +174,8 @@
         "custom_liquid_XfNMHt",
         "shopacado_volume_discounts_discount_table_3VWU8V",
         "description",
-        "collapsible-row-1"
+        "collapsible-row-1",
+        "collapsible_tab_gdkMta"
       ],
       "settings": {
         "enable_sticky_info": false,
