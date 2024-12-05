@@ -158,6 +158,15 @@
             "page": ""
           }
         },
+        "collapsible_tab_WiHyw9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ product.metafields.custom.artwork_specifications_heading.value }}",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.artwork_specifications_description | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
         "collapsible_tab_MLGrAQ": {
           "type": "collapsible_tab",
           "settings": {
@@ -203,6 +212,7 @@
         "description",
         "collapsible_tab_tzzjNL",
         "collapsible_tab_FFcWMa",
+        "collapsible_tab_WiHyw9",
         "collapsible_tab_MLGrAQ",
         "collapsible_tab_3CWFtR",
         "collapsible-row-1"
