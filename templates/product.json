@@ -140,6 +140,15 @@
           "type": "description",
           "settings": {}
         },
+        "collapsible_tab_kYQhWn": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ product.metafields.custom.accordion_1_heading_.value }}",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.product_description_description | metafield_tag }}",
+            "page": ""
+          }
+        },
         "collapsible_tab_tzzjNL": {
           "type": "collapsible_tab",
           "settings": {
@@ -210,6 +219,7 @@
         "custom_liquid_XfNMHt",
         "shopacado_volume_discounts_discount_table_3VWU8V",
         "description",
+        "collapsible_tab_kYQhWn",
         "collapsible_tab_tzzjNL",
         "collapsible_tab_FFcWMa",
         "collapsible_tab_WiHyw9",
