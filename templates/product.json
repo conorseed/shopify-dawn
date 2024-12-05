@@ -169,6 +169,7 @@
         },
         "collapsible_tab_MLGrAQ": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Artwork Specifications",
             "icon": "none",
