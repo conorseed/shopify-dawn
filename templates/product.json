@@ -140,7 +140,7 @@
           "type": "description",
           "settings": {}
         },
-        "collapsible_tab_kYQhWn": {
+        "collapsible_tab_EXFiUb": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "{{ product.metafields.custom.accordion_1_heading_.value }}",
@@ -149,30 +149,21 @@
             "page": ""
           }
         },
-        "collapsible_tab_tzzjNL": {
+        "collapsible_tab_fDmYAD": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "{{ product.metafields.custom.accordion_1_heading_.value }}",
+            "heading": "{{ product.metafields.custom.features_heading.value }}",
             "icon": "none",
-            "content": "<p>{{ product.metafields.custom.accordion_1_description | metafield_tag }}</p>",
+            "content": "{{ product.metafields.custom.features_description | metafield_tag }}",
             "page": ""
           }
         },
-        "collapsible_tab_FFcWMa": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "{{ product.metafields.custom.accordion_2_heading.value }}",
-            "icon": "none",
-            "content": "<p>{{ product.metafields.custom.accordion_2_description | metafield_tag }}</p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_WiHyw9": {
+        "collapsible_tab_rG9Uji": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "{{ product.metafields.custom.artwork_specifications_heading.value }}",
             "icon": "none",
-            "content": "<p>{{ product.metafields.custom.artwork_specifications_description | metafield_tag }}</p>",
+            "content": "{{ product.metafields.custom.art_specifications_description | metafield_tag }}",
             "page": ""
           }
         },
@@ -219,10 +210,9 @@
         "custom_liquid_XfNMHt",
         "shopacado_volume_discounts_discount_table_3VWU8V",
         "description",
-        "collapsible_tab_kYQhWn",
-        "collapsible_tab_tzzjNL",
-        "collapsible_tab_FFcWMa",
-        "collapsible_tab_WiHyw9",
+        "collapsible_tab_EXFiUb",
+        "collapsible_tab_fDmYAD",
+        "collapsible_tab_rG9Uji",
         "collapsible_tab_MLGrAQ",
         "collapsible_tab_3CWFtR",
         "collapsible-row-1"
