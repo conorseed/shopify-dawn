@@ -41,7 +41,7 @@
         "logo_position": "middle-left",
         "menu": "2024-main-menu",
         "menu_type_desktop": "mega",
-        "sticky_header_type": "on-scroll-up",
+        "sticky_header_type": "reduce-logo-size",
         "show_line_separator": true,
         "color_scheme": "scheme-ca4fc56a-2e94-4c1e-a840-6e039ef09e8a",
         "menu_color_scheme": "scheme-1330bf84-9d22-4f56-8fd6-b4b20199153a",
