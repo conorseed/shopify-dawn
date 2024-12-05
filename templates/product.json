@@ -177,8 +177,18 @@
             "page": ""
           }
         },
+        "collapsible_tab_NM6rDr": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ product.metafields.custom.hardware_heading.value }}",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.hardware_description | metafield_tag }}",
+            "page": ""
+          }
+        },
         "collapsible_tab_3CWFtR": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Hardware",
             "icon": "none",
@@ -215,6 +225,7 @@
         "collapsible_tab_fDmYAD",
         "collapsible_tab_rG9Uji",
         "collapsible_tab_MLGrAQ",
+        "collapsible_tab_NM6rDr",
         "collapsible_tab_3CWFtR",
         "collapsible-row-1"
       ],
