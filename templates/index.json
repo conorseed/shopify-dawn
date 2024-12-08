@@ -409,27 +409,6 @@
     "multicolumn_BHeRHf": {
       "type": "multicolumn",
       "blocks": {
-        "column_xgEbqJ": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Value_Pavement_Flags_visuals_img-02-02.png",
-            "title": "NEW VALUE RETAIL FLAG RANGE!",
-            "text": "<p>A range of stock designs for the budget conscious consumer who want a good quality product at a affordable price.</p>",
-            "link_label": "View Value Range",
-            "link": "https://shop.flagmakers.co.nz/collections/value-range-retail-stock-design-flags"
-          }
-        },
-        "column_zA8mTe": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Value_Flags_FLEX-74.png",
-            "title": "Value Custom Range",
-            "text": "<p>Choose from Teardrop, feather and square flag options with your own design! For the budget conscious consumer who want a good quality product at an affordable price.</p>",
-            "link_label": "View Value Range",
-            "link": "https://www.flagmakers.co.nz/collections/value-range-retail-stock-design-flags"
-          }
-        },
         "column_rzByyE": {
           "type": "column",
           "settings": {
@@ -450,8 +429,29 @@
             "link": "shopify://collections/country-flags"
           }
         },
+        "column_xgEbqJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Value_Pavement_Flags_visuals_img-02-02.png",
+            "title": "NEW VALUE RETAIL FLAG RANGE!",
+            "text": "<p>A range of stock designs for the budget conscious consumer who want a good quality product at a affordable price.</p>",
+            "link_label": "View Value Range",
+            "link": "https://shop.flagmakers.co.nz/collections/value-range-retail-stock-design-flags"
+          }
+        },
+        "column_zA8mTe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Value_Flags_FLEX-74.png",
+            "title": "Value Custom Range",
+            "text": "<p>Choose from Teardrop, feather and square flag options with your own design! For the budget conscious consumer who want a good quality product at an affordable price.</p>",
+            "link_label": "View Value Range",
+            "link": "https://www.flagmakers.co.nz/collections/value-range-retail-stock-design-flags"
+          }
+        },
         "column_mCQPm9": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Roll-up_Banners_cb22e328-7761-4938-b056-519e8f555c96.jpg",
             "title": "Roll-up Banners",
@@ -512,10 +512,10 @@
         }
       },
       "block_order": [
-        "column_xgEbqJ",
-        "column_zA8mTe",
         "column_rzByyE",
         "column_Re38gF",
+        "column_xgEbqJ",
+        "column_zA8mTe",
         "column_mCQPm9",
         "column_4it7cj",
         "column_kLyQ4P",
