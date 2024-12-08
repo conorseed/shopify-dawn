@@ -299,17 +299,6 @@
     "multirow_PA4zxp": {
       "type": "multirow",
       "blocks": {
-        "row_7UmiBK": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Supporters_flag-_tino.png",
-            "caption": "",
-            "heading": "Tino Rangatiratanga Flags",
-            "text": "<p>Tino Rangatiratanga Flags. Select from our options. For urgent orders pick up from Petone Shop</p>",
-            "button_label": "Go to Collection",
-            "button_link": "shopify://collections/rangatiratanga"
-          }
-        },
         "row_xa4gVk": {
           "type": "row",
           "settings": {
@@ -321,17 +310,6 @@
             "button_link": "shopify://collections/feather-and-teardrop-flags-premium-high-strength"
           }
         },
-        "row_tW98W9": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/collection_-_value_2.png",
-            "caption": "Commercial Grade",
-            "heading": "Retail Flags",
-            "text": "<p>Classy new designs with real punch to attract attention.  Double and single-sided options available.</p>",
-            "button_label": "View Retail Flags",
-            "button_link": "shopify://collections/retail-flags"
-          }
-        },
         "row_qGDEbf": {
           "type": "row",
           "settings": {
@@ -341,6 +319,28 @@
             "text": "<p><strong>Deep rich colours printed on our beautiful long-life satin fabric.</strong></p><p>Retractable pull up displays designed for permanent installations and moderate use. It works well in conference rooms, show rooms and for trade shows.</p><p></p>",
             "button_label": "View Roll up Banners",
             "button_link": "https://www.flagmakers.co.nz/collections/roll-up-pull-up-banners"
+          }
+        },
+        "row_7UmiBK": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Supporters_flag-_tino.png",
+            "caption": "",
+            "heading": "Tino Rangatiratanga Flags",
+            "text": "<p>Tino Rangatiratanga Flags. Select from our options. For urgent orders pick up from Petone Shop</p>",
+            "button_label": "Go to Collection",
+            "button_link": "shopify://collections/rangatiratanga"
+          }
+        },
+        "row_tW98W9": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/collection_-_value_2.png",
+            "caption": "Commercial Grade",
+            "heading": "Retail Flags",
+            "text": "<p>Classy new designs with real punch to attract attention.  Double and single-sided options available.</p>",
+            "button_label": "View Retail Flags",
+            "button_link": "shopify://collections/retail-flags"
           }
         },
         "row_XcgE9e": {
@@ -379,10 +379,10 @@
         }
       },
       "block_order": [
-        "row_7UmiBK",
         "row_xa4gVk",
-        "row_tW98W9",
         "row_qGDEbf",
+        "row_7UmiBK",
+        "row_tW98W9",
         "row_XcgE9e",
         "row_gyxV7p",
         "row_tAHcjW"
