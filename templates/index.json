@@ -424,7 +424,7 @@
           "settings": {
             "image": "shopify://shop_images/world_flags_collection.png",
             "title": "Country Flags",
-            "text": "<p><strong>Selected country flags on sale until September 30th! </strong></p><p>Flagmakers is the largest dye-screen flag maker in NZ. We make beautifully crafted products that you can be proud to fly and are the preferred supplier to the NZ Government.</p>",
+            "text": "<p>Flagmakers is the largest dye-screen flag maker in NZ. We make beautifully crafted products that you can be proud to fly and are the preferred supplier to the NZ Government.</p>",
             "link_label": "View Country Flags",
             "link": "shopify://collections/country-flags"
           }
