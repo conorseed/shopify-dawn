@@ -325,11 +325,22 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/collection_-_value_2.png",
-            "caption": "",
+            "caption": "Commercial Grade",
             "heading": "Retail Flags",
-            "text": "<p><strong>Commercial Grade. </strong></p><p>Classy new designs with real punch to attract attention.  Double and single-sided options available.</p>",
+            "text": "<p>Classy new designs with real punch to attract attention.  Double and single-sided options available.</p>",
             "button_label": "View Retail Flags",
             "button_link": "shopify://collections/retail-flags"
+          }
+        },
+        "row_qGDEbf": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Roll-up_Banners_cb22e328-7761-4938-b056-519e8f555c96.jpg",
+            "caption": "NO CURLING. NO CREASING! ",
+            "heading": "Long-Life Satin Fabric Roll Up Banners.",
+            "text": "<p><strong>Deep rich colours printed on our beautiful long-life satin fabric.</strong></p><p>Retractable pull up displays designed for permanent installations and moderate use. It works well in conference rooms, show rooms and for trade shows.</p><p></p>",
+            "button_label": "View Roll up Banners",
+            "button_link": "https://www.flagmakers.co.nz/collections/roll-up-pull-up-banners"
           }
         },
         "row_XcgE9e": {
@@ -356,6 +367,7 @@
         },
         "row_tAHcjW": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Value_Flags_FLEX-74_-_new_3.png",
             "caption": "Budget Friendly",
@@ -370,6 +382,7 @@
         "row_7UmiBK",
         "row_xa4gVk",
         "row_tW98W9",
+        "row_qGDEbf",
         "row_XcgE9e",
         "row_gyxV7p",
         "row_tAHcjW"
@@ -398,12 +411,23 @@
       "blocks": {
         "column_xgEbqJ": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Value_Pavement_Flags_visuals_img-02-02.png",
             "title": "NEW VALUE RETAIL FLAG RANGE!",
             "text": "<p>A range of stock designs for the budget conscious consumer who want a good quality product at a affordable price.</p>",
             "link_label": "View Value Range",
             "link": "https://shop.flagmakers.co.nz/collections/value-range-retail-stock-design-flags"
+          }
+        },
+        "column_zA8mTe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Value_Flags_FLEX-74.png",
+            "title": "Value Custom Range",
+            "text": "<p>Choose from Teardrop, feather and square flag options with your own design! For the budget conscious consumer who want a good quality product at an affordable price.</p>",
+            "link_label": "View Value Range",
+            "link": "https://www.flagmakers.co.nz/collections/value-range-retail-stock-design-flags"
           }
         },
         "column_rzByyE": {
@@ -489,6 +513,7 @@
       },
       "block_order": [
         "column_xgEbqJ",
+        "column_zA8mTe",
         "column_rzByyE",
         "column_Re38gF",
         "column_mCQPm9",
