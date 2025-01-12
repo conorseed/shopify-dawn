@@ -14,6 +14,7 @@
       "blocks": {
         "slide_pXKKny": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Christmas_closing-13_2-13-13-13.png",
             "heading": "",
