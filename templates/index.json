@@ -314,6 +314,7 @@
         },
         "row_cELnW4": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Christmas_wreath_Bauble_standard.jpg",
             "caption": "A great range of fresh designs for summer!",
