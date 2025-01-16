@@ -300,6 +300,17 @@
     "multirow_PA4zxp": {
       "type": "multirow",
       "blocks": {
+        "row_7UmiBK": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Supporters_flag-_tino.png",
+            "caption": "",
+            "heading": "Tino Rangatiratanga Flags",
+            "text": "<p>Tino Rangatiratanga Flags. Select from our options. For urgent orders pick up from Petone Shop</p>",
+            "button_label": "Go to Collection",
+            "button_link": "shopify://collections/rangatiratanga"
+          }
+        },
         "row_xa4gVk": {
           "type": "row",
           "settings": {
@@ -332,18 +343,6 @@
             "text": "<p><strong>Deep rich colours printed on our beautiful long-life satin fabric.</strong></p><p>Retractable pull up displays designed for permanent installations and moderate use. It works well in conference rooms, show rooms and for trade shows.</p><p></p>",
             "button_label": "View Roll up Banners",
             "button_link": "https://www.flagmakers.co.nz/collections/roll-up-pull-up-banners"
-          }
-        },
-        "row_7UmiBK": {
-          "type": "row",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Supporters_flag-_tino.png",
-            "caption": "",
-            "heading": "Tino Rangatiratanga Flags",
-            "text": "<p>Tino Rangatiratanga Flags. Select from our options. For urgent orders pick up from Petone Shop</p>",
-            "button_label": "Go to Collection",
-            "button_link": "shopify://collections/rangatiratanga"
           }
         },
         "row_tW98W9": {
@@ -393,10 +392,10 @@
         }
       },
       "block_order": [
+        "row_7UmiBK",
         "row_xa4gVk",
         "row_cELnW4",
         "row_qGDEbf",
-        "row_7UmiBK",
         "row_tW98W9",
         "row_XcgE9e",
         "row_gyxV7p",
