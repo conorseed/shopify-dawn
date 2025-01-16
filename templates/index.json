@@ -12,24 +12,6 @@
     "slideshow_eBLxA7": {
       "type": "slideshow",
       "blocks": {
-        "slide_pXKKny": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/wiatangi_25.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "shopify://collections/rangatiratanga",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_nqVRU6": {
           "type": "slide",
           "settings": {
@@ -45,6 +27,24 @@
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_pXKKny": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/wiatangi_25.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify://collections/rangatiratanga",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
             "text_alignment_mobile": "center"
           }
         },
@@ -104,8 +104,8 @@
         }
       },
       "block_order": [
-        "slide_pXKKny",
         "slide_nqVRU6",
+        "slide_pXKKny",
         "slide_m7qP3H",
         "slide_7fX7tb",
         "slide_JKHfEt"
