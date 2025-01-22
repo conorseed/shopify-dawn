@@ -435,10 +435,21 @@
         },
         "column_Re38gF": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/world_flags_collection.png",
             "title": "Country Flags",
             "text": "<p>Flagmakers is the largest dye-screen flag maker in NZ. We make beautifully crafted products that you can be proud to fly and are the preferred supplier to the NZ Government.</p>",
+            "link_label": "View Country Flags",
+            "link": "shopify://collections/country-flags"
+          }
+        },
+        "column_3Jae37": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/world_flags_collection.png",
+            "title": "10% off all Country Flags!",
+            "text": "<p>Use discount code <strong>'COUNTRY10'</strong> at checkout to <strong>save 10% off all Country Flags!</strong></p><h6>*Offer Available until Feb 28th. *Excludes New Zealand Flags</h6>",
             "link_label": "View Country Flags",
             "link": "shopify://collections/country-flags"
           }
@@ -528,6 +539,7 @@
       "block_order": [
         "column_rzByyE",
         "column_Re38gF",
+        "column_3Jae37",
         "column_xgEbqJ",
         "column_zA8mTe",
         "column_mCQPm9",
