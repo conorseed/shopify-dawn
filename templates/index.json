@@ -449,7 +449,7 @@
           "settings": {
             "image": "shopify://shop_images/world_flags_collection.png",
             "title": "10% off all Country Flags!",
-            "text": "<p>Use discount code <strong>'SUMMER10'</strong> at checkout to <strong>save 10% off all Country Flags!</strong></p><h6>*Offer Available until Feb 28th. *Excludes New Zealand Flags</h6>",
+            "text": "<p>Use discount code <strong>'SUMMER10'</strong> at checkout to <strong>save 10% off all Country Flags!</strong></p><h6>*Offer Available until Feb 28th. </h6>",
             "link_label": "View Country Flags",
             "link": "shopify://collections/country-flags"
           }
