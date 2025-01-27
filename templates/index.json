@@ -12,24 +12,6 @@
     "a906c273-a8eb-416e-ade7-04155872f8f7": {
       "type": "slideshow",
       "blocks": {
-        "slide_89PTpq": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/holidaythemed_post_5.png",
-            "heading": "",
-            "heading_size": "h2",
-            "subheading": "",
-            "button_label": "",
-            "link": "shopify://collections/christmas-present-ideas",
-            "button_style_secondary": true,
-            "box_align": "top-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "accent-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_ydd6RK": {
           "type": "slide",
           "settings": {
@@ -84,6 +66,24 @@
             "text_alignment_mobile": "center"
           }
         },
+        "slide_89PTpq": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/saleclearance_post_2.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Shop Sqwincher",
+            "link": "shopify://collections/sqwincher",
+            "button_style_secondary": false,
+            "box_align": "bottom-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_MdR74w": {
           "type": "slide",
           "settings": {
@@ -104,10 +104,10 @@
         }
       },
       "block_order": [
-        "slide_89PTpq",
         "slide_ydd6RK",
         "slide_gk4cTh",
         "slide_T7jDkJ",
+        "slide_89PTpq",
         "slide_MdR74w"
       ],
       "settings": {
