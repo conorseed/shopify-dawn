@@ -146,7 +146,7 @@
         "column_tnKbUy"
       ],
       "custom_css": [
-        "h2 {color: rgb(129, 188, 182); text-align: center width: 100%;}"
+        "h2 {color: rgb(129, 188, 182); text-align: center !important;}"
       ],
       "settings": {
         "title": "Why Choose Smart Office Furniture?",
