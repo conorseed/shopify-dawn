@@ -95,6 +95,29 @@
         "show_text_below": true
       }
     },
+    "rich_text_74wy4W": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WWkrPg": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Why Choose Smart Office Furniture?</p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WWkrPg"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
     "multicolumn_JtktAg": {
       "type": "multicolumn",
       "blocks": {
@@ -149,7 +172,7 @@
         "h2 {color: rgb(129, 188, 182); text-align: center !important;}"
       ],
       "settings": {
-        "title": "Why Choose Smart Office Furniture?",
+        "title": "",
         "heading_size": "h1",
         "image_width": "half",
         "image_ratio": "adapt",
@@ -161,7 +184,7 @@
         "color_scheme": "background-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
+        "padding_top": 16,
         "padding_bottom": 36
       }
     }
@@ -171,6 +194,7 @@
     "product-grid",
     "kk-banner",
     "16613934324260c45d",
+    "rich_text_74wy4W",
     "multicolumn_JtktAg"
   ]
 }
