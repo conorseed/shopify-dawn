@@ -119,17 +119,6 @@
     },
     "1693778538c2ea073c": {
       "type": "apps",
-      "blocks": {
-        "12ae51da-6cc0-4855-9ebd-d8e9a62d7745": {
-          "type": "shopify://apps/multivariants-bulk-order/blocks/app-block-product/e556349f-fd26-4006-9dd9-dcbf70aa55b3",
-          "settings": {
-            "multivariants_custom_css": "#shopify-section-template--14388672528459__1693778538c2ea073c{\n  padding-top: 5rem;\n}\n.multivariants_block_prc_holder{\n  justify-content: center;\n}\n.multivariants_block_prc_label,\n.multivariants_block_qty_label{\n  display:none;\n}\n.multivariants_block_prc_total,\n.multivariants_block_stock_qty{\n  color: #999999;\n}\n\n.multivariants_block_subtotal_h{\n  color: rgb(var(--fa-orange));\n  padding: 1rem;\n}"
-          }
-        }
-      },
-      "block_order": [
-        "12ae51da-6cc0-4855-9ebd-d8e9a62d7745"
-      ],
       "settings": {
         "include_margins": true
       }
