@@ -117,6 +117,23 @@
         "padding_bottom": 80
       }
     },
+    "1739760749f9ad7e78": {
+      "type": "apps",
+      "blocks": {
+        "multivariants_bulk_order_app_block_product_iBqVgX": {
+          "type": "shopify://apps/multivariants-bulk-order/blocks/app-block-product/e556349f-fd26-4006-9dd9-dcbf70aa55b3",
+          "settings": {
+            "multivariants_custom_css": ""
+          }
+        }
+      },
+      "block_order": [
+        "multivariants_bulk_order_app_block_product_iBqVgX"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "1693778538c2ea073c": {
       "type": "apps",
       "settings": {
@@ -154,6 +171,7 @@
   "order": [
     "118179d1-5d1c-4b50-8c5c-a697028f5e9f",
     "main",
+    "1739760749f9ad7e78",
     "1693778538c2ea073c",
     "522cf1ed-ae3e-4408-999d-a6c1fc8602d4",
     "related-products"
