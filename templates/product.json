@@ -86,12 +86,6 @@
           "settings": {
             "multivariants_custom_css": ""
           }
-        },
-        "multivariants_bulk_order_app_block_product_YTTRWN": {
-          "type": "shopify://apps/multivariants-bulk-order/blocks/app-block-product/e556349f-fd26-4006-9dd9-dcbf70aa55b3",
-          "settings": {
-            "multivariants_custom_css": ""
-          }
         }
       },
       "block_order": [
@@ -106,8 +100,7 @@
         "description",
         "46b38823-1b17-4e7a-a288-4889c3b7cde8",
         "share",
-        "multivariants_bulk_order_app_block_product_QyyiqW",
-        "multivariants_bulk_order_app_block_product_YTTRWN"
+        "multivariants_bulk_order_app_block_product_QyyiqW"
       ],
       "settings": {
         "enable_sticky_info": true,
