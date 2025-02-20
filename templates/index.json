@@ -32,6 +32,7 @@
         },
         "slide_pXKKny": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/wiatangi_25.jpg",
             "heading": "",
