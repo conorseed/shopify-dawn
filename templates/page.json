@@ -51,14 +51,69 @@
           "settings": {
             "collection": "white-ferns-licensed-products"
           }
+        },
+        "featured_collection_rM64fM": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hurricanes"
+          }
+        },
+        "featured_collection_GMzhFH": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "blues"
+          }
+        },
+        "featured_collection_k9xxM8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "chiefs"
+          }
+        },
+        "featured_collection_jgXQFy": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "crusaders"
+          }
+        },
+        "featured_collection_detdxQ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "highlanders"
+          }
+        },
+        "featured_collection_rMXJ3e": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hurricanes-poua"
+          }
+        },
+        "featured_collection_3R6PLp": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "chiefs-manawa"
+          }
+        },
+        "featured_collection_nF8apF": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "matatu"
+          }
         }
       },
       "block_order": [
         "featured_collection_3jQDek",
         "featured_collection_r8HxHb",
-        "featured_collection_UT3EHh"
+        "featured_collection_UT3EHh",
+        "featured_collection_rM64fM",
+        "featured_collection_GMzhFH",
+        "featured_collection_k9xxM8",
+        "featured_collection_jgXQFy",
+        "featured_collection_detdxQ",
+        "featured_collection_rMXJ3e",
+        "featured_collection_3R6PLp",
+        "featured_collection_nF8apF"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
