@@ -84,12 +84,14 @@
         },
         "featured_collection_rMXJ3e": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "hurricanes-poua"
           }
         },
         "featured_collection_3R6PLp": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "chiefs-manawa"
           }
