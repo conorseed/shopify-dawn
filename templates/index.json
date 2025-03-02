@@ -14,6 +14,7 @@
       "blocks": {
         "slide_7fX7tb": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/10_COUNTRY_FLAGS_banenr.png",
             "heading": "",
@@ -449,8 +450,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/world_flags_collection.png",
-            "title": "10% off all Country Flags!",
-            "text": "<p>Use discount code <strong>'SUMMER10'</strong> at checkout to <strong>save 10% off all Country Flags!</strong></p><h6>*Offer Available until Feb 28th. </h6>",
+            "title": "Country Flags",
+            "text": "<p>Flagmakers is the largest dye-screen flag maker in NZ. We make beautifully crafted products that you can be proud to fly and are the preferred supplier to the NZ Government.</p>",
             "link_label": "View Country Flags",
             "link": "shopify://collections/country-flags"
           }
