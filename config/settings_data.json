@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "colors_solid_button_labels": "#ffffff",
@@ -84,7 +93,7 @@
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
     "social_twitter_link": "",
-    "social_facebook_link": "https:\/\/www.facebook.com\/nzsmartofficefurniture",
+    "social_facebook_link": "https://www.facebook.com/nzsmartofficefurniture",
     "social_pinterest_link": "",
     "social_instagram_link": "",
     "social_tiktok_link": "",
@@ -95,12 +104,12 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": true,
-    "favicon": "shopify:\/\/shop_images\/Smart-Office-NZ-logo.png",
+    "favicon": "shopify://shop_images/Smart-Office-NZ-logo.png",
     "currency_code_enabled": false,
     "cart_type": "drawer",
     "show_vendor": false,
     "show_cart_note": true,
-    "checkout_logo_image": "shopify:\/\/shop_images\/Smart-Office-NZ-logo.png",
+    "checkout_logo_image": "shopify://shop_images/Smart-Office-NZ-logo.png",
     "checkout_body_background_color": "#ffffff",
     "checkout_accent_color": "#81bcb6",
     "checkout_button_color": "#81bcb6",
@@ -141,14 +150,13 @@
           "4c434076-5597-4458-ab2b-394df8a9421e",
           "d637dcf3-49b8-4032-87b9-555c3dee9ce8"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header": {
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/Smart-Office-NZ-logo.png",
+          "logo": "shopify://shop_images/Smart-Office-NZ-logo.png",
           "logo_width": 200,
           "logo_position": "middle-left",
           "menu": "main-menu",
@@ -168,7 +176,7 @@
             "type": "text",
             "settings": {
               "heading": "SmartOffice Furniture",
-              "subtext": "<p><strong>We cover New Zealand - Manufacturing and\/or distribution at\/from Auckland - Wellington - Christchurch<\/strong><\/p><p>E: <a href=\"mailto:sales@smartofficenz.co.nz\" title=\"mailto:sales@smartofficenz.co.nz\">sales@smartofficenz.co.nz<\/a><\/p><p>P: <a href=\"tel:0800 376 373\" title=\"tel:0800 376 373\">0800 376 373<\/a><\/p>"
+              "subtext": "<p><strong>We cover New Zealand - Manufacturing and/or distribution at/from Auckland - Wellington - Christchurch</strong></p><p>E: <a href=\"mailto:sales@smartofficenz.co.nz\" title=\"mailto:sales@smartofficenz.co.nz\">sales@smartofficenz.co.nz</a></p><p>P: <a href=\"tel:0800 376 373\" title=\"tel:0800 376 373\">0800 376 373</a></p>"
             }
           },
           "footer-1": {
@@ -211,15 +219,17 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "9901917232353999808": {
-        "type": "shopify:\/\/apps\/buddha-mega-menu-navigation\/blocks\/megamenu\/dbb4ce56-bf86-4830-9b3d-16efbef51c6f",
+        "type": "shopify://apps/buddha-mega-menu-navigation/blocks/megamenu/dbb4ce56-bf86-4830-9b3d-16efbef51c6f",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
+      },
+      "14060646107696862457": {
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
@@ -340,8 +350,7 @@
           "block_order": [
             "announcement-bar-0"
           ],
-          "settings": {
-          }
+          "settings": {}
         },
         "header": {
           "type": "header",
@@ -379,7 +388,7 @@
               "type": "text",
               "settings": {
                 "heading": "Our mission",
-                "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+                "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
               }
             }
           },
