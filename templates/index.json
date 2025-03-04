@@ -132,6 +132,15 @@
         "padding_bottom": 36
       }
     },
+    "custom_liquid_TYdinE": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!-- Elfsight Google Reviews | Untitled Google Reviews -->\n<script src=\"https://static.elfsight.com/platform/platform.js\" async></script>\n<div class=\"elfsight-app-7766ae1e-2608-470e-be7a-0a82d10af625\" data-elfsight-app-lazy></div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1631576674bf289ea9": {
       "type": "collection-list",
       "blocks": {
@@ -425,24 +434,15 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "custom_liquid_TYdinE": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<!-- Elfsight Google Reviews | Untitled Google Reviews -->\n<script src=\"https://static.elfsight.com/platform/platform.js\" async></script>\n<div class=\"elfsight-app-7766ae1e-2608-470e-be7a-0a82d10af625\" data-elfsight-app-lazy></div>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "164253779604eede75",
     "ada176e6-d2c2-4449-a3a1-8eecba2021da",
     "16315799045056d243",
+    "custom_liquid_TYdinE",
     "1631576674bf289ea9",
     "featured_products",
-    "custom_liquid_TYdinE",
     "image_banner",
     "rich_text",
     "d62d3caa-47d6-4652-a176-1e0fcdeddea9"
