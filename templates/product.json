@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -12,8 +21,7 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "caption": {
           "type": "text",
@@ -24,13 +32,12 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "8ab39296-398c-4c19-9b12-f40342aaad01": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.metafields.sof.shipping.value == true %}\n<div style=\"background-color: var(--gradient-base-accent-1); color: #fff; padding: 1.5rem;\">\n<b>🚚 DELIVERY NOT INCLUDED:<\/b> Due to the size and irregularity of this product we cannot provide a standard freight charge. <a title=\"Contact Us\" href=\"\/pages\/contact\">Please contact us for a quote on delivery.<\/a>\n<\/div>\n{% else %}\n<div style=\"background-color: var(--gradient-base-accent-1); color: #fff; padding: 1.5rem; display: inline; font-size: 1.2rem;\">\n<b>FREE DELIVERY<\/b><\/div>\n{% endif %}"
+            "custom_liquid": "{% if product.metafields.sof.shipping.value == true %}\n<div style=\"background-color: var(--gradient-base-accent-1); color: #fff; padding: 1.5rem;\">\n<b>🚚 DELIVERY NOT INCLUDED:</b> Due to the size and irregularity of this product we cannot provide a standard freight charge. <a title=\"Contact Us\" href=\"/pages/contact\">Please contact us for a quote on delivery.</a>\n</div>\n{% else %}\n<div style=\"background-color: var(--gradient-base-accent-1); color: #fff; padding: 1.5rem; display: inline; font-size: 1.2rem;\">\n<b>FREE DELIVERY</b></div>\n{% endif %}"
           }
         },
         "variant_picker": {
@@ -41,8 +48,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -53,8 +59,7 @@
         "description": {
           "type": "description",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
@@ -107,7 +112,7 @@
           "type": "custom_liquid",
           "disabled": true,
           "settings": {
-            "custom_liquid": "{% if product.metafields.sof.shipping.value == true %}\n<div style=\"background-color: var(--gradient-base-accent-1); color: #fff; padding: 1.5rem;\">\n<b>🚚 DELIVERY NOT INCLUDED:<\/b> Due to the size and irregularity of this product we cannot provide a standard freight charge. <a title=\"Contact Us\" href=\"\/pages\/contact\">Please contact us for a quote on delivery.<\/a>\n<\/div>\n{% else %}\n<div style=\"background-color: var(--gradient-base-accent-1); color: #fff; padding: 1.5rem;\">\n<b>🚚 DELIVERED FREE:<\/b> To all Ground Floor CBD Premises both North and South Islands of New Zealand. Additional charges <em>may<\/em> apply to above ground floor, rural and residential deliveries. <a href=\"https:\/\/www.smartofficefurniture.co.nz\/policies\/shipping-policy\">See Shipping Policy here<\/a>.\n<\/div>\n{% endif %}"
+            "custom_liquid": "{% if product.metafields.sof.shipping.value == true %}\n<div style=\"background-color: var(--gradient-base-accent-1); color: #fff; padding: 1.5rem;\">\n<b>🚚 DELIVERY NOT INCLUDED:</b> Due to the size and irregularity of this product we cannot provide a standard freight charge. <a title=\"Contact Us\" href=\"/pages/contact\">Please contact us for a quote on delivery.</a>\n</div>\n{% else %}\n<div style=\"background-color: var(--gradient-base-accent-1); color: #fff; padding: 1.5rem;\">\n<b>🚚 DELIVERED FREE:</b> To all Ground Floor CBD Premises both North and South Islands of New Zealand. Additional charges <em>may</em> apply to above ground floor, rural and residential deliveries. <a href=\"https://www.smartofficefurniture.co.nz/policies/shipping-policy\">See Shipping Policy here</a>.\n</div>\n{% endif %}"
           }
         }
       },
@@ -150,7 +155,7 @@
           "type": "column",
           "settings": {
             "title": "Description",
-            "text": "<p>%DESCRIPTION%<\/p>",
+            "text": "<p>%DESCRIPTION%</p>",
             "link_label": "",
             "link": ""
           }
@@ -159,7 +164,7 @@
           "type": "column",
           "settings": {
             "title": "Specifications",
-            "text": "<p>%SPECS%<\/p>",
+            "text": "<p>%SPECS%</p>",
             "link_label": "",
             "link": ""
           }
@@ -169,7 +174,7 @@
           "disabled": true,
           "settings": {
             "title": "Ideal For",
-            "text": "<p>• Offices<\/p><p>• Schools<\/p><p>• Teachers<\/p>",
+            "text": "<p>• Offices</p><p>• Schools</p><p>• Teachers</p>",
             "link_label": "",
             "link": ""
           }
@@ -235,7 +240,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Get In Touch",
-            "button_link_1": "shopify:\/\/pages\/contact",
+            "button_link_1": "shopify://pages/contact",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -249,8 +254,8 @@
         "16613932759879c9c2-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/office-desk-in-window-light.jpg",
-        "image_2": "shopify:\/\/shop_images\/girl-presents-on-whiteboard.jpg",
+        "image": "shopify://shop_images/office-desk-in-window-light.jpg",
+        "image_2": "shopify://shop_images/girl-presents-on-whiteboard.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "adapt_height_first_image": false,
@@ -262,12 +267,29 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "1741047511f522ea38": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_kXGDXn": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_kXGDXn"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "multicolumn",
     "product-recommendations",
-    "1661393275d245af03"
+    "1661393275d245af03",
+    "1741047511f522ea38"
   ]
 }
