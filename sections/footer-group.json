@@ -73,7 +73,7 @@
         "paragraph": "Sign up to receive a coupon code for $10 off your FIRST order*.\n\n*On orders over $50",
         "headingSuccess": "Thank You!",
         "paragraphSuccess": "Use code <b>\"WELCOME10\"</b> <br> at checkout to get $10 off.\n\nPlease note: minimum spend $50.00.",
-        "preview": false
+        "preview": true
       }
     }
   },
