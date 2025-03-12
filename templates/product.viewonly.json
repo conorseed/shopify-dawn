@@ -69,7 +69,9 @@
         },
         "shopacado_volume_discounts_discount_table_gFkG6A": {
           "type": "shopify://apps/shopacado-discounts/blocks/discount-table/5950831a-4e4e-40a4-82b0-674110b50a14",
-          "settings": {}
+          "settings": {
+            "theme_id": ""
+          }
         },
         "description": {
           "type": "description",
@@ -102,16 +104,6 @@
             "page": ""
           }
         },
-        "collapsible_tab_MLGrAQ": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Artwork Specifications",
-            "icon": "none",
-            "content": "<p>Please supply your files in pdf, ai or eps formats with all vectors preserved.</p><p>DO NOT SUPPLY BITMAP IMAGES such as JPEG GIF, BMP, PNG or TIFF unless it is a photograph. Ensure all images are embedded.</p><p>If the artwork requirement is greater than 30mins then additional artwork charges may apply.  Please contact us for more information. </p><p><a href=\"https://www.flagmakers.co.nz/blogs/resources/artwork-specifications\"><strong>Artwork Specifications – Flagmakers Ltd</strong></a></p><p><strong>TEMPLATES: </strong><a href=\"https://www.flagmakers.co.nz/pages/templates\"><strong>Templates – Flagmakers Ltd</strong></a></p><p><strong>ASSEMBLY INSTRUCTIONS: </strong><a href=\"https://www.flagmakers.co.nz/resources/durapole-assembly-instructions-for-duraople-mayfly-flex.html\" target=\"_blank\"><strong>See Assembly Instructions here</strong></a></p><p>{{ block.settings.page.title }}</p>",
-            "page": ""
-          }
-        },
         "collapsible_tab_NM6rDr": {
           "type": "collapsible_tab",
           "settings": {
@@ -141,7 +133,6 @@
         "collapsible_tab_EXFiUb",
         "collapsible_tab_fDmYAD",
         "collapsible_tab_rG9Uji",
-        "collapsible_tab_MLGrAQ",
         "collapsible_tab_NM6rDr",
         "collapsible-row-1"
       ],
