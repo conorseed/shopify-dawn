@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrumbs_KC3EgD": {
@@ -20,7 +20,7 @@
       "type": "apps",
       "blocks": {
         "shopacado_volume_discounts_product_notification_bar_PNxaBC": {
-          "type": "shopify:\/\/apps\/shopacado-volume-discounts\/blocks\/product-notification-bar\/5950831a-4e4e-40a4-82b0-674110b50a14",
+          "type": "shopify://apps/shopacado-discounts/blocks/product-notification-bar/5950831a-4e4e-40a4-82b0-674110b50a14",
           "settings": {
             "background_color": "#ffffff",
             "text_color": "#000000",
@@ -52,8 +52,7 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "caption": {
           "type": "text",
@@ -65,17 +64,61 @@
         "custom_liquid_XfNMHt": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<a class=\"button button--primary button--full-width product-form__buttons\" style=\"margin-top: 4rem;\" target=\"_blank\" href=\"\/pages\/contact-us\">Contact Us For A Quote<\/a>"
+            "custom_liquid": "<a class=\"button button--primary button--full-width product-form__buttons\" style=\"margin-top: 4rem;\" target=\"_blank\" href=\"/pages/contact-us\">Contact Us For A Quote</a>"
           }
         },
         "shopacado_volume_discounts_discount_table_gFkG6A": {
-          "type": "shopify:\/\/apps\/shopacado-volume-discounts\/blocks\/discount-table\/5950831a-4e4e-40a4-82b0-674110b50a14",
-          "settings": {
-          }
+          "type": "shopify://apps/shopacado-discounts/blocks/discount-table/5950831a-4e4e-40a4-82b0-674110b50a14",
+          "settings": {}
         },
         "description": {
           "type": "description",
+          "settings": {}
+        },
+        "collapsible_tab_EXFiUb": {
+          "type": "collapsible_tab",
           "settings": {
+            "heading": "{{ product.metafields.custom.accordion_1_heading_.value }}",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.product_description_description | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_fDmYAD": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ product.metafields.custom.features_heading.value }}",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.features_description | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_rG9Uji": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ product.metafields.custom.artwork_specifications_heading.value }}",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.art_specifications_description | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_MLGrAQ": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Artwork Specifications",
+            "icon": "none",
+            "content": "<p>Please supply your files in pdf, ai or eps formats with all vectors preserved.</p><p>DO NOT SUPPLY BITMAP IMAGES such as JPEG GIF, BMP, PNG or TIFF unless it is a photograph. Ensure all images are embedded.</p><p>If the artwork requirement is greater than 30mins then additional artwork charges may apply.  Please contact us for more information. </p><p><a href=\"https://www.flagmakers.co.nz/blogs/resources/artwork-specifications\"><strong>Artwork Specifications – Flagmakers Ltd</strong></a></p><p><strong>TEMPLATES: </strong><a href=\"https://www.flagmakers.co.nz/pages/templates\"><strong>Templates – Flagmakers Ltd</strong></a></p><p><strong>ASSEMBLY INSTRUCTIONS: </strong><a href=\"https://www.flagmakers.co.nz/resources/durapole-assembly-instructions-for-duraople-mayfly-flex.html\" target=\"_blank\"><strong>See Assembly Instructions here</strong></a></p><p>{{ block.settings.page.title }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_NM6rDr": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ product.metafields.custom.hardware_heading.value }}",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.hardware_description | metafield_tag }}",
+            "page": ""
           }
         },
         "collapsible-row-1": {
@@ -83,7 +126,7 @@
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "truck",
-            "content": "<p>You can <a href=\"#\" target=\"_blank\" title=\"#\">view shipping details on this page<\/a>, as well as <a href=\"\/pages\/refund-and-returns-policy\" target=\"_blank\" title=\"Refund and Returns Policy\">information about refunds and returns here<\/a>.<\/p>",
+            "content": "<p>You can <a href=\"#\" target=\"_blank\" title=\"#\">view shipping details on this page</a>, as well as <a href=\"/pages/refund-and-returns-policy\" target=\"_blank\" title=\"Refund and Returns Policy\">information about refunds and returns here</a>.</p>",
             "page": ""
           }
         }
