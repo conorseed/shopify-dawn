@@ -28,9 +28,9 @@
   <div class="page-width section-{{ section.id }}-padding isolate">
     {%- unless section.settings.title == blank -%}
       <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin">
-        <h3 class="title {{ section.settings.heading_size }}">
+        <h2 class="title {{ section.settings.heading_size }}">
           {{ section.settings.title | escape }}
-        </h3>
+        </h2>
         {%- if section.settings.button_label != blank and show_mobile_slider -%}
           <a href="{{ section.settings.button_link }}" class="link underlined-link large-up-hide">{{ section.settings.button_label | escape }}</a>
         {%- endif -%}
@@ -78,7 +78,7 @@
               {%- endif -%}
               <div class="multicolumn-card__info">
                 {%- if block.settings.title != blank -%}
-                  <h3>{{ block.settings.title | escape }}</h3>
+                  <h4>{{ block.settings.title | escape }}</h4>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="rte">
