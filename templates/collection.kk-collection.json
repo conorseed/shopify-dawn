@@ -120,7 +120,7 @@
         "column_tnKbUy"
       ],
       "custom_css": [
-        "h3 {color: rgb(129, 188, 182); text-align: center !important; font-size: 18px;}"
+        "h4 {color: rgb(129, 188, 182); text-align: center !important; font-size: 18px;}"
       ],
       "settings": {
         "title": "",
