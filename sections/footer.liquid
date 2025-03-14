@@ -170,7 +170,7 @@
         {%- if section.settings.newsletter_enable -%}
           <div class="footer-block__newsletter">
             {%- if section.settings.newsletter_heading != blank -%}
-              <h4 class="footer-block__heading">{{ section.settings.newsletter_heading | escape }}</h4>
+              <p class="footer-block__heading">{{ section.settings.newsletter_heading | escape }}</p>
             {%- endif -%}
             {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
               <input type="hidden" name="contact[tags]" value="newsletter">
