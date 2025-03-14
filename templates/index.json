@@ -69,7 +69,7 @@
         "slide_nqVRU6": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/durapole_banner_2_2d481813-e767-43a0-af06-d38d52d4e496.png",
+            "image": "shopify://shop_images/END_OF_FINANCAL_YEAR_CAMPAGIN_web_banner-15.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -300,17 +300,6 @@
     "multirow_PA4zxp": {
       "type": "multirow",
       "blocks": {
-        "row_7UmiBK": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Supporters_flag-_tino.png",
-            "caption": "",
-            "heading": "Tino Rangatiratanga & United Tribes Flags",
-            "text": "<p>Tino Rangatiratanga & United Tribes Flags. If required urgently, please pick up from our Petone showroom.</p>",
-            "button_label": "View Collection",
-            "button_link": "shopify://collections/rangatiratanga"
-          }
-        },
         "row_xa4gVk": {
           "type": "row",
           "settings": {
@@ -320,6 +309,17 @@
             "text": "<p>Experience elegance with our Durapole Teardrop Flags, crafted from durable satin fabric that ensures a sleek appearance with no bagginess, exceptional resilience against the elements, and vibrant graphics that captivate with a denser, richer image.</p>",
             "button_label": "View Durapole Range",
             "button_link": "shopify://collections/feather-and-teardrop-flags-premium-high-strength"
+          }
+        },
+        "row_7UmiBK": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Supporters_flag-_tino.png",
+            "caption": "",
+            "heading": "Tino Rangatiratanga & United Tribes Flags",
+            "text": "<p>Tino Rangatiratanga & United Tribes Flags. If required urgently, please pick up from our Petone showroom.</p>",
+            "button_label": "View Collection",
+            "button_link": "shopify://collections/rangatiratanga"
           }
         },
         "row_HYpBmX": {
@@ -404,8 +404,8 @@
         }
       },
       "block_order": [
-        "row_7UmiBK",
         "row_xa4gVk",
+        "row_7UmiBK",
         "row_HYpBmX",
         "row_cELnW4",
         "row_qGDEbf",
